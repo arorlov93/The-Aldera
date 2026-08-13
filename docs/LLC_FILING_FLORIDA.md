@@ -31,6 +31,45 @@
 
 Ежегодно: **Annual Report на Sunbiz до 1 мая, $138.75** (просрочка = штраф $400 — поставлю напоминание).
 
+## Вводная: нет SSN, но есть действующая Florida-компания ISP Group
+
+Два пути; рекомендация — **вариант B** с использованием ISP Group как моста.
+
+**Вариант A — работать под ISP Group + fictitious name (DBA) «LUCERE»** ($50 на Sunbiz):
+- ✅ Самый быстрый: EIN и банк уже есть → Amazon Seller Central можно открывать сразу.
+- ❌ Product liability БАДов (люди это глотают!) висит на твоей основной компании; страховка, репутация и будущая продажа бренда — всё перепутано со строительным бизнесом. Смена юрлица на Amazon-аккаунте потом = повторная верификация с риском блокировки.
+
+**Вариант B (рекомендую) — LUCERE LLC сейчас + ISP Group как мост на переходный период:**
+1. Подаём LUCERE LLC на Sunbiz сейчас ($125, 1–2 дня).
+2. EIN без SSN: форма **SS-4 факсом в IRS** — ты этот путь уже проходил с ISP Group. Срок 1–4 недели. Подготовленная SS-4 — ниже.
+3. Ожидание EIN ничего не блокирует: образцы фабрик, домен, лабораторию и прочие мелкие платежи в это время оплачивает **ISP Group** (потом перевыставим в LUCERE LLC как loan/expense reimbursement — веду учёт этих трат).
+4. Банк (Mercury/Wise) и Amazon открываем уже на LUCERE LLC, когда придёт EIN. Первая партия товара всё равно будет готова не раньше (образцы + производство = 6–10 недель) — потери времени нет.
+- ✅ Чистая структура под масштаб $5–6M, отдельная страховка product liability, бренд можно продать целиком.
+
+## SS-4 для LUCERE LLC (заполнено, останется подписать и отправить факсом)
+
+Факс IRS для заявителей без SSN: +1-855-641-6935 (проверю актуальность на момент отправки). Онлайн-факс: HelloFax/eFax.
+
+| Строка SS-4 | Значение |
+|---|---|
+| 1 Legal name | LUCERE LLC |
+| 2 Trade name | — |
+| 4a-4b Mailing address | адрес во Флориде |
+| 5a-5b Street address | тот же |
+| 6 County/State | [округ], Florida |
+| 7a Responsible party | Aleksandr Orlov |
+| 7b SSN/ITIN/EIN | **«Foreign»** (нет SSN/ITIN) |
+| 8a LLC? | Yes; 8b members: 1 |
+| 9a Type | Other → «Disregarded entity — sole member» |
+| 10 Reason | Started new business → «Retail sale of dietary supplements (e-commerce)» |
+| 11 Date started | дата регистрации LLC |
+| 12 Closing month | December |
+| 13 Employees | 0 / 0 / 0 |
+| 16 Principal activity | Retail → «Online retail — dietary supplements» |
+| 17 Merchandise | Dietary supplements |
+| 18 Applied before? | No |
+| Third Party Designee | — (или впишем меня/бухгалтера при желании) |
+
 ## Сразу после регистрации LLC
 
 1. **EIN (IRS):**
@@ -43,9 +82,10 @@
 
 ## Что мне нужно от тебя для старта (введёшь сам на Sunbiz, ~15 минут)
 
-1. Полное имя как в документах: **Aleksandr Orlov** — верно?
-2. Адрес во Флориде для Principal Address / Registered Agent (публичный реестр — ок?).
-3. Есть ли **SSN или ITIN** (определяет путь EIN).
-4. Карта для оплаты $125.
+1. Подтверди **вариант B** (LUCERE LLC + ISP Group как мост) или выбери A (DBA под ISP Group).
+2. Полное имя как в документах: **Aleksandr Orlov** — верно?
+3. Адрес во Флориде для Principal Address / Registered Agent (публичный реестр — ок?). Можно тот же, что у ISP Group.
+4. Точное юр. название ISP Group (ISP Group LLC / Inc?) — для учёта переходных платежей и, при варианте A, для DBA.
+5. Карта для оплаты $125.
 
-После твоего «готово, LLC подана» — я веду шаги 1–5 и двигаю чек-лист.
+После твоего «готово, LLC подана» — отправляем SS-4, я веду остальные шаги и двигаю чек-лист.
