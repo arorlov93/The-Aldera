@@ -11,7 +11,23 @@
 - Sunbiz: прямых совпадений «LUCERE LLC» не найдено; существует «LUCERE COUNSELING INC.» — название различимо, регистрации «LUCERE LLC» не мешает. Финальную проверку Sunbiz покажет при подаче.
 - USPTO: действующий TM «LUCERE» есть у Lucere Inc. — но для **OLED-ламп для макияжа** (другой класс товаров). В классе 5 (supplements) регистраций LUCERE в открытых источниках не найдено → путь для нашей TM-заявки выглядит свободным. Перед подачей TM — полный knockout-поиск (могу сделать следующим шагом, финально — юрист).
 
-## Подача: Sunbiz e-filing, поле → что вводить
+## РЕШЕНИЕ (2026-08-13): вариант B подтверждён владельцем. Адреса во Флориде нет → подаём через Northwest Registered Agent (агент + адрес + подача в одном сервисе)
+
+### План подачи без своего адреса
+
+**Шаг 1 — Northwest Registered Agent** (northwestregisteredagent.com → «Start Your Business» → Florida LLC):
+- Они сами подают Articles of Organization в Sunbiz, дают **registered agent** и **свой флоридский адрес** как Principal/Mailing address LLC, сканируют входящую почту.
+- Стоимость: **$39 сервис + $125 пошлина штата = $164**; registered agent первый год включён, дальше $125/год.
+- В анкете: Company name **LUCERE LLC**, Member: **Aleksandr Orlov**, management: Member-managed, адреса — «use your address» (галочка использовать адрес Northwest). Оплата картой, ~10 минут.
+- Итог: LLC зарегистрирована за 1–3 дня, документы приходят в личный кабинет Northwest.
+
+**Шаг 2 — виртуальный почтовый адрес для банка/Amazon/этикетки** (после LLC, до банка):
+- iPostal1 или Anytime Mailbox: реальный street-address во Флориде, ~$10–15/мес, онлайн-нотаризация формы USPS 1583.
+- Зачем отдельный: адрес Northwest — юридический; для Mercury/Wise, Amazon Seller Central и строки «Distributed by LUCERE, [city], FL» на этикетке (требование FDA — name & place of business) удобнее свой почтовый адрес, который останется при смене агента.
+
+**Кто что делает:** оба шага требуют твою карту и личные данные — проходишь по моим инструкциям (суммарно ~25 минут). Я не могу платить и подписывать за тебя; всё остальное (SS-4, банк-анкеты, учёт) — готовлю я.
+
+## Подача самостоятельно на Sunbiz (запасной вариант, если появится свой адрес), поле → что вводить
 
 Сайт: efile.sunbiz.org → «Start a Business» → «Florida Limited Liability Company» (Articles of Organization). Оплата картой. Обработка e-filing: 1–2 рабочих дня.
 
