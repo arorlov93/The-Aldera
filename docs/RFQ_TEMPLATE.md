@@ -9,7 +9,7 @@
 
 Hello,
 
-My name is Artem, I represent LUCERE, a US supplement brand (thelucere.com) preparing to launch a verified-quality mushroom supplement line. We are selecting a manufacturing partner for our first product and would like to request a quotation.
+My name is Alexander, I represent LUCERE, a US supplement brand (thelucere.com) preparing to launch a verified-quality mushroom supplement line. We are selecting a manufacturing partner for our first product and would like to request a quotation.
 
 **Product specification — Lion's Mane capsules (private label, finished product):**
 
@@ -37,7 +37,7 @@ We plan an initial order of 1,000–3,000 bottles with reorders scaling to 5,000
 Could you send your quotation and COA of a recent comparable batch? Happy to get on a call as well.
 
 Best regards,
-Artem Orlov
+Alexander Orlov
 LUCERE — thelucere.com
 ar.orlov93@gmail.com
 
