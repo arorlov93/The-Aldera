@@ -198,7 +198,8 @@
 | Rainbow (Vicky) | 16.08: «дадим котировку ASAP; всё должно быть органическим, верно?» — ждёт нашего ответа |
 | Qinshantang (Catherine) | вернулась из поездки, звонок и цены на этой неделе |
 | Makers Nutrition, США (Nico) | представился, котировка в работе |
-| GanoHerb, Johncan, Sirio, Greena, Nutra Green, Yuensun, Vox | ответа нет |
+| GanoHerb / Xianzhilou | **24.08 — ОТКАЗ.** Tacy: *«после проверки нашей технической командой запрошенная вами конфигурация недостижима при наших текущих производственных условиях»*. Выбывают из пула. |
+| Sirio, Greena, Nutra Green, Yuensun, Vox | ответа нет |
 | Jiuyuan, Novenzyme, Botaniex | ответа нет |
 
 ---
