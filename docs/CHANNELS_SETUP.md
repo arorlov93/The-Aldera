@@ -1,6 +1,6 @@
 # Трек 5 — Настройка кабинетов (Amazon / TikTok Shop / Shopify)
 
-Дата: 26.08.2026 · Решение владельца: кабинеты на чистое юрлицо (518 Group / Aldera LLC), НЕ на ISP Group. Каналы: все три.
+Дата: 26.08.2026 · **РЕШЕНИЕ ВЛАДЕЛЬЦА (финал, 26.08 вечер): бренд и кабинеты — The Aldera, юрлицо/EIN/банк — ISP Group LLC.** Ждать ничего не нужно — регистрация возможна немедленно: у ISP Group есть EIN, банковский счёт, карта, документ с адресом. Каналы: все три. Раздел про 518/Aldera LLC ниже оставлен как история; миграция на чистое юрлицо — опционально позже.
 
 ## Ключевая зависимость: EIN
 
@@ -62,7 +62,28 @@ EIN для старта не нужен (нужен позже для Shopify Pa
 | EIN+2 нед | Кабинеты активны; подача на supplements-категорию TikTok | агент готовит пакет |
 | образцы+COA | Amazon ingestibles-верификация (NSF/SGS/Eurofins) | агент ведёт |
 
+## Регистрационный день — НА ISP GROUP, можно сегодня
+
+Держать под рукой: EIN ISP Group, routing+account банка, карту компании, паспорт, bank statement/utility bill с адресом, телефон.
+
+**1. Amazon Seller Central (~30 мин + видеоверификация позже)**
+- sellercentral.amazon.com → Sign up → Business type: *Privately-owned business*, США
+- Legal name: ISP GROUP LLC (ровно как в Sunbiz) · EIN · адрес 16395 Biscayne Blvd, North Miami Beach, FL 33160 (как в документах)
+- Store name (то, что видит покупатель): **The Aldera**
+- Банк (выплаты) + карта ($39.99/мес) + паспорт → загрузка документов → слот видеозвонка (показать паспорт). Активация 3–10 дней.
+- После активации: налоговое интервью W-9 (ISP Group), затем ingestibles-гейтинг по плану выше.
+
+**2. TikTok Shop US (~20 мин)**
+- seller-us.tiktok.com → Business → ISP GROUP LLC + EIN + паспорт + банк
+- Shop name: **The Aldera** · Верификация 1–3 дня → сразу подаём на категорию Health/Supplements.
+
+**3. Shopify (~10 мин)**
+- shopify.com → email aleksor@thealdera.com → trial → Basic
+- Settings → Users and permissions → Add collaborator/staff — доступ агенту; дальше магазин собирает агент (тема, страницы, домен thealdera.com, каталог).
+
 ## Статус
-- [ ] Развилка A/B — решение владельца
-- [ ] Shopify-аккаунт создан, доступ выдан
-- [ ] EIN получен → банк → регистрационный день
+- [x] Развилка юрлица — решено: ISP Group (бренд The Aldera)
+- [ ] Amazon: регистрация начата / документы загружены / видеозвонок / активен
+- [ ] TikTok Shop: регистрация / категория supplements
+- [ ] Shopify: аккаунт создан, доступ выдан → агент собирает магазин
+- [ ] Amazon Vine + Brand Registry (после ТМ-решения по ALDARA-риску)
