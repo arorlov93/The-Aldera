@@ -18,7 +18,11 @@
 | **ZOXIZO** | Шэньчжэнь | электролиты/порошковые стики, сэмплы за 7 дней | info@zoxizo.com |
 | **IndianXporter** | Индия | шафран private label (страна происхождения сырья) | info@indianxporter.com |
 
-Reply-To волны 2 — `info@ispgroupgc.com` (на момент отправки у thealdera.com не было MX). **26.08 21:30 UTC входящая почта починена:** владелец включил Cloudflare Email Routing, MX/SPF добавлены, тест доставки на aleksor@ прошёл без bounce. Все будущие рассылки — Reply-To `aleksor@thealdera.com`. Форвард настроен на ar.orlov11@gmail.com (правило aleksor@ → orlov11); catch-all стоит Drop. Ответы фабрик волны 2 могут прийти на info@ispgroupgc.com — мониторим оба ящика.
+**Почтовая схема (итог 26.08, 23:45 UTC):**
+- Исходящие: Brevo, отправитель The Aldera <aleksor@thealdera.com>, DKIM+SPF ✅.
+- **Reply-To всех рассылок фабрикам: `info@ispgroupgc.com`** — единственный ящик, который агент читает напрямую (Gmail-коннектор подключён к нему, не к orlov93).
+- aleksor@thealdera.com принимает почту (Cloudflare Email Routing → форвард на ar.orlov93@gmail.com владельца) — для людей, не для агента.
+- Приёмник Brevo inbound (rfq@reply.thealdera.com): домен аутентифицирован, MX на mx.sendinblue.com, webhook id 2154599; **почта принимается сервером, но события в /inbound/events не появляются после 4 тестов** — вероятно, функция требует активации поддержкой Brevo. Отложено; текст обращения в поддержку передан владельцу. Работаем через info@ispgroupgc.com.
 
 ⚠️ Все котировки ниже по этому файлу относятся к РАУНДУ v1–v2 (Lion's Mane капсулы 120ct) — для новой линейки не использовать без пересчёта.
 
