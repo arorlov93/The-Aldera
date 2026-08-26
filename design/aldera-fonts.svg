@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" width="1200" height="820">
+  <defs>
+    <linearGradient id="foil" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7A5A28"/><stop offset="18%" stop-color="#E4C687"/>
+      <stop offset="34%" stop-color="#B58E45"/><stop offset="52%" stop-color="#F3E2B4"/>
+      <stop offset="68%" stop-color="#C09A50"/><stop offset="86%" stop-color="#E8CE93"/>
+      <stop offset="100%" stop-color="#8A6730"/></linearGradient>
+    <linearGradient id="foilRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8A6730" stop-opacity="0"/><stop offset="22%" stop-color="#D9B96F"/>
+      <stop offset="50%" stop-color="#F3E2B4"/><stop offset="78%" stop-color="#D9B96F"/>
+      <stop offset="100%" stop-color="#8A6730" stop-opacity="0"/></linearGradient>
+    <radialGradient id="bg" cx="50%" cy="34%" r="82%">
+      <stop offset="0%" stop-color="#1D3226"/><stop offset="62%" stop-color="#132119"/>
+      <stop offset="100%" stop-color="#0B140F"/></radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="7" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.055"/></feComponentTransfer></filter>
+    <filter id="emboss" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.7" flood-color="#000" flood-opacity="0.55"/></filter>
+  </defs>
+  <rect width="1200" height="820" fill="#0F1B14"/><rect width="1200" height="820" filter="url(#grain)" opacity="0.9"/>
+  <text x="70" y="60" font-size="13" letter-spacing="5" fill="#A98F5E" font-family="Helvetica Neue, Arial, sans-serif">ALDERA · ШРИФТОВЫЕ ВАРИАНТЫ</text>
+  <line x1="70" y1="82" x2="1130" y2="82" stroke="url(#foilRule)" stroke-width="1"/>
+  
+  <g>
+    <text x="70" y="116" font-size="10" letter-spacing="3.5" fill="#A98F5E" font-family="Helvetica Neue, Arial, sans-serif">A · КЛАССИЧЕСКАЯ АНТИКВА</text>
+    <text x="70" y="166" font-size="54" letter-spacing="16" fill="url(#foil)" font-family="Georgia, Garamond, Times New Roman, serif" font-weight="normal" filter="url(#emboss)">ALDERA</text>
+    <text x="640" y="144" font-size="12.5" fill="#9CB0A2" font-family="Helvetica Neue, Arial, sans-serif">Тёплая, читаемая, аптечная. Безопасный выбор.</text>
+    <text x="640" y="170" font-size="15" letter-spacing="1" fill="#F4EFE4" font-family="Georgia, Garamond, Times New Roman, serif" font-weight="normal">Lion&#8217;s Mane · Focus &amp; Clarity</text>
+    <line x1="70" y1="200" x2="1130" y2="200" stroke="#C9A24D" stroke-width="0.4" opacity="0.22"/>
+  </g>
+  <g>
+    <text x="70" y="224" font-size="10" letter-spacing="3.5" fill="#A98F5E" font-family="Helvetica Neue, Arial, sans-serif">B · ДИДОН / ВЫСОКИЙ КОНТРАСТ</text>
+    <text x="70" y="274" font-size="56" letter-spacing="18" fill="url(#foil)" font-family="Didot, Bodoni MT, Playfair Display, Georgia, serif" font-weight="normal" filter="url(#emboss)">ALDERA</text>
+    <text x="640" y="252" font-size="12.5" fill="#9CB0A2" font-family="Helvetica Neue, Arial, sans-serif">Люкс-косметика и парфюм. Самый премиальный, но тонкие штрихи слабее на превью.</text>
+    <text x="640" y="278" font-size="15" letter-spacing="1" fill="#F4EFE4" font-family="Didot, Bodoni MT, Playfair Display, Georgia, serif" font-weight="normal">Lion&#8217;s Mane · Focus &amp; Clarity</text>
+    <line x1="70" y1="308" x2="1130" y2="308" stroke="#C9A24D" stroke-width="0.4" opacity="0.22"/>
+  </g>
+  <g>
+    <text x="70" y="332" font-size="10" letter-spacing="3.5" fill="#A98F5E" font-family="Helvetica Neue, Arial, sans-serif">C · ГРОТЕСК СВЕТЛЫЙ</text>
+    <text x="70" y="382" font-size="48" letter-spacing="22" fill="url(#foil)" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="200" filter="url(#emboss)">ALDERA</text>
+    <text x="640" y="360" font-size="12.5" fill="#9CB0A2" font-family="Helvetica Neue, Arial, sans-serif">Минимализм Ritual / Seed. Максимум воздуха, современно.</text>
+    <text x="640" y="386" font-size="15" letter-spacing="1" fill="#F4EFE4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="200">Lion&#8217;s Mane · Focus &amp; Clarity</text>
+    <line x1="70" y1="416" x2="1130" y2="416" stroke="#C9A24D" stroke-width="0.4" opacity="0.22"/>
+  </g>
+  <g>
+    <text x="70" y="440" font-size="10" letter-spacing="3.5" fill="#A98F5E" font-family="Helvetica Neue, Arial, sans-serif">D · ГРОТЕСК ПЛОТНЫЙ</text>
+    <text x="70" y="490" font-size="50" letter-spacing="5" fill="url(#foil)" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" filter="url(#emboss)">ALDERA</text>
+    <text x="640" y="468" font-size="12.5" fill="#9CB0A2" font-family="Helvetica Neue, Arial, sans-serif">Performance-регистр, Onnit. Сильнее всех бьёт в превью Amazon.</text>
+    <text x="640" y="494" font-size="15" letter-spacing="1" fill="#F4EFE4" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700">Lion&#8217;s Mane · Focus &amp; Clarity</text>
+    <line x1="70" y1="524" x2="1130" y2="524" stroke="#C9A24D" stroke-width="0.4" opacity="0.22"/>
+  </g>
+  <g>
+    <text x="70" y="548" font-size="10" letter-spacing="3.5" fill="#A98F5E" font-family="Helvetica Neue, Arial, sans-serif">E · ГРАВЮРА / АПТЕКА</text>
+    <text x="70" y="598" font-size="44" letter-spacing="14" fill="url(#foil)" font-family="Copperplate, Copperplate Gothic Light, Optima, serif" font-weight="normal" filter="url(#emboss)">ALDERA</text>
+    <text x="640" y="576" font-size="12.5" fill="#9CB0A2" font-family="Helvetica Neue, Arial, sans-serif">Аптекарский, старой школы. Очень «настойка», выделяется в нише.</text>
+    <text x="640" y="602" font-size="15" letter-spacing="1" fill="#F4EFE4" font-family="Copperplate, Copperplate Gothic Light, Optima, serif" font-weight="normal">Lion&#8217;s Mane · Focus &amp; Clarity</text>
+    <line x1="70" y1="632" x2="1130" y2="632" stroke="#C9A24D" stroke-width="0.4" opacity="0.22"/>
+  </g>
+  <g>
+    <text x="70" y="656" font-size="10" letter-spacing="3.5" fill="#A98F5E" font-family="Helvetica Neue, Arial, sans-serif">F · МОНОШИРИННЫЙ</text>
+    <text x="70" y="706" font-size="44" letter-spacing="10" fill="url(#foil)" font-family="Courier New, Courier, monospace" font-weight="700" filter="url(#emboss)">ALDERA</text>
+    <text x="640" y="684" font-size="12.5" fill="#9CB0A2" font-family="Helvetica Neue, Arial, sans-serif">Шрифт лабораторного отчёта. Прямо в тему верификации — необычный ход.</text>
+    <text x="640" y="710" font-size="15" letter-spacing="1" fill="#F4EFE4" font-family="Courier New, Courier, monospace" font-weight="700">Lion&#8217;s Mane · Focus &amp; Clarity</text>
+    <line x1="70" y1="740" x2="1130" y2="740" stroke="#C9A24D" stroke-width="0.4" opacity="0.22"/>
+  </g>
+</svg>
