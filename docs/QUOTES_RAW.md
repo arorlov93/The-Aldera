@@ -18,7 +18,7 @@
 | **ZOXIZO** | Шэньчжэнь | электролиты/порошковые стики, сэмплы за 7 дней | info@zoxizo.com |
 | **IndianXporter** | Индия | шафран private label (страна происхождения сырья) | info@indianxporter.com |
 
-⚠️ Reply-To волны 2 временно `info@ispgroupgc.com`: у thealdera.com нет MX-записей, входящая почта на aleksor@ отбивается (подтверждено bounce-тестом 26.08). После включения Cloudflare Email Routing вернём Reply-To на aleksor@thealdera.com.
+Reply-To волны 2 — `info@ispgroupgc.com` (на момент отправки у thealdera.com не было MX). **26.08 21:30 UTC входящая почта починена:** владелец включил Cloudflare Email Routing, MX/SPF добавлены, тест доставки на aleksor@ прошёл без bounce. Все будущие рассылки — Reply-To `aleksor@thealdera.com`. Форвард настроен на ar.orlov11@gmail.com (правило aleksor@ → orlov11); catch-all стоит Drop. Ответы фабрик волны 2 могут прийти на info@ispgroupgc.com — мониторим оба ящика.
 
 ⚠️ Все котировки ниже по этому файлу относятся к РАУНДУ v1–v2 (Lion's Mane капсулы 120ct) — для новой линейки не использовать без пересчёта.
 
