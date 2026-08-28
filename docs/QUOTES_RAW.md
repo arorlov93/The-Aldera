@@ -30,6 +30,8 @@
 | **ZOXIZO** | Шэньчжэнь | электролиты/порошковые стики, сэмплы за 7 дней | info@zoxizo.com |
 | **IndianXporter** | Индия | шафран private label (страна происхождения сырья) | info@indianxporter.com |
 
+**Подпись исходящих (с 28.08):** Aleksandr Orlov / The Aldera — 518 Group / WhatsApp: https://wa.me/message/E5R5U3OHLN32L1 (бизнес-номер Tello). Вставляется во все письма фабрикам.
+
 **Почтовая схема (итог 26.08, 23:45 UTC):**
 - Исходящие: Brevo, отправитель The Aldera <aleksor@thealdera.com>, DKIM+SPF ✅.
 - **Reply-To всех рассылок фабрикам: `info@ispgroupgc.com`** — единственный ящик, который агент читает напрямую (Gmail-коннектор подключён к нему, не к orlov93).
