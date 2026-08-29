@@ -10,7 +10,7 @@
 | 3 | Lion's Mane Gummies | 60 gummies | 200 mg fruiting-body extract 10:1, без носителя | stevia+erythritol, ягодный | банка 250cc, induction seal |
 | 4 | Magnesium Sticks | 30 sticks | 150 mg elemental Mg (glycinate) | ягодный (raspberry-lemonade), sugar-free | коробка 30 стиков |
 | 5 | Electrolytes | 30 sticks | Na 180 / K 120 / Mg 30 mg | цитрус (lemon-lime), sugar-free, stevia | коробка 30 стиков |
-| 6 | Mushroom Coffee | 30 sticks | instant coffee + 150 mg extract (LM+Chaga+Reishi) | без сахара, вкус кофе/мокко | коробка 30 стиков |
+| 6 | Mushroom Coffee | 30 sticks | instant coffee + 150 mg extract (LM+Chaga+Reishi) | без сахара, **вкус какао** (решение владельца 29.08 — маскировка грибной ноты) | коробка 30 стиков |
 
 Общее ко всем: состав по батч-COA из ISO 17025-лаборатории; allergen statement; срок годности ≥18 мес; вкусы предварительные — подтверждаются по образцам (право одной бесплатной итерации вкуса — запросить).
 
