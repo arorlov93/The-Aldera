@@ -2,7 +2,7 @@
 
 **Client:** The Aldera (ISP Group LLC, Florida, USA) · thealdera.com
 **Scope:** Logo + brand identity + print-ready packaging for 6 supplement SKUs
-**Budget agreed:** $250 (30% start / 70% on final approved files) · **Timeline:** logo concepts in 3 days, approved Magnesium box by day 7, full package by day 14
+**Budget agreed:** $250 (30% start / 70% on final approved files) · **Timeline:** please propose your realistic timeline for each milestone below
 
 ---
 
@@ -89,10 +89,14 @@ Extra warning VERBATIM: "Not for use during pregnancy or while nursing."
 
 ## 6. Process & milestones
 
-1. **Day 1–3:** 2–3 logo concepts + palette/type direction → we pick one, 1 revision round.
-2. **Day 4–7:** Magnesium box full design on the reference size → approval (this box is the master of the system).
-3. **Day 8–14:** remaining 2 boxes + 3 labels rolled out from the master + brand sheet + digital kit → final files.
-4. Items marked **[TBD]** (exact dieline, address, iodine/caffeine figures, barcode) will be supplied during the project — leave clearly-marked placeholders; final files ship after we insert them.
-5. Final PDFs go through our compliance check before print — small text corrections at that stage are part of the included revisions.
+The work goes in this order (please quote your timeline for each step):
+
+1. **Milestone 1:** 2–3 logo concepts + palette/type direction → we pick one, 1 revision round.
+2. **Milestone 2:** Magnesium box full design on the reference size → approval (this box is the master of the whole system).
+3. **Milestone 3:** remaining 2 boxes + 3 labels rolled out from the master + brand sheet + digital kit → final files.
+
+Notes:
+- Items marked **[TBD]** (exact dieline, address, iodine/caffeine figures, barcode) will be supplied during the project — leave clearly-marked placeholders; final files ship after we insert them.
+- Final PDFs go through our compliance check before print — small text corrections at that stage are part of the included revisions.
 
 **Contact for all questions during the project: this Behance chat / WhatsApp https://wa.me/message/E5R5U3OHLN32L1**
