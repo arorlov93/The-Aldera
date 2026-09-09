@@ -31,7 +31,7 @@ Most supplement brands underdose and hide behind "proprietary blends". We print 
 | 1 | Logo: primary lockup + standalone icon | AI + PNG/SVG |
 | 2 | One-page brand sheet: palette, 2 fonts, logo usage | PDF |
 | 3 | **3 stick boxes** — Magnesium, Mushroom Coffee, Electrolytes. Folding carton ~22×13.5×3 cm; exact factory dieline will be provided (start with this size, we swap the dieline in) | print-ready PDF/X-1a, CMYK, 3 mm bleed, dieline on separate layer + AI source |
-| 4 | **3 bottle labels** — Sea Moss Gummies, Lion's Mane Gummies, Saffron Capsules. Wrap label, dimensions to be provided (typical 60ct supplement bottle ~ 5×19 cm wrap) | same as above |
+| 4 | **3 bottle labels** — Sea Moss Gummies, Lion's Mane Gummies, Saffron Capsules. Wrap label, dimensions to be provided. Important: our bottles come in three count sizes — **60 / 90 / 120** — so build the label as a scalable system that adapts to the three wrap sizes (art scales, layout holds); deliver the 60ct version as final now, with the layout ready to resize | same as above |
 | 5 | **Digital kit** (from the same identity): profile avatar optimized for small circles — Instagram/TikTok/WhatsApp Business (1080×1080 PNG + circle-crop safe) · email signature lockup (transparent PNG, light+dark) · Instagram highlight covers ×5 · 1 feed post template + 1 story template (editable) | PNG + AI/PSD |
 
 2 revision rounds per item included. All final texts are provided below — **no copywriting needed; legal texts must be reproduced VERBATIM, do not edit or shorten them.**
