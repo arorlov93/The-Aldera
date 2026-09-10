@@ -319,36 +319,32 @@
   @media(min-width:900px){ .sticky-cta{display:none} footer.site{padding-bottom:64px} }
 
   /* ═════════ POPUP ═════════ */
-  .popup-ov{position:fixed; inset:0; z-index:70; background:rgba(10,24,16,.6); backdrop-filter:blur(3px);
+  .popup-ov{position:fixed; inset:0; z-index:70; background:rgba(10,24,16,.55); backdrop-filter:blur(4px);
     display:grid; place-items:center; padding:20px; opacity:0; transition:opacity .35s ease}
   .popup-ov.show{opacity:1}
-  .popup{background:var(--card); color:var(--ink); border-radius:6px; max-width:440px; width:100%; padding:40px 34px 30px;
-    position:relative; box-shadow:0 40px 100px rgba(0,0,0,.5); transform:translateY(18px); transition:transform .35s ease}
-  .popup::before{content:""; position:absolute; inset:7px; border:1px solid var(--gold-soft); border-radius:3px; pointer-events:none}
+  .popup{background:linear-gradient(175deg,#FDFBF4 0%, #F6F0DF 100%); color:#1C2A20; border-radius:8px; max-width:460px; width:100%;
+    padding:46px 38px 32px; position:relative; text-align:center;
+    box-shadow:0 40px 120px rgba(0,0,0,.55), 0 0 0 1px rgba(201,169,97,.5); transform:translateY(18px) scale(.98); transition:transform .35s ease}
+  .popup::before{content:""; position:absolute; inset:9px; border:1px solid rgba(168,133,59,.5); border-radius:5px; pointer-events:none}
+  .popup::after{content:"✦"; position:absolute; top:-16px; left:50%; transform:translateX(-50%);
+    width:34px; height:34px; border-radius:50%; display:grid; place-items:center; font-size:14px;
+    background:linear-gradient(135deg,#A8853B,#C9A961); color:#14291C; box-shadow:0 6px 18px rgba(168,133,59,.5)}
   .popup-ov.show .popup{transform:none}
-  .popup .eyebrow{justify-content:center; margin-bottom:6px}
-  .popup .eyebrow::after{content:""; width:44px; height:1px; background:linear-gradient(90deg,var(--gold),transparent)}
-  .popup h3{font-size:23px; margin:6px 0 10px; line-height:1.25; text-wrap:balance; text-align:center; font-weight:500}
-  .popup p{font-size:14px; color:var(--muted); margin-bottom:12px; text-align:center}
-  .popup .off{font-family:'Fraunces',serif; font-size:30px; font-weight:500; color:var(--accent-deep); margin:4px 0 16px; text-align:center}
-  .popup input{width:100%; padding:14px 16px; border:1.5px solid var(--line); border-radius:999px; font:inherit; font-size:15px;
-    background:var(--paper); color:var(--ink); margin-bottom:10px; text-align:center; position:relative}
-  .popup input:focus-visible{outline:2px solid var(--accent); outline-offset:1px}
+  .popup .eyebrow{justify-content:center; margin-bottom:6px; color:#A8853B}
+  .popup .eyebrow::after{content:""; width:44px; height:1px; background:linear-gradient(90deg,#A8853B,transparent)}
+  .popup h3{font-family:'Fraunces',Georgia,serif; font-size:23px; margin:8px 0 10px; line-height:1.25; text-wrap:balance; font-weight:500; color:#152A1D}
+  .popup p{font-size:14px; color:#5A6A5D; margin-bottom:10px}
+  .popup .off{font-family:'Fraunces',Georgia,serif; font-size:44px; font-weight:600; margin:8px 0 4px; line-height:1;
+    background:linear-gradient(115deg,#8F6F2E, #C9A961 45%, #E8D5A4 55%, #A8853B); -webkit-background-clip:text; background-clip:text; color:transparent}
+  .popup .offsub{font-size:11px; font-weight:700; letter-spacing:.3em; text-transform:uppercase; color:#A8853B; margin-bottom:18px}
+  .popup input{width:100%; padding:14px 16px; border:1.5px solid #D9CFA9; border-radius:999px; font:inherit; font-size:15px;
+    background:#FFFFFF; color:#1C2A20; margin-bottom:10px; text-align:center; position:relative}
+  .popup input:focus-visible{outline:2px solid #A8853B; outline-offset:1px}
   .popup .btn{width:100%; text-align:center; position:relative}
-  .popup .x{position:absolute; top:14px; right:14px; width:34px; height:34px; border-radius:50%; border:0; background:var(--accent-soft);
-    color:var(--accent-deep); font-size:15px; cursor:pointer; display:grid; place-items:center; z-index:2}
-  .popup .x:hover{background:var(--accent); color:#fff}
-  .popup .tiny{font-size:11px; color:var(--muted); margin:10px 0 0; text-align:center}
-
-  .vid-overlay{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center;
-    gap:10px; text-align:center; pointer-events:none;
-    background:linear-gradient(180deg, rgba(10,24,16,.15) 0%, rgba(10,24,16,.0) 35%, rgba(10,24,16,.45) 100%)}
-  .vid-overlay .cs{font-family:'Fraunces',Georgia,serif; font-style:italic; font-weight:400;
-    font-size:clamp(34px,4.6vw,48px); color:#F7F3E6; letter-spacing:.01em;
-    text-shadow:0 2px 24px rgba(0,0,0,.55)}
-  .vid-overlay .rule{width:56px; height:1px; background:linear-gradient(90deg,transparent,#C9A961,transparent)}
-  .vid-overlay .when{font-size:11.5px; font-weight:700; letter-spacing:.34em; text-transform:uppercase; color:#C9A961;
-    text-shadow:0 1px 12px rgba(0,0,0,.6)}
+  .popup .x{position:absolute; top:14px; right:14px; width:34px; height:34px; border-radius:50%; border:0; background:rgba(168,133,59,.14);
+    color:#8F6F2E; font-size:15px; cursor:pointer; display:grid; place-items:center; z-index:2}
+  .popup .x:hover{background:#A8853B; color:#fff}
+  .popup .tiny{font-size:11px; color:#8A937F; margin:10px 0 0}
 
   @media (prefers-reduced-motion: reduce){
     .btn,.play,.promise,.offer{transition:none}
@@ -434,6 +430,24 @@
         <p>Sweetened with stevia and prebiotic fiber. Real fruit flavors. No artificial colors, flavors or sweeteners — if it&rsquo;s not on the label, it&rsquo;s not inside.</p>
       </article>
     </div>
+  </div>
+</section>
+
+<!-- ═══ 3b. THE NAME ═══ -->
+<section style="padding-top:0">
+  <div class="wrap" style="max-width:780px; text-align:center">
+    <div class="eyebrow center">Why &ldquo;The Aldera&rdquo;</div>
+    <h2>Named after the alder — <em>the tree that gives back.</em></h2>
+    <div style="font-size:22px; color:var(--gold); margin:6px 0 18px">❦</div>
+    <p style="font-size:17.5px; line-height:1.75; color:var(--ink); text-align:left; max-width:64ch; margin:0 auto">The alder grows where water runs clean. And it does something almost no other tree can: through its roots it quietly enriches the soil — an alder grove leaves the land <em>richer</em> than it found it.</p>
+    <p style="font-size:17.5px; line-height:1.75; color:var(--ink); text-align:left; max-width:64ch; margin:14px auto 0">That is the brand we set out to build. A supplement company that leaves its industry more honest than it found it: full doses printed on the label, natural ingredients and nothing artificial inside, and an independent lab report on every single box. The Aldera is our grove — planted in an industry that badly needed one.</p>
+    <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:28px">
+      <span class="cert" style="border-color:var(--gold-2); color:var(--accent-deep)">Clean water</span>
+      <span class="cert" style="border-color:var(--gold-2); color:var(--accent-deep)">Living soil</span>
+      <span class="cert" style="border-color:var(--gold-2); color:var(--accent-deep)">Quiet strength</span>
+      <span class="cert" style="border-color:var(--gold-2); color:var(--accent-deep)">Proof over promises</span>
+    </div>
+    <p style="margin-top:26px; font-family:'Fraunces',Georgia,serif; font-style:italic; font-size:19px; color:var(--accent)">The code: what&rsquo;s printed on the label is what&rsquo;s inside.</p>
   </div>
 </section>
 
@@ -742,7 +756,8 @@
     <div class="eyebrow">The Aldera code</div>
     <h3>What&rsquo;s on the label is what&rsquo;s in the capsule.</h3>
     <p>Natural ingredients, full honest doses — and an independent lab report printed on every box. Launching October 2026.</p>
-    <div class="off">20% off launch week</div>
+    <div class="off">20% OFF</div>
+    <div class="offsub">Everything · All Launch Week</div>
     <input type="email" placeholder="Your email" aria-label="Email address">
     <button class="btn" id="uspGo">Join the launch list</button>
     <p class="tiny">A few emails a year. No spam, unsubscribe anytime.</p>
