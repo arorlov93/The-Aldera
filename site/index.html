@@ -354,6 +354,7 @@
   .popup-ov{position:fixed; inset:0; z-index:70; background:rgba(10,24,16,.55); backdrop-filter:blur(4px);
     display:grid; place-items:center; padding:20px; opacity:0; transition:opacity .35s ease}
   .popup-ov.show{opacity:1}
+  .popup-ov[hidden]{display:none !important}
   .popup{background:linear-gradient(175deg,#FDFBF4 0%, #F6F0DF 100%); color:#1C2A20; border-radius:8px; max-width:460px; width:100%;
     padding:46px 38px 32px; position:relative; text-align:center;
     box-shadow:0 40px 120px rgba(0,0,0,.55), 0 0 0 1px rgba(201,169,97,.5); transform:translateY(18px) scale(.98); transition:transform .35s ease}
@@ -966,7 +967,8 @@
 
   // Elite touches: sticky bar + scroll reveals (elements stay visible without JS)
   const tb = document.getElementById('topbar');
-  addEventListener('scroll', () => { tb.classList.toggle('show', scrollY > 620); }, {passive:true});
+  if (tb) addEventListener('scroll', () => { tb.classList.toggle('show', scrollY > 620); }, {passive:true});
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   if ('IntersectionObserver' in window && !reduced){
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }), {threshold:.12});
     document.querySelectorAll('.promise, .cat-block, .coa-card, .cmp').forEach(el => {
