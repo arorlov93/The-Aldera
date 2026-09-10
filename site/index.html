@@ -1,0 +1,607 @@
+<title>The Aldera</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Karla:wght@400;500;700&display=swap">
+<style>
+  :root{
+    --paper:#F7F5EF; --card:#FFFFFF; --ink:#1F2B23; --muted:#5C6B5F;
+    --accent:#2E6B4F; --accent-deep:#1E4A36; --accent-soft:#E4EFE6; --accent-bright:#3F8F69;
+    --verify:#2F7D5F; --verify-soft:#E4F0EA;
+    --gold:#A8853B;
+    --line:#DFE5DC; --hero-a:#14291C; --hero-b:#1F3D2A;
+    --shadow:0 10px 30px rgba(31,43,35,.08);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#141B16; --card:#1D2820; --ink:#ECF2EB; --muted:#A9B8AB;
+      --accent:#63B98C; --accent-deep:#8AD1AC; --accent-soft:#24382C; --accent-bright:#82D6A8;
+      --verify:#6FC49A; --verify-soft:#22352A;
+      --gold:#D2B370;
+      --line:#334035; --hero-a:#0C1911; --hero-b:#16281B;
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#141B16; --card:#1D2820; --ink:#ECF2EB; --muted:#A9B8AB;
+    --accent:#63B98C; --accent-deep:#8AD1AC; --accent-soft:#24382C;
+    --verify:#6FC49A; --verify-soft:#22352A;
+    --gold:#D2B370;
+    --line:#334035; --hero-a:#0C1911; --hero-b:#16281B;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box; margin:0}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:'Karla',system-ui,-apple-system,sans-serif;
+    font-size:16.5px; line-height:1.6;
+  }
+  .demo-ribbon{
+    position:fixed; top:14px; right:-40px; z-index:60; transform:rotate(38deg);
+    background:var(--ink); color:var(--paper); font-size:11px; font-weight:700;
+    letter-spacing:.14em; padding:6px 48px; text-transform:uppercase; opacity:.85;
+  }
+  .wrap{max-width:1040px; margin:0 auto; padding:0 20px}
+  .eyebrow{font-size:12px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:var(--accent)}
+  h1,h2,h3{font-family:'Fraunces',Georgia,serif; text-wrap:balance; line-height:1.12}
+  h2{font-size:clamp(26px,4.2vw,38px); font-weight:600; margin:10px 0 14px}
+  section{padding:64px 0}
+  .lead{color:var(--muted); max-width:62ch}
+
+  /* ── HERO ─────────────────────────── */
+  header.hero{
+    background:linear-gradient(160deg,var(--hero-a),var(--hero-b));
+    color:#EFF4EE; padding:34px 0 56px;
+  }
+  .brand-row{display:flex; align-items:center; justify-content:space-between; padding:0 0 34px}
+  .brand{font-family:'Fraunces',serif; font-size:21px; font-weight:700; letter-spacing:.02em; color:#F2F5EF}
+  .brand small{display:block; font-family:'Karla'; font-size:10px; font-weight:700; letter-spacing:.3em; color:#9BC0A6; text-transform:uppercase}
+  .hero-grid{display:grid; gap:38px; align-items:center}
+  @media(min-width:880px){ .hero-grid{grid-template-columns:1.05fr .95fr} }
+  h1{font-size:clamp(34px,5.4vw,54px); font-weight:600; color:#F7FAF4}
+  h1 em{font-style:italic; font-weight:500; color:#BFE3C8}
+  .hero-sub{margin:16px 0 20px; color:#C4D2C4; max-width:48ch; font-size:17.5px}
+  .hero-points{list-style:none; padding:0; margin:0 0 26px; display:grid; gap:9px}
+  .hero-points li{display:flex; gap:10px; align-items:baseline; color:#E2EAE0}
+  .hero-points li::before{content:"◆"; font-size:9px; color:#BFE3C8; transform:translateY(-2px)}
+  .cta-row{display:flex; flex-wrap:wrap; gap:14px; align-items:center}
+  .btn{
+    display:inline-block; background:var(--accent); color:#fff; font-weight:700;
+    padding:15px 30px; border-radius:999px; text-decoration:none; font-size:16px;
+    border:0; cursor:pointer; transition:transform .15s ease, box-shadow .15s ease;
+    box-shadow:0 8px 22px rgba(46,107,79,.35);
+  }
+  .btn:hover{transform:translateY(-2px); background:var(--accent-bright); box-shadow:0 12px 32px rgba(46,107,79,.55)}
+  .btn:active{transform:translateY(1px) scale(.98); box-shadow:0 4px 12px rgba(46,107,79,.4)}
+  .btn:focus-visible{outline:3px solid #BFE3C8; outline-offset:3px}
+  .btn.ghost{background:transparent; border:1.5px solid #6f8a76; color:#E4EBE2; box-shadow:none}
+  .btn.ghost:hover{background:rgba(191,227,200,.16); border-color:#BFE3C8; color:#fff; box-shadow:none}
+  .btn.ghost:active{transform:translateY(1px) scale(.98)}
+  .offer .btn.ghost:hover{background:var(--accent-soft); box-shadow:none}
+  @keyframes ctaGlow{0%,100%{box-shadow:0 8px 22px rgba(46,107,79,.35)}50%{box-shadow:0 10px 34px rgba(63,143,105,.75)}}
+  .btn.pulse{animation:ctaGlow 2.4s ease-in-out infinite}
+  .trust-line{margin-top:20px; font-size:13px; color:#B3C2B4; display:flex; flex-wrap:wrap; gap:7px 18px}
+  .trust-line span{display:inline-flex; gap:7px; align-items:center}
+  .trust-line b{color:#E2EAE0; font-weight:500}
+
+  /* hero video slot */
+  .video-slot{position:relative; border-radius:20px; overflow:hidden; aspect-ratio:4/5; max-height:520px; width:100%;
+    background:linear-gradient(200deg,#24422F 0%,#16301F 55%,#0e2015 100%); box-shadow:0 24px 60px rgba(0,0,0,.45)}
+  .video-slot canvas{position:absolute; inset:0; width:100%; height:100%}
+  .glass{position:absolute; left:50%; bottom:0; transform:translateX(-50%); width:52%; height:64%;
+    border:2px solid rgba(255,255,255,.28); border-bottom-width:5px; border-top:0;
+    border-radius:0 0 38px 38px; background:linear-gradient(to top, rgba(212,190,105,.5) 0%, rgba(212,190,105,.24) 68%, transparent 100%)}
+  .play{position:absolute; left:50%; top:44%; transform:translate(-50%,-50%);
+    width:74px; height:74px; border-radius:50%; background:rgba(255,255,255,.14); border:1.5px solid rgba(255,255,255,.55);
+    backdrop-filter:blur(4px); display:grid; place-items:center; cursor:pointer}
+  .play::after{content:""; border-style:solid; border-width:12px 0 12px 20px; border-color:transparent transparent transparent #fff; margin-left:5px}
+  .slot-tag{position:absolute; top:14px; left:14px; font-size:10.5px; font-weight:700; letter-spacing:.18em; text-transform:uppercase;
+    color:#fff; background:rgba(0,0,0,.38); padding:6px 12px; border-radius:999px; backdrop-filter:blur(4px)}
+  .slot-cap{position:absolute; bottom:14px; left:0; right:0; text-align:center; font-size:12.5px; color:#C6D4C6}
+
+  /* ── SOCIAL PROOF ─────────────────── */
+  .strip{background:var(--card); border-block:1px solid var(--line); padding:26px 0}
+  .strip .wrap{display:flex; flex-wrap:wrap; gap:14px 34px; justify-content:center; align-items:center;
+    font-size:13.5px; color:var(--muted)}
+  .strip b{color:var(--ink); font-weight:700}
+  .stars{color:var(--gold); letter-spacing:2px}
+  .reviews{display:grid; gap:16px; margin-top:26px}
+  @media(min-width:760px){ .reviews{grid-template-columns:repeat(3,1fr)} }
+  .review{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px; display:flex; flex-direction:column; gap:10px}
+  .review p{font-size:15px}
+  .review footer{font-size:13px; color:var(--muted); display:flex; justify-content:space-between; align-items:center}
+  .badge-v{font-size:11px; font-weight:700; color:var(--verify); background:var(--verify-soft); border-radius:999px; padding:3px 10px}
+
+  /* ── MECHANISM ────────────────────── */
+  .split{display:grid; gap:36px; align-items:start}
+  @media(min-width:860px){ .split{grid-template-columns:1.1fr .9fr} }
+  .mech p{margin-bottom:14px; max-width:60ch}
+  .mech strong{color:var(--accent-deep)}
+  .coa-card{background:var(--card); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow); overflow:hidden}
+  .coa-head{display:flex; justify-content:space-between; align-items:center; padding:16px 20px; border-bottom:1px solid var(--line); background:var(--verify-soft)}
+  .coa-head b{font-size:14px; letter-spacing:.06em; color:var(--verify)}
+  .coa-head span{font-size:11px; color:var(--muted)}
+  table{width:100%; border-collapse:collapse; font-size:14px}
+  .coa-card td,.coa-card th{padding:11px 20px; text-align:left; border-bottom:1px solid var(--line)}
+  .coa-card th{font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted); font-weight:700}
+  .num{font-variant-numeric:tabular-nums; text-align:right}
+  .pass{color:var(--verify); font-weight:700}
+  .coa-foot{display:flex; gap:14px; align-items:center; padding:14px 20px; font-size:12px; color:var(--muted)}
+  .qr{width:52px; height:52px; flex:none; border-radius:8px; border:1.5px solid var(--line);
+    background:
+      repeating-linear-gradient(0deg,var(--ink) 0 4px,transparent 4px 8px),
+      repeating-linear-gradient(90deg,var(--ink) 0 4px,var(--card) 4px 8px);
+    opacity:.8}
+  .cert-badges{display:flex; flex-wrap:wrap; gap:10px; margin-top:16px}
+  .cert{font-size:12px; font-weight:700; border:1px solid var(--line); border-radius:999px; padding:7px 14px; background:var(--card); color:var(--muted)}
+
+  /* ── COMPARISON ───────────────────── */
+  .cmp{background:var(--card); border:1px solid var(--line); border-radius:18px; overflow:hidden; margin-top:26px; overflow-x:auto}
+  .cmp table{min-width:560px}
+  .cmp th,.cmp td{padding:13px 18px; border-bottom:1px solid var(--line)}
+  .cmp thead th{font-size:11px; text-transform:uppercase; letter-spacing:.1em; color:var(--muted)}
+  .cmp .us{background:var(--accent-soft); font-weight:700}
+  .cmp td:first-child{color:var(--muted); font-size:14px}
+
+  /* ── OFFER ────────────────────────── */
+  .offers{display:grid; gap:16px; margin-top:30px}
+  @media(min-width:820px){ .offers{grid-template-columns:repeat(3,1fr)} }
+  .offer{background:var(--card); border:1.5px solid var(--line); border-radius:20px; padding:26px 24px; display:flex; flex-direction:column; gap:8px; position:relative}
+  .offer.popular{border-color:var(--accent); box-shadow:var(--shadow)}
+  .pop-tag{position:absolute; top:-12px; left:50%; transform:translateX(-50%); background:var(--accent); color:#fff;
+    font-size:11px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; padding:5px 14px; border-radius:999px}
+  .offer h3{font-size:20px; font-weight:600}
+  .price{font-family:'Fraunces',serif; font-size:34px; font-weight:700; font-variant-numeric:tabular-nums}
+  .price small{font-family:'Karla'; font-size:13px; color:var(--muted); font-weight:400}
+  .was{color:var(--muted); text-decoration:line-through; font-size:14px}
+  .offer ul{list-style:none; padding:0; margin:6px 0 16px; display:grid; gap:6px; font-size:14px; color:var(--muted)}
+  .offer ul li::before{content:"✓ "; color:var(--verify); font-weight:700}
+  .offer .btn{margin-top:auto; text-align:center}
+  .ship-note{margin-top:18px; text-align:center; font-size:13.5px; color:var(--muted)}
+  .ship-note b{color:var(--verify)}
+
+  /* ── FAQ / FOOTER ─────────────────── */
+  details{border-bottom:1px solid var(--line); padding:16px 4px}
+  summary{cursor:pointer; font-weight:700; font-size:16px; list-style:none; display:flex; justify-content:space-between; gap:12px}
+  summary::after{content:"+"; color:var(--accent); font-size:20px; font-weight:400}
+  details[open] summary::after{content:"–"}
+  details p{margin-top:10px; color:var(--muted); max-width:65ch; font-size:15px}
+  footer.site{background:var(--hero-a); color:#ADBBAF; padding:44px 0 110px; margin-top:70px; font-size:12.5px}
+  footer.site .wrap{display:grid; gap:18px}
+  .disclaimer{max-width:78ch; line-height:1.55; border-left:3px solid var(--accent); padding-left:14px}
+  .sticky-cta{position:fixed; left:0; right:0; bottom:0; z-index:50; padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+    background:var(--card); border-top:1px solid var(--line); display:flex; gap:14px; align-items:center; justify-content:space-between}
+  .sticky-cta .p{font-weight:700; font-variant-numeric:tabular-nums}
+  .sticky-cta small{display:block; font-weight:400; color:var(--muted); font-size:12px}
+  @media(min-width:880px){ .sticky-cta{display:none} footer.site{padding-bottom:44px} }
+
+  /* ── USP POPUP ────────────────────── */
+  .popup-ov{position:fixed; inset:0; z-index:70; background:rgba(12,25,17,.55); display:grid; place-items:center; padding:20px; opacity:0; transition:opacity .3s ease}
+  .popup-ov.show{opacity:1}
+  .popup{background:var(--card); color:var(--ink); border-radius:22px; max-width:432px; width:100%; padding:34px 30px 26px; position:relative;
+    box-shadow:0 30px 80px rgba(0,0,0,.4); border-top:5px solid var(--accent); transform:translateY(16px); transition:transform .3s ease}
+  .popup-ov.show .popup{transform:none}
+  .popup h3{font-family:'Fraunces',Georgia,serif; font-size:23px; margin:6px 0 10px; line-height:1.2; text-wrap:balance}
+  .popup p{font-size:14.5px; color:var(--muted); margin-bottom:12px}
+  .popup .off{font-family:'Fraunces',Georgia,serif; font-size:29px; font-weight:700; color:var(--accent-deep); margin:2px 0 14px}
+  .popup input{width:100%; padding:13px 16px; border:1.5px solid var(--line); border-radius:12px; font:inherit; font-size:15px;
+    background:var(--paper); color:var(--ink); margin-bottom:10px}
+  .popup input:focus-visible{outline:2px solid var(--accent); outline-offset:1px}
+  .popup .btn{width:100%; text-align:center}
+  .popup .x{position:absolute; top:12px; right:12px; width:34px; height:34px; border-radius:50%; border:0; background:var(--accent-soft);
+    color:var(--accent-deep); font-size:16px; cursor:pointer; display:grid; place-items:center}
+  .popup .x:hover{background:var(--accent); color:#fff}
+  .popup .tiny{font-size:11px; color:var(--muted); margin:10px 0 0; text-align:center}
+
+  @media (prefers-reduced-motion: reduce){ .btn{transition:none} .btn.pulse{animation:none} .popup-ov,.popup{transition:none} }
+</style>
+
+<div class="demo-ribbon">Launching October</div>
+
+<!-- ═══ 1. HERO ═══ -->
+<header class="hero">
+  <div class="wrap">
+    <div class="brand-row">
+      <div class="brand"><!-- LOGO SLOT: replace text with final logo SVG/PNG -->The Aldera<small>natural · lab-verified</small></div>
+      <a class="btn ghost" href="#offer" style="padding:10px 22px; font-size:14px">Shop</a>
+    </div>
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow" style="color:#BFE3C8">Magnesium Bisglycinate · Raspberry Lemonade</div>
+        <h1>Calm nights.<br><em>Clear mornings.</em></h1>
+        <p class="hero-sub">One fizzy stick before bed. 150&nbsp;mg of fully-chelated magnesium — the dose that’s actually on the label, verified by an independent lab.</p>
+        <ul class="hero-points">
+          <li>Supports relaxation and restful sleep†</li>
+          <li>Gentle, chelated bisglycinate — easy on the stomach†</li>
+          <li>Natural ingredients only — stevia leaf, real fruit flavor, nothing artificial</li>
+        </ul>
+        <div class="cta-row">
+          <a class="btn pulse" href="#join">Get 20% off at launch</a>
+          <a class="btn ghost" href="#lab">See how we test</a>
+        </div>
+        <div class="trust-line">
+          <span><b>Launching October 2026</b></span>
+          <span><b>cGMP</b> · FDA-registered facilities</span>
+          <span><b>Lab report</b> on every box</span>
+        </div>
+      </div>
+      <div class="video-slot" aria-label="Hero video placeholder">
+        <canvas id="fizz"></canvas>
+        <div class="glass"></div>
+        <button class="play" aria-label="Play product video"></button>
+        <span class="slot-tag">Hero video slot</span>
+        <span class="slot-cap">Press ▶ — 15-sec animated storyboard of the hero video</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ 2. SOCIAL PROOF ═══ -->
+<div class="strip">
+  <div class="wrap">
+    <span><b>Honest doses</b> — printed, then proven</span>
+    <span><b>Every batch</b> tested by an independent lab</span>
+    <span><b>Nothing artificial</b> — natural ingredients only</span>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">The Aldera code</div>
+    <h2>Three promises. On every label.</h2>
+    <div class="reviews">
+      <article class="review">
+        <h3 style="font-size:18px">Full, honest doses</h3>
+        <p>The milligrams on the front are the milligrams inside. No "proprietary blends", no fairy-dusting, no oxide fillers your body can't use.</p>
+      </article>
+      <article class="review">
+        <h3 style="font-size:18px">A lab report on every box</h3>
+        <p>Every single batch goes to an independent ISO 17025 laboratory. Scan the QR on your box and read the results for your exact lot.</p>
+      </article>
+      <article class="review">
+        <h3 style="font-size:18px">Nothing artificial</h3>
+        <p>Sweetened with stevia and prebiotic fiber. Real fruit flavors. No artificial colors, flavors or sweeteners — if it's not on the label, it's not inside.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 3. PROBLEM → MECHANISM + LAB ═══ -->
+<section id="lab" style="padding-top:10px">
+  <div class="wrap split">
+    <div class="mech">
+      <div class="eyebrow">The Aldera code</div>
+      <h2>What we print on the label is what’s in the capsule.</h2>
+      <p>Independent testing of popular magnesium products has found <strong>a fraction of the dose promised on the label</strong> — padded with sugar, cut with cheap oxide forms your body barely absorbs.</p>
+      <p>The Aldera is built the opposite way: <strong>natural components, full doses, no shortcuts</strong>. Magnesium bisglycinate — the chelated form studied for absorption and calm† — at a full 150&nbsp;mg elemental dose per stick. No oxide. No “proprietary blend” hiding the math. Nothing artificial anywhere in the formula.</p>
+      <p>Then we do the thing brands rarely do: <strong>every single batch goes to an independent ISO&nbsp;17025 lab</strong>, and the report is printed on a QR code on your box. Scan it. Read what’s inside the exact batch in your hand.</p>
+      <div class="cert-badges">
+        <span class="cert">ISO 17025 third-party tested</span>
+        <span class="cert">cGMP facility</span>
+        <span class="cert">FDA-registered facility</span>
+        <span class="cert">100% natural ingredients</span>
+        <span class="cert">Sugar-free</span>
+        <span class="cert">Vegan</span>
+      </div>
+    </div>
+    <div>
+      <div class="coa-card">
+        <div class="coa-head">
+          <b>CERTIFICATE OF ANALYSIS</b>
+          <span>Sample document — every batch gets its own</span>
+        </div>
+        <table>
+          <thead><tr><th>Test</th><th class="num">Label claim</th><th class="num">Result</th><th class="num">Status</th></tr></thead>
+          <tbody>
+            <tr><td>Elemental magnesium</td><td class="num">150 mg</td><td class="num">153.8 mg</td><td class="num pass">PASS</td></tr>
+            <tr><td>Lead (Pb)</td><td class="num">&lt; 0.5 ppm</td><td class="num">&lt; 0.01 ppm</td><td class="num pass">PASS</td></tr>
+            <tr><td>Arsenic (As)</td><td class="num">&lt; 1.0 ppm</td><td class="num">&lt; 0.02 ppm</td><td class="num pass">PASS</td></tr>
+            <tr><td>Total plate count</td><td class="num">&lt; 1,000 cfu/g</td><td class="num">&lt; 100 cfu/g</td><td class="num pass">PASS</td></tr>
+            <tr><td>Yeast &amp; mold</td><td class="num">&lt; 100 cfu/g</td><td class="num">&lt; 10 cfu/g</td><td class="num pass">PASS</td></tr>
+          </tbody>
+        </table>
+        <div class="coa-foot">
+          <div class="qr" role="img" aria-label="QR code placeholder"></div>
+          <span>This QR lives on every box. It opens the full lab report for <em>your</em> batch — identity, potency, heavy metals, micro.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 4. WHAT'S INSIDE / COMPARISON ═══ -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow">The honest label</div>
+    <h2>Same price as the shelf. Three times the honesty.</h2>
+    <div class="cmp">
+      <table>
+        <thead>
+          <tr><th></th><th class="us">The Aldera</th><th>Typical gummy brand</th><th>Typical powder brand</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Form of magnesium</td><td class="us">Bisglycinate (chelated)</td><td>Oxide / citrate mix</td><td>“Proprietary blend”</td></tr>
+          <tr><td>Elemental dose per serving</td><td class="us num" style="text-align:left">150 mg</td><td class="num" style="text-align:left">≈ 40–80 mg</td><td class="num" style="text-align:left">Not disclosed</td></tr>
+          <tr><td>Added sugar</td><td class="us">0 g — stevia</td><td>3–5 g per serving</td><td>Varies</td></tr>
+          <tr><td>Per-batch lab report</td><td class="us">Public, on the box</td><td>—</td><td>—</td></tr>
+          <tr><td>Price per serving</td><td class="us num" style="text-align:left">$0.83</td><td class="num" style="text-align:left">$0.70–1.10</td><td class="num" style="text-align:left">$0.90–1.40</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:12px; font-size:12px; color:var(--muted)">Comparison values are illustrative category ranges for the demo layout.</p>
+  </div>
+</section>
+
+<!-- ═══ 5. LINEUP ═══ -->
+<section id="offer" style="padding-top:0">
+  <div class="wrap">
+    <div class="eyebrow">The launch lineup</div>
+    <h2>Four honest formulas. October 2026.</h2>
+    <div class="offers" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+      <div class="offer popular">
+        <span class="pop-tag">The ritual</span>
+        <h3>Magnesium Sticks</h3>
+        <p style="font-size:13.5px;color:var(--muted)">150 mg bisglycinate · raspberry lemonade fizz · 30 sticks</p>
+        <div class="price">$24.95</div>
+        <ul><li>Calm nights, clear mornings†</li><li>Sugar-free</li></ul>
+      </div>
+      <div class="offer">
+        <h3>Sea Moss Complex</h3>
+        <p style="font-size:13.5px;color:var(--muted)">1000 mg complex with bladderwrack &amp; burdock · 60 gummies</p>
+        <div class="price">$27.95</div>
+        <ul><li>92 trace minerals from the ocean†</li><li>Sugar-free</li></ul>
+      </div>
+      <div class="offer">
+        <h3>Lion&rsquo;s Mane</h3>
+        <p style="font-size:13.5px;color:var(--muted)">1000 mg 10:1 fruiting-body extract · 60 gummies</p>
+        <div class="price">$29.95</div>
+        <ul><li>Focus &amp; mental clarity†</li><li>Real fruiting body, no fillers</li></ul>
+      </div>
+      <div class="offer">
+        <h3>Saffron Extract</h3>
+        <p style="font-size:13.5px;color:var(--muted)">28 mg genuine Crocus sativus · 60 veg capsules</p>
+        <div class="price">$29.95</div>
+        <ul><li>Mood &amp; emotional balance†</li><li>Lab-verified — never gardenia</li></ul>
+      </div>
+    </div>
+    <p class="ship-note">Launch-week list gets <b>20% off</b> everything · <a href="#join" style="color:var(--accent)">join below</a></p>
+  </div>
+</section>
+
+<!-- ═══ 5b. JOIN ═══ -->
+<section id="join" style="padding-top:0">
+  <div class="wrap" style="max-width:560px;text-align:center">
+    <div class="eyebrow">Before everyone else</div>
+    <h2>Join the launch list</h2>
+    <p class="lead" style="margin:0 auto 18px">20% off launch week, first access to lab results, and zero spam — a few emails a year, that's it.</p>
+    <!-- TODO: point form action to Klaviyo list endpoint before go-live -->
+    <form onsubmit="event.preventDefault(); this.hidden=true; document.getElementById('joined').hidden=false;" style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center">
+      <input type="email" required placeholder="Your email" aria-label="Email address" style="flex:1; min-width:220px; padding:14px 16px; border:1.5px solid var(--line); border-radius:12px; font:inherit; font-size:15px; background:var(--card); color:var(--ink)">
+      <button class="btn" type="submit">Get my 20% code</button>
+    </form>
+    <p id="joined" hidden style="font-weight:700; color:var(--verify); margin-top:10px">You're on the list — see you in October. 🌿</p>
+  </div>
+</section>
+
+<!-- ═══ 6. FAQ ═══ -->
+<section style="padding-top:0">
+  <div class="wrap" style="max-width:760px">
+    <div class="eyebrow">Questions</div>
+    <h2>Everything else you&rsquo;d ask</h2>
+    <div style="margin-top:16px">
+      <details>
+        <summary>When do you launch?</summary>
+        <p>October 2026 — on TikTok Shop and right here at thealdera.com. The launch list gets first access and 20% off launch week.</p>
+      </details>
+      <details>
+        <summary>What does "lab report on every box" mean?</summary>
+        <p>Every production batch is tested by an independent ISO 17025 laboratory — identity, potency, heavy metals, microbiology. Each box carries a QR code that opens the certificate for your exact lot. Not a marketing badge: the actual document.</p>
+      </details>
+      <details>
+        <summary>Are the products really sugar-free?</summary>
+        <p>Yes. Sweetened with stevia, erythritol and prebiotic fiber, flavored with real fruit. Zero grams of sugar, nothing artificial.</p>
+      </details>
+      <details>
+        <summary>Is your saffron real?</summary>
+        <p>Yes — genuine Crocus sativus, HPLC-verified. Much of the "saffron" on the market is actually gardenia extract; we test every lot specifically to rule that out, and we print the proof.</p>
+      </details>
+      <details>
+        <summary>Where are products made?</summary>
+        <p>In cGMP, FDA-registered facilities, with final testing by independent US-accredited laboratories. Distributed from Florida by ISP Group LLC.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ 7. FOOTER ═══ -->
+<footer class="site">
+  <div class="wrap">
+    <div class="brand" style="font-size:18px">The Aldera <small style="letter-spacing:.24em">what’s printed is what’s inside</small></div>
+    <p class="disclaimer">†These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+    <p>Distributed by ISP Group LLC, Aventura, FL, USA · support@thealdera.com</p>
+    <p>© 2026 The Aldera · Privacy · Terms · Shipping &amp; Returns</p>
+  </div>
+</footer>
+
+<div class="sticky-cta">
+  <div class="p">Launching October <small>20% off for the launch list</small></div>
+  <a class="btn pulse" style="padding:12px 26px" href="#join">Join the list</a>
+</div>
+
+<!-- USP popup (appears after 7s) -->
+<div class="popup-ov" id="usp" hidden role="dialog" aria-modal="true" aria-label="Welcome offer">
+  <div class="popup">
+    <button class="x" id="uspX" aria-label="Close">✕</button>
+    <div class="eyebrow">The Aldera code</div>
+    <h3>What’s on the label is what’s in the capsule.</h3>
+    <p>Natural ingredients, full honest doses — and an independent lab report printed on every box. Launching October 2026.</p>
+    <div class="off">20% off launch week</div>
+    <input type="email" placeholder="Your email" aria-label="Email address">
+    <button class="btn" id="uspGo">Join the launch list</button>
+    <p class="tiny">A few emails a year. No spam, unsubscribe anytime.</p>
+  </div>
+</div>
+
+<script>
+  // Hero slot: ambient poster fizz + playable 15-sec animated storyboard of the future video
+  const cv = document.getElementById('fizz');
+  const glassEl = document.querySelector('.glass');
+  const playBtn = document.querySelector('.play');
+  const capEl = document.querySelector('.slot-cap');
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const ctx = cv.getContext('2d');
+  const dpr = devicePixelRatio;
+  let W, H;
+  function size(){ W = cv.width = cv.offsetWidth * dpr; H = cv.height = cv.offsetHeight * dpr; }
+  size(); addEventListener('resize', size);
+
+  const amb = [];
+  for (let i = 0; i < 42; i++) amb.push({
+    x: Math.random(), y: Math.random(), r: 1.5 + Math.random() * 3.5,
+    s: 0.0006 + Math.random() * 0.0018, o: 0.15 + Math.random() * 0.4
+  });
+
+  const DUR = 15;
+  let mode = 'poster', t0 = 0, drops = [], fizzB = [];
+  const clamp = x => x < 0 ? 0 : x > 1 ? 1 : x;
+  const ease = x => { x = clamp(x); return x * x * (3 - 2 * x); };
+  const lerp = (a, b, x) => a + (b - a) * x;
+  const fadeIO = (t, a, b, f) => (t < a || t > b) ? 0 : Math.min(1, (t - a) / f, (b - t) / f);
+
+  function glassGeom(){
+    const cx = W / 2, top = H * .42, bot = H * .90, htw = W * .19, hbw = W * .15, r = W * .045;
+    const p = new Path2D();
+    p.moveTo(cx - htw, top); p.lineTo(cx - hbw, bot - r);
+    p.quadraticCurveTo(cx - hbw, bot, cx - hbw + r, bot);
+    p.lineTo(cx + hbw - r, bot);
+    p.quadraticCurveTo(cx + hbw, bot, cx + hbw, bot - r);
+    p.lineTo(cx + htw, top);
+    return { p, cx, top, bot, htw, hbw };
+  }
+  const glassXhalf = (g, y) => lerp(g.htw, g.hbw, (y - g.top) / (g.bot - g.top));
+  const waterY = (g, t) => g.bot - (g.bot - g.top) * .62 * ease((t - 3.0) / 3.6);
+
+  function text(lines, y, px, alpha, o){
+    if (alpha <= 0) return; o = o || {};
+    ctx.save(); ctx.globalAlpha = alpha; ctx.textAlign = 'center';
+    ctx.fillStyle = o.color || '#F7FAF4';
+    ctx.font = (o.weight || '600') + ' ' + px + 'px ' + (o.family || "'Fraunces',Georgia,serif");
+    lines.forEach((l, i) => ctx.fillText(l, W / 2, y + i * px * 1.24));
+    ctx.restore();
+  }
+
+  function packet(t){
+    const alpha = Math.min(ease((t - .5) / .8), 1 - ease((t - 9.5) / 1.2));
+    if (alpha <= 0) return;
+    const x = lerp(W * 1.05, W * .63, ease((t - .5) / 1.2));
+    const y = H * .20;
+    const tilt = -.35 - 1.55 * ease((t - 2.4) / .9);
+    const w = W * .11, h = H * .30;
+    ctx.save(); ctx.globalAlpha = alpha;
+    ctx.translate(x, y); ctx.rotate(tilt);
+    ctx.fillStyle = '#EFEAD8'; ctx.beginPath();
+    if (ctx.roundRect) ctx.roundRect(-w/2, -h/2, w, h, 8 * dpr); else ctx.rect(-w/2, -h/2, w, h);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(30,74,54,.35)'; ctx.lineWidth = 1.5 * dpr; ctx.stroke();
+    ctx.fillStyle = '#1E4A36'; ctx.beginPath();
+    if (ctx.roundRect) ctx.roundRect(-w/2, -h/2, w, h * .16, [8*dpr, 8*dpr, 0, 0]); else ctx.rect(-w/2, -h/2, w, h * .16);
+    ctx.fill();
+    ctx.rotate(Math.PI / 2);
+    ctx.fillStyle = '#1E4A36'; ctx.textAlign = 'center';
+    ctx.font = '700 ' + (w * .26) + 'px Karla,sans-serif';
+    ctx.fillText('THE ALDERA', 0, w * .1);
+    ctx.restore();
+  }
+
+  function drawFrame(t){
+    ctx.clearRect(0, 0, W, H);
+    const g = glassGeom();
+    const lv = waterY(g, t);
+    if (lv < g.bot - 2){
+      ctx.save();
+      const closed = new Path2D(g.p); closed.closePath(); ctx.clip(closed);
+      const grad = ctx.createLinearGradient(0, lv, 0, g.bot);
+      grad.addColorStop(0, 'rgba(224,203,118,.62)'); grad.addColorStop(1, 'rgba(196,172,84,.42)');
+      ctx.fillStyle = grad; ctx.fillRect(g.cx - g.htw, lv, g.htw * 2, g.bot - lv);
+      ctx.fillStyle = 'rgba(255,255,245,.5)';
+      ctx.fillRect(g.cx - glassXhalf(g, lv), lv, glassXhalf(g, lv) * 2, 2 * dpr);
+      ctx.restore();
+    }
+    ctx.strokeStyle = 'rgba(255,255,255,.32)'; ctx.lineWidth = 2 * dpr; ctx.stroke(g.p);
+    const gl = fadeIO(t, 6.8, 11.8, 1.2);
+    if (gl > 0){
+      const rg = ctx.createRadialGradient(g.cx, (lv + g.bot) / 2, 10, g.cx, (lv + g.bot) / 2, H * .4);
+      rg.addColorStop(0, 'rgba(224,203,118,' + (.28 * gl) + ')'); rg.addColorStop(1, 'rgba(224,203,118,0)');
+      ctx.fillStyle = rg; ctx.fillRect(0, 0, W, H);
+    }
+    packet(t);
+    if (t > 2.9 && t < 6.4) for (let i = 0; i < 3; i++)
+      drops.push({ x: W * .52 + (Math.random() - .5) * W * .05, y: H * .30, vy: (2 + Math.random() * 2) * dpr, vx: (Math.random() - .6) * .8 * dpr });
+    drops = drops.filter(d => d.y < lv);
+    for (const d of drops){
+      d.y += d.vy; d.x += d.vx; d.vy += .15 * dpr;
+      ctx.fillStyle = 'rgba(239,234,216,.85)'; ctx.beginPath(); ctx.arc(d.x, d.y, 1.6 * dpr, 0, 7); ctx.fill();
+    }
+    const rate = t < 3 ? 0 : t < 6.8 ? 2 : t < 11.5 ? 7 : 2;
+    for (let i = 0; i < rate; i++){
+      const y0 = g.bot - 4 * dpr, hw = glassXhalf(g, y0) - 6 * dpr;
+      fizzB.push({ x: g.cx + (Math.random() * 2 - 1) * hw, y: y0, s: (1 + Math.random() * 2.4) * dpr, r: (1 + Math.random() * 2.2) * dpr, o: .25 + Math.random() * .5, w: Math.random() * 6.28 });
+    }
+    fizzB = fizzB.filter(b => b.y > lv + 4 * dpr);
+    for (const b of fizzB){
+      b.y -= b.s; b.w += .1;
+      ctx.fillStyle = 'rgba(255,255,242,' + b.o + ')';
+      ctx.beginPath(); ctx.arc(b.x + Math.sin(b.w) * 1.2 * dpr, b.y, b.r, 0, 7); ctx.fill();
+    }
+    text(['Half the shelf', 'is underdosed.'], H * .13, W * .072, fadeIO(t, .3, 2.8, .5));
+    text(['150 mg bisglycinate.', 'The full, honest dose.'], H * .13, W * .06, fadeIO(t, 3.1, 6.6, .5));
+    text(['Fizz. Sip. Sleep.†'], H * .14, W * .075, fadeIO(t, 7.2, 11.2, .5));
+    const ec = ease((t - 11.7) / .9);
+    if (ec > 0){
+      ctx.fillStyle = 'rgba(12,25,17,' + (.72 * ec) + ')'; ctx.fillRect(0, 0, W, H);
+      text(['THE ALDERA'], H * .42, W * .082, ec);
+      text(['What’s printed is what’s inside.'], H * .50, W * .038, ec, { family: 'Karla,sans-serif', weight: '500', color: '#BFE3C8' });
+      text(['Demo animation — placeholder for the real product video'], H * .86, W * .025, ec * .8, { family: 'Karla,sans-serif', weight: '400', color: 'rgba(255,255,255,.55)' });
+    }
+    ctx.fillStyle = 'rgba(255,255,255,.45)'; ctx.fillRect(0, H - 3 * dpr, W * (t / DUR), 3 * dpr);
+  }
+
+  function drawPoster(){
+    ctx.clearRect(0, 0, W, H);
+    for (const b of amb){
+      b.y -= b.s; if (b.y < -.05){ b.y = 1.05; b.x = Math.random(); }
+      ctx.beginPath(); ctx.arc(b.x * W, b.y * H, b.r * dpr, 0, 7);
+      ctx.fillStyle = 'rgba(233,220,168,' + b.o + ')'; ctx.fill();
+    }
+  }
+  function loop(now){
+    if (mode === 'playing'){
+      const t = (now - t0) / 1000;
+      if (t >= DUR){
+        drawFrame(DUR); mode = 'done';
+        playBtn.hidden = false; playBtn.setAttribute('aria-label', 'Replay');
+      } else drawFrame(t);
+    } else if (mode === 'poster' && !reduced) drawPoster();
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+  if (reduced) drawPoster();
+
+  playBtn.addEventListener('click', () => {
+    drops = []; fizzB = [];
+    glassEl.hidden = true;
+    capEl.textContent = 'Animated storyboard — the real spot will be filmed product footage, same beats.';
+    if (reduced){ mode = 'done'; drawFrame(DUR); return; }
+    playBtn.hidden = true; t0 = performance.now(); mode = 'playing';
+  });
+
+  // USP popup: one show per visit, 7s after load
+  const ov = document.getElementById('usp');
+  let uspShown = false;
+  setTimeout(() => {
+    if (uspShown) return; uspShown = true;
+    ov.hidden = false; requestAnimationFrame(() => ov.classList.add('show'));
+  }, 7000);
+  function hideUsp(){ ov.classList.remove('show'); setTimeout(() => { ov.hidden = true; }, 300); }
+  document.getElementById('uspX').addEventListener('click', hideUsp);
+  document.getElementById('uspGo').addEventListener('click', hideUsp);
+  ov.addEventListener('click', e => { if (e.target === ov) hideUsp(); });
+  addEventListener('keydown', e => { if (e.key === 'Escape' && !ov.hidden) hideUsp(); });
+</script>
