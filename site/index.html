@@ -681,7 +681,7 @@
       </ul>
       <p style="font-size:12.5px; color:var(--muted); margin:4px 0 0">Every order backed by a 30-day money-back guarantee. A few emails a year — no spam.</p>
       <!-- TODO: point form action to Klaviyo list endpoint before go-live -->
-      <form class="join-form" onsubmit="event.preventDefault(); this.hidden=true; document.getElementById('joined').hidden=false;">
+      <form class="join-form" onsubmit="event.preventDefault(); subscribeForm(this,'joined');">
         <input type="email" required placeholder="Your email" aria-label="Email address">
         <button class="btn" type="submit">Get my 20% code</button>
       </form>
@@ -746,7 +746,7 @@
       <a href="https://wa.me/13053086661" style="display:inline-flex; align-items:center; gap:9px; color:#C9A961; text-decoration:none; font-weight:700; letter-spacing:.04em">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16.5c0 1.4-1.1 2.5-2.5 2.5C10.6 19 5 13.4 5 5.5 5 4.1 6.1 3 7.5 3l2 .2 1.3 3.8-1.7 1.7c1 2.4 2.8 4.2 5.2 5.2l1.7-1.7 3.8 1.3.2 3z"/></svg>
         +1 (305) 308-6661 · WhatsApp</a></p>
-    <p>© 2026 The Aldera · Privacy · Terms · Shipping &amp; Returns</p>
+    <p>© 2026 The Aldera · <a href="/privacy.html" style="color:#A9BBA9">Privacy</a> · <a href="/terms.html" style="color:#A9BBA9">Terms</a> · Shipping &amp; Returns</p>
   </div>
 </footer>
 
@@ -764,7 +764,7 @@
     <p>Natural ingredients, full honest doses — and an independent lab report printed on every box. Launching October 2026.</p>
     <div class="off">20% OFF</div>
     <div class="offsub">Everything · All Launch Week</div>
-    <input type="email" placeholder="Your email" aria-label="Email address">
+    <input type="email" id="uspEmail" placeholder="Your email" aria-label="Email address">
     <button class="btn" id="uspGo">Join the launch list</button>
     <p class="tiny">A few emails a year. No spam, unsubscribe anytime.</p>
   </div>
@@ -779,8 +779,28 @@
     ov.hidden = false; requestAnimationFrame(() => ov.classList.add('show'));
   }, 7000);
   function hideUsp(){ ov.classList.remove('show'); setTimeout(() => { ov.hidden = true; }, 350); }
+  async function subscribeForm(f, okId){
+    const email = f.querySelector('input[type=email]').value.trim();
+    const btn = f.querySelector('button'); const orig = btn.textContent;
+    btn.disabled = true; btn.textContent = '…';
+    try{
+      const r = await fetch('/api/subscribe', {method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({email})});
+      if (r.ok){ f.hidden = true; document.getElementById(okId).hidden = false; return; }
+    }catch(e){}
+    btn.disabled = false; btn.textContent = 'Try again';
+    setTimeout(()=>{ btn.textContent = orig; }, 2500);
+  }
   document.getElementById('uspX').addEventListener('click', hideUsp);
-  document.getElementById('uspGo').addEventListener('click', hideUsp);
+  document.getElementById('uspGo').addEventListener('click', async () => {
+    const em = document.getElementById('uspEmail').value.trim();
+    const b = document.getElementById('uspGo');
+    if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)){
+      b.disabled = true; b.textContent = '…';
+      try{ await fetch('/api/subscribe', {method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify({email: em})}); }catch(e){}
+      b.textContent = "You're in ✓";
+      setTimeout(hideUsp, 900);
+    } else { hideUsp(); }
+  });
   ov.addEventListener('click', e => { if (e.target === ov) hideUsp(); });
   addEventListener('keydown', e => { if (e.key === 'Escape' && !ov.hidden) hideUsp(); });
 </script>
