@@ -51,3 +51,41 @@
 Анти-критерии: врачи/фармацевты-мега (юридически осторожны с клеймами, дороги), UK/AU/CA-криейтеры, аккаунты чисто food-review без wellness-угла (C-строки).
 
 Приоритетные A-строки этой транши для первых DM: @theracheldodge, @ruthswingler, @marinawrightwellness, @ericananglefit, @simonesharice, @jenlaurenn, @tasteofnutrition, @wearegirlswhoeat, @glutenfreejackie, @laurenhefez, @chiomaadavido, @foodiesushiqueen (TTS-профи), @amateurfoodalchemist, @habitsofagoddess, @taylorflesherr, @_megan.little_.
+
+---
+
+# Транша №2 (2026-09-10)
+
+**Итог:** +150 верифицированных строк (A=21, B=99, C=30) → **274 всего**. Методика транши №1 без изменений: только поисковый индекс, у каждой строки реальный source_url из выдачи, ничего не выдумано. Дубли против базы отсеяны скриптом.
+
+## Что сработало лучше всего (новое в этой транше)
+
+1. **Партнёрские хэштеги — главный апгрейд методики.** Запросы вида `"ollypartner"`, `"golipartner"`, `"bloompartner"`, `"maryruthspartner"`, `"lemmepartner"` (домен tiktok.com) отдают готовых аффилиатов с кодами прямо в кэпшене. Один запрос = 2-4 подтверждённых партнёра чужого supplement-бренда. Так найдены почти все новые A: @esnyhannah, @nazyfarnoosh (97.9k), @cararosedipietro (282.5k), @bri_ewing, @modhippiehabits (95.5k, New Chapter #Ad) и якоря C (@itskatesteinberg 2.9M, @lindamont 4.4M).
+2. **Бренд-обзоры** (Sunday Scaries, True Sea Moss, MaryRuth's, Waterboy, Liquid IV, Olly, Hilma, Thorne, AG1, Lemme, ARMRA, Physician's Choice, Micro Ingredients, Goli-ashwa, Bloom greens): стабильно 2-5 хендлов на запрос. Жемчужины: @eatswithalee (75.3k, код EATSWITHALE20 у Hilma), @mindfulmarlaa (код MARLA20), @mylifeasamerica (обзор lion's mane gummies Sunday Scaries — наш SKU 1-в-1).
+3. **Тренд-запросы**: cortisol face (@itsbrookeelle 214.2k — история восстановления), morning shed (5 новых), night shift nurse bag (@geezelouiseeeee 126.1k ICU SF), teacher 5am (@ms.johnson.teachess), kids magnesium (5 мам), PCOS smoothie, креатин для женщин, proffee, ASMR night routine, sleepy girl mocktail вариации.
+4. **Верификация подписчиков**: 20 запросов, ~85% попаданий (Famous Birthdays/urlebird/Exolyt/Analisa). По-прежнему делать только для кандидатов в A.
+
+## Что выжато / что осталось
+
+| Источник | Статус |
+|---|---|
+| Партнёрские хэштеги (olly/goli/bloom/maryruths/lemme/hydroflask/cse) | ★★★★★ — НЕ выжат: остались arrae, nello, beam, mudwtr, armra, liquidiv, waterboy, alani × partner |
+| Бренд-обзоры новых брендов | ★★★★☆ — рабочий; Cymbiotika/ARMRA дают коды в сниппетах, но без хендлов (искать «код + tiktok») |
+| Тренд-запросы | ★★★☆☆ — начинают повторяться (sleepy girl / adrenal выдают уже наших) |
+| Sunday Scaries бренд-майнинг | ★★☆☆☆ — выдача забита словом-мемом, не брендом |
+| Liquid IV / AG1 | ★★★☆☆ — много discover-страниц, мало хендлов |
+| 9-5 corporate girl | ★☆☆☆☆ — почти только discover-страницы |
+
+## Пометки к данным транши №2
+
+- **UK/AU-флаги (в C):** @chaos.to.sanity (84.5k, UK — жаль, идеальный lion's mane/ADHD профиль), @brittney_saunders (AU), @cl8ire888 (Novomins=UK), @hollyb_fitness («colourways»), @carmen_mair («stabilises»). Проверять при аутриче: @sairahayati, @poppymead, @trinicookingwithnatasha_, @kaanade (3.8M, возможно BR).
+- **Собственные бренды — не трогать как аффилиатов:** @wellnesswithlinds (основатель drinksymbi), @maymoves (своя фабрика, не внесена).
+- Приоритетные A этой транши для DM-волны: @eatswithalee, @itsbrookeelle, @cararosedipietro, @nazyfarnoosh, @katieyovin, @geezelouiseeeee, @modhippiehabits, @esnyhannah, @mindfulmarlaa, @mylifeasamerica, @candidlycarlie_, @mads_gainz.
+- TTS-профи (deals/coupon-аккаунты, конвертят в shoppable сразу): @smartgadgetmama, @saleseekerscentral, @couponingwithtina, @tiktok.savvy (+ якорь C @austinfendler 369k).
+
+## План на траншу №3 (до 500)
+
+1. Партнёрские хэштеги оставшихся брендов (см. таблицу) — ожидание +40-60 A/B.
+2. Коды из сниппетов без хендлов: `"NICOLECHANEY" armra`, `"LEXIESEGER" cymbiotika`, `"KATHERINEAIKEN10"` и т.п. — точечный поиск владельца кода.
+3. IG-крыло для собранных 274 (email-контакты через IG-био) — на этапе аутрича.
+4. Довериться Affiliate Center TTS, когда откроется кабинет: текущая база = target invite list.
