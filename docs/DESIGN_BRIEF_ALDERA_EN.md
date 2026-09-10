@@ -100,3 +100,8 @@ Notes:
 - Final PDFs go through our compliance check before print — small text corrections at that stage are part of the included revisions.
 
 **Contact for all questions during the project: this Behance chat / WhatsApp https://wa.me/message/E5R5U3OHLN32L1**
+
+---
+## Addendum (10.09) — The name story, for logo inspiration
+The brand is named after the **alder tree**: it grows where water runs clean, and it is one of the only trees that enriches the soil it grows in — an alder grove leaves the land richer than it found it. That is the brand: **Natural + Honest**, leaving the industry better than it found it. The icon MAY explore an alder leaf / alder catkin / tree mark — optional direction, not a requirement.
+Box size update: stick boxes are 18 × 13.5 × 4 cm (factory dieline file to follow).
