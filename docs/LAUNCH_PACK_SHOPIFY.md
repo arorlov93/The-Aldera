@@ -18,8 +18,8 @@
 **Title:** Magnesium Glycinate Drink Sticks — Raspberry Lemonade (30 Stick Packs)
 **Description:**
 One fizzy stick before bed. 150 mg of fully-chelated magnesium bisglycinate — the dose that's actually on the label, verified by an independent lab.
-- Supports relaxation and restful sleep†
-- Gentle on the stomach — chelated form†
+- Supports relaxation and restful sleep*
+- Gentle on the stomach — chelated form*
 - Sugar-free · natural raspberry & lemon flavors · nothing artificial
 - Every batch tested by an independent ISO 17025 lab — scan the QR on your box for your lot's report
 Mix one stick into cold water 30–60 minutes before bed. It fizzes. It's a ritual, not a chore.
@@ -28,8 +28,8 @@ Mix one stick into cold water 30–60 minutes before bed. It fizzes. It's a ritu
 ### SKU 2 · Sea Moss Complex Gummies — $27.95
 **Title:** Sea Moss Complex Gummies — Sugar-Free, with Bladderwrack & Burdock (60 Gummies)
 **Description:**
-1000 mg of Irish sea moss complex per serving — with bladderwrack, burdock root and spirulina. ocean trace minerals — full dose†, honest dose, lab-verified.
-- Supports thyroid health and metabolism†
+1000 mg of Irish sea moss complex per serving — with bladderwrack, burdock root and spirulina. ocean trace minerals — full dose*, honest dose, lab-verified.
+- Supports thyroid health and metabolism*
 - Sugar-free — sweetened with stevia and prebiotic fiber, no maltitol
 - Real dose per serving printed on the label — and proven by the batch lab report
 ⚠️ Contains iodine. Do not use if you have a thyroid condition without consulting your physician.
@@ -38,7 +38,7 @@ Mix one stick into cold water 30–60 minutes before bed. It fizzes. It's a ritu
 **Title:** Lion's Mane Mushroom Gummies — 10:1 Fruiting Body Extract, Sugar-Free (60 Gummies)
 **Description:**
 1000 mg of 10:1 fruiting-body extract per serving. Real fruiting body — no mycelium, no grain fillers, no 25 mg fairy dust.
-- Supports focus and mental clarity†
+- Supports focus and mental clarity*
 - 10:1 extract from Hericium erinaceus fruiting body
 - Sugar-free · nothing artificial · batch lab report on every bottle
 
@@ -46,13 +46,13 @@ Mix one stick into cold water 30–60 minutes before bed. It fizzes. It's a ritu
 **Title:** Saffron Extract Capsules — Genuine Crocus sativus, Lab-Verified (60 Veg Capsules)
 **Description:**
 28 mg of genuine saffron extract (Crocus sativus L.) per capsule. Much of the market's "saffron" is actually gardenia — ours is HPLC-verified genuine, and we print the proof.
-- Supports positive mood and emotional well-being†
+- Supports positive mood and emotional well-being*
 - DNA/HPLC-verified genuine saffron — never gardenia
 - One capsule daily · 60-day supply
 ⚠️ Not for use during pregnancy or while nursing.
 
 **На каждой странице товара (низ описания), VERBATIM:**
-†These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
+*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.
 
 ## 3. Бандлы (создать после запуска)
 - **The Calm Stack** — Magnesium + Sea Moss · $47.90 → **$44.95**

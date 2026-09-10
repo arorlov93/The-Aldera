@@ -38,7 +38,7 @@ Most supplement brands underdose and hide behind "proprietary blends". We print 
 
 ## 4. Mandatory elements on EVERY package
 
-**Front (principal display panel):** The Aldera logo · product name · the words "Dietary Supplement" · key claim line (per SKU below, with the † symbol exactly as written) · net quantity at the bottom (dual units as given).
+**Front (principal display panel):** The Aldera logo · product name · the words "Dietary Supplement" · key claim line (per SKU below, with the * symbol exactly as written) · net quantity at the bottom (dual units as given).
 
 **Back/info panel — reproduce VERBATIM:**
 - "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
@@ -55,36 +55,36 @@ Most supplement brands underdose and hide behind "proprietary blends". We print 
 ## 5. Per-SKU content
 
 ### BOX 1 — Magnesium Glycinate Sticks *(design this first)*
-Front: **Magnesium Glycinate** · Calm • Sleep • Muscle Support† · Raspberry Lemonade Flavor · Sugar-Free · 30 Stick Packs · NET WT 4.2 OZ (120 g)
+Front: **Magnesium Glycinate** · Calm • Sleep • Muscle Support* · Raspberry Lemonade Flavor · Sugar-Free · 30 Stick Packs · NET WT 4.2 OZ (120 g)
 Supplement Facts: Serving Size 1 Stick Pack (4 g) · Servings Per Container 30 · Magnesium (as Magnesium Bisglycinate) 150 mg — 36% DV · Other Ingredients: Citric Acid, Natural Raspberry & Lemon Flavors, Steviol Glycosides (Stevia), Erythritol, Silicon Dioxide
-Claims (use only these): "Supports relaxation and restful sleep†" · "Gentle on the stomach — chelated form†"
+Claims (use only these): "Supports relaxation and restful sleep*" · "Gentle on the stomach — chelated form*"
 
 ### BOX 2 — Mushroom Coffee Sticks
-Front: **Mushroom Coffee** · Energy Without the Jitters† · Cocoa Notes · 30 Stick Packs · NET WT 5.3 OZ (150 g)
+Front: **Mushroom Coffee** · Energy Without the Jitters* · Cocoa Notes · 30 Stick Packs · NET WT 5.3 OZ (150 g)
 Supplement Facts: Serving Size 1 Stick (5 g) · Servings 30 · Instant Coffee (Coffea spp.) 3 g · Mushroom Extract Blend 150 mg [species breakdown TBD from factory spec] · Other Ingredients: Cocoa Powder, Natural Flavors, Steviol Glycosides
 Extra line: "Contains approximately [Z] mg caffeine per serving" [TBD]
-Claims: "Smooth focus and clean energy†" · "Half the caffeine of regular coffee"
+Claims: "Smooth focus and clean energy*" · "Half the caffeine of regular coffee"
 
 ### BOX 3 — Daily Electrolytes Sticks
-Front: **Daily Electrolytes** · Hydration • Recovery† · Sugar-Free · Lemon-Lime · 30 Stick Packs · NET WT 4.8 OZ (135 g)
+Front: **Daily Electrolytes** · Hydration • Recovery* · Sugar-Free · Lemon-Lime · 30 Stick Packs · NET WT 4.8 OZ (135 g)
 Supplement Facts: Serving Size 1 Stick (4.5 g) · Servings 30 · Sodium (as Sodium Chloride/Citrate) 180 mg — 8% DV · Potassium (as Potassium Citrate) 120 mg — 2% DV · Magnesium (as Magnesium Glycinate) 30 mg — 7% DV · Other Ingredients: Citric Acid, Natural Lemon-Lime Flavor, Steviol Glycosides, Silicon Dioxide
-Claims: "Complete hydration without the sugar†"
+Claims: "Complete hydration without the sugar*"
 
 ### LABEL 1 — Sea Moss Gummies
-Front: **Sea Moss Complex** · 92 Trace Minerals from the Ocean† · Sugar-Free · Berry Flavor · 60 Gummies · NET WT 5.3 OZ (150 g)
+Front: **Sea Moss Complex** · 92 Trace Minerals from the Ocean* · Sugar-Free · Berry Flavor · 60 Gummies · NET WT 5.3 OZ (150 g)
 Supplement Facts: Serving Size 2 Gummies · Servings 30 · Irish Sea Moss (Chondrus crispus) 300 mg · Iodine [X] mcg — [Y]% DV [TBD from COA] · Other Ingredients: Pectin, Erythritol, Steviol Glycosides, Citric Acid, Natural Berry Flavor, Natural Colors (Fruit & Vegetable Juice), Coconut Oil, Carnauba Wax
-Claims: "Supports thyroid health and metabolism†" · "Honest dose, lab-verified†"
+Claims: "Supports thyroid health and metabolism*" · "Honest dose, lab-verified*"
 Extra warning VERBATIM: "Contains iodine. Do not use if you have a thyroid condition without consulting your physician."
 
 ### LABEL 2 — Lion's Mane Gummies
-Front: **Lion's Mane Mushroom** · Focus • Memory • Clarity† · 10:1 Fruiting Body Extract · Sugar-Free · 60 Gummies · NET WT 5.3 OZ (150 g)
+Front: **Lion's Mane Mushroom** · Focus • Memory • Clarity* · 10:1 Fruiting Body Extract · Sugar-Free · 60 Gummies · NET WT 5.3 OZ (150 g)
 Supplement Facts: Serving Size 2 Gummies · Servings 30 · Lion's Mane Mushroom Extract 10:1 (Hericium erinaceus, fruiting body) 400 mg · Other Ingredients: same as Sea Moss
-Claims: "Supports focus and mental clarity†" · "Real fruiting body — no mycelium, no grain fillers"
+Claims: "Supports focus and mental clarity*" · "Real fruiting body — no mycelium, no grain fillers"
 
 ### LABEL 3 — Saffron Capsules
-Front: **Saffron Extract** · Mood • Emotional Balance† · Genuine Crocus sativus — Lab Verified · 60 Veg Capsules
+Front: **Saffron Extract** · Mood • Emotional Balance* · Genuine Crocus sativus — Lab Verified · 60 Veg Capsules
 Supplement Facts: Serving Size 1 Capsule · Servings 60 · Saffron Extract (Crocus sativus L., stigma) 28 mg · Other Ingredients: [TBD from US producer spec]
-Claims: "Supports positive mood and emotional well-being†" · "DNA/HPLC-verified genuine saffron — never gardenia"
+Claims: "Supports positive mood and emotional well-being*" · "DNA/HPLC-verified genuine saffron — never gardenia"
 Extra warning VERBATIM: "Not for use during pregnancy or while nursing."
 
 ## 6. Process & milestones
