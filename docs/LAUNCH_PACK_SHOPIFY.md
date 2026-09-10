@@ -28,7 +28,7 @@ Mix one stick into cold water 30–60 minutes before bed. It fizzes. It's a ritu
 ### SKU 2 · Sea Moss Complex Gummies — $27.95
 **Title:** Sea Moss Complex Gummies — Sugar-Free, with Bladderwrack & Burdock (60 Gummies)
 **Description:**
-1000 mg of Irish sea moss complex per serving — with bladderwrack, burdock root and spirulina. 92 trace minerals from the ocean†, honest dose, lab-verified.
+1000 mg of Irish sea moss complex per serving — with bladderwrack, burdock root and spirulina. ocean trace minerals — full dose†, honest dose, lab-verified.
 - Supports thyroid health and metabolism†
 - Sugar-free — sweetened with stevia and prebiotic fiber, no maltitol
 - Real dose per serving printed on the label — and proven by the batch lab report

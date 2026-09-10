@@ -29,7 +29,7 @@ Supplement Facts: Serving Size 1 Stick Pack (4 g) · Servings 30 · **Magnesium 
 
 ## SKU 2 — Sea Moss Gummies (60×, ягодный)
 
-Фронт: **Sea Moss Complex** · 92 Trace Minerals from the Ocean† · Sugar-Free · Berry Flavor · 60 Gummies · NET WT 5.3 OZ (150 g)
+Фронт: **Sea Moss Complex** · Ocean Trace Minerals — Full Dose† · Sugar-Free · Berry Flavor · 60 Gummies · NET WT 5.3 OZ (150 g)
 
 Supplement Facts: Serving Size 2 Gummies · Servings 30 · **Irish Sea Moss (Chondrus crispus) 300 mg** · **Iodine [X] mcg — [Y]% DV** ← строка ОБЯЗАТЕЛЬНА, цифра из батч-COA (спека фабрике: ≤225 mcg/порцию) · Other Ingredients: Pectin, Erythritol, Steviol Glycosides, Citric Acid, Natural Berry Flavor, Natural Colors (Fruit & Vegetable Juice), Coconut Oil, Carnauba Wax
 
