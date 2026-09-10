@@ -73,7 +73,7 @@ We don't ask you to trust us. We ask you to scan.
 ## 6. FAQ / Shipping & Returns
 FAQ — взять 5 вопросов с лендинга (aldera-prelaunch.html).
 Shipping: Ships from Florida in 1–2 business days. Free US shipping over $49, flat $5.95 below.
-Returns: 30-day money-back guarantee. Email support@thealdera.com — no forms, no drama.
+Returns: 30-day money-back guarantee. Email info@thealdera.com or WhatsApp +1 (305) 308-6661 — no forms, no drama.
 
 ## 7. Klaviyo (создать до запуска)
 1. Welcome-серия (3 письма): история бренда+COA → «как принимать» → купон подписки
