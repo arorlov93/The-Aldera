@@ -1,5 +1,7 @@
 # TikTok Shop Launch Pack — The Aldera (готово к вставке)
 
+Голос бренда: What You See Is What You Get / show, don't sell — см. docs/BRAND_PLATFORM.md.
+
 Опоры: tiktok-shop-engine skill, docs/LABELS_COPY_PACK.md. Клеймы НЕ менять — каждое
 слово проверено на бан-безопасность. * обязателен у каждой benefit-фразы.
 
@@ -25,8 +27,8 @@
 ### Sea Moss Complex Gummies — якорь $44.95 → $27.95
 **Title:** Sea Moss Gummies Sugar Free | 1000mg Complex + Bladderwrack Burdock | Lab Tested 60ct
 **Bullets:**
-- 1000mg sea moss complex per serving — honest dose, not fairy dust
-- With bladderwrack, burdock root & spirulina — 92 trace minerals from the ocean*
+- 1000mg sea moss complex per serving — the full dose, printed and lab-proven
+- With bladderwrack, burdock root & spirulina — ocean trace minerals*
 - Supports thyroid health and metabolism*
 - SUGAR-FREE: stevia + prebiotic fiber, no maltitol, nothing artificial
 - Batch lab report on every bottle — scan & verify
@@ -37,7 +39,7 @@
 **Bullets:**
 - 1000mg of 10:1 FRUITING BODY extract per serving — no mycelium, no grain fillers
 - Supports focus and mental clarity*
-- Most shelf gummies hide 25mg doses — we print ours, then prove it
+- We print the real dose on the label — then prove it with the batch lab report
 - Sugar-free, berry flavor, nothing artificial
 - Independent ISO 17025 lab report on every batch
 **Запрещено:** memory loss, Alzheimer's, dementia, ADHD как болезнь, nerve regeneration
@@ -45,7 +47,7 @@
 ### Saffron Capsules — якорь $44.95 → $29.95
 **Title:** Saffron Supplement 28mg Genuine Crocus Sativus | Mood Support | Lab Verified 60ct
 **Bullets:**
-- GENUINE saffron — HPLC-verified Crocus sativus, never gardenia (most "saffron" isn't)
+- GENUINE saffron — identity-verified Crocus sativus, batch by batch
 - Supports positive mood and emotional well-being*
 - 28mg standardized extract per veg capsule — 60-day supply
 - Every lot tested: identity, potency, purity — report on the bottle
