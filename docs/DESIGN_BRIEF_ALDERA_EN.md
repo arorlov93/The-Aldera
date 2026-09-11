@@ -42,7 +42,7 @@ Most supplement brands underdose and hide behind "proprietary blends". We print 
 
 **Back/info panel — reproduce VERBATIM:**
 - "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
-- "Distributed by ISP Group LLC, [ADDRESS TBD], Florida, USA · thealdera.com"
+- "Distributed by ISP Group LLC, 18350 NW 2nd Ave, Suite 300, Miami Gardens, FL 33169, USA · thealdera.com"
 - "Made in China" (legible, near the distributor block) — *Saffron SKU: "Made in USA" instead*
 - "Store in a cool, dry place. Keep out of reach of children."
 - "Consult a healthcare professional before use if you are pregnant, nursing, taking medication, or have a medical condition."
