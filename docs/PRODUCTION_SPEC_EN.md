@@ -36,14 +36,42 @@ stated only as a total is rejected.
 
 ### A2. Dissolution, all drink sticks — PASS OR FAIL
 
-- One stick in **250 ml of water at 15 to 20 °C**, stirred for 20 seconds, must give a clear or
-  evenly dispersed drink with **no sediment, no floating clumps and no film on the glass** after
-  2 minutes standing.
+The standard is simple. **You pour the stick into a glass of cold water and it dissolves.**
+Nothing sinks, nothing floats, nothing stays on the bottom. A drink that needs warm water, a
+shaker bottle or a minute of stirring has failed.
+
+**The test**
+
+1. Pour one stick into **250 ml of water at 5 to 15 °C**, straight from the fridge.
+2. Stir with a spoon for **no more than 10 seconds**.
+3. Leave the glass standing for **10 minutes**.
+4. Pour the water out and look at the empty glass.
+
+**Pass means all of the following**
+
+- The powder wets instantly. No dry lumps with a powder centre.
+- The liquid is **clear**, not cloudy and not a suspension.
+- **Nothing on the bottom** of the glass at any point, and nothing when it is emptied.
+- Nothing floating on the surface, no foam ring, no film on the walls.
+- No grit when you drink it.
+
+"Evenly dispersed", "shake before drinking" and "slight natural sediment" are not acceptable
+answers. Our customers are drinking this from a bottle of ice water at a desk.
+
+**How to get there**
+
 - Powders must be **granulated**, not dry blended.
-- Flavour and colour carriers must be water soluble.
-- Poorly soluble salts (anhydrous tribasic magnesium citrate, magnesium malate, calcium lactate)
-  are not acceptable where a soluble alternative exists.
-- Send a **video of the dissolution test** with the samples.
+- Flavour and colour carriers must be water soluble. No oil based flavours.
+- Poorly soluble salts are not acceptable. Anhydrous tribasic magnesium citrate, magnesium malate
+  and calcium lactate all fail this test and must be replaced.
+- Particle size uniform and fine enough to wet immediately.
+
+**Proof required**
+
+- A **video of the test above** with each sample, filmed in one take, showing the glass from the
+  side and then the empty glass after pouring out.
+- The same test repeated on the **production batch before shipment**, with video, as a condition
+  of release. A batch that fails does not ship.
 
 ### A3. Sweetener system
 
