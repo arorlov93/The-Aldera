@@ -1,8 +1,12 @@
-# THE ALDERA — Production Specification v3
+# THE ALDERA — Production Specification v4
 
 **Client:** 518 Group LLC, 7901 4th St N, Suite 300, St. Petersburg, FL 33702, USA · thealdera.com
 **Market:** United States. All products are sold as dietary supplements under 21 CFR 111 and 101.36.
-**Date:** 20 September 2026. This version supersedes all earlier specifications.
+**Date:** 21 September 2026. This version supersedes all earlier specifications.
+
+**Six products, all gummies and capsules.** We are asking for **stock formulas under our own label**
+wherever you have them. If your existing formula already meets the minimum column, say so and quote
+it. We would rather start from something you make today than wait on development.
 
 ## How to read this document
 
@@ -16,13 +20,11 @@ meet and why. A quotation that silently drops below the minimum is treated as no
 
 Some requirements have no second column. Those are pass or fail:
 
-1. Complete dissolution of every drink stick (A2).
-2. Fruiting body only in mushroom products. No mycelium on grain.
+1. Fruiting body only in mushroom products. No mycelium on grain.
+2. Pectin gummy base, no gelatin.
 3. No maltitol, isomaltitol, sucralose, aspartame or added sugar.
-4. Pectin gummy base, no gelatin.
-5. Iodine ceiling of 225 mcg per serving in Sea Moss.
-6. Certificates of analysis with numeric results, issued in the name of the real manufacturer.
-7. Truthful export documents.
+4. Iodine ceiling of 225 mcg per serving in Sea Moss.
+5. Certificates of analysis with numeric results, in the name of the facility that makes the goods.
 
 ---
 
@@ -34,137 +36,54 @@ Doses below are floors, not targets to be reduced. Our brand is built on printin
 proving it. **Every active must be declared individually with its own milligram figure.** A blend
 stated only as a total is rejected.
 
-### A2. Dissolution, all drink sticks — PASS OR FAIL
+### A2. Gummy quality — PASS OR FAIL
 
-The standard is simple. **You pour the stick into a glass of cold water and it dissolves.**
-Nothing sinks, nothing floats, nothing stays on the bottom. A drink that needs warm water, a
-shaker bottle or a minute of stirring has failed.
+- **Pectin base, vegan. No gelatin.**
+- Gummies must **not stick to each other** in the bottle at 25 °C, and must not need a separating
+  agent that shows as a white dust.
+- They must **stay soft through the stated shelf life**, not harden or crystallise. Send the
+  stability data that supports the shelf life you state.
+- Natural colours from fruit and vegetable juice. No synthetic dyes.
+- No unpleasant aftertaste from the active. If the raw material is bitter, tell us how it is masked.
 
-**The test**
+### A3. Capsule quality — PASS OR FAIL
 
-1. Pour one stick into **250 ml of water at 5 to 15 °C**, straight from the fridge.
-2. Stir with a spoon for **no more than 10 seconds**.
-3. Leave the glass standing for **10 minutes**.
-4. Pour the water out and look at the empty glass.
+- **Vegetarian capsules (HPMC)**, not bovine or porcine gelatin.
+- **Disintegration within 30 minutes** per USP, with the measured time in the COA.
+- Fill weight variation within USP limits, stated.
+- No unnecessary flow agents. If magnesium stearate is used, say so and give the amount.
 
-**Pass means all of the following**
-
-- The powder wets instantly. No dry lumps with a powder centre.
-- The liquid is **clear**, not cloudy and not a suspension.
-- **Nothing on the bottom** of the glass at any point, and nothing when it is emptied.
-- Nothing floating on the surface, no foam ring, no film on the walls.
-- No grit when you drink it.
-
-"Evenly dispersed", "shake before drinking" and "slight natural sediment" are not acceptable
-answers. Our customers are drinking this from a bottle of ice water at a desk.
-
-**How to get there**
-
-- Powders must be **granulated**, not dry blended.
-- Flavour and colour carriers must be water soluble. No oil based flavours.
-- Poorly soluble salts are not acceptable. Anhydrous tribasic magnesium citrate, magnesium malate
-  and calcium lactate all fail this test and must be replaced.
-- Particle size uniform and fine enough to wet immediately.
-
-**Proof required**
-
-- A **video of the test above** with each sample, filmed in one take, showing the glass from the
-  side and then the empty glass after pouring out.
-- The same test repeated on the **production batch before shipment**, with video, as a condition
-  of release. A batch that fails does not ship.
-
-### A3. Sweetener system
+### A4. Sweetener system, gummies
 
 | | Target | Minimum acceptable |
 |---|---|---|
-| Sweeteners | Reb M plus allulose | Reb M, or stevia with monk fruit |
-| Erythritol | Minimised, partly replaced by allulose | Permitted, declared |
+| Sweeteners | Allulose plus Reb M | Reb M, or stevia with monk fruit |
+| Erythritol | Minimised | Permitted, declared |
 
 **Never acceptable:** maltitol, isomaltitol, sorbitol, sucralose, aspartame, acesulfame K, added
 sugar, plain stevioside.
 
-### A4. Acids
-
-Target: a citric and malic acid blend. Minimum: citric acid, with the sourness balanced so it is
-not sharp.
-
-### A5. Gummies
-
-Pectin base, vegan, **no gelatin**. Natural colours from fruit and vegetable juice.
-
-### A6. Testing and documents
+### A5. Testing and documents
 
 - **Certificate of analysis for every batch** from an ISO 17025 laboratory, with **numeric results**.
   A COA repeating the limit ("complies", "≤1.0 ppm") instead of the measured value is not accepted.
 - Heavy metals within California Proposition 65 limits.
 - Microbiology, allergen statement and shelf life study per product.
 - Certificates must carry the **legal name of the facility that actually manufactures the goods**.
-- Export documents must state the true product description, HS code **2106.90** and the true
-  manufacturer. Our company is the Importer of Record and signs the US customs entry.
+- Tell us your **NSF or cGMP registration number** so we can verify it in the public register.
 
-### A7. Packaging
+### A6. Packaging
 
-- **Drink sticks:** plain aluminium foil sachets, no printing. Retail carton 18 × 13.5 × 4 cm,
-  printed by the factory to our artwork.
-- **Gummies and capsules:** white HDPE bottle with induction seal, wrap label.
-- Empty imprint zones for LOT and Best By on every pack.
+- White HDPE bottle with induction seal and child resistant cap.
+- Wrap label. Tell us whether you print and apply labels, and the lead time either way.
+- Empty imprint zones for **LOT** and **Best By** on every bottle.
+- Barcode zone left clear. We supply the GTIN.
 
 ---
 
 ## PART B — PRODUCT SPECIFICATIONS
 
-### B1. Magnesium Glycinate Drink Sticks
-
-30 stick packs per retail box. Serving: 1 stick, 5 to 6 g. Raspberry lemonade, natural.
-
-| Line | Target | Minimum acceptable |
-|---|---|---|
-| Magnesium, elemental | **300 mg** (71% DV) | **200 mg** (48% DV) |
-| Form | Magnesium bisglycinate | Any form meeting A2 |
-| Dissolution | Clear solution | Pass or fail, see A2 |
-| Sweeteners | Reb M plus allulose | Reb M |
-
-**Question to you.** 300 mg elemental from bisglycinate is roughly 2.1 g of raw material, and
-bisglycinate is poorly soluble. Tell us which you can deliver against A2:
-
-1. Bisglycinate at 300 mg elemental, fully dissolving. State how.
-2. Magnesium lactate or chloride at 300 mg elemental, fully dissolving.
-3. An effervescent system, magnesium carbonate with citric acid and bicarbonate, where the citrate
-   forms in the glass and gives a clear fizzy drink.
-
-Do not quote a formula that leaves sediment in the glass.
-
-### B2. Mushroom Coffee Drink Sticks
-
-30 stick packs per retail box. Serving: 1 stick, 5 to 6 g. Cocoa notes.
-
-| Line | Target | Minimum acceptable |
-|---|---|---|
-| Mushroom extract blend | **2,500 mg** | **1,500 mg** |
-| Species | Lion's mane, chaga, reishi, cordyceps, each declared in mg | At least lion's mane and chaga, each declared in mg |
-| Extraction | Fruiting body only | Pass or fail. No mycelium on grain, no starch carriers |
-| Instant coffee | 1.2 to 1.5 g | Enough for 40 to 70 mg caffeine |
-| Caffeine per serving | 50 to 60 mg | **Never above 70 mg** |
-
-Caffeine must be measured and stated in the COA. Our label claims half the caffeine of regular
-coffee, so a serving above 70 mg breaks the claim.
-
-### B3. Daily Electrolytes Drink Sticks
-
-30 stick packs per retail box. Serving: 1 stick, approximately 6 g. Lemon lime, natural. Zero sugar.
-
-| Line | Target | Minimum acceptable |
-|---|---|---|
-| Sodium | **1,000 mg** | **500 mg** |
-| Potassium | **400 mg** | **200 mg** |
-| Magnesium, elemental | **100 mg** | **50 mg** |
-| Sodium sources | Sodium chloride and sodium citrate | Sodium chloride |
-| Magnesium source | Fully soluble form | Pass or fail, see A2 |
-
-The category leaders run 500 to 1,000 mg sodium. A low sodium electrolyte is flavoured water and
-will be reviewed as one.
-
-### B4. Sea Moss Complex Gummies
+### B1. Sea Moss Complex Gummies
 
 60 gummies per bottle. Serving: 2 gummies. Berry, natural. Pectin base.
 
@@ -178,7 +97,16 @@ will be reviewed as one.
 Iodine is the controlling constraint. If the raw material pushes iodine above the ceiling, reduce
 the sea moss rather than exceed it, and tell us the resulting figure.
 
-### B5. Lion's Mane Gummies
+### B2. Ashwagandha Gummies
+
+60 gummies per bottle. Serving: 2 gummies. Pectin base.
+
+| Line | Target | Minimum acceptable |
+|---|---|---|
+| Ashwagandha root extract | **600 mg KSM-66** | **500 mg** standardised to 5% withanolides |
+| Plant part | Root only | Pass or fail. Leaf extract is not acceptable |
+
+### B3. Lion's Mane Gummies
 
 60 gummies per bottle. Serving: 2 gummies. Berry, natural. Pectin base.
 
@@ -192,34 +120,7 @@ the sea moss rather than exceed it, and tell us the resulting figure.
 The beta glucan figure decides whether we buy. Starch is not beta glucan, and an iodine stain test
 is not an assay. Quote only if you can supply the assay.
 
-### B6. Ashwagandha Gummies
-
-60 gummies per bottle. Serving: 2 gummies. Pectin base.
-
-| Line | Target | Minimum acceptable |
-|---|---|---|
-| Ashwagandha root extract | **600 mg KSM-66** | **500 mg** root extract standardised to 5% withanolides |
-| Plant part | Root only | Pass or fail. Leaf extract is not acceptable |
-
-### B7. Saffron Extract Capsules
-
-60 vegetarian capsules per bottle. Serving: 1 capsule. **Manufactured in the United States.**
-
-| Line | Target | Minimum acceptable |
-|---|---|---|
-| Saffron extract, Crocus sativus L., stigma | **30 mg branded affron or Satiereal**, with certificate of authenticity | **28 mg**, standardisation stated |
-| Authenticity | Branded extract plus Tru-ID or equivalent | HPLC per ISO 3632 **and** written confirmation that no geniposide, the gardenia marker, is present |
-
-### B8. L-Theanine Capsules
-
-60 vegetarian capsules per bottle. Serving: 1 capsule.
-
-| Line | Target | Minimum acceptable |
-|---|---|---|
-| L-theanine | **200 mg Suntheanine** | **200 mg**, fermentation derived |
-| Not acceptable | | Synthetic racemic mixture |
-
-### B9. Tongkat Ali Capsules
+### B4. Tongkat Ali Capsules
 
 60 vegetarian capsules per bottle. Serving: 1 capsule.
 
@@ -228,30 +129,49 @@ is not an assay. Quote only if you can supply the assay.
 | Eurycoma longifolia root extract | **400 mg of 200:1**, or **LJ100 100 mg** standardised to 40% glycosaponins and 22% eurypeptides | **200 mg of 100:1** |
 | Heavy metals | Per batch, numeric | Pass or fail. This root concentrates mercury and lead |
 
-### B10. Beetroot Drink Sticks
+### B5. L-Theanine Capsules
 
-30 stick packs per retail box. Serving: 1 stick, approximately 7 g.
+60 vegetarian capsules per bottle. Serving: 1 capsule.
 
 | Line | Target | Minimum acceptable |
 |---|---|---|
-| Beetroot powder | **6,000 mg** | **3,000 mg** |
-| Alternative | Beetroot extract standardised to nitrate, figure stated | |
+| L-theanine | **200 mg Suntheanine** | **200 mg**, fermentation derived |
+| Not acceptable | | Synthetic racemic mixture |
+
+### B6. Saffron Extract Capsules
+
+60 vegetarian capsules per bottle. Serving: 1 capsule.
+
+| Line | Target | Minimum acceptable |
+|---|---|---|
+| Saffron extract, Crocus sativus L., stigma | **30 mg branded affron or Satiereal**, with certificate of authenticity | **28 mg**, standardisation stated |
+| Authenticity | Branded extract plus Tru-ID or equivalent | HPLC per ISO 3632 **and** written confirmation that no geniposide, the gardenia marker, is present |
+
+Saffron is the most adulterated botanical in this category. Gardenia is routinely sold as saffron
+and passes a colour test. We check for geniposide, and a quotation without an authenticity answer
+is not considered.
 
 ---
 
 ## PART C — WHAT WE NEED IN YOUR QUOTATION
 
-**Please quote all ten products. Our first order will be three of them**, the drink sticks in B1, B2
-and B3. The rest follow in a second wave, and we want your pricing now so we can plan it.
+1. **Which of the six you already have as a stock formula**, and the exact dose in each one.
+2. Price per bottle at **1,000 / 2,500 / 5,000** units per product, with the label applied.
+3. Minimum order quantity per product.
+4. Lead time in working days from approval of the label artwork to finished bottles shipped.
+5. Whether you print and apply labels, and the lead time either way.
+6. Full ingredient list with milligrams for every product quoted, so we can check it against this
+   specification before ordering.
+7. Your NSF or cGMP registration number.
+8. Sample lead time and cost. **We would like samples of your stock formulas this week.**
 
-1. Price per unit at **1,000 / 3,000 / 5,000** units per product, EXW, at the **target** column.
-2. The same three prices at the **minimum acceptable** column, so we can see what the difference
-   between the two costs.
-3. Minimum order quantity per product, in bottles or retail boxes **and** in sachets or gummies.
-4. Production lead time in working days, counted from deposit.
-5. Confirmation, per product, that you meet the dissolution requirement in A2.
-6. For every product quoted: the **full ingredient list with milligrams**, so we can check it against
-   this specification before ordering.
-7. Business licence, food production licence and FDA food facility registration number of the
-   **facility that will manufacture the goods**, plus its address.
-8. Sample lead time and cost.
+Samples to: 19900 E Country Club Dr, Apt 410, Aventura, FL 33180.
+
+---
+
+## Note on a second wave
+
+Four further products are planned as drink sticks: magnesium, mushroom coffee, daily electrolytes
+and beetroot. They are not part of this request because their run sizes do not yet reach the
+minimums for stick pack lines. If you run stick packs, tell us your minimum and we will plan
+around it.
