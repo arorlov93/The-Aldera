@@ -1,6 +1,6 @@
 # THE ALDERA — Brand & Packaging Design Brief
 
-**Client:** The Aldera (ISP Group LLC, Florida, USA) · thealdera.com
+**Client:** The Aldera (518 Group LLC, Florida, USA) · thealdera.com
 **Scope:** Logo + brand identity + print-ready packaging for 6 supplement SKUs
 **Budget agreed:** $250 (30% start / 70% on final approved files) · **Timeline:** please propose your realistic timeline for each milestone below
 
@@ -42,7 +42,7 @@ Most supplement brands underdose and hide behind "proprietary blends". We print 
 
 **Back/info panel — reproduce VERBATIM:**
 - "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
-- "Distributed by ISP Group LLC, 18350 NW 2nd Ave, Suite 300, Miami Gardens, FL 33169, USA · thealdera.com"
+- "Distributed by 518 Group LLC, 7901 4th St N, Suite 300, St. Petersburg, FL 33702, USA · thealdera.com"
 - "Made in China" (legible, near the distributor block) — *Saffron SKU: "Made in USA" instead*
 - "Store in a cool, dry place. Keep out of reach of children."
 - "Consult a healthcare professional before use if you are pregnant, nursing, taking medication, or have a medical condition."

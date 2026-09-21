@@ -8,7 +8,7 @@
 
 **VERBATIM — задняя панель, на каждой этикетке:**
 - Дисклеймер (обязателен при любом клейме): *"These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."*
-- Дистрибьютор + приём жалоб: *"Distributed by ISP Group LLC, [АДРЕС, Florida, ZIP], USA · thealdera.com"* (адрес вставить после аренды UNIT 316; рядом телефон или email для serious adverse event reports)
+- Дистрибьютор + приём жалоб: *"Distributed by 518 Group LLC, [АДРЕС, Florida, ZIP], USA · thealdera.com"* (адрес вставить после аренды UNIT 316; рядом телефон или email для serious adverse event reports)
 - Происхождение: *"Made in China"* — читаемо, рядом с блоком дистрибьютора (требование CBP)
 - Хранение: *"Store in a cool, dry place. Keep out of reach of children."*
 - Базовое предупреждение: *"Consult a healthcare professional before use if you are pregnant, nursing, taking medication, or have a medical condition."*
@@ -73,7 +73,7 @@ Supplement Facts: Serving Size 1 Capsule · Servings 60 · **Saffron Extract (Cr
 ---
 
 ## Чек до передачи в печать (гейт)
-1. [ ] Адрес ISP Group LLC вставлен (после аренды)
+1. [ ] Адрес 518 Group LLC вставлен (после аренды)
 2. [ ] Все Amount Per Serving = фабричной спеке и батч-COA (TIC/TikTok сверяют дословно)
 3. [ ] Строка йода (SKU 2) и кофеина (SKU 4) заполнены из COA
 4. [ ] Латынь + часть гриба/растения в панелях

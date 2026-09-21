@@ -1,6 +1,6 @@
 # The Aldera — US Compliance Audit (Amazon / TikTok Shop / Shopify)
 
-Дата: 01.09.2026. Готовил: research-агент по открытым источникам. Seller entity: ISP Group LLC (Florida). Производство: Китай (фабричные ISO 17025 COA + cGMP/FDA-registration).
+Дата: 01.09.2026. Готовил: research-агент по открытым источникам. Seller entity: 518 Group LLC (Florida). Производство: Китай (фабричные ISO 17025 COA + cGMP/FDA-registration).
 Статус: рабочий аудит для принятия решений до запуска производства. Не является юридической консультацией — перед печатью этикеток рекомендуется ревью FDA-attorney / labeling-консультанта.
 
 ---
@@ -13,10 +13,10 @@
 2. **Statement of identity**: слово «Dietary Supplement» (или «Herbal Supplement» и т.п.) на PDP.
 3. **Net quantity of contents** (dual units: г/oz, count).
 4. **Ingredient list** (other ingredients) + **allergen statement** по FALCPA (9 major allergens; для наших рецептур критично проверить носители/ароматизаторы — кокос, соя-лецитин, молочные следы на линии).
-5. **Имя и адрес** manufacturer/packer/distributor + **domestic (US) address или телефон** для приёма serious adverse event reports (Dietary Supplement and Nonprescription Drug Consumer Protection Act 2006). Практический формат: «Distributed by ISP Group LLC, [адрес во Флориде]».
+5. **Имя и адрес** manufacturer/packer/distributor + **domestic (US) address или телефон** для приёма serious adverse event reports (Dietary Supplement and Nonprescription Drug Consumer Protection Act 2006). Практический формат: «Distributed by 518 Group LLC, [адрес во Флориде]».
 6. **DSHEA-дисклеймер** дословно, при любом structure/function claim: *«This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.»* + нотификация S/F-клеймов в FDA в течение 30 дней после начала продаж ([FDA Structure/Function Claims](https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/structurefunction-claims)).
-7. **Country of origin**: импортный товар обязан нести маркировку «Made in China» / «Product of China» — читаемо, на видном месте, несмываемо (Tariff Act 1930, [19 CFR Part 134](https://www.ecfr.gov/current/title-19/chapter-I/part-134), [CBP marking guide](https://www.cbp.gov/sites/default/files/assets/documents/2020-Jul/ICPMarking-of-COO-onUS-Imports.pdf)). «Distributed by ISP Group LLC, FL» рядом с «Made in China» — обязательная пара, иначе CBP может задержать партию.
-8. **Регистрация и импорт**: китайская фабрика должна иметь действующую FDA food facility registration и **US Agent**; ISP Group LLC как импортёр обязан вести **FSVP** (Foreign Supplier Verification Program) — для готовых supplements верификация фокусируется на соответствии поставщика cGMP 21 CFR 111 ([FDA FSVP final rule](https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-foreign-supplier-verification-programs-fsvp-importers-food-humans-and-animals), [Registrar Corp FSVP guide](https://www.registrarcorp.com/blog/food-beverage/fsma/fsvp-importer-guide/)). Для FSVP нужен DUNS (UFI) у ISP Group LLC.
+7. **Country of origin**: импортный товар обязан нести маркировку «Made in China» / «Product of China» — читаемо, на видном месте, несмываемо (Tariff Act 1930, [19 CFR Part 134](https://www.ecfr.gov/current/title-19/chapter-I/part-134), [CBP marking guide](https://www.cbp.gov/sites/default/files/assets/documents/2020-Jul/ICPMarking-of-COO-onUS-Imports.pdf)). «Distributed by 518 Group LLC, FL» рядом с «Made in China» — обязательная пара, иначе CBP может задержать партию.
+8. **Регистрация и импорт**: китайская фабрика должна иметь действующую FDA food facility registration и **US Agent**; 518 Group LLC как импортёр обязан вести **FSVP** (Foreign Supplier Verification Program) — для готовых supplements верификация фокусируется на соответствии поставщика cGMP 21 CFR 111 ([FDA FSVP final rule](https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-foreign-supplier-verification-programs-fsvp-importers-food-humans-and-animals), [Registrar Corp FSVP guide](https://www.registrarcorp.com/blog/food-beverage/fsma/fsvp-importer-guide/)). Для FSVP нужен DUNS (UFI) у 518 Group LLC.
 9. **Prop 65 (Калифорния)**: тяжёлые металлы (свинец, мышьяк, кадмий) — особенно актуально для sea moss и грибов; лимит свинца по safe harbor — 0.5 мкг/день. Требовать от фабрики спецификацию и батч-тесты.
 
 ---
@@ -98,10 +98,10 @@
 - [ ] **Warnings**: беременность/кормление (saffron — обязательно; остальные — стандартный блок), thyroid/iodine warning (sea moss), кофеин на стик (coffee), «keep out of reach of children» (гамми!).
 - [ ] **Текст DSHEA-дисклеймера** дословно + список утверждённых S/F-клеймов (единый для этикетки, листингов, креативов) — под 30-дневную нотификацию FDA.
 - [ ] **Allergen statement** после подтверждения all other ingredients фабрикой (ароматизаторы/носители).
-- [ ] **Адресный блок**: «Distributed by ISP Group LLC, [FL address], [phone/US address для adverse events]» + **«Made in China»** рядом, читаемым шрифтом.
+- [ ] **Адресный блок**: «Distributed by 518 Group LLC, [FL address], [phone/US address для adverse events]» + **«Made in China»** рядом, читаемым шрифтом.
 - [ ] **Net quantity** (dual units) и serving size/servings per container согласованы с фактическим фасовочным весом стиков/гамми.
 - [ ] **Совпадение юрлиц**: имя и адрес фабрики в FDA registration = в cGMP-досье = то, что уйдёт в TIC; FDA registration фабрики активна, US Agent назначен.
-- [ ] **FSVP-папка ISP Group LLC** заведена (DUNS/UFI, supplier verification по 21 CFR 111) — до первого импорта.
+- [ ] **FSVP-папка 518 Group LLC** заведена (DUNS/UFI, supplier verification по 21 CFR 111) — до первого импорта.
 - [ ] **Lot/expiry-формат** утверждён (≥18 мес shelf life с подтверждением стабильности хотя бы accelerated).
 - [ ] **План TIC**: выбран провайдер (NSF/Eurofins/др.), запрошены квоты на 6 ASIN c консолидацией по площадке, зарезервированы образцы из первой партии (TIC-тесты = 3–6 недель — при прилёте партии в Майами 10.10 листинги Amazon реалистично открываются ноябрь–декабрь 2026).
 

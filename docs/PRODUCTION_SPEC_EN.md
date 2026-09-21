@@ -1,6 +1,6 @@
 # THE ALDERA — Production Specification v3
 
-**Client:** ISP Group LLC, 18350 NW 2nd Ave, Suite 300, Miami Gardens, FL 33169, USA · thealdera.com
+**Client:** 518 Group LLC, 7901 4th St N, Suite 300, St. Petersburg, FL 33702, USA · thealdera.com
 **Market:** United States. All products are sold as dietary supplements under 21 CFR 111 and 101.36.
 **Date:** 20 September 2026. This version supersedes all earlier specifications.
 

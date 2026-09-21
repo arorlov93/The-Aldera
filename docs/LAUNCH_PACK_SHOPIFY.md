@@ -6,7 +6,7 @@
 ## 1. Чеклист создания магазина (владелец, ~2 часа)
 1. shopify.com → Start free trial → план Basic ($39/мес) · магазин: **The Aldera** · домен привязать thealdera.com (Settings → Domains → Connect existing)
 2. Тема: **Dawn** (бесплатная) · цвета: фон #F7F5EF, акцент #2E6B4F, текст #1F2B23 · шрифты: заголовки serif (Playfair/EB Garamond до финального от дизайнера), текст sans
-3. Settings → Payments: Shopify Payments (нужны EIN ISP Group + банковский счёт BofA)
+3. Settings → Payments: Shopify Payments (нужны EIN 518 Group LLC + банковский счёт)
 4. Settings → Shipping: US only · Free shipping от $49 · Flat $5.95 до $49
 5. Приложения (только эти): Klaviyo (email) · Judge.me (отзывы) · Loop/Seal (подписка −20%)
 6. Страницы: Our Story · Lab Results · FAQ · Shipping & Returns (тексты ниже)

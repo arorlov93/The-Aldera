@@ -134,7 +134,7 @@ NSF или cGMP:              да / нет
 ## Если спросят у Полины
 
 **«Кто вы, какая у вас компания?»**
-> The Aldera, a brand of ISP Group LLC, based in Miami Gardens, Florida. We're launching this fall
+> The Aldera, a brand of 518 Group LLC, based in St. Petersburg, Florida. We're launching this fall
 > on our own site and on TikTok Shop.
 
 **«Какой у вас объём в год?»**

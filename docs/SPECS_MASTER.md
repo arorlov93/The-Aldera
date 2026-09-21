@@ -148,7 +148,7 @@
 
 **Информационная панель, дословно:**
 - «These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.»
-- «Distributed by ISP Group LLC, 18350 NW 2nd Ave, Suite 300, Miami Gardens, FL 33169, USA · thealdera.com»
+- «Distributed by 518 Group LLC, 7901 4th St N, Suite 300, St. Petersburg, FL 33702, USA · thealdera.com»
 - «Made in China» (для шафрана «Made in USA»), читаемо, рядом с блоком дистрибьютора
 - «Store in a cool, dry place. Keep out of reach of children.»
 - «Consult a healthcare professional before use if you are pregnant, nursing, taking medication, or have a medical condition.»
