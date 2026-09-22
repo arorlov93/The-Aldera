@@ -1,12 +1,12 @@
-# 产品技术要求 · THE ALDERA（一页版）
+# 产品技术要求 · THE ALDERA（摘要）
 
 **Спека на китайском, одна страница. Печатать и отдавать технологу на фабрике, не продажнику.**
 Английская версия того же: `PRODUCTION_SPEC_EN.md`. Расхождений нет, это выжимка.
 
 ---
 
-**采购方：** 518 Group LLC，7901 4th St N, Suite 300, St. Petersburg, FL 33702, USA · thealdera.com
-**销售市场：** 美国。全部按膳食补充剂销售（21 CFR 111 与 101.36）。
+**采购方：** 518 Group LLC，7901 4th St N, Suite 300, St. Petersburg, FL 33702, USA · thealdera.com  
+**销售市场：** 美国。全部按膳食补充剂销售（21 CFR 111 与 101.36）。  
 **日期：** 2026年9月
 
 我们要的是 **贵厂现有配方 + 我方贴牌（stock formula / private label）**，不是定制开发。
