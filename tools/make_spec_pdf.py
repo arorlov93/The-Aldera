@@ -23,6 +23,7 @@ body {
 .masthead .kicker { font-size: 7.4pt; letter-spacing: .1em; color: #6b6b63; text-transform: uppercase; }
 h1 { font-size: 12.5pt; margin: 0 0 8pt; color: #2d4739; font-weight: 700; }
 h2 {
+  page-break-after: avoid;
   font-size: 9.8pt; margin: 8pt 0 4pt; color: #2d4739;
   border-bottom: .6pt solid #c9cfc6; padding-bottom: 2.5pt; font-weight: 700;
 }
@@ -43,9 +44,8 @@ th {
   border: .6pt solid #b9c1b2; padding: 3pt 4.5pt;
 }
 td { border: .6pt solid #cfd5c9; padding: 3pt 4.5pt; vertical-align: top; }
-table { table-layout: fixed; }
-th:first-child, td:first-child { width: 26%%; }
-th:nth-child(2), td:nth-child(2) { width: 37%%; }
+td:first-child { width: 24%%; }
+td, th { overflow-wrap: break-word; }
 strong { font-weight: 700; }
 code { font-family: inherit; }
 h2 + p, h3 + p { margin-top: 2pt; }
