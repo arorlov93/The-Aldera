@@ -5,15 +5,15 @@
 ---
 
 ⚠️ **Этот файл производителям не отправлять.** Он для нас. Отправляется только текст письма
-из третьего раздела, скопированный в тело сообщения. Вложений нет: короткое письмо с конкретными
-вопросами читают, трёхстраничный PDF откладывают.
+из третьего раздела, скопированный в тело сообщения. Вложений нет: короткое письмо
+с конкретными вопросами читают, трёхстраничный PDF откладывают.
 
 Все компании ниже **есть в публичном реестре NSF GMP** и **чисты по базе отзывов FDA**
 на 23 сентября 2026. Телефоны из реестра NSF, почты с сайтов компаний.
 
 SMP Nutra и Private Label Express в списке нет: они уже прислали цены.
 
-**Отправлять скрытой копией. Обратный адрес: aleksor@thealdera.com**
+**Отправлять с info@thealdera.com.**
 
 ---
 
@@ -30,7 +30,7 @@ SMP Nutra и Private Label Express в списке нет: они уже при�
 | **Makers Nutrition**, Хоппог NY | **marketing@makersnutrition.com** | **347-500-3461** | ☐ ☐ |
 | **Pharmalab Enterprises**, Майами-Лейкс FL | **info@pharmalabenterprises.com** | **305-821-4002** | ☐ ☐ |
 
-**Скопировать в скрытую копию:**
+**Адреса одной строкой:**
 
 ```
 Info@gummyworks.com, info@somafina.com, sales@floridasupplement.com,
@@ -127,7 +127,7 @@ Quotation request, six SKUs, US brand launching this autumn
 > Best regards,  
 > Aleksandr Orlov  
 > 518 Group LLC, The Aldera  
-> aleksor@thealdera.com · thealdera.com
+> info@thealdera.com · thealdera.com
 
 ---
 
@@ -189,7 +189,7 @@ Quotation request, six SKUs, US brand launching this autumn
 > С уважением,  
 > Александр Орлов  
 > 518 Group LLC, The Aldera  
-> aleksor@thealdera.com · thealdera.com
+> info@thealdera.com · thealdera.com
 
 ---
 
@@ -197,11 +197,6 @@ Quotation request, six SKUs, US brand launching this autumn
 
 Нашей целевой цены. Годовых объёмов. Слова custom. Упоминания, что у нас уже есть котировки
 от других производителей, и тем более их цифр.
-
-## 6. Что делать с ответами
-
-Пересылать мне. Я заношу в журнал котировок, считаю экономику по каждому и проверяю номер NSF
-или cGMP в публичном реестре **до любых денег**. Заявление в письме подтверждением не является.
 
 Упоминание реестра NSF в первой строке письма сделано намеренно: оно сразу показывает,
 что мы проверяем в реестрах, а не верим логотипам на сайте.
