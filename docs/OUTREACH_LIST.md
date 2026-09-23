@@ -15,20 +15,24 @@ SMP Nutra и Private Label Express в списке нет: они уже при�
 
 **Отправлять с info@thealdera.com.**
 
+Где есть форма на сайте, заполнять форму **и** дублировать письмом: форма падает
+в их CRM и получает номер тикета, письмо читает живой человек. Где формы нет, только письмо.
+
 ---
 
 ## 1. Первая волна, высокий шанс прайса за двое суток
 
-| Компания, город | Почта | Телефон | Отпр. / Ответ |
+| Компания, город | Почта | Телефон | Форма на сайте |
 |---|---|---|---|
-| **GummyWorks**, Уэст-Палм-Бич FL | **Info@gummyworks.com** | **401-500-5483** | ☐ ☐ |
-| **Somafina**, Лейтон UT | **info@somafina.com** | **801-547-8052** | ☐ ☐ |
-| **Florida Supplement**, Мирамар FL | **sales@floridasupplement.com** | **954-925-1924** | ☐ ☐ |
-| **Pharma Natural**, Майами-Лейкс FL | **sales@pharmanatural.com** | **305-231-8977** | ☐ ☐ |
-| **Nutrition Formulators**, Мирамар FL | **inquiry@nnfi.net** | **954-272-2220** | ☐ ☐ |
-| **Oxygen Development**, Дирфилд-Бич FL | **contact@oxygendevelopment.com** | **954-480-2675** | ☐ ☐ |
-| **Makers Nutrition**, Хоппог NY | **marketing@makersnutrition.com** | **347-500-3461** | ☐ ☐ |
-| **Pharmalab Enterprises**, Майами-Лейкс FL | **info@pharmalabenterprises.com** | **305-821-4002** | ☐ ☐ |
+| **GummyWorks**, Уэст-Палм-Бич FL | **Info@gummyworks.com** | **401-500-5483** | gummyworks.com, формы нет, писать на почту |
+| **Somafina**, Лейтон UT | **info@somafina.com** | **801-547-8052** | **somafina.com/contact-us** |
+| **Florida Supplement**, Мирамар FL | **sales@floridasupplement.com** | **954-925-1924** | **floridasupplement.com/contact** |
+| **Pharma Natural**, Майами-Лейкс FL | **sales@pharmanatural.com** | **305-231-8977** | **pharmanatural.com/contact** |
+| **Nutrition Formulators**, Мирамар FL | **inquiry@nnfi.net** | **954-272-2220** | nutritionformulators.com, формы нет |
+| **Oxygen Development**, Дирфилд-Бич FL | **contact@oxygendevelopment.com** | **954-480-2675** | **oxygendevelopment.com/contact** |
+| **Makers Nutrition**, Хоппог NY | **marketing@makersnutrition.com** | **347-500-3461** | **makersnutrition.com/contact-us** |
+| **Pharmalab Enterprises**, Майами-Лейкс FL | **info@pharmalabenterprises.com** | **305-821-4002** | **pharmalabenterprises.com/contact** |
+| **One Innovation Labs**, Майами-Лейкс FL | почта не опубликована | **305-985-3950** | **oneinnovationlabs.com/contact-us**, форма прямо называется Request a Quote |
 
 **Адреса одной строкой:**
 
@@ -40,15 +44,15 @@ marketing@makersnutrition.com, info@pharmalabenterprises.com
 
 ## 2. Вторая волна, ответят медленнее или откажут по объёму
 
-| Компания | Почта | Телефон | Почему ниже |
+| Компания | Почта | Телефон | Форма на сайте |
 |---|---|---|---|
-| **Sun-Pac Manufacturing** | **contact@sunpacmfg.com** | **813-925-8787** | стики и NSF есть, **гуммис не заявлены** |
-| **Bactolac Pharmaceutical** | **info@bactolac.com** | **631-951-4908** | крупный, работает с большими брендами |
-| **Vitaquest International** | **info@vitaquest.com** | **800-526-9095** | очень крупный, наш объём для них мал |
-| **Avanti Nutritional Labs** | **connect@avantinutrition.com** | **305-822-3880** | общий ящик, не продажи |
-| **XYMOGEN** | **info@xymogen.com** | **800-647-6100** | свой бренд, контрактку берут избирательно |
-| **NutraCap** | **info@nutracapusa.com** | **800-688-5956** | Норкросс, Джорджия |
-| **Superior Supplement Mfg** | **sales@superiorsupplementmfg.com** | **877-906-3996** | Калифорния, разница 3 часа |
+| **NutraCap** | **info@nutracapusa.com** | **800-688-5956** | **nutracapusa.com/quote**, прямая форма запроса цены |
+| **Superior Supplement Mfg** | **sales@superiorsupplementmfg.com** | **877-906-3996** | **superiorsupplementmfg.com/quote**, прямая форма запроса цены |
+| **Sun-Pac Manufacturing** | **contact@sunpacmfg.com** | **813-925-8787** | **sunpacmanufacturing.com/contact**. Стики и NSF есть, **гуммис не заявлены** |
+| **Bactolac Pharmaceutical** | **info@bactolac.com** | **631-951-4908** | **bactolac.com/contact-us**. Крупный, работает с большими брендами |
+| **Vitaquest International** | **info@vitaquest.com** | **800-526-9095** | **vitaquest.com/contact-us**. Очень крупный, наш объём для них мал |
+| **XYMOGEN** | **info@xymogen.com** | **800-647-6100** | **xymogen.com/contact-us**. Свой бренд, контрактку берут избирательно |
+| **Avanti Nutritional Labs** | **connect@avantinutrition.com** | **305-822-3880** | avantinutrition.com, формы нет, общий ящик |
 
 ```
 contact@sunpacmfg.com, info@bactolac.com, info@vitaquest.com,
@@ -56,9 +60,9 @@ connect@avantinutrition.com, info@xymogen.com, info@nutracapusa.com,
 sales@superiorsupplementmfg.com
 ```
 
-**Только по телефону, почта не опубликована:** One Innovation Labs **305-985-3950** ·
-Shire Nutraceuticals **727-466-0770** · VIVA Manufacturing **813-884-4989** ·
-Innova Softgel KD Nutra **305-234-0102**
+**Только по телефону, ни почты, ни рабочей формы:** Shire Nutraceuticals **727-466-0770**
+(сайт protechnutra.com не открывается) · VIVA Manufacturing **813-884-4989**
+(peaknutritionalproducts.com) · Innova Softgel KD Nutra **305-234-0102** (innovagel.com)
 
 ---
 
