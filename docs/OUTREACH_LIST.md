@@ -13,18 +13,7 @@
 
 ---
 
-## Группа А. Уже доказали, что дают цены
-
-| Компания | Почта | Телефон | Отпр. / Ответ |
-|---|---|---|---|
-| **SMP Nutra** | через smpnutra.com | **833-810-9896** | ☐ ☐ |
-| **Private Label Express** | **info@privatelabelexpress.com** | **888-404-2773** | ☐ ☐ |
-
-SMP Nutra прислали котировку на десять позиций за сутки. **Не в реестре NSF, два отзыва FDA
-по недекларированным аллергенам.** Private Label Express прислали каталог, но наших позиций
-у них в стоке нет.
-
-## Группа Б. Главная рассылка, высокий шанс прайса за двое суток
+## Первая волна. Высокий шанс прайса за двое суток
 
 | Компания, город | Почта | Телефон | Отметка |
 |---|---|---|---|
@@ -37,7 +26,7 @@ SMP Nutra прислали котировку на десять позиций �
 | **Makers Nutrition**, Хоппог NY | **marketing@makersnutrition.com** | **347-500-3461** | ☐ ☐ |
 | **Pharmalab Enterprises**, Майами-Лейкс FL | **info@pharmalabenterprises.com** | **305-821-4002** | ☐ ☐ |
 
-## Группа В. Ответят медленнее или откажут по объёму
+## Вторая волна. Ответят медленнее или откажут по объёму
 
 | Компания | Почта | Телефон | Почему ниже |
 |---|---|---|---|
@@ -60,16 +49,15 @@ SMP Nutra прислали котировку на десять позиций �
 
 ---
 
-## Строка для поля «скрытая копия», группы А и Б
+## Строка для поля «скрытая копия», первая волна
 
 ```
 Info@gummyworks.com, info@somafina.com, sales@floridasupplement.com,
 sales@pharmanatural.com, inquiry@nnfi.net, contact@oxygendevelopment.com,
-marketing@makersnutrition.com, info@pharmalabenterprises.com,
-info@privatelabelexpress.com
+marketing@makersnutrition.com, info@pharmalabenterprises.com
 ```
 
-## Строка для группы В
+## Строка для второй волны
 
 ```
 contact@sunpacmfg.com, info@bactolac.com, info@vitaquest.com,
@@ -136,7 +124,10 @@ Quotation request, six SKUs, US brand launching this autumn
 ## Чего в письме нет намеренно
 
 Нашей целевой цены. Годовых объёмов. Слова custom. Упоминания, что у нас уже есть
-котировка SMP Nutra и её цифр.
+котировки от других производителей, и тем более их цифр.
+
+**SMP Nutra и Private Label Express в этот список не входят: они уже прислали цены,
+повторно им писать нечего.**
 
 ## Что делать с ответами
 
