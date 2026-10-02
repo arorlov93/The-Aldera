@@ -777,3 +777,61 @@ openFDA сам: у Supplement Manufacturing Partner **два отзыва, и т
 Там же указано, что в цену стока **входят** бутилирование, тестирование, пломбы **и этикетки**,
 что прямо противоречит письму Kyle, где печать этикеток и дизайн вынесены в отдельный счёт.
 Это второе расхождение к тому же вопросу.
+
+---
+
+**02.10 — ПРОВЕРКА ТИПА ПЛОЩАДКИ ПО РЕЕСТРУ NSF/ANSI 455-2, ДОСЛОВНО.** Реестр скачан заново,
+1 779 058 байт. Проверено на наличие второй записи у каждой компании, потому что у части
+компаний в реестре по два блока на разные площадки.
+
+```
+Vitalabs, Inc. | 1451 Highway 20 West | McDonough, GA 30253 | 800-241-3017 | 770-478-0006
+Facility type: Packaging Facility                        <- единственная запись
+Product Technologies: Packaging/Labeling Operation, Packaging/Labeling Operation - Dispensing,
+  Packaging/Labeling Operation - Primary Packaging, Packaging/Labeling Operation - Secondary
+  Packaging, Quality Unit Operations, Warehousing
+Product Categories: Capsule, Gummy, Powder, Soft Gel, Tablet
+
+Vox Nutrition Inc. | 5647 Wells Park Road | West Jordan, UT 84081 | Manufacturing Facility
+Vox Nutrition Inc. | 8224 Industry Circle | West Jordan, UT 84088 | 800-795-7161
+Facility type: Manufacturing Facility
+Product Technologies: Dry Formulation, Encapsulation, Mixing, Packaging/Labeling Operation,
+  Bulk Packaging, Primary Packaging, Secondary Packaging, Quality Unit Operations, Warehousing
+Product Categories: Capsule, Gummy, Ingestible Liquid, Powder, Soft Gel, Tablet
+
+Supplement Manufacturing Partner, Inc. | 12333 Enterprise Boulevard | Largo, FL 33773 | 833-810-9896
+Facility type: Manufacturing Facility
+Product Technologies: Dry Formulation, Encapsulation, Mixing, Packaging/Labeling Operation,
+  Bulk Packaging, Primary Packaging, Secondary Packaging, Quality Unit Operations, Warehousing
+Product Categories: Capsule, Gummy, Soft Gel, Tablet
+```
+
+У Vitalabs в списке технологий **нет ни Dry Formulation, ни Encapsulation, ни Mixing,
+ни Liquid Formulation, ни Tablet Compression.** Только упаковка, маркировка, дозирование
+в тару, контроль качества и склад. Второе независимое указание из их же спецификаций:
+`CUSTOMER NAME: Vitalabs`, `BULK SOURCE CODE: RVG-412` у гуммиса и `HS-MBG01`, `HS-CO01`
+у капсул, то есть два разных источника бульков, а Vitalabs в графе заказчика.
+
+Граница доказательства: реестр описывает сертифицированный объём, а не всё, что компания
+физически делает. Окончательно закрывается названием площадки-изготовителя и COA на её бланке.
+
+**02.10 — РАЗОБРАН ПОЛНЫЙ ПРАЙС VOX 2026 Q3, 99 АРТИКУЛОВ.** Исправление моего разбора 29.09:
+тогда я сверял прайс с прежними шестью позициями и пропустил три позиции, которые у Vox есть.
+
+| Позиция | Артикул | Формат | @150 | @500 | @1000 |
+|---|---|---|---|---|---|
+| Magnesium Glycinate 90 ct | 14683 | капсулы | $5.51 | $4.81 | $4.61 |
+| Magnesium Complex 60 ct | 14668 | капсулы, бленд | $4.60 | $3.90 | $3.70 |
+| Colostrum Plus 76,5 г | 14721 | банка 16 oz | $8.52 | $8.12 | $7.97 |
+| Colostrum Plus 153 г | 14712 | банка 44 oz | $14.07 | $13.67 | $13.52 |
+| Creatine Monohydrate 300 г | 14589 | банка 25 oz | $6.90 | $6.50 | $6.35 |
+| Creatine Monohydrate 600 г | 14678 | банка 44 oz | $9.17 | $8.77 | $8.62 |
+| Hydration Fruit Punch 247,5 г | 14703 | банка 16 oz | $8.07 | $7.67 | $7.52 |
+
+Минимум 150 банок, дословно первая строка прайса. Кастомная банка, крышка и тип капсулы от 500.
+**Доз в каталоге нет ни одной**, на каждую позицию три маркетинговых строки.
+Ежовика нет ни в каком виде, гуммис четыре и ни одного нашего, стики не фасует.
+
+**02.10 — РЕШЕНИЕ ВЛАДЕЛЬЦА: два поставщика, Vox и SMP. Vitalabs выведен.**
+Магний, колострум и электролит у Vox, креатин жевательными таблетками у SMP.
+Действующая закупка в `docs/BUY_CURRENT.md`.
