@@ -13,8 +13,8 @@ SEAS=[1.10,1,1,1,1,1,1,1,1,1,1.15,1.15]
 TEAM=[(4000,5),(3000,6),(5000,10),(4000,13),(3000,16),(2000,18)]
 SCEN={ # cons, base, opt
  'views':(3500,5000,7000),'conv':(.0003,.0005,.0007),'deliv':(.6,1,1),'org':(.1,.2,.3),'direct':(.05,.1,.15),
- 'subconv':(.12,.15,.2),'churn':(.12,.1,.08),'add1':(5,10,15),'add2':(6,12,18),'azpeak':(13,30,45),'azgrow':(.5,1.5,2.5),'ppc':(.2,.15,.12),'shock':(1.05,1,1)}
-FIX=dict(start=50,videos=8,cap=400,frac1=11/30,tt_fee=.06,cr_pct=.30,tt_ret=.03,sh_pct=.029,sh_fix=.30,sh_ret=.02,amz_ref=.15,amz_start=5,az0=5,azramp=6,
+ 'subconv':(.12,.15,.2),'churn':(.12,.1,.08),'add1':(5,10,15),'add2':(6,12,18),'azpeak':(13,30,45),'azgrow':(.5,1.5,2.5),'ppc':(.2,.15,.12),'sroas':(2,3,4),'shock':(1.05,1,1)}
+FIX=dict(start=50,videos=8,cap=400,frac1=11/30,tt_fee=.08,spark=.10,spark_m=4,cr_pct=.30,tt_ret=.03,sh_pct=.029,sh_fix=.30,sh_ret=.02,amz_ref=.15,amz_start=5,az0=5,azramp=6,
  nsku=4,ful=2.5,lag=.5,cover=1.3,moq=150,soft=(500,1000,1500),ins1=150,ins2=500,acct=300,adpct=0.0,tax=.25,t1=20000,t2=5000,launch=2249,tm=350)
 def params(s=2,**over):
     P=dict(FIX); P.update({k:v[s-1] for k,v in SCEN.items()}); P.update(over); return P
@@ -40,7 +40,7 @@ def run(P,NM=36):
         elif m<=12: cr=cr+P['add1']
         else: cr=min(P['cap'],cr+P['add2'])
         vid=cr*P['videos']*P['deliv']*frac; views=vid*P['views']
-        tt=views*P['conv']*(1+P['org'])*seas
+        tt=views*P['conv']*(1+P['org'])*seas*(1+(P.get('spark',0) if m>=P.get('spark_m',3) else 0)*P.get('sroas',3))
         if m in P.get('tt_zero',()): tt=0
         sd=tt*P['direct']; new=(tt+sd)*P['subconv']
         subord=0 if m==0 else subs
@@ -66,7 +66,7 @@ def run(P,NM=36):
         soft=0 if d['yr']==0 else P['soft'][d['yr']-1]
         ins=0 if m==0 else (P['ins1'] if m<12 else P['ins2']); acct=0 if m==0 else P['acct']
         team=0 if m==0 else sum(c for c,s0 in P.get('team',TEAM) if s0<=m)
-        ads=P['adpct']*rev; opex=soft+ins+acct+team+ads; ebitda=contrib-opex; tax=max(0,ebitda)*P['tax']; net=ebitda-tax
+        sp=(P.get('spark',0) if m>=P.get('spark_m',3) else 0); ads=sp*r_tt/(1+sp*P.get('sroas',3))+P['adpct']*rev; opex=soft+ins+acct+team+ads; ebitda=contrib-opex; tax=max(0,ebitda)*P['tax']; net=ebitda-tax
         launch=(P['launch']+P['tm']) if m==0 else 0
         tt_net=r_tt-ttfee-crc-P['tt_ret']*r_tt; az_net=r_az-azfee-ppc
         if m==0: in_tt=0; in_az=0
@@ -79,7 +79,7 @@ def run(P,NM=36):
             else:
                 need=P['cover']*nx['units'][s]; pre=op-d['units'][s]
                 q=max(P['moq'],math.ceil((need-pre)/50)*50) if need>pre else 0
-            pq[s]=q; buy+= q*tier(s,q,P['shock']) if q else 0
+            pq[s]=q; buy+= q*tier(s,q,(1 if m==0 else P['shock'])) if q else 0
             stock[s]=op-(d['units'][s] if m>0 else 0)+q
         fund=P['t1'] if m==0 else (P['t2'] if m==1 else 0)
         ncf=in_tt+in_sh+in_az-(ship+fulf)-opex-tax-buy-launch+fund

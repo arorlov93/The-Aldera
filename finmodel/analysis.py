@@ -6,7 +6,7 @@ for s,n in ((1,'cons'),(2,'base'),(3,'opt')):
     res['scen_'+n]=summary(run(params(s)))
 # funding variants (base)
 fv=[]
-for lab,ov in (('Транш 2 = $5 000, запас 1,3 мес.',{}),('Транш 2 = $5 000, запас 1,0 мес.',dict(cover=1.0)),('Транш 2 = $13 000, запас 1,3 мес.',dict(t2=13000))):
+for lab,ov in (('Транш 2 = $5 000, запас 1,3 мес.',{}),('Транш 2 = $5 000, запас 1,0 мес.',dict(cover=1.0)),('Транш 2 = $14 000, запас 1,3 мес.',dict(t2=14000)),('Транш 2 = $21 000, запас 1,3 мес.',dict(t2=21000))):
     S=summary(run(params(2,**ov))); fv.append((lab,S['mincash'],S['mincash_m'],S['ebitda1']))
 res['funding']=fv
 for s,n in ((1,'cons'),(3,'opt')):
@@ -15,7 +15,7 @@ for s,n in ((1,'cons'),(3,'opt')):
 base=summary(run(params(2)))
 TOR=[('views','Просмотров на ролик',3500,7000),('conv','Конверсия просмотра в заказ',.0003,.0007),('deliv','Доля вышедших роликов',.6,1.0),
      ('subconv','Переход в подписку',.12,.20),('churn','Отток подписки',.12,.08),('add2','Новых криейторов в мес. с 13-го',6,18),('add1','Новых криейторов в мес. 3-12',5,15),
-     ('azpeak','Amazon: продаж в день на продукт',13,45),('ppc','Amazon: доля рекламы',.20,.12),('shock','Цена Vox',1.10,0.95),('cr_pct','Комиссия криейтора',.35,.25),('org','Органика',.10,.30)]
+     ('azpeak','Amazon: продаж в день на продукт',13,45),('ppc','Amazon: доля рекламы',.20,.12),('sroas','Spark Ads: ROAS',2,4),('shock','Цена Vox',1.10,0.95),('cr_pct','Комиссия криейтора',.35,.25),('org','Органика',.10,.30)]
 tor=[]
 for k,lab,lo,hi in TOR:
     a=summary(run(params(2,**{k:lo}))); b=summary(run(params(2,**{k:hi})))
@@ -36,7 +36,7 @@ res['be_subconv_1m_y2_cons']=None
 random.seed(42)
 N=5000; MC=[]
 DIST={'views':(3000,5000,8000),'conv':(.0002,.0005,.0008),'deliv':(.5,.85,1.0),'org':(.05,.2,.3),'direct':(.05,.1,.15),'subconv':(.08,.15,.22),
-      'churn':(.07,.10,.15),'add1':(4,10,15),'add2':(5,12,18),'azpeak':(8,30,45),'azgrow':(0,1.5,2.5),'ppc':(.12,.15,.25),'shock':(.95,1.0,1.15)}
+      'churn':(.07,.10,.15),'add1':(4,10,15),'add2':(5,12,18),'azpeak':(8,30,45),'azgrow':(0,1.5,2.5),'ppc':(.12,.15,.25),'sroas':(1.5,3,5),'shock':(.95,1.0,1.15)}
 for i in range(N):
     ov={k:random.triangular(a,c,b) for k,(a,b,c) in DIST.items()}
     S=summary(run(params(2,**ov)))

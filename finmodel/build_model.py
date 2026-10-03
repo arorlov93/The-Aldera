@@ -43,6 +43,7 @@ SCEN=[
  ('azpeak','Amazon: продаж в день на продукт после разгона',13,30,45,NUM1,'Достигается через N месяцев разгона'),
  ('azgrow','Amazon: прирост в день на продукт в месяц после разгона',0.5,1.5,2.5,NUM1,''),
  ('ppc','Amazon: реклама PPC, доля цены',0.20,0.15,0.12,PCT,'Половина продаж через рекламу при ACoS 24-40%'),
+ ('sroas','Spark Ads: выручка на $1 рекламы (ROAS)',2,3,4,'0.0x','Реклама идёт только на ролики с доказанной конверсией'),
  ('shock','Множитель себестоимости Vox',1.05,1.00,1.00,'0.00x','Рост цен поставщика'),
 ]
 r=6
@@ -59,7 +60,9 @@ FIX=[
  ('videos','Роликов на криейтора в месяц по договору',8,NUM,'Решение владельца: 8 роликов за 30%'),
  ('cap','Потолок числа криейторов',400,NUM,'Предел для одного менеджера-отдела'),
  ('frac1','Доля первого месяца (продажи с 20.11)',11/30,PCT,'11 дней из 30'),
- ('tt_fee','TikTok Shop: комиссия площадки',0.06,PCT,'Тариф TikTok Shop US для добавок'),
+ ('tt_fee','TikTok Shop: комиссия площадки',0.08,PCT,'С 04.08.2026 TikTok поднял ставку с 6% до 8% для большинства непищевых категорий. Ставку для добавок проверить в Seller Center'),
+ ('spark','Spark Ads на выстрелившие ролики, доля органической выручки TikTok',0.10,PCT,'Решение владельца 03.10: платная реклама только на ролики, которые уже выстрелили'),
+ ('spark_m','Spark Ads: с месяца модели',4,NUM,'Февраль 2027: после декабрьского провала денег'),
  ('cr_pct','Комиссия криейтора',0.30,PCT,'Решение владельца'),
  ('tt_ret','TikTok: возвраты, доля выручки',0.03,PCT,''),
  ('sh_pct','Shopify Payments: процент',0.029,PCT,'Тариф Shopify Basic'),
@@ -80,7 +83,7 @@ FIX=[
  ('ins1','Страховка ответственности в месяц, первые 11 мес.',150,USD,'Product liability'),
  ('ins2','Страховка ответственности в месяц, с 12-го',500,USD,'Amazon требует при продажах от $10 тыс. в месяц'),
  ('acct','Бухгалтерия и юристы в месяц',300,USD,''),
- ('adpct','Рекламный бюджет TikTok и Meta, доля выручки',0.0,PCT,'По решению владельца считается отдельно; 0 = не включено'),
+ ('adpct','Прочая реклама (Meta, Google), доля выручки',0.0,PCT,'Не планируется; 0 = не включено'),
  ('tax','Налог на прибыль, оценка',0.25,PCT,'Оценка: федеральный и штатный налог на прибыль LLC через владельца. Уточнить у бухгалтера'),
  ('t1','Вложение владельца, транш 1 (октябрь 2026)',20000,USD,'Решение владельца 03.10'),
  ('t2','Вложение владельца, транш 2 (конец ноября 2026)',5000,USD,'Решение владельца 03.10: партиями'),
@@ -199,7 +202,7 @@ M['A8']='Воронка'; M['A8'].font=H2
 row('cr','Активных криейторов',9,NUM,True); fill('cr',lambda m,c,p,n: 0 if m==0 else f'=IF({c}2<=2,{REF["start"]},IF({c}2<=12,{p}9+{REF["add1"]},MIN({REF["cap"]},{p}9+{REF["add2"]})))')
 row('vid','Роликов вышло',10); fill('vid',lambda m,c,p,n: f'={c}9*{REF["videos"]}*{REF["deliv"]}*{c}6')
 row('views','Просмотров',11); fill('views',lambda m,c,p,n: f'={c}10*{REF["views"]}')
-row('tt','Заказы TikTok (первые покупки)',12,NUM,True); fill('tt',lambda m,c,p,n: f'={c}11*{REF["conv"]}*(1+{REF["org"]})*{c}7')
+row('tt','Заказы TikTok (первые покупки)',12,NUM,True); fill('tt',lambda m,c,p,n: f'={c}11*{REF["conv"]}*(1+{REF["org"]})*{c}7*(1+IF({c}2>={REF["spark_m"]},{REF["spark"]},0)*{REF["sroas"]})')
 row('sd','Заказы Shopify прямые (первые)',13); fill('sd',lambda m,c,p,n: f'={c}12*{REF["direct"]}')
 row('newsub','Новые подписчики',14); fill('newsub',lambda m,c,p,n: f'=({c}12+{c}13)*{REF["subconv"]}')
 row('subs','Подписчиков на конец месяца',15,NUM,True); fill('subs',lambda m,c,p,n: 0 if m==0 else f'={p}15*(1-{REF["churn"]})+{c}14')
@@ -242,7 +245,7 @@ row('soft','Сервисы и ПО',51,USD); fill('soft',lambda m,c,p,n: f'=IF({
 row('ins','Страховка',52,USD); fill('ins',lambda m,c,p,n: f'=IF({c}2=0,0,IF({c}2<12,{REF["ins1"]},{REF["ins2"]}))')
 row('acct','Бухгалтерия и юристы',53,USD); fill('acct',lambda m,c,p,n: f'=IF({c}2=0,0,{REF["acct"]})')
 row('team','Команда',54,USD); fill('team',lambda m,c,p,n: f'=IF({c}2=0,0,SUMPRODUCT(({REF["team_start"]}<={c}2)*{REF["team_cost"]}))')
-row('ads','Реклама TikTok и Meta',55,USD); fill('ads',lambda m,c,p,n: f'={REF["adpct"]}*{c}36')
+row('ads','Реклама: Spark Ads на выстрелившие ролики и прочая',55,USD); fill('ads',lambda m,c,p,n: f'=IF({c}2>={REF["spark_m"]},{REF["spark"]},0)*{c}32/(1+IF({c}2>={REF["spark_m"]},{REF["spark"]},0)*{REF["sroas"]})+{REF["adpct"]}*{c}36')
 row('opex','Постоянные расходы всего',56,USD,True); fill('opex',lambda m,c,p,n: f'=SUM({c}51:{c}55)')
 row('ebitda','EBITDA (прибыль до налога)',57,USD,True); fill('ebitda',lambda m,c,p,n: f'={c}48-{c}56')
 row('taxr','Налог на прибыль, оценка',58,USD); fill('taxr',lambda m,c,p,n: f'=MAX(0,{c}57)*{REF["tax"]}')
@@ -268,7 +271,7 @@ for i,s in enumerate(SK):
     row('pq_'+s,f'{NAMES[s]}: перезаказ, банок',b+1)
     fill('pq_'+s,lambda m,c,p,n,b=b,ur=ur,pr=pr: f"='Допущения'!$G${pr}" if m==0 else f'=IF({REF["cover"]}*{n}{ur}>{c}{b}-{c}{ur},MAX({REF["moq"]},CEILING({REF["cover"]}*{n}{ur}-({c}{b}-{c}{ur}),50)),0)')
     row('pc_'+s,f'{NAMES[s]}: перезаказ, $',b+2,USD)
-    fill('pc_'+s,lambda m,c,p,n,b=b,pr=pr: f'=IF({c}{b+1}=0,0,{c}{b+1}*IFERROR(INDEX(\'Допущения\'!$H${pr}:$O${pr},MATCH({c}{b+1},{REF["thr"]},1)),\'Допущения\'!$H${pr})*{REF["shock"]})')
+    fill('pc_'+s,lambda m,c,p,n,b=b,pr=pr: f'=IF({c}{b+1}=0,0,{c}{b+1}*IFERROR(INDEX(\'Допущения\'!$H${pr}:$O${pr},MATCH({c}{b+1},{REF["thr"]},1)),\'Допущения\'!$H${pr})*IF({c}2=0,1,{REF["shock"]}))')
     row('cl_'+s,f'{NAMES[s]}: остаток на конец',b+3); fill('cl_'+s,lambda m,c,p,n,b=b,ur=ur: f'={c}{b}-{c}{ur}+{c}{b+1}')
 M.column_dimensions['A'].width=46; M.column_dimensions['B'].width=4
 for m in range(NM+1): M.column_dimensions[col(m)].width=11.5
@@ -288,7 +291,7 @@ YL=[('Заказы TikTok','tt',NUM),('Заказы Shopify прямые','sd',N
     ('Банок продано','units',NUM),None,('Выручка TikTok Shop','r_tt',USD),('Выручка Shopify: первые','r_sf',USD),('Выручка Shopify: подписка','r_ss',USD),('Выручка Amazon','r_az',USD),('Выручка всего','rev',USD),None,
     ('Товар (Vox)','cogs',USD),('Комиссия TikTok Shop','ttfee',USD),('Комиссия криейторов','crc',USD),('Эквайринг Shopify','shfee',USD),('Amazon: комиссия и FBA','azfee',USD),('Amazon: реклама PPC','ppc',USD),
     ('Доставка покупателю','ship',USD),('Склад-отправщик','fulf',USD),('Возвраты','ret',USD),('Маржинальная прибыль','contrib',USD),None,
-    ('Сервисы и ПО','soft',USD),('Страховка','ins',USD),('Бухгалтерия и юристы','acct',USD),('Команда','team',USD),('Реклама TikTok и Meta','ads',USD),('Постоянные расходы','opex',USD),
+    ('Сервисы и ПО','soft',USD),('Страховка','ins',USD),('Бухгалтерия и юристы','acct',USD),('Команда','team',USD),('Реклама: Spark Ads и прочая','ads',USD),('Постоянные расходы','opex',USD),
     ('EBITDA (прибыль до налога)','ebitda',USD),('Налог, оценка','taxr',USD),('Чистая прибыль','net',USD),None,('Закупка товара у Vox','o_buy',USD)]
 r=5; YROW={}
 for it in YL:
