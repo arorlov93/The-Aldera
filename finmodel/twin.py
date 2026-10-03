@@ -12,7 +12,7 @@ SUBS=[(54.95,5.50,.60,(1,0,1,0)),(59.95,5.50,.25,(1,1,0,0)),(99.95,7.50,.15,(1,1
 SEAS=[1.10,1,1,1,1,1,1,1,1,1,1.15,1.15]
 TEAM=[(4000,5),(3000,6),(5000,10),(4000,13),(3000,16),(2000,18)]
 SCEN={ # cons, base, opt
- 'views':(25000,25000,50000),'conv':(.0003,.0005,.0007),'deliv':(.6,1,1),'org':(.1,.2,.3),'direct':(.05,.1,.15),
+ 'v1':(10700,12700,17500),'v2':(6300,7800,9400),'v3':(450,560,2000),'conv':(.0003,.0005,.0007),'deliv':(.6,1,1),'org':(.1,.2,.3),'direct':(.05,.1,.15),
  'subconv':(.12,.15,.2),'churn':(.12,.1,.08),'add1':(5,10,15),'add2':(6,12,18),'azpeak':(13,30,45),'azgrow':(.5,1.5,2.5),'ppc':(.2,.15,.12),'sroas':(2,3,4),'shock':(1.05,1,1)}
 FIX=dict(start=50,videos=8,cap=400,frac1=11/30,tt_fee=.08,spark=.10,spark_m=4,cr_pct=.30,tt_ret=.03,sh_pct=.029,sh_fix=.30,sh_ret=.02,amz_ref=.15,amz_start=5,az0=5,azramp=6,
  nsku=4,ful=2.5,lag=.5,cover=1.3,moq=150,soft=(500,1000,1500),ins1=150,ins2=500,acct=300,adpct=0.0,tax=.25,t1=20000,t2=5000,launch=2249,tm=350)
@@ -39,7 +39,7 @@ def run(P,NM=36):
         elif m<=2: cr=P['start']
         elif m<=12: cr=cr+P['add1']
         else: cr=min(P['cap'],cr+P['add2'])
-        vid=cr*P['videos']*P['deliv']*frac; views=vid*P['views']
+        vid=cr*P['videos']*P['deliv']*frac; bl=(min(cr,50)*P['v1']+max(0,min(cr,200)-50)*P['v2']+max(0,cr-200)*P['v3'])/max(cr,1); views=vid*bl
         tt=views*P['conv']*(1+P['org'])*seas*(1+(P.get('spark',0) if m>=P.get('spark_m',3) else 0)*P.get('sroas',3))
         if m in P.get('tt_zero',()): tt=0
         sd=tt*P['direct']; new=(tt+sd)*P['subconv']
