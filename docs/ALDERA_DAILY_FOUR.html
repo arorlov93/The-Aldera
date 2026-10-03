@@ -1,0 +1,398 @@
+<title>The Aldera Daily Four</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, figures-first summary, tables in their own scroll boxes, one chart. */
+:root{
+  --bg:#F4F6F3; --surface:#FFFFFF; --ink:#18211E; --muted:#5A6762; --line:#D6DDD8;
+  --accent:#2C6A55; --accent-soft:#E2EEE8; --warn:#A4512A; --warn-soft:#F6E7DE; --good:#2C6A55;
+  --display:"Literata",Georgia,"Times New Roman",serif;
+  --body:"Golos Text",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121816; --surface:#1A2220; --ink:#E6ECE9; --muted:#9AA8A2; --line:#2E3936;
+  --accent:#7CC2A6; --accent-soft:#1F332C; --warn:#E39B76; --warn-soft:#3A271E; --good:#7CC2A6; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121816; --surface:#1A2220; --ink:#E6ECE9; --muted:#9AA8A2; --line:#2E3936;
+  --accent:#7CC2A6; --accent-soft:#1F332C; --warn:#E39B76; --warn-soft:#3A271E; --good:#7CC2A6; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+.wrap{max-width:960px;margin:0 auto;padding-inline:20px;padding-block:40px 80px;display:flex;flex-direction:column;gap:56px}
+h1,h2,h3{font-family:var(--display);font-weight:600;text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:clamp(30px,5vw,44px)}
+h2{font-size:clamp(23px,3.2vw,29px)}
+h3{font-size:19px}
+p{margin:0;max-width:68ch}
+.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+section{display:flex;flex-direction:column;gap:18px}
+.lede{font-size:18px;color:var(--muted)}
+.num,td.n,th.n{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.kpi{background:var(--surface);padding:18px 18px 16px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi b{font-family:var(--mono);font-size:26px;font-weight:500;letter-spacing:-.01em}
+.kpi span{font-size:13px;color:var(--muted)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;white-space:nowrap}
+td.n,th.n{text-align:right;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+tr.total td{font-weight:600;background:var(--accent-soft)}
+.note{font-size:14px;color:var(--muted)}
+.callout{border-left:3px solid var(--warn);background:var(--warn-soft);padding:14px 16px;border-radius:0 6px 6px 0}
+.callout p{max-width:none}
+.jars{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.jar{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:20px 18px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.jar .brand{font-size:11px;letter-spacing:.22em;color:var(--muted);font-weight:600}
+.jar .role{font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:var(--accent)}
+.jar .name{font-family:var(--display);font-size:20px;font-weight:600}
+.jar .big{font-family:var(--mono);font-size:17px;font-weight:500;padding-top:8px;border-top:1px solid var(--line);margin-top:6px}
+.jar .price{font-size:13px;color:var(--muted)}
+.promise{font-family:var(--display);font-size:clamp(24px,4vw,34px);font-weight:500;line-height:1.25}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.two>div{display:flex;flex-direction:column;gap:10px;min-width:0}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.pill{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill.yes{background:var(--accent-soft);color:var(--good)}
+.pill.no{background:var(--warn-soft);color:var(--warn)}
+.chart{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;overflow-x:auto}
+.chart svg{display:block;width:100%;min-width:560px;height:auto}
+.chart text{font-family:var(--mono);font-size:11px;fill:var(--muted)}
+.chart .bar{fill:var(--accent)}
+.chart .bar.hit{fill:var(--warn)}
+.chart .grid{stroke:var(--line);stroke-width:1}
+.chart .goal{stroke:var(--warn);stroke-width:1.5;stroke-dasharray:5 4}
+.chart .goal-l{fill:var(--warn)}
+footer{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px}
+</style>
+
+<div class="wrap">
+
+<header style="display:flex;flex-direction:column;gap:14px">
+  <div class="eyebrow">The Aldera · 518 GROUP LLC · расчёт от 03.10.2026</div>
+  <h1>Четыре продукта, экономика и позиционирование</h1>
+  <p class="lede">Все четыре продукта у Vox Nutrition в наличии, минимум 150 банок, этикетка копирует макет завода. Старт продаж 20.11.2026, 50 криейторов, 30% за 8 роликов в месяц. Прибыль считается до рекламного бюджета, зарплат и налогов.</p>
+</header>
+
+<section>
+  <div class="eyebrow">Итог</div>
+  <div class="kpis">
+    <div class="kpi"><b>$13 136</b><span>первая закупка из $21 000</span></div>
+    <div class="kpi"><b>3-й месяц</b><span>закупка окупается прибылью</span></div>
+    <div class="kpi"><b>$219 тыс.</b><span>прибыль за первый год</span></div>
+    <div class="kpi"><b>$789 тыс.</b><span>прибыль за второй год</span></div>
+    <div class="kpi"><b>23-й месяц</b><span>темп $1 млн прибыли в год, сентябрь 2028</span></div>
+    <div class="kpi"><b>18-й месяц</b><span>то же при подписке 20% вместо 12%</span></div>
+  </div>
+  <p class="note">Базовый сценарий. Деньги на счету ни в один месяц не опускаются ниже $10 652: перезаказы оплачиваются из продаж, дополнительных вложений в товар не нужно.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Линейка</div>
+  <h2>Четыре банки, одна система</h2>
+  <div class="jars">
+    <div class="jar"><span class="brand">THE ALDERA</span><span class="role">GUT</span><span class="name">Colostrum</span><span class="big">2,000 mg · 400 mg IgG</span><span class="price">$39.95 · 30 порций · Vox 14721</span></div>
+    <div class="jar"><span class="brand">THE ALDERA</span><span class="role">BALANCE</span><span class="name">Women's Probiotic</span><span class="big">50 Billion CFU</span><span class="price">$34.95 · 60 капсул · Vox 14648</span></div>
+    <div class="jar"><span class="brand">THE ALDERA</span><span class="role">REST</span><span class="name">Magnesium Glycinate</span><span class="big">100% glycinate</span><span class="price">$29.95 · 90 капсул · Vox 14683</span></div>
+    <div class="jar"><span class="brand">THE ALDERA</span><span class="role">STRENGTH</span><span class="name">Creatine</span><span class="big">5 g monohydrate</span><span class="price">$29.95 · 60 порций · Vox 14589</span></div>
+  </div>
+
+  <div class="tbl"><table>
+    <thead><tr><th>Продукт</th><th>Спрос</th><th>Риск по сырью и документам</th><th class="n">Банка @1 000</th><th class="n">@5 000</th><th>Хватает на</th></tr></thead>
+    <tbody>
+      <tr><td>Colostrum</td><td>одна из самых быстрорастущих категорий TikTok Shop</td><td>спецификация подписана, Prop 65 на макете нет</td><td class="n">$7.97</td><td class="n">$7.67</td><td>30 дней</td></tr>
+      <tr><td>Women's Probiotic</td><td>женское здоровье это крупнейший сегмент покупателей добавок в TikTok Shop</td><td>живые культуры, нет типичной проблемы со свинцом</td><td class="n">$7.44</td><td class="n">$6.94</td><td>30 дней*</td></tr>
+      <tr><td>Magnesium Glycinate</td><td>одна из главных категорий Amazon, тренд «магний для сна»</td><td>чистый глицинат, без оксида</td><td class="n">$4.61</td><td class="n">$4.11</td><td>30 дней</td></tr>
+      <tr><td>Creatine</td><td>вторая волна: креатин для женщин и для мозга</td><td>креатинин в сырье не выше 100 ppm</td><td class="n">$6.35</td><td class="n">$6.05</td><td>60 дней</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">* Сколько капсул пробиотика в порции, видно только на макете Vox. Если банки хватает на 60 дней, цена $39.95, а подписка на него становится раз в два месяца.</p>
+
+  <h3>Что отклонено и почему</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Кандидат</th><th>Решение</th><th>Причина</th></tr></thead>
+    <tbody>
+      <tr><td>Электролит 14703</td><td><span class="pill no">нет</span></td><td>на макете предупреждение Prop 65 о свинце</td></tr>
+      <tr><td>Ашваганда 13066</td><td><span class="pill no">нет</span></td><td>на макете Prop 65 «Reproductive Harm», микробиология до 10 млн КОЕ/г</td></tr>
+      <tr><td>Magnesium Complex 14668</td><td><span class="pill no">нет</span></td><td>40% магния из оксида, глицината 0,4%</td></tr>
+      <tr><td>Greens 14696</td><td><span class="pill no">нет</span></td><td>спецификации нет, у зелёных порошков свинец типичен</td></tr>
+      <tr><td>Sea Moss 14634</td><td><span class="pill no">нет</span></td><td>водоросли накапливают мышьяк и йод</td></tr>
+      <tr><td>Omega 3 14553</td><td><span class="pill no">нет</span></td><td>товар-сырьё, после комиссий прибыли почти не остаётся</td></tr>
+      <tr><td>GLP1, Berberine, Blood Sugar</td><td><span class="pill no">нет</span></td><td>категория держится на заявлениях о болезни</td></tr>
+      <tr><td>Collagen 14680</td><td><span class="pill no">нет</span></td><td>банка $13.83, в TikTok прибыли почти не остаётся</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="eyebrow">Позиционирование</div>
+  <h2>Четыре базовых продукта. Нечего расшифровывать.</h2>
+  <p class="promise">Four basics. Nothing to decode.</p>
+  <p>Под мастер-теглайном платформы бренда от 10.09: <b>What you see is what you get.</b> Платформа не меняется, здесь она переложена на линейку и покупателя.</p>
+
+  <div class="two">
+    <div>
+      <h3>Для кого</h3>
+      <p>Женщина 25-45, покупает добавки в TikTok Shop и на Amazon. Устала от банок с 20 ингредиентами и обещаниями, которые нечем проверить. Хочет базовые вещи, понятные с первого взгляда.</p>
+      <p class="note">Упаковка нейтральная, креатин и магний покупают и мужчины. Голос бренда и криейторы женские.</p>
+    </div>
+    <div>
+      <h3>Почему это цепляет</h3>
+      <p>Рынок добавок в TikTok продаёт обещанием «моя жизнь изменилась», и покупательница перестала ему верить. The Aldera продаёт цифрой, которую видно: одно число крупно на лицевой стороне, и то же число на обороте. Спокойная уверенность вместо хайпа.</p>
+    </div>
+  </div>
+
+  <div class="two">
+    <div>
+      <h3>Банка</h3>
+      <ul>
+        <li>Сверху THE ALDERA</li>
+        <li>Роль одним словом: GUT, BALANCE, REST, STRENGTH</li>
+        <li>Название продукта</li>
+        <li><b>Одна цифра крупно</b></li>
+        <li>Оборот: панель с макета Vox, Distributed by 518 GROUP LLC</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Ритуал дня</h3>
+      <ul>
+        <li><b>Утро:</b> Colostrum, Women's Probiotic, Creatine</li>
+        <li><b>Вечер:</b> Magnesium Glycinate</li>
+      </ul>
+      <p class="note">Готовый сюжет для самого массового формата TikTok: «моя утренняя и вечерняя рутина».</p>
+    </div>
+  </div>
+
+  <h3>Ролики криейторов</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Формат</th><th>Суть</th></tr></thead>
+    <tbody>
+      <tr><td><b>Flip the jar</b></td><td>15 секунд: цифра спереди, переворот, та же цифра на обороте. Фирменный ход бренда</td></tr>
+      <tr><td>Morning routine</td><td>три банки утром, магний вечером</td></tr>
+      <tr><td>«Я убрала лишнее»</td><td>было девять банок с бленд-формулами, стало четыре понятные</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Цена в рынке</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Сегмент</th><th>Цена банки</th><th>Что продаёт</th></tr></thead>
+    <tbody>
+      <tr><td>Массовый Amazon</td><td class="n">$15-25</td><td>цену за количество</td></tr>
+      <tr><td><b>The Aldera</b></td><td class="n"><b>$30-40</b></td><td><b>проверяемую цифру и понятный состав</b></td></tr>
+      <tr><td>Премиальный DTC</td><td class="n">$50-100+</td><td>историю бренда и обещание</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Ниже премиума в два раза, выше массового сегмента ровно настолько, чтобы цифра на банке выглядела аргументом, а не скидкой.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Юнит-экономика</div>
+  <h2>Сколько остаётся с каждого заказа</h2>
+  <p>TikTok: площадка 6%, криейтор 30%, возвраты 3%. Shopify: эквайринг 2,9% плюс $0.30, возвраты 2%, без криейтора. Доставка по весу: одна банка $3.50-5.50, две $5.50, четыре $8.50. Цены товара по ступени 1 000.</p>
+
+  <h3>Первая покупка</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Предложение</th><th class="n">Цена</th><th class="n">Товар</th><th class="n">TikTok</th><th class="n">Shopify</th><th class="n">TikTok @5 000</th><th class="n">Доля заказов</th></tr></thead>
+    <tbody>
+      <tr><td>Foundation: Colostrum + Magnesium</td><td class="n">$59.95</td><td class="n">$12.58</td><td class="n">$18.49</td><td class="n">$38.63</td><td class="n">$19.29</td><td class="n">35%</td></tr>
+      <tr><td>Gut Duo: Colostrum + Probiotic</td><td class="n">$64.95</td><td class="n">$15.41</td><td class="n">$18.71</td><td class="n">$40.56</td><td class="n">$19.51</td><td class="n">10%</td></tr>
+      <tr><td>The Daily Four</td><td class="n">$114.95</td><td class="n">$26.37</td><td class="n">$35.25</td><td class="n">$74.15</td><td class="n">$36.85</td><td class="n">5%</td></tr>
+      <tr><td>Colostrum</td><td class="n">$39.95</td><td class="n">$7.97</td><td class="n">$11.90</td><td class="n">$25.22</td><td class="n">$12.20</td><td class="n">20%</td></tr>
+      <tr><td>Women's Probiotic</td><td class="n">$34.95</td><td class="n">$7.44</td><td class="n">$10.38</td><td class="n">$22.00</td><td class="n">$10.88</td><td class="n">12%</td></tr>
+      <tr><td>Magnesium Glycinate</td><td class="n">$29.95</td><td class="n">$4.61</td><td class="n">$10.16</td><td class="n">$20.07</td><td class="n">$10.66</td><td class="n">10%</td></tr>
+      <tr><td>Creatine</td><td class="n">$29.95</td><td class="n">$6.35</td><td class="n">$6.42</td><td class="n">$16.33</td><td class="n">$6.72</td><td class="n">8%</td></tr>
+      <tr class="total"><td>Средний заказ</td><td class="n">$50.80</td><td class="n"></td><td class="n">$15.26</td><td class="n"></td><td class="n"></td><td class="n">100%</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3>Подписка, Shopify, ежемесячно</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Подписка</th><th class="n">Цена</th><th class="n">Товар</th><th class="n">Прибыль в месяц</th><th class="n">В год</th><th class="n">Доля</th></tr></thead>
+    <tbody>
+      <tr><td>Foundation</td><td class="n">$54.95</td><td class="n">$12.58</td><td class="n">$33.88</td><td class="n">$407</td><td class="n">60%</td></tr>
+      <tr><td>Gut Duo</td><td class="n">$59.95</td><td class="n">$15.41</td><td class="n">$35.80</td><td class="n">$430</td><td class="n">25%</td></tr>
+      <tr><td>The Daily Four, креатин раз в два месяца</td><td class="n">$99.95</td><td class="n">$23.20</td><td class="n">$64.06</td><td class="n">$769</td><td class="n">15%</td></tr>
+      <tr class="total"><td>Средний подписчик</td><td class="n">$62.95</td><td class="n"></td><td class="n">$38.89</td><td class="n">$467</td><td class="n">100%</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Подписчик приносит в 2,5 раза больше первой покупки, и каждый месяц, а не один раз. Бизнес держится на подписке, TikTok это канал привлечения.</p>
+
+  <h3>Amazon, с 5-го месяца</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Продукт</th><th class="n">Цена</th><th class="n">Прибыль после FBA, 15% комиссии и PPC</th></tr></thead>
+    <tbody>
+      <tr><td>Colostrum</td><td class="n">$39.95</td><td class="n">$11.45</td></tr>
+      <tr><td>Women's Probiotic</td><td class="n">$34.95</td><td class="n">$9.88</td></tr>
+      <tr><td>Magnesium Glycinate</td><td class="n">$29.95</td><td class="n">$9.46</td></tr>
+      <tr><td>Creatine</td><td class="n">$29.95</td><td class="n">$6.57</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">PPC: половина продаж через рекламу при ACoS 40%. Это единственная реклама, заложенная в расчёт, потому что без неё Amazon не продаёт.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Воронка</div>
+  <h2>Что даёт один криейтор в месяц</h2>
+  <div class="tbl"><table>
+    <tbody>
+      <tr><td>Роликов по договору</td><td class="n">8</td></tr>
+      <tr><td>Просмотров на ролик, нижняя граница</td><td class="n">3 500</td></tr>
+      <tr><td>Конверсия просмотра в заказ, нижняя граница</td><td class="n">0,03%</td></tr>
+      <tr><td>Заказов по плану</td><td class="n">8,4</td></tr>
+      <tr><td>Доля роликов, которые реально выходят</td><td class="n">60%</td></tr>
+      <tr><td>Органика сверху</td><td class="n">+10%</td></tr>
+      <tr class="total"><td>Заказов в расчёте</td><td class="n">5,5</td></tr>
+      <tr><td>Продаж на сумму</td><td class="n">$279</td></tr>
+      <tr><td>Прибыль бренда с первых покупок</td><td class="n">$84</td></tr>
+      <tr><td>Из них уходят в подписку, 12%</td><td class="n">0,66 подписчика, $467 в год</td></tr>
+      <tr><td><b>Заработок криейтора</b></td><td class="n"><b>$84 в месяц</b></td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout"><p><b>Главный риск модели.</b> $84 в месяц за 8 роликов это около $10 за ролик. На нижней границе воронки криейтору мало стимула выпускать все восемь. В модели это учтено долей 60%, но если реально выходит 40%, прибыль второго года падает с $789 тыс. до $547 тыс. Лучшие криейторы получают кратно больше просмотров, и выплата растёт вместе с ними, но первые два месяца это нужно отслеживать.</p></div>
+</section>
+
+<section>
+  <div class="eyebrow">Прогноз</div>
+  <h2>Прибыль по месяцам, 24 месяца с 20.11.2026</h2>
+  <div class="chart" id="chart"></div>
+  <p class="note">Пунктир: $83 333 в месяц, то есть темп $1 млн в год. Первым его пересекает 23-й месяц, с 20.09.2028.</p>
+
+  <h3>По кварталам</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Квартал</th><th class="n">Криейторов</th><th class="n">Первых покупок</th><th class="n">Подписчиков на конец</th><th class="n">Выручка TikTok</th><th class="n">Shopify</th><th class="n">Amazon</th><th class="n">Прибыль</th><th class="n">Закупка</th></tr></thead>
+    <tbody>
+      <tr><td>Q1 · ноя-фев</td><td class="n">50-60</td><td class="n">768</td><td class="n">91</td><td class="n">$39 030</td><td class="n">$6 260</td><td class="n">$0</td><td class="n">$14 126</td><td class="n">$12 143</td></tr>
+      <tr><td>Q2 · фев-май</td><td class="n">70-90</td><td class="n">1 331</td><td class="n">227</td><td class="n">$67 592</td><td class="n">$28 712</td><td class="n">$3 762</td><td class="n">$37 645</td><td class="n">$34 046</td></tr>
+      <tr><td>Q3 · май-авг</td><td class="n">100-120</td><td class="n">1 830</td><td class="n">390</td><td class="n">$92 940</td><td class="n">$57 421</td><td class="n">$18 468</td><td class="n">$67 098</td><td class="n">$50 837</td></tr>
+      <tr><td>Q4 · авг-ноя</td><td class="n">130-150</td><td class="n">2 328</td><td class="n">575</td><td class="n">$118 287</td><td class="n">$91 005</td><td class="n">$33 858</td><td class="n">$99 752</td><td class="n">$67 556</td></tr>
+      <tr class="total"><td>Год 1</td><td class="n"></td><td class="n">6 257</td><td class="n">575</td><td class="n">$317 849</td><td class="n">$183 398</td><td class="n">$56 088</td><td class="n">$218 620</td><td class="n">$164 582</td></tr>
+      <tr><td>Q5</td><td class="n">162-186</td><td class="n">2 894</td><td class="n">786</td><td class="n">$147 014</td><td class="n">$128 898</td><td class="n">$49 248</td><td class="n">$134 587</td><td class="n">$87 137</td></tr>
+      <tr><td>Q6</td><td class="n">198-222</td><td class="n">3 493</td><td class="n">1 019</td><td class="n">$177 430</td><td class="n">$171 642</td><td class="n">$64 638</td><td class="n">$174 427</td><td class="n">$108 196</td></tr>
+      <tr><td>Q7</td><td class="n">234-258</td><td class="n">4 091</td><td class="n">1 270</td><td class="n">$207 847</td><td class="n">$218 400</td><td class="n">$80 028</td><td class="n">$217 483</td><td class="n">$126 755</td></tr>
+      <tr><td>Q8</td><td class="n">270-294</td><td class="n">4 690</td><td class="n">1 535</td><td class="n">$238 263</td><td class="n">$268 285</td><td class="n">$95 418</td><td class="n">$262 273</td><td class="n">$148 363</td></tr>
+      <tr class="total"><td>Год 2</td><td class="n"></td><td class="n">15 168</td><td class="n">1 535</td><td class="n">$770 554</td><td class="n">$787 225</td><td class="n">$289 332</td><td class="n">$788 770</td><td class="n">$470 451</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">Прибыль уже за вычетом товара, комиссий, доставки, возвратов, PPC на Amazon и постоянных расходов $500 в месяц в первый год и $1 000 во второй (Shopify, приложение подписки, почта, страховка ответственности). Закупка это перезаказы у Vox из выручки, по ступени объёма заказа. Год 1: выручка $557 тыс. Год 2: $1,85 млн.</p>
+
+  <h3>Банок по продуктам за первый год</h3>
+  <div class="tbl"><table>
+    <thead><tr><th>Продукт</th><th class="n">Банок</th><th class="n">Доля</th></tr></thead>
+    <tbody>
+      <tr><td>Colostrum</td><td class="n">7 834</td><td class="n">43%</td></tr>
+      <tr><td>Magnesium Glycinate</td><td class="n">5 691</td><td class="n">31%</td></tr>
+      <tr><td>Women's Probiotic</td><td class="n">3 084</td><td class="n">17%</td></tr>
+      <tr><td>Creatine</td><td class="n">1 464</td><td class="n">8%</td></tr>
+      <tr class="total"><td>Всего</td><td class="n">18 073</td><td class="n">100%</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="eyebrow">Деньги</div>
+  <h2>Первая закупка и движение денег</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Статья</th><th class="n">Кол-во</th><th class="n">Цена</th><th class="n">Сумма</th></tr></thead>
+    <tbody>
+      <tr><td>Colostrum 14721</td><td class="n">500</td><td class="n">$8.12</td><td class="n">$4 060</td></tr>
+      <tr><td>Magnesium Glycinate 14683</td><td class="n">500</td><td class="n">$4.81</td><td class="n">$2 405</td></tr>
+      <tr><td>Creatine 14589</td><td class="n">300</td><td class="n">$6.75</td><td class="n">$2 025</td></tr>
+      <tr><td>Women's Probiotic 14648</td><td class="n">300</td><td class="n">$7.99</td><td class="n">$2 397</td></tr>
+      <tr><td>Дизайн 4 этикеток</td><td class="n"></td><td class="n"></td><td class="n">$499</td></tr>
+      <tr><td>GS1, лицензия и 4 GTIN</td><td class="n"></td><td class="n"></td><td class="n">$300</td></tr>
+      <tr><td>Фрахт Юта, Авентура</td><td class="n"></td><td class="n"></td><td class="n">$500</td></tr>
+      <tr><td>Образцы 50 криейторам</td><td class="n"></td><td class="n"></td><td class="n">$950</td></tr>
+      <tr class="total"><td>Итого</td><td class="n">1 600</td><td class="n"></td><td class="n">$13 136</td></tr>
+      <tr><td>Остаётся из $21 000</td><td class="n"></td><td class="n"></td><td class="n">$7 864</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li>Первый перезаказ во 2-м месяце, около $5 200, оплачивается из выручки первого месяца и остатка.</li>
+    <li>Накопленная прибыль перекрывает первую закупку на 3-м месяце.</li>
+    <li>Самая низкая точка на счету $10 652, в первом месяце. Дальше счёт только растёт.</li>
+    <li>TikTok выплачивает после доставки заказа, это сдвигает деньги примерно на две недели. Остаток $7 864 этот сдвиг покрывает.</li>
+  </ul>
+</section>
+
+<section>
+  <div class="eyebrow">Сценарии</div>
+  <h2>Что будет, если ошиблись в допущениях</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Сценарий</th><th>Что меняется</th><th class="n">Прибыль год 1</th><th class="n">Прибыль год 2</th><th class="n">Подписчиков через 24 мес.</th><th class="n">Темп $1 млн</th></tr></thead>
+    <tbody>
+      <tr><td>Пессимистичный</td><td>конверсия 0,02%, выходит 40% роликов, отток 12%</td><td class="n">$98 тыс.</td><td class="n">$352 тыс.</td><td class="n">546</td><td class="n">не за 24 мес.</td></tr>
+      <tr><td>Выходит 40% роликов</td><td>только это</td><td class="n">$149 тыс.</td><td class="n">$547 тыс.</td><td class="n">1 023</td><td class="n">не за 24 мес.</td></tr>
+      <tr><td>Отток 12%</td><td>только это</td><td class="n">$209 тыс.</td><td class="n">$709 тыс.</td><td class="n">1 229</td><td class="n">не за 24 мес.</td></tr>
+      <tr class="total"><td>Базовый</td><td>0,03%, 60% роликов, отток 8%, подписка 12%</td><td class="n">$219 тыс.</td><td class="n">$789 тыс.</td><td class="n">1 535</td><td class="n">23-й месяц</td></tr>
+      <tr><td>Подписка 20%</td><td>только это</td><td class="n">$288 тыс.</td><td class="n">$1,10 млн</td><td class="n">2 559</td><td class="n">18-й месяц</td></tr>
+      <tr><td>Оптимистичный</td><td>0,05%, 5 000 просмотров, 75% роликов, подписка 15%</td><td class="n">$713 тыс.</td><td class="n">$2,62 млн</td><td class="n">5 711</td><td class="n">9-й месяц</td></tr>
+    </tbody>
+  </table></div>
+  <p>Самый сильный рычаг это доля первых покупателей, которые переходят в подписку. Поднять её с 12% до 20% даёт плюс 40% прибыли второго года и темп $1 млн на пять месяцев раньше, и почти ничего не стоит: скидка на первую подписку, вкладыш в посылку, письмо на 25-й день.</p>
+</section>
+
+<section>
+  <div class="eyebrow">Риски</div>
+  <h2>Что ломает модель</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Риск</th><th>Что происходит</th><th>Чем снимается</th></tr></thead>
+    <tbody>
+      <tr><td>Криейторы не выпускают 8 роликов</td><td>при 40% прибыль года 2 падает на треть</td><td>учёт роликов с первой недели, замена неактивных, пересмотр ставки ежемесячно</td></tr>
+      <tr><td>Подписка не набирает 12%</td><td>основа прибыли второго года не растёт</td><td>подписка на Shopify работает с дня старта, вкладыш с кодом в каждой посылке</td></tr>
+      <tr><td>Срок Vox от макета до отгрузки больше 20 рабочих дней</td><td>старт 20.11 сдвигается</td><td>ответ Tyler Hall, макеты утвердить до 15.10</td></tr>
+      <tr><td>Образцы в основной партии</td><td>приходят около 17.11, а не до 10.11</td><td>отдельная ранняя отгрузка образцов</td></tr>
+      <tr><td>Пробиотик на 60 дней или требует холода</td><td>меняется цена и доставка</td><td>макет и условия хранения от Vox</td></tr>
+      <tr><td>Счёт 518 GROUP LLC не открыт</td><td>нет оплаты Vox и нет продаж</td><td>подписать Operating Agreement и Bank Account Resolution</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="eyebrow">Дальше</div>
+  <h2>Что сделать до 20 октября</h2>
+  <div class="tbl"><table>
+    <thead><tr><th>Действие</th><th>Кто</th><th>Срок</th></tr></thead>
+    <tbody>
+      <tr><td>Решить имя на документах Vox: The Aldera вместо Corvital Plus</td><td>владелец</td><td>сейчас</td></tr>
+      <tr><td>Письмо Tyler Hall: срок от макета до отгрузки, печать этикетки в цене, макеты 4 позиций, капсулы и хранение пробиотика, ранняя отгрузка образцов</td><td>я черновик, Полина отправляет после «отправляй»</td><td>до 06.10</td></tr>
+      <tr><td>Подписать Operating Agreement и Bank Account Resolution</td><td>владелец</td><td>до 10.10</td></tr>
+      <tr><td>Купить GS1 и 4 GTIN</td><td>владелец</td><td>до 10.10</td></tr>
+      <tr><td>Утвердить 4 макета</td><td>владелец</td><td>до 15.10</td></tr>
+      <tr><td>Оплатить заказ Vox</td><td>владелец</td><td>около 20.10</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<footer>Модель: 24 месяца с 20.11.2026, криейторы 50 в первые два месяца, затем плюс 10 в месяц до 150 и плюс 12 в месяц дальше. Подписка: 12% первых покупателей, отток 8% в месяц. Amazon с 5-го месяца, 30 заказов и плюс 50 в месяц. Цены Vox из прайса 2026 Q3. Расчёт до рекламного бюджета, зарплат и налогов. Прежние оценки (год 1 $312 тыс., год 2 $1,12 млн) исходили из того, что каждый криейтор выпускает все 8 роликов; здесь выходит 60%.</footer>
+
+</div>
+
+<script>
+(function(){
+  var d=[1472,5452,7202,9600,12438,15607,18908,22329,25861,29494,33222,37036,40616,44823,49148,53580,58112,62735,67442,72582,77459,82402,87406,92465];
+  var W=720,H=300,L=56,R=12,T=16,B=36,max=100000,goal=1000000/12;
+  var pw=W-L-R,ph=H-T-B,bw=pw/d.length;
+  function y(v){return T+ph-(v/max)*ph}
+  var s='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Прибыль по месяцам, от $1 472 в первом месяце до $92 465 в 24-м">';
+  [0,25000,50000,75000,100000].forEach(function(v){
+    s+='<line class="grid" x1="'+L+'" x2="'+(W-R)+'" y1="'+y(v)+'" y2="'+y(v)+'"/>';
+    s+='<text x="'+(L-8)+'" y="'+(y(v)+4)+'" text-anchor="end">$'+(v/1000)+'k</text>';
+  });
+  d.forEach(function(v,i){
+    var x=L+i*bw+bw*0.18,w=bw*0.64;
+    s+='<rect class="bar'+(v>=goal?' hit':'')+'" x="'+x.toFixed(1)+'" y="'+y(v).toFixed(1)+'" width="'+w.toFixed(1)+'" height="'+(T+ph-y(v)).toFixed(1)+'"><title>Месяц '+(i+1)+': $'+v.toLocaleString('ru-RU')+'</title></rect>';
+  });
+  s+='<line class="goal" x1="'+L+'" x2="'+(W-R)+'" y1="'+y(goal)+'" y2="'+y(goal)+'"/>';
+  s+='<text class="goal-l" x="'+(L+6)+'" y="'+(y(goal)-6)+'">$1 млн в год</text>';
+  var lab={1:'ноя 26',6:'апр 27',12:'окт 27',18:'апр 28',24:'окт 28'};
+  Object.keys(lab).forEach(function(k){
+    var x=L+(k-1)*bw+bw/2;
+    s+='<text x="'+x+'" y="'+(H-18)+'" text-anchor="middle">М'+k+'</text>';
+    s+='<text x="'+x+'" y="'+(H-4)+'" text-anchor="middle">'+lab[k]+'</text>';
+  });
+  s+='</svg>';
+  document.getElementById('chart').innerHTML=s;
+})();
+</script>
