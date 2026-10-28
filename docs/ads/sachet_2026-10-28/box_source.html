@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ALDERA box ad</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+:root{--rasp:#B0204F;--rasp-d:#8E1940;--cherry:#4A1424;--cream:#F4EEE3;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',system-ui,sans-serif;--mono:'DM Mono',ui-monospace,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:#111;padding:40px;display:flex;gap:40px;flex-wrap:wrap}
+.ad{position:relative;width:1080px;height:1350px;overflow:hidden;font-family:var(--sans)}
+.grain::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.22;mix-blend-mode:overlay;z-index:20;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .9 0'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>")}
+.copy{position:absolute;z-index:10}
+.h1{font-family:var(--serif);font-weight:400;line-height:.92;margin:0}
+.sub{font-size:30px;line-height:1.35;margin:0}
+.cta{display:inline-flex;align-items:center;gap:14px;height:76px;padding:0 36px;border-radius:40px;font-weight:600;font-size:27px}
+.handle{font-family:var(--mono);font-size:22px;letter-spacing:.08em}
+
+/* box 125 x 75 x 105 mm at 4 px/mm: W500 H300 D420 */
+.stage{position:absolute;perspective:2600px;z-index:4}
+.box{position:relative;width:500px;height:300px;transform-style:preserve-3d}
+.f{position:absolute;backface-visibility:hidden;overflow:hidden}
+.front{width:500px;height:300px;transform:translateZ(210px);background:var(--rasp)}
+.right{width:420px;height:300px;left:40px;transform:rotateY(90deg) translateZ(250px);background:var(--rasp)}
+.top{width:500px;height:420px;top:-60px;transform:rotateX(90deg) translateZ(150px);background:var(--rasp)}
+.shade{position:absolute;inset:0;pointer-events:none}
+/* sachet */
+.sachet{position:relative;width:300px;height:420px}
+.s-body{position:absolute;inset:0;overflow:hidden;background:var(--cream)}
+.s-body::before,.s-body::after{content:"";position:absolute;left:0;right:0;height:22px;z-index:3;background:repeating-linear-gradient(90deg,rgba(0,0,0,.10) 0 1.5px,rgba(255,255,255,.10) 1.5px 3px,transparent 3px 5px)}
+.s-body::before{top:0}.s-body::after{bottom:0}
+.s-face{position:absolute;inset:0;padding:40px 30px;display:flex;flex-direction:column;gap:14px;color:var(--cherry)}
+.s-light{position:absolute;inset:0;z-index:4;mix-blend-mode:soft-light;background:
+ linear-gradient(90deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,0) 9%,rgba(255,255,255,0) 22%,rgba(255,255,255,.28) 31%,rgba(255,255,255,0) 44%,rgba(0,0,0,0) 82%,rgba(0,0,0,.24) 100%),
+ linear-gradient(180deg,rgba(0,0,0,.18) 0%,rgba(0,0,0,0) 8%,rgba(0,0,0,0) 90%,rgba(0,0,0,.22) 100%)}
+.cap{position:absolute;z-index:6;width:132px;height:46px;filter:drop-shadow(0 10px 8px rgba(40,20,20,.28)) drop-shadow(0 2px 2px rgba(40,20,20,.25))}
+.cap::before,.cap::after{content:"";position:absolute;top:0;bottom:0;border-radius:23px}
+.cap::before{left:0;width:72px;background:linear-gradient(180deg,#fffdf8 0%,#f6f0e6 30%,#e6ddcf 72%,#cfc4b3 100%)}
+.cap::after{right:0;width:66px;top:1px;bottom:1px;background:linear-gradient(180deg,#fbf8f2 0%,#efe8dc 34%,#ddd3c3 74%,#c6baa8 100%)}
+.cap b{position:absolute;z-index:2;left:14px;right:14px;top:9px;height:6px;border-radius:3px;background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.95) 30%,rgba(255,255,255,.95) 60%,rgba(255,255,255,0))}
+.cap em{position:absolute;z-index:3;left:68px;top:2px;bottom:2px;width:2px;background:rgba(120,100,80,.35)}
+</style>
+</head>
+<body>
+
+<section class="ad grain" id="box" style="background:linear-gradient(180deg,#EDE1D2 0%,#E6D7C5 64%,#D9C6B0 64.2%,#CFBAA2 100%)">
+  <!-- window light -->
+  <div style="position:absolute;inset:-200px;z-index:1;opacity:.45;mix-blend-mode:soft-light;transform:rotate(-24deg);filter:blur(18px);
+    background:repeating-linear-gradient(90deg,#fff 0 130px,rgba(0,0,0,0) 130px 160px,#fff 160px 290px,rgba(0,0,0,.55) 290px 330px)"></div>
+
+  <div class="copy" style="left:84px;top:96px;right:84px;color:var(--cherry)">
+    <div class="handle" style="opacity:.75">@THEALDERA · 30-DAY PASS</div>
+    <h1 class="h1" style="font-size:138px;margin-top:26px">A month of days,<br><i>one box.</i></h1>
+  </div>
+
+  <!-- shadows -->
+  <div style="position:absolute;z-index:2;left:110px;top:1000px;width:720px;height:120px;border-radius:50%;background:rgba(70,30,25,.42);filter:blur(34px)"></div>
+  <div style="position:absolute;z-index:2;left:190px;top:1020px;width:560px;height:46px;border-radius:50%;background:rgba(50,15,15,.5);filter:blur(12px)"></div>
+
+  <div class="stage" style="left:190px;top:620px;width:560px;height:420px">
+    <div class="box" style="transform:rotateX(-26deg) rotateY(-30deg)">
+      <!-- FRONT -->
+      <div class="f front" style="color:var(--cream);padding:30px 34px 28px;display:flex;flex-direction:column">
+        <div style="display:flex;justify-content:space-between;align-items:center;font-family:var(--mono);font-size:13px;letter-spacing:.16em;opacity:.92">
+          <span>30 PACKETS · 60 CAPSULES</span><span>NO. 01–30</span>
+        </div>
+        <div style="margin-top:14px;display:flex;align-items:center;gap:10px">
+          <div style="flex:1;border-top:2px dashed rgba(244,238,227,.55)"></div>
+          <div style="font-family:var(--mono);font-size:11px;letter-spacing:.16em;border:1.5px solid rgba(244,238,227,.7);border-radius:20px;padding:4px 10px">PULL TO OPEN</div>
+        </div>
+        <div style="flex:1;display:flex;flex-direction:column;justify-content:center">
+          <div style="font-family:var(--serif);font-size:104px;line-height:.86;letter-spacing:.05em">ALDERA</div>
+          <div style="font-family:var(--serif);font-style:italic;font-size:40px;line-height:1;margin-top:6px">Magnesium</div>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end">
+          <div style="background:var(--cream);color:var(--rasp);border-radius:6px;padding:8px 14px;font-family:var(--mono);font-size:15px;font-weight:500;letter-spacing:.14em">30-DAY PASS</div>
+          <div style="font-size:10px;font-weight:600;letter-spacing:.16em;opacity:.9">DIETARY SUPPLEMENT</div>
+        </div>
+        <div class="shade" style="background:linear-gradient(105deg,rgba(255,255,255,.16),rgba(255,255,255,0) 45%,rgba(0,0,0,.06))"></div>
+      </div>
+      <!-- RIGHT SIDE -->
+      <div class="f right" style="color:var(--cream);padding:30px 32px;display:flex;flex-direction:column;justify-content:space-between">
+        <div style="font-family:var(--mono);font-size:13px;letter-spacing:.16em;opacity:.9">ADMIT ONE DAY · ×30</div>
+        <div style="font-family:var(--serif);font-style:italic;font-size:54px;line-height:1">Daily care.<br>To go.</div>
+        <div style="display:flex;justify-content:space-between;align-items:flex-end">
+          <div style="width:64px;height:64px;background:#fff;border-radius:4px;padding:6px;display:grid;grid-template-columns:repeat(7,1fr);gap:1px">
+            <i style="background:#2B2422"></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i>
+            <i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i></i><i></i><i style="background:#2B2422"></i>
+            <i style="background:#2B2422"></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i>
+            <i></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i></i>
+            <i style="background:#2B2422"></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i>
+            <i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i></i>
+            <i style="background:#2B2422"></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i><i style="background:#2B2422"></i>
+          </div>
+          <div style="font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-align:right;line-height:1.5;opacity:.9">SCAN FOR<br>THIS BATCH'S LAB TEST</div>
+        </div>
+        <div class="shade" style="background:linear-gradient(90deg,rgba(40,0,10,.30),rgba(40,0,10,.18))"></div>
+      </div>
+      <!-- TOP with window -->
+      <div class="f top">
+        <div id="win" style="position:absolute;left:46px;top:46px;right:46px;bottom:46px;border-radius:16px;background:#2a0a14;box-shadow:inset 0 0 0 3px rgba(0,0,0,.25), inset 0 14px 22px rgba(0,0,0,.55);overflow:hidden;padding:12px 10px">
+          <div id="rows" style="height:100%;display:grid;grid-template-rows:1fr 1fr;gap:10px"></div>
+          <!-- PET film glare -->
+          <div style="position:absolute;inset:0;background:linear-gradient(125deg,rgba(255,255,255,0) 20%,rgba(255,255,255,.38) 30%,rgba(255,255,255,0) 40%,rgba(255,255,255,0) 62%,rgba(255,255,255,.18) 68%,rgba(255,255,255,0) 74%)"></div>
+        </div>
+        <div style="position:absolute;left:0;right:0;top:12px;text-align:center;font-family:var(--mono);font-size:12px;letter-spacing:.2em;color:rgba(244,238,227,.85)">DAYS LEFT, AT A GLANCE</div>
+        <div class="shade" style="background:linear-gradient(180deg,rgba(255,255,255,.22),rgba(255,255,255,.06))"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- sachet leaning in front-left -->
+  <div style="position:absolute;z-index:6;left:770px;top:740px;transform:rotate(7deg) scale(.8);transform-origin:top left;filter:drop-shadow(0 4px 3px rgba(60,20,20,.35)) drop-shadow(28px 36px 36px rgba(60,20,20,.35))">
+    <div class="sachet">
+      <div class="s-body zig">
+        <div class="s-face">
+          <div style="display:flex;align-items:center;gap:10px"><div style="flex:1;border-top:2px dashed rgba(74,20,36,.45)"></div><div style="font-family:var(--mono);font-size:10px;letter-spacing:.14em;opacity:.75">TEAR HERE</div></div>
+          <div style="font-family:var(--mono);font-size:11px;letter-spacing:.2em;color:var(--rasp)">DAY PASS · NO. 01</div>
+          <div style="font-family:var(--serif);font-size:62px;line-height:.9;letter-spacing:.05em;color:var(--rasp)">ALDERA</div>
+          <div style="font-family:var(--serif);font-style:italic;font-size:34px;line-height:1">Magnesium</div>
+          <div style="flex:1"></div>
+          <div style="background:var(--rasp);color:var(--cream);border-radius:6px;padding:12px 14px;display:flex;justify-content:space-between;align-items:center">
+            <span style="font-family:var(--serif);font-style:italic;font-size:22px">Admit one day.</span>
+            <span style="font-family:var(--mono);font-size:11px;letter-spacing:.1em">2 CAPS</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;font-size:9px;font-weight:600;letter-spacing:.14em;opacity:.8"><span>1 PACKET · 1 SERVING</span><span>DIETARY SUPPLEMENT</span></div>
+        </div>
+        <div class="s-light"></div>
+      </div>
+    </div>
+  </div>
+  <div class="cap" style="left:640px;top:1090px;transform:rotate(14deg)"><b></b><em></em></div>
+  <div class="cap" style="left:790px;top:1105px;transform:rotate(-20deg)"><b></b><em></em></div>
+
+  <div class="copy" style="left:84px;bottom:84px;right:84px;display:flex;justify-content:space-between;align-items:flex-end;color:var(--cherry)">
+    <p class="sub" style="max-width:470px">30 Day Passes inside.<br>The window shows what's left.</p>
+    <span class="cta" style="background:var(--cherry);color:var(--cream)">Get the 30-Day Pass <span style="font-size:30px">→</span></span>
+  </div>
+</section>
+
+<script>
+// 2 rows x 15 sachets seen from above; last 3 already used
+const rows=document.getElementById('rows');
+for(let r=0;r<2;r++){
+  const row=document.createElement('div');
+  row.style.cssText='display:grid;grid-template-columns:repeat(15,1fr);gap:4px';
+  for(let i=0;i<15;i++){
+    const used = r===1 && i>=12;
+    const s=document.createElement('div');
+    s.style.cssText = used ? 'background:transparent'
+      : 'border-radius:2px;background:linear-gradient(90deg,#d8cdbd 0%,#fbf6ee 45%,#efe6d8 70%,#cbbfad 100%);box-shadow:2px 0 3px rgba(0,0,0,.35);position:relative';
+    if(!used){const c=document.createElement('i');c.style.cssText='position:absolute;left:0;right:0;top:0;height:14px;background:repeating-linear-gradient(0deg,rgba(0,0,0,.12) 0 1px,transparent 1px 3px)';s.appendChild(c);
+      const b=document.createElement('i');b.style.cssText='position:absolute;left:0;right:0;bottom:0;height:20px;background:#B0204F;opacity:.9';s.appendChild(b);}
+    row.appendChild(s);
+  }
+  rows.appendChild(row);
+}
+// zigzag crimp
+const W=300,H=420,step=6,d=5,pts=[];
+for(let x=0;x<=W;x+=step)pts.push(`${x}px ${(x/step)%2?d:0}px`);
+for(let x=W;x>=0;x-=step)pts.push(`${x}px ${H-((x/step)%2?d:0)}px`);
+document.querySelectorAll('.zig').forEach(el=>el.style.clipPath=`polygon(${pts.join(',')})`);
+</script>
+</body>
+</html>
