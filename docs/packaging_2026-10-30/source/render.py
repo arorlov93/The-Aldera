@@ -288,7 +288,7 @@ elif SHOT == 'lineup':
         s.rotation_euler = (math.radians(90), 0, math.radians(180 + (i - 1.5) * 6))
         s.location = (-0.24 + i * 0.16 + 0.01, -0.105, 0.0046)
     lights(1.3)
-    camera((0.0, -1.0, 0.40), (0.0, -0.03, 0.03), lens=62, fstop=11)
+    camera((-0.02, -1.0, 0.40), (-0.035, -0.03, 0.03), lens=54, fstop=11)
     scn.render.resolution_x, scn.render.resolution_y = int(2400 * SCALE), int(1500 * SCALE)
 elif SHOT.startswith('sachets'):
     prod = SHOT.split('_')[1]
