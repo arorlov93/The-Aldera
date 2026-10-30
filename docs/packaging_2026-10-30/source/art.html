@@ -1,0 +1,112 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+:root{--c:#B0204F;--d:#8E1940;--cream:#F4EEE3;--ink:#4A1424;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',sans-serif;--mono:'DM Mono',monospace}
+*{box-sizing:border-box;margin:0}
+body{background:#888;display:flex;flex-wrap:wrap;gap:10mm;padding:5mm}
+.face{position:relative;overflow:hidden;font-family:var(--sans)}
+.mono{font-family:var(--mono)} .serif{font-family:var(--serif)}
+.row{display:flex;justify-content:space-between;align-items:center}
+.qr{display:grid;grid-template-columns:repeat(9,1fr);gap:.25mm;background:#fff;padding:1mm;border-radius:.6mm}
+.qr i{aspect-ratio:1}
+</style></head><body>
+
+<!-- BOX FRONT 125x75 -->
+<div class="face" id="front" style="width:125mm;height:75mm;background:var(--c);color:var(--cream);padding:7mm 8mm 6mm;display:flex;flex-direction:column">
+  <div class="row mono" style="font-size:2.4mm;letter-spacing:.16em;opacity:.92"><span>30 PACKETS · 60 CAPSULES</span><span>30-DAY PASS</span></div>
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center">
+    <div class="serif" style="font-size:21mm;line-height:.86;letter-spacing:.05em">ALDERA</div>
+    <div class="serif" style="font-style:italic;font-size:8.6mm;line-height:1;margin-top:1.6mm" id="fname">Magnesium</div>
+  </div>
+  <div class="row" style="align-items:flex-end">
+    <div class="serif" style="font-style:italic;font-size:4.4mm">Daily care. To go.</div>
+    <div style="text-align:right;font-size:1.9mm;font-weight:600;letter-spacing:.16em;line-height:1.5"><span id="fsub">BISGLYCINATE · 100 MG PER CAPSULE</span><br>DIETARY SUPPLEMENT</div>
+  </div>
+</div>
+
+<!-- BOX BACK 125x75 -->
+<div class="face" id="back" style="width:125mm;height:75mm;background:var(--cream);color:var(--ink);padding:6mm 7mm;display:grid;grid-template-columns:52mm 1fr;gap:5mm">
+  <div style="border:.35mm solid var(--ink);padding:2mm;font-size:1.9mm;line-height:1.35">
+    <div style="font-weight:700;font-size:3.6mm;border-bottom:.8mm solid var(--ink);padding-bottom:.6mm">Supplement Facts</div>
+    <div style="margin-top:1mm">Serving Size 2 Capsules (1 packet)</div>
+    <div>Servings Per Container 30</div>
+    <div style="border-top:.5mm solid var(--ink);margin-top:1mm;padding-top:1mm;opacity:.7">[Panel copied verbatim from the manufacturer's label template]</div>
+    <div style="height:14mm;margin-top:1mm;background:repeating-linear-gradient(180deg,rgba(74,20,36,.18) 0 .3mm,transparent .3mm 2.4mm)"></div>
+  </div>
+  <div style="display:flex;flex-direction:column;gap:2mm;font-size:1.9mm;line-height:1.4">
+    <div><b style="letter-spacing:.12em">DIRECTIONS</b><br><span style="opacity:.75">[From the manufacturer's template]</span></div>
+    <div><b style="letter-spacing:.12em">WARNINGS</b><br><span style="opacity:.75">[From the manufacturer's template]</span></div>
+    <div style="flex:1"></div>
+    <div class="row" style="align-items:flex-end">
+      <div style="font-size:1.8mm">Distributed by 518 GROUP LLC<br>7901 4th St N, Suite 300<br>St. Petersburg, FL 33702<br>thealdera.com</div>
+      <div style="width:24mm;height:13mm;background:#fff;padding:1mm"><div style="height:100%;background:repeating-linear-gradient(90deg,#222 0 .4mm,#fff .4mm .8mm,#222 .8mm 1mm,#fff 1mm 1.6mm,#222 1.6mm 2.2mm,#fff 2.2mm 2.6mm)"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- SIDE A 105x75 -->
+<div class="face" id="sideA" style="width:105mm;height:75mm;background:var(--d);color:var(--cream);padding:7mm;display:flex;flex-direction:column;justify-content:space-between">
+  <div class="mono" style="font-size:2.4mm;letter-spacing:.16em;opacity:.9">ADMIT ONE DAY · ×30</div>
+  <div class="serif" style="font-style:italic;font-size:11mm;line-height:1">Daily care.<br>To go.</div>
+  <div class="mono" style="font-size:2.1mm;letter-spacing:.12em;opacity:.85">1 PACKET = 1 SERVING = 2 CAPSULES</div>
+</div>
+
+<!-- SIDE B 105x75 -->
+<div class="face" id="sideB" style="width:105mm;height:75mm;background:var(--d);color:var(--cream);padding:7mm;display:flex;flex-direction:column;justify-content:space-between">
+  <div class="serif" style="font-size:9mm;letter-spacing:.05em">ALDERA</div>
+  <div class="row" style="align-items:flex-end">
+    <div class="qr" id="qr" style="width:17mm;height:17mm"></div>
+    <div class="mono" style="font-size:2.1mm;letter-spacing:.12em;text-align:right;line-height:1.6">SCAN FOR<br>THIS BATCH'S<br>LAB TEST</div>
+  </div>
+</div>
+
+<!-- TOP 125x105 with window -->
+<div class="face" id="top" style="width:125mm;height:105mm;background:var(--c);color:var(--cream)">
+  <div class="mono" style="position:absolute;left:0;right:0;top:4mm;text-align:center;font-size:2.2mm;letter-spacing:.2em;opacity:.9">ALDERA · DAYS LEFT, AT A GLANCE</div>
+  <div id="win" style="position:absolute;left:11mm;top:11mm;right:11mm;bottom:11mm;border-radius:4mm;background:#00ff00"></div>
+  <div class="mono" style="position:absolute;left:0;right:0;bottom:4mm;text-align:center;font-size:2mm;letter-spacing:.2em;opacity:.85">30-DAY PASS</div>
+</div>
+
+<!-- BOTTOM 125x105 -->
+<div class="face" id="bottom" style="width:125mm;height:105mm;background:var(--d);color:var(--cream);padding:8mm;display:flex;align-items:flex-end;justify-content:space-between">
+  <div class="mono" style="font-size:2.4mm;letter-spacing:.12em;line-height:1.8">LOT ____________<br>EXP ____________</div>
+  <div class="serif" style="font-size:6mm">ALDERA</div>
+</div>
+
+<!-- SACHET FRONT 50x70 -->
+<div class="face" id="sfront" style="width:50mm;height:70mm;background:var(--cream);color:var(--ink);padding:9mm 5mm 7mm;display:flex;flex-direction:column;gap:2mm">
+  <div style="display:flex;align-items:center;gap:1.5mm"><div style="flex:1;border-top:.35mm dashed rgba(74,20,36,.5)"></div><div class="mono" style="font-size:1.5mm;letter-spacing:.14em;opacity:.75">TEAR HERE</div></div>
+  <div class="mono" style="font-size:1.7mm;letter-spacing:.2em;color:var(--c)">DAY PASS · NO. 01</div>
+  <div class="serif" style="font-size:9.6mm;line-height:.9;letter-spacing:.05em;color:var(--c)">ALDERA</div>
+  <div class="serif" style="font-style:italic;font-size:5mm;line-height:1" id="sname">Magnesium</div>
+  <div style="flex:1"></div>
+  <div style="background:var(--c);color:var(--cream);border-radius:1mm;padding:1.8mm 2mm" class="row">
+    <span class="serif" style="font-style:italic;font-size:3.4mm">Admit one day.</span>
+    <span class="mono" style="font-size:1.6mm;letter-spacing:.1em">2 CAPS</span>
+  </div>
+  <div class="row" style="font-size:1.3mm;font-weight:600;letter-spacing:.12em;opacity:.8"><span>1 PACKET · 1 SERVING</span><span>DIETARY SUPPLEMENT</span></div>
+</div>
+
+<!-- SACHET BACK 50x70 -->
+<div class="face" id="sback" style="width:50mm;height:70mm;background:var(--cream);color:var(--ink);padding:9mm 5mm 7mm;display:flex;flex-direction:column;gap:1.6mm;font-size:1.7mm;line-height:1.4">
+  <div style="display:flex;align-items:center;gap:1.5mm"><div style="flex:1;border-top:.35mm dashed rgba(74,20,36,.5)"></div></div>
+  <div class="serif" style="font-size:4.4mm;color:var(--c)" id="bname">Magnesium Bisglycinate</div>
+  <div>2 capsules. Supplement Facts and directions: see box.</div>
+  <div style="flex:1"></div>
+  <div class="mono" style="letter-spacing:.1em;line-height:1.9">LOT ________<br>EXP ________</div>
+  <div style="font-size:1.4mm;opacity:.85">Distributed by 518 GROUP LLC<br>St. Petersburg, FL 33702 · thealdera.com</div>
+</div>
+
+<script>
+const P={mg:{n:'Magnesium',b:'Magnesium Bisglycinate',s:'BISGLYCINATE · 100 MG PER CAPSULE',c:'#B0204F',d:'#8E1940'},
+ ashwa:{n:'Ashwagandha',b:'Ashwagandha Root Extract',s:'ROOT EXTRACT · 300 MG PER CAPSULE',c:'#5A1A2C',d:'#43121F'},
+ moringa:{n:'Moringa',b:'Moringa Leaf',s:'LEAF POWDER · 500 MG PER CAPSULE',c:'#2F5D50',d:'#244A40'},
+ shilajit:{n:'Shilajit',b:'Purified Shilajit',s:'PURIFIED EXTRACT · 250 MG PER CAPSULE',c:'#C8553D',d:'#A54430'}};
+const k=new URLSearchParams(location.search).get('p')||'mg', p=P[k];
+document.documentElement.style.setProperty('--c',p.c);document.documentElement.style.setProperty('--d',p.d);
+fname.textContent=p.n;sname.textContent=p.n;bname.textContent=p.b;fsub.textContent=p.s;
+const pat='111011101 100010001 101010101 111011101 000101000 110110011 101001101 100101010 111010111'.split(' ').join('');
+for(const ch of pat){const i=document.createElement('i');i.style.background=ch==='1'?'#222':'#fff';qr.appendChild(i)}
+</script>
+</body></html>
