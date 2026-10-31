@@ -1,0 +1,54 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Саше 30x50 мм. Швы: бока и низ 3.5 мм, верх 5 мм (там надсечка). Безопасная зона текста 1.5 мм внутри швов. */
+:root{--c:#B0204F;--d:#8E1940;--cream:#F4EEE3;--ink:#4A1424;--serif:'Instrument Serif',Georgia,serif;--sans:'DM Sans',sans-serif;--mono:'DM Mono',monospace}
+*{box-sizing:border-box;margin:0}
+body{background:#888;display:flex;gap:10mm;padding:5mm}
+.face{position:relative;overflow:hidden;font-family:var(--sans);width:30mm;height:50mm;background:var(--cream);color:var(--ink);padding:7mm 5mm 5mm;display:flex;flex-direction:column}
+.mono{font-family:var(--mono)} .serif{font-family:var(--serif)}
+.row{display:flex;justify-content:space-between;align-items:center}
+.tear{display:flex;align-items:center;gap:1mm}
+.tear i{flex:1;border-top:.25mm dashed rgba(74,20,36,.5)}
+.qr{display:grid;grid-template-columns:repeat(9,1fr);gap:.15mm;background:#fff;padding:.6mm;border-radius:.4mm}
+.qr i{aspect-ratio:1}
+</style></head><body>
+
+<!-- SACHET FRONT 30x50 -->
+<div class="face" id="sfront" style="gap:1.1mm">
+  <div class="tear"><i></i><span class="mono" style="font-size:1.05mm;letter-spacing:.12em;opacity:.75">TEAR HERE</span></div>
+  <div class="mono" style="font-size:1.15mm;letter-spacing:.16em;color:var(--c);margin-top:.6mm">DAY PASS · NO. 01</div>
+  <div class="serif" style="font-size:6.3mm;line-height:.88;letter-spacing:.04em;color:var(--c)">ALDERA</div>
+  <div class="serif" style="font-style:italic;font-size:3.6mm;line-height:1" id="sname">Magnesium</div>
+  <div class="mono" style="font-size:1.05mm;letter-spacing:.1em;opacity:.8" id="sdose">BISGLYCINATE · ___ MG*</div>
+  <div style="flex:1"></div>
+  <div style="background:var(--c);color:var(--cream);border-radius:.7mm;padding:1.2mm 1.3mm" class="row">
+    <span class="serif" style="font-style:italic;font-size:2.35mm;line-height:1">Admit one day.</span>
+    <span class="mono" style="font-size:1.05mm;letter-spacing:.08em">2 CAPS</span>
+  </div>
+  <div class="row" style="font-size:.95mm;font-weight:600;letter-spacing:.08em;opacity:.8"><span>1 PACKET</span><span>DIETARY SUPPLEMENT</span></div>
+</div>
+
+<!-- SACHET BACK 30x50 -->
+<div class="face" id="sback" style="gap:1mm;font-size:1.15mm;line-height:1.35">
+  <div class="tear"><i></i></div>
+  <div class="serif" style="font-size:2.9mm;line-height:1.05;color:var(--c);margin-top:.6mm" id="bname">Magnesium<br>Bisglycinate</div>
+  <div>2 capsules. Supplement Facts and directions: see box.</div>
+  <div style="flex:1"></div>
+  <div class="row" style="align-items:flex-end">
+    <div class="mono" style="letter-spacing:.06em;line-height:1.7;font-size:1.05mm">LOT ______<br>EXP ______</div>
+    <div class="qr" id="qr" style="width:7.5mm;height:7.5mm"></div>
+  </div>
+  <div style="font-size:.95mm;opacity:.85;line-height:1.35">Distributed by 518 GROUP LLC<br>St. Petersburg, FL 33702<br>thealdera.com</div>
+</div>
+
+<script>
+const P={mg:{n:'Magnesium',b:'Magnesium<br>Bisglycinate',s:'BISGLYCINATE · ___ MG*',c:'#B0204F',d:'#8E1940'}};
+const k=new URLSearchParams(location.search).get('p')||'mg', p=P[k];
+document.documentElement.style.setProperty('--c',p.c);document.documentElement.style.setProperty('--d',p.d);
+sname.textContent=p.n;bname.innerHTML=p.b;sdose.textContent=p.s;
+const pat='111011101 100010001 101010101 111011101 000101000 110110011 101001101 100101010 111010111'.split(' ').join('');
+for(const ch of pat){const i=document.createElement('i');i.style.background=ch==='1'?'#222':'#fff';qr.appendChild(i)}
+</script>
+</body></html>
