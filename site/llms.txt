@@ -1,22 +1,18 @@
 # The Aldera
 
-> The Aldera is a U.S.-based dietary supplement brand (518 Group LLC, Miami Gardens, Florida) that makes everyday supplements with fully disclosed doses and independent batch testing. Core differentiation: lot-level transparency — packaging includes a QR code providing access to testing documentation for the specific batch. Brand standard: full doses, clear labels, independent testing. Brand tagline: "What You See Is What You Get." Brand philosophy: "Less to believe. More to know." The name is inspired by the alder tree (grounded, natural, real — not a botanical-themed brand). Launching October 2026 on thealdera.com and TikTok Shop.
+> The Aldera is a U.S. dietary supplement brand distributed by 518 GROUP LLC (7901 4th St N, Suite 300, St. Petersburg, FL 33702). Its format is the 30-Day Pass: one foil sachet holds two vegetable capsules, one full day's serving, and each box holds 30 sachets. Every batch is tested by an independent laboratory, and the QR code on the box opens the report for that lot. Tagline: "Daily care. To go." Selling on thealdera.com and TikTok Shop; launching soon.
 
-## Product categories and lineup
-### Sleep & Calm
-- Magnesium Glycinate Drink Sticks (Oct 2026) — 150 mg elemental magnesium per fizzy stick, raspberry lemonade, sugar-free, 30 sticks, $24.95
-- Ashwagandha Gummies (Dec 2026) — full-spectrum root extract for everyday stress support
-- L-Theanine Capsules (Dec 2026) — 200 mg, calm focus without drowsiness
-### Brain & Mood
-- Lion's Mane Gummies (Oct 2026) — 1000 mg 10:1 fruiting-body extract per serving, 60 ct, $29.95
-- Saffron Extract Capsules (Oct 2026) — 28 mg genuine Crocus sativus, HPLC-verified, 60 ct, $29.95
-### Minerals & Hydration
-- Sea Moss Complex Gummies (Oct 2026) — 1000 mg complex with bladderwrack, burdock, spirulina; sugar-free, 60 ct, $27.95
-- Daily Electrolytes Sticks (Dec 2026) — sodium, potassium, magnesium glycinate; lemon-lime, sugar-free, $22.95
-### Energy & Vitality
-- Mushroom Coffee Sticks (Dec 2026) — instant coffee + 150 mg mushroom blend, cocoa notes, $27.95
-- Beetroot Sticks (Dec 2026) — concentrated beetroot crystals, nitric oxide support
-- Tongkat Ali Capsules (Dec 2026) — standardized longjack root extract
+## Lineup (amounts per sachet, two capsules; $29.99 per 30-Day Pass)
+### First wave
+- Magnesium Bisglycinate: 200 mg elemental magnesium, fully reacted chelate, no magnesium oxide
+- Ashwagandha: 600 mg root extract
+- Moringa: 1,000 mg leaf powder
+- Shilajit: 500 mg purified shilajit, at least 20% fulvic acid
+### Next wave
+- Gut Balance: 10 billion CFU probiotic, 8 strains, with digestive enzymes
+- Sea Moss: 1,000 mg sea moss, bladderwrack and burdock root
+- Lion's Mane: 1,000 mg fruiting body extract
+- Hair, Skin & Nails: 5,000 mcg biotin with vitamin C and hyaluronic acid
 
 ## Contact
 - Email: info@thealdera.com
