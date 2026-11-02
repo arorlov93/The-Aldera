@@ -974,3 +974,9 @@ Magnesium Bisglycinate на Chelamax, **100 мг элементного магн
 - Lucille Li: **Chengdu Vitalans International** (не Vitalabs).
 - Salih Ma: в Alibaba **Shandong Mei Zhi Ji...** (ранее записан как X-BIO, Хэнань). Сообщения 31.10 о контактах компании и объёме импорта отозваны: «отправил не то».
 - Vera Wang (Henan NutriBridge): КП обещано в понедельник 02.11, просит WhatsApp.
+
+**02.11 — Serena Liu (Zhengzhou Ruijin Bio): прислала «наш сертификат», PDF на 5 страниц.** Все документы выписаны на **другую компанию: Henan Shizhen Hanfang Pharmaceutical Technology Co., Ltd.**, 6/F, Building 10, Xingyang SME Entrepreneurship Park, Yulong Town, Xingyang, Henan 450000. Код USCC 91410182MA45F9X3X0. Значит, Zhengzhou Ruijin, скорее всего, торговая компания, а завод это Hanfang.
+- **SGS cGMP, CN26/00005718** (21 CFR 111 и 117, программа FSMA FSVP). Действует 12.08.2026–12.08.2027, первая выдача. В области сертификации капсулы указаны только во флаконах и блистерах. Капсулы в саше (composite bags) там не названы, саше указаны только для таблеток и порошков.
+- **HACCP 015HACCP2000275 и ISO 22000 015FSMS2000331** (WIT Assessment): срок действия до 20.09.2026, **истекли**. Капсулы в области не указаны.
+- **Halal HCS-SZ5718**: для нас не важно.
+- **Регистрация FDA 19754248612**, агент в США UGK-LVM UNITED INC., DUNS 413924813. Это «сертификат» стороннего посредника (Shenzhen OUA Testing), а не документ FDA. Срок 31.12.2026: сейчас идёт окно продления регистраций FDA (01.10–31.12.2026), нужно подтверждение продления на 2027-2028 годы.
