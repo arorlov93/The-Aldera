@@ -44,7 +44,10 @@ body{background:#888;display:flex;gap:10mm;padding:5mm}
 </div>
 
 <script>
-const P={mg:{n:'Magnesium',b:'Magnesium<br>Bisglycinate',s:'BISGLYCINATE · ___ MG*',c:'#B0204F',d:'#8E1940'}};
+const P={mg:{n:'Magnesium',b:'Magnesium<br>Bisglycinate',s:'BISGLYCINATE · ___ MG*',c:'#B0204F',d:'#8E1940'},
+ ashwa:{n:'Ashwagandha',b:'Ashwagandha<br>Root Extract',s:'ROOT EXTRACT · ___ MG*',c:'#5A1A2C',d:'#43121F'},
+ moringa:{n:'Moringa',b:'Moringa<br>Leaf',s:'LEAF POWDER · ___ MG*',c:'#2F5D50',d:'#244A40'},
+ shilajit:{n:'Shilajit',b:'Purified<br>Shilajit',s:'PURIFIED · ___ MG*',c:'#C8553D',d:'#A54430'}};
 const k=new URLSearchParams(location.search).get('p')||'mg', p=P[k];
 document.documentElement.style.setProperty('--c',p.c);document.documentElement.style.setProperty('--d',p.d);
 sname.textContent=p.n;bname.innerHTML=p.b;sdose.textContent=p.s;
