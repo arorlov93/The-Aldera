@@ -1,0 +1,13 @@
+{
+  "id": "P210",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "Named independent lab, batch report behind the QR code, no magnesium oxide and a dose on the box is exactly what I check before buying. $24.99 for the first box with a money-back guarantee is low risk, so I would try one box.",
+  "objection": "Why only one form of magnesium when other products put several forms in one capsule? I would also want to open the lab report and check the batch number matches before I order.",
+  "would_change_my_mind": "If the lab report turned out to be missing, generic, or not matching the batch number, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

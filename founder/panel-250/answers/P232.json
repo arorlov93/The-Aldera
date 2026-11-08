@@ -1,0 +1,13 @@
+{
+  "id": "P232",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and $24.99 for the first box with a money-back guarantee is a low risk for me. The lab report behind the QR code makes me trust it more than the random TikTok Shop stuff.",
+  "objection": "Individual foil sachets feel like a lot of packaging waste, and $29.99 a month is real money on my budget.",
+  "would_change_my_mind": "If the first box was not at the launch price of $24.99, or if the guarantee turned out to be hard to claim, I would skip it and just buy a cheap bottle.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I think most supplements are a waste unless a doctor tells me to take them, and nobody has. I already forget the vitamins on my counter half the time, so a box of 30 sachets would probably sit there too.",
+  "objection": "No doctor has recommended magnesium to me, so I don't see why I'd pay for it. Foil sachets every day also feel like a lot of packaging waste.",
+  "would_change_my_mind": "My doctor telling me I'm low on magnesium and should take it.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P042",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and reorder it when it runs out, so I have no reason to switch. I also forget my vitamins on the counter half the time, and a sachet a day is one more thing to remember.",
+  "objection": "Sachets feel like more packaging waste, 30 foil packets a month, and I already have a brand I reorder.",
+  "would_change_my_mind": "Seeing that it clearly beats my current brand on the lab report, with refill or recyclable packaging instead of foil sachets.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a drawer full of half-used supplement bottles, so I'm not adding another one on impulse. $24.99 is fine, but I'd wait for a bigger coupon or a flash sale and compare the per-day cost first.",
+  "objection": "Sachets feel like more packaging waste, and I have a drawer of half-used bottles already. I don't need another supplement I'll quit after a week.",
+  "would_change_my_mind": "A deeper flash-sale price, around $19.99 for the first box, or a small trial pack so I can try it before committing to 30 days.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 38
+}

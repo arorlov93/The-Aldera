@@ -1,0 +1,13 @@
+{
+  "id": "P087",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium might be low, and the named lab with a report matching the batch number is more than most supplements show me. At $24.99 for one box I would try it once, since the empty-box refund means little risk.",
+  "objection": "Why only one form of magnesium when other brands put several forms in one capsule? And I still want my doctor to confirm I am actually low before I keep taking it.",
+  "would_change_my_mind": "If my blood test came back normal, I would not buy. A line explaining why bisglycinate alone is enough would make me more sure.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

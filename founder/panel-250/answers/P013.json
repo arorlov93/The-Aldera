@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and a named lab with the report for my batch behind a QR code is exactly what I'd want to see. Launch price of $24.99 is fine for a one-time try, and the empty-box guarantee lowers the risk.",
+  "objection": "I only do gummies, so swallowing 2 capsules every night is a stretch. And I'd want to actually open the lab report and see it's real before I trust it.",
+  "would_change_my_mind": "A gummy version, or the lab report being clearly real and checkable on the page before I pay.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

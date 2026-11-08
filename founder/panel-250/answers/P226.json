@@ -1,0 +1,13 @@
+{
+  "id": "P226",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I only buy gummies or drinks because I really don't like swallowing pills, and this is 2 capsules every night. Capsules are a hard no for me even if the lab testing is nice.",
+  "objection": "It's capsules. I don't do pills, and I'd never keep taking 2 a day for 30 days. Also, will I actually feel a difference from magnesium?",
+  "would_change_my_mind": "A gummy or drink-mix version of the same tested magnesium.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

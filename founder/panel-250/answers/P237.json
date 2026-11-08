@@ -1,0 +1,13 @@
+{
+  "id": "P237",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I think most supplements are a waste unless my doctor says I need one, and nobody has told me I'm low on magnesium. I already forget the vitamins on my counter half the time, so another daily thing would just sit there too.",
+  "objection": "Will I actually feel a difference? The lab report is nice, but it only proves what's in the capsule, not that it does anything for me.",
+  "would_change_my_mind": "My doctor telling me to take magnesium, or a blood test showing I'm low.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

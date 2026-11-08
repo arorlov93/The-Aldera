@@ -1,0 +1,13 @@
+{
+  "id": "P160",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I travel twice a month and always leave my pills on the nightstand, so a pre-counted foil sachet I can toss in my bag is the first version of this that fits my life. The lab report on the box and the $24.99 launch price make it an easy one-box try.",
+  "objection": "It is still two capsules every night and I will forget, so I may end up with half a box sitting in a drawer for $25. I also can't tell yet if I will actually feel anything from magnesium.",
+  "would_change_my_mind": "If it were more than $30 for one box, or if the lab report turned out to be a generic page and not for my batch, I would skip it.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

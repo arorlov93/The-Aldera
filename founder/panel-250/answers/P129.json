@@ -1,0 +1,13 @@
+{
+  "id": "P129",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a brand I reorder when it runs out, and I'm not going to switch on a first look from a brand I've never heard of. My doctor said my magnesium could be low, but I'd ask her what to take before buying a new one.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? Bisglycinate alone sounds like less for the same money, and I don't know this brand.",
+  "would_change_my_mind": "My doctor or a friend I trust telling me bisglycinate alone is what I need, or a lab-confirmed result showing my magnesium is low and that this form is the right one.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

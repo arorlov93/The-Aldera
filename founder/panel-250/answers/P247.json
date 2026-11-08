@@ -1,0 +1,13 @@
+{
+  "id": "P247",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 launch price for a first box is low enough to try, and the lab report behind the QR code plus the empty-box refund takes most of the risk out. Pre-counted sachets are handy when I am on the road twice a month.",
+  "objection": "Two capsules every day is a lot to swallow, and I will not know if magnesium does anything for me until I have finished the box. I also only get the launch price on the first box, so I will compare what it costs per day before I ever reorder.",
+  "would_change_my_mind": "A bigger discount on the second box, or a one-capsule dose, would get me to reorder.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

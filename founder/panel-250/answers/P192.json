@@ -1,0 +1,13 @@
+{
+  "id": "P192",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my Toplux and I reorder it when it runs out, I'm not hunting for something new. Lab reports are nice but I'm not going to read one, I just want to know if I'll sleep better.",
+  "objection": "Will I actually feel a difference? Nothing on the page says what it does for me, just that it's tested. And $30 is a lot to try when I already have something I like.",
+  "would_change_my_mind": "A few real reviews from moms like me saying they slept better, or a cheap trial size I could try without dropping $25 on a full box.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

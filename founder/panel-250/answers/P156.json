@@ -1,0 +1,13 @@
+{
+  "id": "P156",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my Toplux and I reorder it when it runs out, so I'm not looking to switch. The lab report is a good sign, but $25 to $30 is a lot to risk on something new when I know what I'm getting now.",
+  "objection": "I already have a brand I reorder, and I'd have to pay full price to find out if this one is any better.",
+  "would_change_my_mind": "A much cheaper first box, around $12 to $15, or my current one running out and a lab report I could actually check myself.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 27,
+  "price_too_expensive": 36
+}

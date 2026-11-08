@@ -1,0 +1,13 @@
+{
+  "id": "P099",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 for the first box is under a dollar a day, and the money-back guarantee means one box is a cheap try. The lab report and no magnesium oxide help, and I'd not pay full $29.99 without the launch deal.",
+  "objection": "Will I actually feel a difference, or am I just paying for a nice box? And I forget my vitamins half the time, so I might not even finish the 30 sachets to qualify for the refund.",
+  "would_change_my_mind": "If the launch price ended or it was only available at $29.99 with no coupon, I would wait for the next sale.",
+  "price_too_cheap": 9,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

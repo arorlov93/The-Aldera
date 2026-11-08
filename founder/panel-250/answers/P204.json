@@ -1,0 +1,13 @@
+{
+  "id": "P204",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "Named lab and a batch report I can check against the box is the first time a magnesium offer answers what I always look for. The empty-box guarantee and the $24.99 launch box make it a low-risk try, even though my drawer is already full.",
+  "objection": "Why only one form of magnesium when others put 8 forms in one capsule? And I would want to open the actual lab report and see the dose matches before I trust it.",
+  "would_change_my_mind": "If the lab report for the batch was missing, not matching the batch number, or showed less than 200 mg elemental magnesium, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 33,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P181",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and this is the first one I have seen that names the lab and puts the batch report on the page. 200 mg bisglycinate with no oxide is what I would look for anyway, and the launch price of $24.99 is close to what I pay for the others.",
+  "objection": "$29.99 is more than Toplux or Goli and I have no reviews yet on a first batch. I would want to open the lab report and check that the batch number really matches before I trust it.",
+  "would_change_my_mind": "If the lab report on the page turned out to be generic or not for the batch, or the lab is one I cannot verify, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

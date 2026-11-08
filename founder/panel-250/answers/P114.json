@@ -1,0 +1,13 @@
+{
+  "id": "P114",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's actually tested, and a named independent lab with the batch report behind a QR code answers that. At $24.99 for the first box I'd grab one, and the pre-counted sachets are easy to throw in my bag on work trips.",
+  "objection": "A lab report on the product page is only as good as the lab behind it, and I'd want to check that the batch number on the box really matches. I'm also not paying $29.99 or buying two boxes up front before I know it does anything for me.",
+  "would_change_my_mind": "If the launch price weren't there and it was the full $29.99, I'd wait for the next sale or coupon instead.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 33,
+  "price_too_expensive": 42
+}

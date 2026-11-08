@@ -1,0 +1,13 @@
+{
+  "id": "P220",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my pills at home every time I travel, so a pre-counted sachet I can toss in my bag is actually useful. The launch price of $24.99 is low enough to try one box without much thought.",
+  "objection": "I still have to swallow two capsules every night, and I know I'll skip it on busy days. I'm not sure I'd finish all 30 sachets.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

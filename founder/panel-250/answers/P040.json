@@ -1,0 +1,13 @@
+{
+  "id": "P040",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my magnesium and my routine, and I reorder it when it runs out. I take it at night at home, so I don't need it to go.",
+  "objection": "I don't have a problem this solves. I already take magnesium at night at home, and paying $29.99 for sachets just to carry it around makes no sense for me.",
+  "would_change_my_mind": "A price clearly below what I pay now for the same dose, or a reason I would actually need it away from home, like travel.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

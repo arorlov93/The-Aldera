@@ -1,0 +1,13 @@
+{
+  "id": "P119",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I do the price per day math, and about $0.83 a day for one form of magnesium is more than I pay for a big bottle on sale. The lab report is nice, but I would wait for a flash sale or a coupon anyway.",
+  "objection": "Why only magnesium bisglycinate when other products put 8 forms in one capsule for less per day? Paying extra for sachets feels like paying for packaging.",
+  "would_change_my_mind": "A price near $15 to $18 a box, or a stackable coupon or flash sale that gets it under about $0.55 a day.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 27,
+  "price_too_expensive": 38
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P166",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a brand I reorder when it runs out, and a drawer full of half-used bottles. I'm not adding another one just because the lab report looks nice.",
+  "objection": "Will I actually feel a difference? A lab report tells me what's in it, not whether it'll help me sleep or feel less wiped out.",
+  "would_change_my_mind": "Someone I trust, like a friend or a mom I follow, telling me it actually helped her sleep, plus a cheaper first box so I'm not risking much.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

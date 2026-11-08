@@ -1,0 +1,13 @@
+{
+  "id": "P077",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$24.99 to $29.99 a month for one supplement is a lot on my budget, and I can get plain magnesium for a few dollars. Sachets also mean more foil trash, and I forget my vitamins half the time anyway.",
+  "objection": "It costs several times what I pay for magnesium now, and I would be paying extra for the foil sachet packaging, which I think is just more waste.",
+  "would_change_my_mind": "A price near $15 for 30 days, or a bottle option without the sachets, with the lab report still shown for the batch.",
+  "price_too_cheap": 7,
+  "price_cheap": 12,
+  "price_expensive": 20,
+  "price_too_expensive": 28
+}

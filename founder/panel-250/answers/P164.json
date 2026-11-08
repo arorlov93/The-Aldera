@@ -1,0 +1,13 @@
+{
+  "id": "P164",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "At $24.99 for the launch box it works out to about 83 cents a day, which is fair for bisglycinate with a named lab report, and the empty-box refund makes a one-box trial low risk. I would not pay $29.99 without a coupon, and I would only grab it because of the launch price.",
+  "objection": "A foil sachet every day is more packaging waste, and at $29.99 I would just wait for a flash sale or a coupon.",
+  "would_change_my_mind": "Seeing it drop to a regular coupon price near $20 a box, or a bulk option that is clearly cheaper per day than $0.83.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 38
+}

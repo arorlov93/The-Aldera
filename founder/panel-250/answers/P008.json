@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, so this hits a real problem for me. The lab report for the batch and the money-back guarantee make one box at $24.99 an easy impulse buy.",
+  "objection": "Sachets feel like more packaging waste, 30 foil packets a month for something that could just be a bottle. I also don't know if 200 mg is the right amount for me until I talk to my doctor.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

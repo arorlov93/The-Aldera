@@ -1,0 +1,13 @@
+{
+  "id": "P052",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget pills at home all the time, so a counted sachet I can toss in my gym bag or suitcase actually fits how I live. $24.99 for the first box is low enough to just try it once.",
+  "objection": "It's still two capsules every day, and I'll probably skip nights when I'm traveling or get home late, so I might not finish the box.",
+  "would_change_my_mind": "If it was one capsule instead of two, I'd buy a second box without thinking. If the price was over $35 for one box I'd skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

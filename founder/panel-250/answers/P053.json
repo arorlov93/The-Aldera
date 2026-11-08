@@ -1,0 +1,13 @@
+{
+  "id": "P053",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take a multi-form magnesium and I'm not sure why I'd switch to a single form. The lab report is a good sign, but 200 mg for $30 a month isn't giving me anything I can't get already.",
+  "objection": "Why one form of magnesium when others have 8 forms in one capsule? And I forget my vitamins on the counter half the time, so 30 sachets would probably sit there.",
+  "would_change_my_mind": "A named independent lab with a report I can open and check before buying, plus a lower price per day than the multi-form blends I already see.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

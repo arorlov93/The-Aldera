@@ -1,0 +1,13 @@
+{
+  "id": "P045",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named lab and a batch report behind the QR code is exactly what I look for, and the dose is on the box. At $24.99 for the first box I'd try one, since I'm not paying for something I'll forget on the counter anyway.",
+  "objection": "I'd open the report before paying. If the lab is some name I can't verify, or the batch report is a generic PDF, it's just marketing with extra steps. Also I forget vitamins, so I might not finish 30 sachets.",
+  "would_change_my_mind": "If the lab report turned out to be fake, missing for the batch, or the lab couldn't be checked, I'd pass. A price over $35 for one box would also make me pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P116",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already reorder Toplux when it runs out and it works for me. $29.99 is more than what I pay now, and I have no reason to switch.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. A lab report is nice, but I'm not paying extra for it.",
+  "would_change_my_mind": "A price at or under what I pay for Toplux, or a free first box so I can try it next to what I take now.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 26,
+  "price_too_expensive": 33
+}

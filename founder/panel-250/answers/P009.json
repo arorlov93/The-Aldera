@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and the batch report behind the QR code are what get me, plus $24.99 launch price and the money-back guarantee mean one box is a small risk. I would not buy the second box until I see if I sleep better.",
+  "objection": "Why only one form of magnesium when other brands put several forms in one capsule? At $29.99 after the launch deal I would just wait for a coupon on something else.",
+  "would_change_my_mind": "If the regular price stayed at $29.99 with no coupons or bundle deals, I would pass after the launch box.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P086",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and the named lab with the report for my exact batch is more than most TikTok Shop brands show. At $24.99 for the first box it is about 83 cents a day, so I would try one box, not two.",
+  "objection": "Only one form of magnesium when other brands put 8 forms in one capsule. Is bisglycinate alone enough, and is 200 mg a real dose? I would also wait to see if the price drops further in a flash sale.",
+  "would_change_my_mind": "If the first-box price were not $24.99, or I found a similar tested bisglycinate for less per day, I would pass.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P165",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "A named independent lab and a batch report I can check against the box is exactly what I look for, and bisglycinate with no oxide at a stated 200 mg is the form I would pick. The sachets are handy for my work trips, and $24.99 for the first box is an easy price to try.",
+  "objection": "It is a brand new product with no reviews yet, so I would want to open the lab report and see that the lab is real and the batch number matches. Two capsules a day is also a bit of a chore, and I will only reorder if I notice it helps my sleep.",
+  "would_change_my_mind": "If the lab report did not open or the batch number did not match the box, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

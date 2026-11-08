@@ -1,0 +1,13 @@
+{
+  "id": "P106",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a drawer full of half-used supplement bottles, and I don't need another one I'll quit after a week. At $25 for a month I'd rather wait for a bigger coupon or a flash sale on something I already know.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? And I'm tired of paying for a new bottle I stop taking.",
+  "would_change_my_mind": "A flash sale or coupon that gets a box under about $15, or a trial size so I can try a few nights without committing to 30.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 30,
+  "price_too_expensive": 38
+}

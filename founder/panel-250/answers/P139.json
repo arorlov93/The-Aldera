@@ -1,0 +1,13 @@
+{
+  "id": "P139",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and this is the first one that names the lab and puts the batch report where I can check it. At $24.99 for the first box that is about 83 cents a day, so I would try one box before the launch price ends.",
+  "objection": "I can only see that a report exists, I have not read it. If the lab is a name nobody knows, it is still just marketing. Also I do not know if 200 mg is the right amount for me.",
+  "would_change_my_mind": "If the lab report for the batch showed the real magnesium amount and it did not match the box, or I could not open it before paying, I would pass.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

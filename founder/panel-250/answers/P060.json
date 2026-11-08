@@ -1,0 +1,13 @@
+{
+  "id": "P060",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget pills at home all the time and travel a lot, so one sachet with the 2 capsules already counted is something I can toss in my gym bag. The lab report behind the QR code and the empty-box guarantee make one box at $24.99 a low-risk try.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. I'm paying extra for the packaging and the report, and I'm not sure I'll care about that after a week.",
+  "would_change_my_mind": "A regular price closer to $24.99 so it doesn't feel like a launch-price trick.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

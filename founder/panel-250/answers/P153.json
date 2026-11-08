@@ -1,0 +1,13 @@
+{
+  "id": "P153",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my Toplux and I reorder it when it runs out, so I'm not looking for another one. Two capsules a day is one more thing I'd forget on the counter.",
+  "objection": "Two capsules every day, and I forget my vitamins half the time anyway. I'd pay $30 for a box I don't finish.",
+  "would_change_my_mind": "If it was one capsule and cheaper than what I buy now, or if a friend I trust swore it helped her sleep.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P034",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$25 to $30 a month for one form of magnesium is a lot on $33k when I can get bottles with more capsules for less. I'd read the lab report, but I still would not pay this much to try it.",
+  "objection": "Why one form of magnesium when others have 8 forms in one capsule? And $0.83 to $1 a day is more than I pay now for a bottle that lasts longer.",
+  "would_change_my_mind": "A price around $15 for 30 days, with the lab report for the batch visible before I pay.",
+  "price_too_cheap": 7,
+  "price_cheap": 14,
+  "price_expensive": 24,
+  "price_too_expensive": 32
+}

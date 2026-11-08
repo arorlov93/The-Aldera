@@ -1,0 +1,13 @@
+{
+  "id": "P081",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so I don't need it packed to go. A bottle at home is cheaper per day than $0.83, and I'd wait for a coupon anyway.",
+  "objection": "I'm paying extra for sachets I don't need. My evenings are at home, so the 'take it anywhere' part does nothing for me.",
+  "would_change_my_mind": "A real deal, like a bundle or coupon that gets it under about $0.50 a day, or a trip where I'd actually want it portable.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

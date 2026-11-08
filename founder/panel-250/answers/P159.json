@@ -1,0 +1,13 @@
+{
+  "id": "P159",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "The sachets are already counted out, so I can toss them in my bag on work trips and not think about it. And a named lab with the report for my batch is the first time 'tested' sounds like more than marketing, plus $24.99 is an easy impulse buy.",
+  "objection": "I'd still want to open the lab report myself and see it's a real report for my batch number, not just a nice-looking claim.",
+  "would_change_my_mind": "If the lab report on the product page didn't match the batch number, or the lab turned out to be unnamed or hard to look up, I'd skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P083",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and this is bisglycinate with no oxide, a dose on the box and a named lab report I can match to the batch number. The guarantee means I can try one box without much risk, even though I would rather have one capsule.",
+  "objection": "Two capsules every day is a lot to swallow, and I want to open the lab report and check it is a real independent lab before I pay.",
+  "would_change_my_mind": "If the lab report on the page turned out to be missing, generic or not matching the batch number, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

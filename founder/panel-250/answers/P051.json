@@ -1,0 +1,13 @@
+{
+  "id": "P051",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and I want a known dose from bisglycinate, not oxide. A named lab with the batch report matching the box is what I check for, and almost nobody shows it. At $24.99 for a first box with a money-back guarantee, I would try one.",
+  "objection": "It costs more than Toplux or Goli, and I would want to open the lab report and check it is real and matches the batch number before I pay. 200 mg elemental for 2 capsules is also something I would compare against what my doctor suggests.",
+  "would_change_my_mind": "If the lab report on the product page turned out to be generic or not for a specific batch, or the lab name could not be verified, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

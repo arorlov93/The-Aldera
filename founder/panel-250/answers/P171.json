@@ -1,0 +1,13 @@
+{
+  "id": "P171",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my gummies and I reorder them when they run out, so I'm not going to switch for a brand I just saw. The lab report is a nice touch, but I'd want to talk to my doctor about which magnesium before I buy a new one.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? Bisglycinate alone feels like less for $30.",
+  "would_change_my_mind": "If my doctor told me bisglycinate specifically is what I need, or if the price were closer to what I pay now for my usual one.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

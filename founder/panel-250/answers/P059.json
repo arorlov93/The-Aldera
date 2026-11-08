@@ -1,0 +1,13 @@
+{
+  "id": "P059",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first thought is always whether it's actually tested, and here the lab is named and the report for my batch is behind the QR code. The sachets also work for my travel weeks, and $24.99 is an easy impulse buy with the money-back promise.",
+  "objection": "A lab report on their own page doesn't prove much unless I can check the lab is real and the batch number actually matches. And I don't know yet if magnesium does anything for me.",
+  "would_change_my_mind": "If the lab turned out to be unverifiable or the report on the page didn't match the batch number, I'd pass.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 35,
+  "price_too_expensive": 50
+}

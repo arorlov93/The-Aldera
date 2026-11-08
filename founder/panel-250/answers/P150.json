@@ -1,0 +1,13 @@
+{
+  "id": "P150",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home and reorder my usual brand when it runs out, so I don't need a sachet to go. Nothing here is bad, it just solves a problem I don't have.",
+  "objection": "I take it at home at night, so a travel-ready sachet is not worth switching from what I already reorder.",
+  "would_change_my_mind": "If it were clearly cheaper per day than what I buy now, or if I started traveling a lot and needed it on the go.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P135",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named lab and a batch report I can actually open is what I look for, and the dose is on the box with no magnesium oxide. At $24.99 I would try one box, since the money-back is easy.",
+  "objection": "A foil sachet with two capsules inside every day is a lot of packaging waste when I could just use a bottle. It is also a brand with no reviews yet, so I would check the lab report first.",
+  "would_change_my_mind": "A bottle or refill option, or recyclable sachets, would make me more comfortable. Seeing the lab report match the batch number before I order would too.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 33,
+  "price_too_expensive": 45
+}

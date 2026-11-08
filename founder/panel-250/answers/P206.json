@@ -1,0 +1,13 @@
+{
+  "id": "P206",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my Toplux and I reorder it when it runs out, and I barely remember to take what's on the counter as it is. The lab report is a nice touch, but I'm not switching a routine that works for a brand I've never heard of.",
+  "objection": "I've never heard of this brand, and a lab report on a page doesn't tell me if it works any better than what I already take.",
+  "would_change_my_mind": "A friend or a mom I trust telling me it actually helped her sleep, or a smaller first box for about $10 so I can try it without dropping my current one.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P149",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and the batch report behind the QR code answer my first question, is it really tested. At $24.99 for the first box, with a money-back guarantee, I can try one box without much risk.",
+  "objection": "I already have a drawer of half-used bottles. A lab report tells me what is in the capsule, not whether it will do anything for me, and I might quit by day 10.",
+  "would_change_my_mind": "If the lab report turned out to be missing or not matching my batch, or if the launch price were not available when I check out, I would skip it.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

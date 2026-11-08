@@ -1,0 +1,13 @@
+{
+  "id": "P121",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I don't take supplements unless my doctor says to, and I can't even keep up with the vitamins I already have on the counter. A named lab report is nice, but it doesn't tell me I need magnesium.",
+  "objection": "Nobody has told me I need this, and 30 foil sachets a month is a lot of packaging waste for something I'd probably forget to take.",
+  "would_change_my_mind": "My doctor telling me to take magnesium, plus a sachet that is recyclable.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

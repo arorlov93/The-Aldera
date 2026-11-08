@@ -1,0 +1,13 @@
+{
+  "id": "P084",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and my first question is always whether it's really tested. A named lab and a report for my batch that I can check with the QR code is the first time I've seen that answered. At $24.99 I'd try one box.",
+  "objection": "I already reorder Toplux or Goli when they run out. Is one lab report enough to make me switch, or is it just a nicer way to market the same thing? I'd also want to open the report and check that the numbers match.",
+  "would_change_my_mind": "If I opened the batch report and the lab wasn't a real independent one, or the mg on the report didn't match the box, I'd drop it.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 33,
+  "price_too_expensive": 42
+}

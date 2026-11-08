@@ -1,0 +1,13 @@
+{
+  "id": "P049",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "It's capsules, twice a night, and I don't swallow pills. I'd just keep buying my magnesium gummies. A foil sachet every night also feels like a lot of trash.",
+  "objection": "Two capsules a day and 30 foil sachets a box. I can't take pills, and all that packaging bugs me.",
+  "would_change_my_mind": "A gummy or drink version with the same lab-tested report, in packaging I can recycle.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

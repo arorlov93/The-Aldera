@@ -1,0 +1,13 @@
+{
+  "id": "P191",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, so this is a real problem for me, and the named lab report plus the empty-box refund make it feel safe to try once at $24.99. I would buy one box and see how I feel.",
+  "objection": "Why only one form of magnesium when other brands put several forms in one capsule? And $30 a month is more than I pay for bigger bottles of bisglycinate at the store.",
+  "would_change_my_mind": "If it stayed at $29.99 with no launch price, or if the lab report was not actually there when I scan the QR code, I would skip it.",
+  "price_too_cheap": 8,
+  "price_cheap": 18,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

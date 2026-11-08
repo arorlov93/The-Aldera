@@ -1,0 +1,13 @@
+{
+  "id": "P092",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home and I reorder what I use when it runs out. The on-the-go sachet solves a problem I don't have.",
+  "objection": "I don't need magnesium to go, I take it at home before bed. Why would I switch from what I already reorder to pay $30 for a new brand I haven't heard of?",
+  "would_change_my_mind": "If I started traveling a lot or going away for weekends and needed something easy to pack, or if my current brand got worse or more expensive.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

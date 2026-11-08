@@ -1,0 +1,13 @@
+{
+  "id": "P055",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "I read labels and want a known dose and a real lab report for my batch, and this actually shows both. At $24.99 for the first box I can try it once without feeling stupid.",
+  "objection": "Brand new, so there are no reviews yet. I have to open the lab report myself and make sure it is a real lab and the batch matches. And it is still two capsules every day.",
+  "would_change_my_mind": "If the lab report on the page turned out to be generic or did not match a batch number, I would pass. Real reviews from buyers would make me reorder.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

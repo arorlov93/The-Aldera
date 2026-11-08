@@ -1,0 +1,13 @@
+{
+  "id": "P054",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a routine and a drawer full of half-used bottles, so I'm not adding another one. The lab report is a nice touch, but I'd have to be unhappy with what I take now to switch, and I'm not.",
+  "objection": "Is the lab report real and does it match my box, or is it just marketing? I've never heard of this brand, and I already reorder what I know.",
+  "would_change_my_mind": "A lab report I could check myself from a lab I recognize, plus a trusted friend or a creator I follow saying it helped her sleep better than what she takes now.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

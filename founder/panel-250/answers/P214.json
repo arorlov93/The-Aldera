@@ -1,0 +1,13 @@
+{
+  "id": "P214",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so the on-the-go part does nothing for me. I'd just be paying more per day for the same thing I already have.",
+  "objection": "I already have a bottle at home and the sachets cost more per day than what I buy now. I'd pay extra for a convenience I don't need.",
+  "would_change_my_mind": "If it were a real deal, like a deep coupon or a flash sale that made it cheaper per day than my bottle, or if I started traveling a lot.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

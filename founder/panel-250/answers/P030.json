@@ -1,0 +1,13 @@
+{
+  "id": "P030",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, and a bottle costs me a lot less per day. I don't need individual sachets to carry around, I'm not taking it anywhere.",
+  "objection": "I'm paying about $1 a day for the packaging, not for the magnesium. The named lab and batch report are good, but I'd be paying extra for portability I don't use.",
+  "would_change_my_mind": "A much lower price per day, close to what a regular bottle costs me, with the same named lab report. Or a real reason to take it away from home, like a lot of travel.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

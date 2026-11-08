@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "Named independent lab, batch report behind a QR code, one known dose with no magnesium oxide. That is what I check first, and it is all there. $24.99 for the first box is low risk, and the empty-box refund covers me if it does nothing.",
+  "objection": "I would open the report and check that the lab is real and the batch number matches. I also forget vitamins on the counter, so I might not finish 30 sachets, and then the guarantee does not apply.",
+  "would_change_my_mind": "If the QR report were missing, a generic template, or from a lab I cannot find, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

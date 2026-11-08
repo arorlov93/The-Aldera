@@ -1,0 +1,13 @@
+{
+  "id": "P029",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I already have a drawer of half-used bottles, and $29.99 is more than Toplux or Goli. The lab report and the empty-box guarantee are nice, but I would want to see the report and some real reviews first, and a brand I have never heard of with 1,000 boxes doesn't have any yet.",
+  "objection": "$29.99 a month for a brand with no reviews, when I can get magnesium for less and I never finish the bottles I buy anyway.",
+  "would_change_my_mind": "A real batch report I can open and check, plus a few hundred honest verified reviews, at a price closer to $20 a month.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 27,
+  "price_too_expensive": 35
+}

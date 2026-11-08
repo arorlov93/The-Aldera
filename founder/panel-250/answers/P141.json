@@ -1,0 +1,13 @@
+{
+  "id": "P141",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my Toplux and I reorder it when it runs out, so I'm not looking for a new one. Two capsules every day is also the exact thing I don't want to add to my routine.",
+  "objection": "I already have a supplement I trust and take, and this asks me to swallow two capsules a day on top of it. A lab report is nice, but nobody has told me why this would be better than what I'm already using.",
+  "would_change_my_mind": "A free or very cheap single sachet to try, or a creator I follow showing it replaced what I take now and was easier than capsules.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

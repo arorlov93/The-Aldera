@@ -1,0 +1,13 @@
+{
+  "id": "P101",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab with the batch report on the page and a QR code is exactly what I look for, and bisglycinate with a stated 200 mg dose and no oxide is what I would pick anyway. At $24.99 for the first box and with a money-back guarantee, I would try one box and see.",
+  "objection": "I would open the report first. If the lab is not a real one I can look up, or the report is a generic PDF that does not match my batch number, it is just marketing and I am out.",
+  "would_change_my_mind": "If the lab report for the batch was missing, unreadable, or did not show the actual magnesium amount per capsule, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

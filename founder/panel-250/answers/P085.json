@@ -1,0 +1,13 @@
+{
+  "id": "P085",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "It's capsules, 2 a night, and I don't swallow pills. I buy gummies or drinks, so this isn't something I'd actually take, even with the lab report and the easy travel packs.",
+  "objection": "Two capsules every night is a dealbreaker for me. And will I actually feel a difference from magnesium, or am I just paying $30 for a nice box?",
+  "would_change_my_mind": "A gummy or powder drink version with the same tested dose.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

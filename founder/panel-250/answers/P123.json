@@ -1,0 +1,13 @@
+{
+  "id": "P123",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I only buy gummies or drinks because I hate swallowing pills, and this is two capsules every single day. The lab report is nice, but it doesn't change that I'd be dreading it.",
+  "objection": "Two capsules a day. I'd skip them after a week and the box would sit in my drawer.",
+  "would_change_my_mind": "A gummy or powder drink version with the same tested magnesium.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

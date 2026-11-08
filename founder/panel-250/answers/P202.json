@@ -1,0 +1,13 @@
+{
+  "id": "P202",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my Toplux and I reorder it when it runs out, so I'm not looking for another one. And two capsules every day is more than I want to swallow.",
+  "objection": "I already have a magnesium I reorder, and this is two capsules a day. I'd need a real reason to switch.",
+  "would_change_my_mind": "One capsule a day instead of two, and a clear reason it's better than what I already take.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

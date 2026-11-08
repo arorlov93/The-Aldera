@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "habit",
+  "reason": "I forget my vitamins on the counter all the time, so a sachet I just grab and take in the evening is actually the first thing that fits how I live. At $24.99 for the first box I would try one, because the empty-box guarantee means I am not stuck if it does nothing.",
+  "objection": "$29.99 is more than Toplux or Goli and those last longer. I only pay more if the sachet thing really gets me to take it every day.",
+  "would_change_my_mind": "A creator video showing the sachet in a real evening routine, or the price staying at $24.99 after launch.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

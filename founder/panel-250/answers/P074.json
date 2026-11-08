@@ -1,0 +1,13 @@
+{
+  "id": "P074",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "I read labels and want the dose and an independent lab, and this names the lab and puts the batch report on the page, so I'd try one box at the $24.99 launch price. I would not pay $29.99 without testing it first.",
+  "objection": "Two capsules every day is a lot to swallow, and $29.99 a month is real money on my budget. I also can't tell yet if the lab report is real until I open it and match the batch number.",
+  "would_change_my_mind": "If the QR report didn't open or the batch number didn't match the box, I'd return it. If the regular price stayed at $29.99 with no launch deal, I'd probably pass.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

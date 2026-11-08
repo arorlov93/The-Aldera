@@ -1,0 +1,13 @@
+{
+  "id": "P095",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I travel twice a month and I'm always forgetting to pack my supplements, so a foil sachet with the 2 capsules already counted fits my life. The lab report behind the QR code and the empty-box refund make a $24.99 first box an easy impulse buy.",
+  "objection": "Will I actually feel a difference? Magnesium is not something you notice overnight, and I'd be paying for 30 days just to find out.",
+  "would_change_my_mind": "Seeing a creator I trust on TikTok say it helped her sleep, or a real review from a mom like me.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P127",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "My doctor said my magnesium could be low, and I always forget pills at home when I travel. A sachet I can toss in my bag with the capsules already counted, plus a lab report I can check, makes me willing to try one box at the launch price.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? I also want to know the bisglycinate dose really does something for me before I commit to a second box.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

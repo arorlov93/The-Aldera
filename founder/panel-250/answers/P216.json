@@ -1,0 +1,13 @@
+{
+  "id": "P216",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$29.99 is more than Toplux or Goli and I already have something I take. The sachets are handy when I travel, but I only buy off a video that hits a problem I have right now, and a lab report doesn't do that.",
+  "objection": "It costs more than the brands I already know, and I can't tell what I get for the extra money.",
+  "would_change_my_mind": "A creator video I trust showing it fixing my sleep on a work trip, with the price at $19.99 to $22 for the first box.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 26,
+  "price_too_expensive": 33
+}

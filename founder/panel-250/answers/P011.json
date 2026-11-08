@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$29.99 for a month is more than I pay for Toplux or Goli, and I do the price per day math. Even $24.99 for the first box is not a price where I click, and I would rather wait for a flash sale or a coupon.",
+  "objection": "It costs more than the stuff I already know, and I can't tell if the lab report and the empty-box guarantee are worth five or six extra dollars a month to me.",
+  "would_change_my_mind": "A TikTok Shop flash sale or coupon that brings the first box to about $17 to $19, or the two-box deal at around $35.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 26,
+  "price_too_expensive": 33
+}

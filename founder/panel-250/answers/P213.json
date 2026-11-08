@@ -1,0 +1,13 @@
+{
+  "id": "P213",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, so I have a real reason, and a named independent lab with the batch report behind a QR code is the first time a supplement ad answered my question. With the empty-box refund and the $24.99 launch price, one box is a cheap test.",
+  "objection": "A lab report on their own page only proves the batch matches the label, not that magnesium does anything for me. I would still want my doctor to confirm my level first.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

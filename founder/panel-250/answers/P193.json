@@ -1,0 +1,13 @@
+{
+  "id": "P193",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "I usually assume 'tested' is just marketing, but a named lab and a report that matches the batch number on the box is something I can actually check. The sachets suit me because I forget pills at home when I travel, and $24.99 for one box is a low-risk try.",
+  "objection": "I'd still want to open the report and see that it's a real lab and the batch number matches. If it's a vague PDF, I'm out.",
+  "would_change_my_mind": "If the lab report for my batch were missing or didn't match the box, I wouldn't buy. A higher price after the launch box would also make me think twice about reordering.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

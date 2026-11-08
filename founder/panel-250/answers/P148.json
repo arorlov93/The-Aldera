@@ -1,0 +1,13 @@
+{
+  "id": "P148",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so the sachet to go solves a problem I don't have. The lab report and no magnesium oxide are what I look for, but I'd rather keep buying my usual bottle than pay more per day for portability.",
+  "objection": "I take it at home on the kitchen counter, so paying for single-serve sachets is paying for convenience I don't use. I also can't judge the lab from a product page, and it's a new brand with a first batch of 1,000 boxes.",
+  "would_change_my_mind": "A named lab report for the batch that I can check myself, and a per-day price close to what my current bottle costs, plus a real reason to take it away from home such as travel.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

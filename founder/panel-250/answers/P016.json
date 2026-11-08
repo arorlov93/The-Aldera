@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab with the report for my exact batch behind the QR code is the thing I usually have to dig for, and bisglycinate with no oxide and a stated dose is what I look for. At the $24.99 launch price and with a money-back guarantee I would try one box, not two.",
+  "objection": "$29.99 is more than Toplux or Goli and those last longer. It is a brand with no reviews yet, so I would open the lab report and check that the batch number and the dose really match before I trust it.",
+  "would_change_my_mind": "If the lab report was missing, did not match the batch number, or the price stayed at $29.99 with no launch discount, I would pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

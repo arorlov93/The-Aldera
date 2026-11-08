@@ -1,0 +1,13 @@
+{
+  "id": "P177",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget pills at home all the time and travel a lot, so a counted sachet in my bag is the first version of this that fits how I live. Named lab and a report for my batch is more than most brands show me, and the empty-box refund makes one box a cheap try.",
+  "objection": "I already have a drawer full of half-used bottles. I want to open that QR report myself and see it is a real lab and the numbers match the box, not just a nice page.",
+  "would_change_my_mind": "If the QR report did not open, named no real lab, or the batch number did not match the box, I would not buy again.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

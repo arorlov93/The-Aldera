@@ -1,0 +1,13 @@
+{
+  "id": "P244",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I think most supplements are a waste unless my doctor tells me to take one, and nobody has. The lab report is nice, but it only proves what is in the capsule, not that I need it.",
+  "objection": "Nothing here says magnesium will do anything for me. A tested capsule is still a capsule I have no reason to swallow every day.",
+  "would_change_my_mind": "My doctor recommending magnesium, or a blood test showing I am low.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

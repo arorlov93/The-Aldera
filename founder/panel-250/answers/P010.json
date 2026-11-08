@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and just reorder it when it runs out, and I have a drawer full of half-used bottles from trying other stuff. I'm not adding another one at $29.99 when what I have costs less.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. I don't see why I'd pay more for something new.",
+  "would_change_my_mind": "A price close to what I pay now, like $19 or $20 a box, and a real reason it works better than what I already take.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 26,
+  "price_too_expensive": 33
+}

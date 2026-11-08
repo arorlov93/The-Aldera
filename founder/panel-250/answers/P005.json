@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab with the batch report on the page is exactly what I look for, and the dose is clear with no magnesium oxide. At $24.99 with money back, one box is a low-risk test.",
+  "objection": "It's a brand new product with zero reviews, so I can't check what other people say. I'd open the lab report first and make sure the batch number and the lab are real, otherwise it's just marketing and another bottle for my drawer.",
+  "would_change_my_mind": "If the lab report didn't match the batch, or the lab turned out to be unknown or not verifiable, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

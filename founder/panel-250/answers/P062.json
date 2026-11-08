@@ -1,0 +1,13 @@
+{
+  "id": "P062",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already have a drawer full of half-used supplement bottles and I only take stuff a doctor tells me to. Nobody has told me I need magnesium, so I'm not adding another one.",
+  "objection": "Why only one form of magnesium when other products put several forms in one capsule? And I have no proof I'm even low on magnesium, so it feels like another waste.",
+  "would_change_my_mind": "My doctor or a blood test telling me I'm low on magnesium.",
+  "price_too_cheap": 10,
+  "price_cheap": 17,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

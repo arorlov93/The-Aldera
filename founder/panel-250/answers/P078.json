@@ -1,0 +1,13 @@
+{
+  "id": "P078",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A batch report I can actually open, with the batch number matching the box, is the thing I normally can't get. Magnesium for recovery and sleep is something I'd take anyway, and $24.99 for a first box is low enough to try once.",
+  "objection": "I need to see the report is real: a named lab, a batch number that matches, and a result showing about 200 mg elemental magnesium. If it's just a pretty PDF, it's marketing, and I already have a drawer full of half-used bottles.",
+  "would_change_my_mind": "If the lab report on the page turned out to be generic, not tied to a batch, or from a lab I can't look up, I would not buy.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

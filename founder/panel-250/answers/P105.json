@@ -1,0 +1,13 @@
+{
+  "id": "P105",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The $24.99 launch price is about what I'd risk on an impulse, and the named lab report plus the money-back guarantee make it less likely to end up in my drawer of half-used bottles. I'd only buy one box, not two.",
+  "objection": "Will I actually feel a difference? I have a drawer full of bottles that did nothing, and I'd have to take all 30 sachets before I can ask for my money back.",
+  "would_change_my_mind": "A creator I trust showing real use over a few weeks, or a refund that does not require finishing all 30 sachets.",
+  "price_too_cheap": 8,
+  "price_cheap": 18,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

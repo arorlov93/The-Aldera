@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab with the report for my exact batch is more than I get from most things on TikTok Shop. $24.99 for the first box is low enough to just try it.",
+  "objection": "Two capsules every day is still a lot to swallow, and I only believe the lab report if the batch number really matches. I will not reorder at $29.99 unless there is a coupon.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

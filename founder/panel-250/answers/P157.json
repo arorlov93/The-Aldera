@@ -1,0 +1,13 @@
+{
+  "id": "P157",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab and a batch report I can actually open is what I look for, and 200 mg elemental of bisglycinate with no oxide is a real dose. At $24.99 for the first box I would try one, not two.",
+  "objection": "It is one form of magnesium when some brands put several forms in one capsule, and a new brand has no reviews yet. I would open the lab report first and check the batch number matches before paying.",
+  "would_change_my_mind": "If the lab report was missing, not for my batch, or the lab turned out not to be a real independent one, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

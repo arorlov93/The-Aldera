@@ -1,0 +1,13 @@
+{
+  "id": "P158",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$29.99 is more than Toplux or Goli and those last longer, and I already forget my vitamins on the counter. The sachet is a nice idea for my bag, but I would not pay extra for it this week.",
+  "objection": "$29.99 for 30 days is more than what I pay now, and I do not know if the sachet is worth the difference.",
+  "would_change_my_mind": "A price close to $20 a box, or a cheap trial box so I can see if I actually remember to take it.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 27,
+  "price_too_expensive": 35
+}
