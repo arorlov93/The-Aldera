@@ -4,7 +4,7 @@
 
 - ✓ Each order (1.2 boxes avg) earns $9.32 before fixed costs (30% contribution).
 - ✓ Year 1 operating profit: $41,424.
-- ✓ 8 of 20 simulated buyers buy (40%, the bar is 25%).
+- ✓ 117 of 250 simulated buyers buy (47%, the bar is 25%).
 
 | key number | |
 | --- | ---: |
@@ -15,7 +15,7 @@
 | Startup spend | $13,433 |
 | Cash needed before it pays for itself | $13,433 |
 | Startup money earned back | month 5 |
-| Buyer panel | 8 buy · 12 pass |
+| Buyer panel | 117 buy · 133 pass |
 
 ## The idea
 
@@ -27,17 +27,28 @@
 
 ## Summary
 
-**Что это и для кого.** Магний бисглицинат в порционных саше: одно саше в день, 30 в коробке, анализ каждой партии открывается до покупки. Для занятых людей в США, которые покупают БАДы в TikTok Shop, вечно забывают таблетки дома и проверяют состав.
+*Обновлено 08.11.2026: позиционирование v3, панель из 250 покупателей, третий совет.*
 
-**Вердикт по цифрам: Profitable (прибыльно, по расчёту), но только после изменения предложения.** С исходным предложением (товар + скидка) вердикт был «ещё нет»: покупали 20% виртуальных покупателей при пороге 25%. С новым предложением (отчёт партии до покупки, гарантия «пустая коробка», трекер, цена запуска $24,99) покупают 40%.
+**Что это и для кого.** Магний бисглицинат в порционных саше: одно саше в день, 30 в коробке. Главная идея: «Checked before you buy», отчёт именно твоей партии с названной лабораторией открывается до покупки, номер партии на коробке совпадает с отчётом. Для тех в США, кто покупает БАДы в TikTok Shop и проверяет состав.
+
+**Вердикт по цифрам: Profitable (прибыльно, по расчёту).** Путь к нему:
+- исходное предложение (товар + скидка): 20% виртуальных покупателей, ниже порога 25%;
+- со стеком (отчёт партии, гарантия «пустая коробка», трекер, цена запуска $24,99): 40% из 20, затем 37% из 100;
+- с позиционированием «проверено» первым: **47% из 250**, доверие к отчёту стало главной причиной покупки (74 из 117).
 - С заказа после всех расходов: **$9,32 (30%)**.
 - Безубыточность: **2 заказа в день**.
 - Первый год при плане 15 заказов в день: **около $41,4 тыс. прибыли**.
 
-**В чём совпали совет и панель.** Удобство порции и прозрачность анализа работают (все покупатели «читаю состав» купили после отчёта партии). Цена выше конкурентов в 2-4 раза в пересчёте на день. Лояльных к Toplux и Goli и тех, кто не глотает капсулы, предложение не переубеждает.
-**Где разошлись.** Совет сомневается в «to go» для магния, который пьют дома; в панели на «удобство» покупают 3 из 8.
+**Что выбрал третий совет (единогласно, 3 FUND IF, средняя 5,3).** «Проверено» первой строкой, «Daily care. To go.» остаётся слоганом; после 15.01 цена $29,99 и набор 2 за $49,99 («$0,83 в день»), а не $24,99 навсегда; гарантия «выпей все 30» как есть; главное до запуска: номер партии совпадает на коробке, странице и в отчёте по QR.
 
-**Главный риск: объём.** Если криейторы бросают после первого ролика, выходит около 1,7 заказа в день, ноль прибыли. Второй риск: многие покупают только по цене запуска $24,99. Что делаем: отбор криейторов по истории продаж, дедлайн ролика 10 дней, волны по 150-200 приглашений, проверка конверсии при $29,99 после 15.01.
+**Кого не переубеждаем.** Лояльные Toplux и Goli (4%), «только мармелад» (5%), скептики (16%), а также 12% отказов «пью магний дома на ночь».
+
+**Главные риски.**
+- **Объём:** если криейторы бросают после первого ролика, выходит около 1,7 заказа в день, ноль прибыли.
+- **Цена запуска:** 53 из 117 купивших в панели берут только по $24,99, а пик спроса кончается в тот же день, 15.01.
+- **Отчёт партии:** на нём 63% покупок; одно несовпадение номера снимает главный довод, а конкурент может повторить отчёт за недели.
+
+Что делаем: отбор криейторов по истории продаж, дедлайн ролика 10 дней, волны по 150-200 приглашений, проверка $29,99 на листе ожидания, пробная коробка со сверкой номера партии до отправки образцов.
 
 **Что нужно на старт:** около $13 400 (товар около $9 600, лабораторный отчёт, образцы, товарный знак, резерв Spark Ads) и резерв около $4-5 тыс. на вторую партию к 3-му месяцу. Первый реальный тест: предзаказ на сайте, цель 50 предзаказов до 01.12.
 
@@ -47,38 +58,46 @@
 
 ## What the board said
 
-**Голосование: 3 «финансировать при условиях». Средняя оценка 4,7 из 10** (Offers 5, Monopoly 4, Product 5).
+Совет собирался три раза. Первый совет оценивал идею (`founder/board-v1.md`, средняя 4,7). Второй искал слабые места позиционирования (`founder/board-v2/`, средняя 5,7). Третий, 08.11.2026, выбирал по итогам панели из 250 виртуальных покупателей (`founder/board-v3/`). Ниже итог третьего совета.
 
-### Риски, которые назвали несколько членов совета
+**Голосование:** 3 из 3 FUND IF (финансировать при условиях). Offers 6, Monopoly 4, Product 6, средняя 5,3.
 
-1. **Нельзя назвать главный результат.** Вирусные ролики продают кортизол, стресс, настроение; бренду это запрещено. Особенно бьёт по ашваганде (Offers, Monopoly, Product).
-2. **Герой в слабом сегменте и дороже лидеров.** Чистый бисглицинат продаётся на 8-19 тыс. шт. против 2,26 млн у комплекса Toplux за $23,35; Goli $19,47 против наших $29,99. Формат один должен оправдать наценку (Offers, Monopoly, Product).
-3. **Срок 15.12 впритык.** Производство 15-20 дней, доставка, лабораторный отчёт, проверка карточки, один человек на всей цепочке (Offers, Monopoly, Product).
-4. **Удержание криейторов.** Пессимистичный сценарий 1,7 заказа в день даёт ноль (Monopoly, через CFO).
+### Что выбрал совет (единогласно)
 
-### Где совет разошёлся
+| Вопрос | Выбор | Главный довод |
+|---|---|---|
+| Позиционирование | «Checked before you buy» первой строкой; «Daily care. To go.» остаётся слоганом, без сумки спортзала | доверие к отчёту партии: 63% причин покупки; «в движении» 67%; 12% отказов пьют магний дома на ночь |
+| Цена после 15.01.2027 | $29,99 + набор 2 за $49,99 («$0,83 в день») | $9,32 с заказа и безубыточность 1,9 в день против около $6,10 и 2,9 при $24,99 навсегда |
+| Гарантия | как есть, «выпей все 30» | совпадает с 30-дневным трекером; мягкий вариант зовёт вернуть деньги раньше курса, +1 п.п. возвратов = $0,31 с заказа |
+| Главная задача до 15.12 | номер партии на коробке = отчёт на странице = отчёт по QR | на этом 63% покупок, 23% панели сомневаются, совпадёт ли |
 
-- **Monopoly** видит главную угрозу в копии: лидер с армией криейторов выпустит саше за один цикл. Защита только в прозрачности анализов и своей базе покупателей.
-- **Offers** считает, что проблема решается предложением: стек (трекер, карточка приёма, анализ), гарантия, честная срочность.
-- **Product** сомневается в самой идее «to go» для магния: его пьют вечером дома, это нужно проверить на людях.
+Product предлагает формулировку гарантии одной фразой: «Прошёл 30 дней по трекеру, не понравилось: деньги назад, коробку не возвращать».
 
-### Условия (чек-лист для остального пакета)
+### Риски, которые назвали несколько членов
+1. **Сбой цепочки «партия, отчёт, QR»** (все трое). Открыто: выбрана ли лаборатория, чей номер партии на коробке (капсулы или фасовка в саше), успеет ли отчёт до 15.12.
+2. **Обрыв продаж после 15.01** (все трое): 53 из 117 купивших в панели берут только по $24,99, пик спроса кончается в тот же день.
+3. **«Почувствую ли разницу» без ответа** (Offers, Product): 30% панели, заявления только дословно с этикетки завода.
 
-- [ ] **Один герой на старте: магний.** KSM-66 до первых данных продаж (Monopoly, Product). Offers не возражал.
-- [ ] Первая партия только на минимальный заказ, без дозаказа до 2 заказов в день (Monopoly). → CFO
-- [ ] Физический образец саше с 2 капсулами 00: вскрытие, целостность, влага, печать, до оплаты партии (Product). → ops
-- [ ] Формулировка результата согласована с правилами TikTok и проверена на карточке до оплаты (Offers). → marketing
-- [ ] Вместо скидки стек: карточка «как и когда принимать», 30-дневный трекер, анализ по QR; себестоимость посчитана (Offers). → offer, CFO
-- [ ] Гарантия возврата с ценой, заложенной в расчёт (Offers). → offer, CFO
-- [ ] QR ведёт на отчёт конкретной партии из одобренной лаборатории; тот же отчёт загружен в TikTok (Product, Monopoly). → ops
-- [ ] Подтверждённый график: отчёт и партия готовы не позже чем за неделю до 26.12, иначе честно переносим срочность (Offers, Product). → launch
-- [ ] Проверка спроса до полного объёма: предзаказ или первые ролики с реальной ценой (Offers). → consumer, launch
-- [ ] Своя база покупателей с первого дня (Shopify, подписка, напоминание на 25-й день) (Monopoly, Product). → marketing, ops
-- [ ] Открытые вопросы: доля криейторов со вторым роликом; стоимость первого покупателя; как часто магний принимают вне дома; почему чистый бисглицинат продаётся слабо. → consumer, competitors
+Monopoly (оценка 4) отдельно: отчёт партии конкурент копирует за недели; защита только в первенстве и открытом архиве отчётов. Стоимость покупателя через криейторов пока неизвестна.
 
-### Самая сильная версия бизнеса, которую видит совет
+### Условия (чек-лист)
+- [ ] Пробная коробка до отправки образцов: номер партии совпадает на коробке, странице и в отчёте по QR, проверено с обычного телефона.
+- [ ] Цена запуска заканчивается 15.01.2027 без продлений; набор 2 за $49,99 на карточке с первого дня.
+- [ ] Постоянную цену не опускать до $24,99 без нового решения.
+- [ ] Ответ на «почувствую ли разницу» только дословно с этикетки завода.
+- [ ] Проверить, принимает ли TikTok Shop гарантию «ничего не возвращать» в нашей формулировке.
+- [ ] С первых заказов считать долю обращений по гарантии; выше 5% пересмотр.
+- [ ] До 26.12 посчитать реальную стоимость покупателя через криейторов и проверить $29,99 на листе ожидания.
 
-Не два героя, а **один: магний в порционных саше как «самый прозрачный магний в TikTok»**. Анализ каждой партии по QR это главный актив, который копия не получит бесплатно. Коробка на 30 саше продаётся как 30-дневный челлендж, а не как упаковка. Вместо скидки покупатель получает трекер и понятную схему приёма. С первого дня база покупателей своя, чтобы повтор не зависел от криейторов. Это отличается от предложенного плана: совет советует отложить KSM-66 и не делать ставку на «to go» как на главную причину покупки, пока это не проверено на людях.
+### Как менялась оценка
+
+| Совет | Что смотрели | Голоса | Средняя |
+|---|---|---|---:|
+| v1 | идея, линейка | 3 FUND IF | 4,7 |
+| v2 | позиционирование v2, панель 20 | 3 FUND IF | 5,7 |
+| v3 | позиционирование v3, панель 250 | 3 FUND IF | 5,3 |
+
+Средняя v3 ниже v2 из-за Monopoly (5 → 4): линза отдельно оценила, насколько легко скопировать отчёт партии. Offers и Product остались на 6.
 
 ## The competition
 
@@ -145,7 +164,9 @@ API отдаёт отзывы по релевантности, и почти в�
 
 ## The buyer panel
 
-**8 buy · 12 pass** (40% buy) out of 20 simulated buyers. Seed 672709, so the same cards can be dealt again.
+Текущая панель: 250 виртуальных покупателей на питче v3 (08.11.2026). Карточки и ответы: `founder/panel-250/`. Прошлые панели: `founder/panel-v1/` (20, исходное предложение, 20%), `founder/panel-v2/` (20, со стеком, 40%), `founder/panel-100/` (100, питч v2, 37%).
+
+**117 buy · 133 pass** (47% buy) out of 250 simulated buyers. Seed 158554, so the same cards can be dealt again.
 
 These are simulated buyers, not customers. Use this to find objections and weak spots, then confirm the big ones with real people before you spend.
 
@@ -153,70 +174,81 @@ These are simulated buyers, not customers. Use this to find objections and weak 
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| Busy working mom | 7 | 71%  (thin) |
-| Budget-tight shopper | 3 | 33%  (thin) |
-| Gym-goer / active | 4 | 25%  (thin) |
-| Young professional, wellness routine | 6 | 17%  (thin) |
+| Young professional, wellness routine | 75 | 57% |
+| Gym-goer / active | 50 | 46% |
+| Busy working mom | 88 | 43% |
+| Budget-tight shopper | 37 | 35% |
 
 ### By buying behaviour
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| Reads every review and label | 3 | 100%  (thin) |
-| Impulse buyer from TikTok videos | 4 | 75%  (thin) |
-| On-the-go routine person | 2 | 50%  (thin) |
-| Deal hunter | 3 | 33%  (thin) |
-| Skeptic of supplements | 2 | 0%  (thin) |
-| Already loyal to a competitor | 4 | 0%  (thin) |
-| Gummy-only | 2 | 0%  (thin) |
+| Reads every review and label | 37 | 76% |
+| Impulse buyer from TikTok videos | 55 | 75% |
+| On-the-go routine person | 30 | 67% |
+| Deal hunter | 38 | 55% |
+| Skeptic of supplements | 25 | 16% |
+| Gummy-only | 20 | 5% |
+| Already loyal to a competitor | 45 | 4% |
 
 ### By income
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| $72,000 and up | 7 | 71%  (thin) |
-| $49,000 to $72,000 | 7 | 29%  (thin) |
-| under $49,000 | 6 | 17%  (thin) |
+| $53,000 to $71,000 | 84 | 56% |
+| $71,000 and up | 88 | 48% |
+| under $53,000 | 78 | 36% |
 
 ### Why they pass
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| habit | 6 | "I already take Toplux and reorder when it runs out, and $29.99 is more than Toplux or Goli for a month. I'm not switching a routine that works for something I've never heard of." (P007) · "I already have my supplement and I reorder it when it runs out, so I am not looking for a new one. Two capsules a day is still capsules, and the sachet does not change that for me." (P008) |
-| need | 3 | "I don't take supplements unless a doctor tells me to, and nobody has told me I'm low on magnesium. I can get a bottle of magnesium at a drugstore for under $15, so $30 a month for the same thing in a foil packet isn't worth it to me." (P002) · "I already take magnesium at night at home, and I have a drawer of half-used supplement bottles. I don't need it to go, and I'm not buying another one without a doctor telling me to." (P003) |
-| price | 2 | "$29.99 is more than Toplux or Goli and those last longer. The sachet idea fits my gym bag, but I'm not paying a premium for it when I could get magnesium for a lot less." (P010) · "I already take Toplux and reorder it. $29.99 is more than Toplux ($23) or Goli ($19) and those last longer, and I have a drawer of half-used bottles already." (P016) |
-| values | 1 | "Thirty foil sachets a month is a lot of trash for something I can get in a bottle, and I already compare magnesium by price per day. The lab report and the guarantee are nice, but they don't beat a bottle that costs less." (P006) |
+| habit | 65 | "I already reorder Toplux when it runs out and I have a drawer of half-used bottles, so I am not adding another one. $29.99 is more than I pay now and I have no reason to switch." (P003) · "I already take Toplux and just reorder it when it runs out, and I have a drawer full of half-used bottles from trying other stuff. I'm not adding another one at $29.99 when what I have costs less." (P010) |
+| need | 39 | "I already take magnesium at night at home, and a bottle lasts me a month for way less than $30. The sachet thing is cute but I'm not carrying magnesium around, I take it before bed." (P004) · "I think most supplements are a waste unless a doctor tells me to take them, and nobody has. I already forget the vitamins on my counter half the time, so a box of 30 sachets would probably sit there too." (P018) |
+| price | 26 | "$29.99 for a month is more than I pay for Toplux or Goli, and I do the price per day math. Even $24.99 for the first box is not a price where I click, and I would rather wait for a flash sale or a coupon." (P011) · "$29.99 is more than Toplux or Goli, and I compare price per day. Even at $24.99 it is not clearly cheaper than what I already know, so I would wait for a coupon or flash sale." (P023) |
+| convenience | 2 | "It's capsules, twice a night, and I don't swallow pills. I'd just keep buying my magnesium gummies. A foil sachet every night also feels like a lot of trash." (P049) · "It's capsules, 2 a night, and I don't swallow pills. I buy gummies or drinks, so this isn't something I'd actually take, even with the lab report and the easy travel packs." (P085) |
+| trust | 1 | "The named lab and batch report are what I look for, but it's a brand-new product with zero reviews, and I read every review before I buy. I'm not putting $25 to $30 on a brand I can't check yet when I can get magnesium glycinate in a bottle for less." (P227) |
 
 ### Why they buy
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| trust | 4 | "Batch lab reports on the page and behind the QR code are what I check before buying anything, and the sachets are handy when I travel twice a month. At the $24.99 launch price I would try one box, not two." (P001) · "The named lab and the per-batch report would normally win me over, and at $24.99 the launch box works out to about 83 cents a day, which I can live with. I would try one box, not two, and only because the empty-box guarantee means I am not stuck with another half-used bottle in the drawer." (P004) |
-| convenience | 3 | "My doctor said my magnesium could be low and I always forget pills at home, so a sachet I can toss in my bag is what I'd actually take. The lab report and the money-back thing make me OK trying one box at the $24.99 price." (P012) · "The sachet thing is actually handy, I can throw one in my gym bag and not think about it, and the lab report plus money-back thing makes it low risk at $24.99. I'd grab one box on impulse if a creator I follow showed it, but I wouldn't commit to a second yet." (P017) |
-| need | 1 | "My doctor said my magnesium could be low, so I actually have a reason, and $24.99 for the first box with a money-back guarantee is a risk I can take once. At $29.99 I would probably just grab a cheaper bottle." (P018) |
+| trust | 74 | "A named independent lab with the batch report on the page is exactly what I look for, and the dose is clear with no magnesium oxide. At $24.99 with money back, one box is a low-risk test." (P005) · "The named lab and the batch report behind the QR code are what get me, plus $24.99 launch price and the money-back guarantee mean one box is a small risk. I would not buy the second box until I see if I sleep better." (P009) |
+| convenience | 27 | "I travel a lot and forget pills at home, so a pre-counted sachet I can toss in my bag is actually useful. The named lab and the batch report are a nice touch and the money-back guarantee lowers the risk of trying one box." (P002) · "I forget my vitamins on the counter half the time, so a sachet that is already counted for tonight fits how I actually live. $24.99 for the first box is an easy impulse buy if a creator's video shows the problem." (P007) |
+| need | 8 | "My doctor said my magnesium could be low, and a named lab with the report for my exact batch is more than I get from most things on TikTok Shop. $24.99 for the first box is low enough to just try it." (P001) · "My doctor said my magnesium could be low, so this hits a real problem for me. The lab report for the batch and the money-back guarantee make one box at $24.99 an easy impulse buy." (P008) |
+| price | 4 | "$24.99 for the first box is about 83 cents a day and the lab report for my batch is on the page, so I would try one box at the launch price. I would not pay full price or buy two boxes before I know it helps me sleep." (P026) · "$24.99 for the first box is under a dollar a day, and the money-back guarantee means one box is a cheap try. The lab report and no magnesium oxide help, and I'd not pay full $29.99 without the launch deal." (P099) |
+| habit | 2 | "I forget my vitamins on the counter all the time, so a sachet I just grab and take in the evening is actually the first thing that fits how I live. At $24.99 for the first box I would try one, because the empty-box guarantee means I am not stuck if it does nothing." (P006) · "I forget my vitamins on the counter half the time, so a sachet I just grab in the evening actually fits my life. At $24.99 launch price and with the money-back guarantee I'd try one box, but I wouldn't pay $29.99 yet." (P151) |
+| quality | 2 | "My doctor said my magnesium could be low, and a named independent lab with the batch report on the page is exactly what I check before buying. Bisglycinate at a stated 200 mg with no oxide and an empty-box guarantee makes one box an easy risk at the launch price." (P138) · "A named independent lab and a batch report I can check against the box is exactly what I look for, and bisglycinate with no oxide at a stated 200 mg is the form I would pick. The sachets are handy for my work trips, and $24.99 for the first box is an easy price to try." (P165) |
 
 ### What would flip a no
 
-- My doctor telling me my magnesium is low and recommending it. Even then it would have to be close to drugstore price.
-- My doctor recommending this specific product, or a blood test showing I am low in magnesium and need to take it during the day.
-- A flash sale or coupon that brought it down to about $15 a box, or proof that it's cheaper per day than what I already buy.
-- A price near $15 to $18 for 30 days, or a flash sale deal on two boxes, plus a clear answer on whether the sachet foil can be recycled.
-- A price near $20 a month, or a creator I trust showing it side by side with what I take now.
-- If my current one ran out and I saw a creator I trust using this one for sleep, with a lower first-box price, I might try one box.
-- A price near $20 for the 30 days, or a first box at the launch price that is clearly cheaper than Toplux.
-- A creator video where she shows the sachet fixing a real problem I have, like skipping my dose on travel or gym days, plus a price closer to $18-20 a month.
-- A gummy or powder/drink version at about the same price.
-- A creator I trust showing real results after 30 days, or a cheap trial of a few sachets to try next to my current one.
-- A price at or under what I pay for Toplux, around $19 to $20 a box, or a free sample so I can see if it does anything before I spend.
-- The same magnesium as a gummy or a drink mix, with the lab report, at about $20 a month.
+- A price close to what I pay now, around $20 a box, or a friend I trust telling me it helped her sleep better than what I take.
+- If my doctor's blood test came back low and said I needed a higher, better-absorbed kind, and the box clearly cost about what my bottle does.
+- A price close to what I pay now, like $19 or $20 a box, and a real reason it works better than what I already take.
+- A TikTok Shop flash sale or coupon that brings the first box to about $17 to $19, or the two-box deal at around $35.
+- A deeper flash-sale price, around $19.99 for the first box, or a small trial pack so I can try it before committing to 30 days.
+- My doctor telling me I'm low on magnesium and should take it.
+- A gummy or drink version with the same lab-tested report and a known dose.
+- My doctor recommending magnesium, or a blood test showing I'm low.
+- If I ran out of my current bottle and this was clearly cheaper per day, or I kept forgetting my pills on trips, I might try one box.
+- My doctor telling me to take magnesium, or a blood test showing I'm low.
+- A flash sale or coupon bringing the first box to about $19 to $20, or a two-box price under $0.65 a day.
+- A creator video showing a real problem I have, like travelling or gym bag days when I forget my dose, and a price close to what I pay now.
 
 Buyers say they would buy **1.0 times** in the first month on average.
 
-20 buyers gave all four price answers. Run founder-pricing's van_westendorp.py on the answers folder.
+250 buyers gave all four price answers. Run founder-pricing's van_westendorp.py on the answers folder.
 
 ## Pricing
 
 Источники: ответы 20 виртуальных покупателей (`founder/pricing-curve.md`), цены конкурентов (`founder/competitors.md`), расчёт CFO при разных ценах (комиссии и возвраты пересчитаны в процентах от цены; 1,2 коробки в заказе, скидки 15%).
+
+### Обновление 08.11.2026: панель 250 и третий совет
+
+- **Диапазон по 250 покупателям (питч v3): $12,06-$33,99.** Медианы: «выгодно» $19, «уже дорого» $30, «слишком дорого» $42. Точка «столько же выгодно, сколько дорого»: $22,05. $29,99 внутри диапазона.
+- **Зависимость от цены запуска:** 53 из 117 купивших берут только по $24,99.
+- **Решение совета:** после 15.01.2027 цена $29,99 и набор 2 за $49,99 («$0,83 в день»). $24,99 навсегда не делаем: около $6,10 с заказа и безубыточность 2,9 заказа в день против $9,32 и 1,9 (расчёт со стеком предложения, `founder/numbers.json`).
+- Таблица ниже посчитана без стека предложения (без гарантии и карт), поэтому цифры с заказа в ней выше.
 
 ### 1. Цена: $29,99 остаётся базовой
 
@@ -348,16 +380,16 @@ Buyers say they would buy **1.0 times** in the first month on average.
 
 ## The numbers
 
-**Маржа.** С каждого заказа (в среднем 1,2 коробки, покупатель платит $30,59) после возвратов, комиссий TikTok и криейтора, товара и доставки остаётся **$10,95, то есть 36%**. При плане 15 заказов в день прибыль **32% от выручки** после всех расходов, около **$4 500 в месяц**. Точка безубыточности: **2 заказа в день**.
+**Маржа.** С каждого заказа (в среднем 1,2 коробки, покупатель платит $30,59) после возвратов, комиссий TikTok и криейтора, товара и доставки остаётся **$9,32, то есть 30%** (с учётом стека предложения: гарантия «пустая коробка» как +5% возвратов и карты в коробке; без стека было бы $10,95). При плане 15 заказов в день прибыль **27% от выручки** после всех расходов, около **$3 900 в месяц**. Точка безубыточности: **2 заказа в день**.
 
 **Главное допущение: объём.** 15 заказов в день это базовый сценарий прошлой модели (30 криейторов на продукт, два продукта). В пессимистичном сценарии (криейторы бросают после первого ролика, около 1,7 заказа в день) бизнес выходит в ноль, а стартовые деньги за год не возвращаются: прибыль за год около минус $65, вложения $13 400 остаются в товаре. Поэтому решает не цена, а набор и удержание криейторов.
 
-**Деньги на старт: около $13 400.** Из них товар около $9 600, лабораторные отчёты около $2 000, образцы, товарный знак и резерв на Spark Ads. В базовом сценарии деньги возвращаются на **4-й месяц**. Учтите задержку выплат TikTok 3-5 недель после заказа и то, что 2 420 коробок при плане хватит примерно на 4 месяца: вторую партию нужно оплатить около 3-го месяца, до того как вернутся деньги за первую.
+**Деньги на старт: около $13 400.** Из них товар около $9 600, лабораторные отчёты около $2 000, образцы, товарный знак и резерв на Spark Ads. В базовом сценарии деньги возвращаются на **5-й месяц**. Учтите задержку выплат TikTok 3-5 недель после заказа и то, что 2 420 коробок при плане хватит примерно на 4 месяца: вторую партию нужно оплатить около 3-го месяца, до того как вернутся деньги за первую.
 
 **Что сильнее всего двигает результат (проверено расчётом):**
-1. **Себестоимость.** Если товар подорожает на 15%, прибыль за год падает с $49,9 тыс. до $34,8 тыс. Отсюда KSM-66 у Marin ($4,15) против Салиха ($5,65) это около $1,80 с заказа ашваганды.
-2. **Цена.** Минус 10% к цене даёт прибыль за год $34,2 тыс. вместо $49,9 тыс. Стартовая скидка на запуск оправдана только на 2-3 недели.
-3. **Объём.** Минус 20% к объёму даёт $38,7 тыс. Пессимистичный сценарий даёт ноль.
+1. **Себестоимость.** Если товар подорожает на 15%, прибыль за год падает с $41,4 тыс. до $25,1 тыс. Отсюда KSM-66 у Marin ($4,15) против Салиха ($5,65) это около $1,80 с заказа ашваганды.
+2. **Цена.** Минус 10% к цене даёт прибыль за год $25,7 тыс. вместо $41,4 тыс. Поэтому цена запуска $24,99 заканчивается 15.01.2027, а $24,99 навсегда (около $6,10 с заказа, безубыточность 2,9 в день) совет отклонил.
+3. **Объём.** Минус 20% к объёму даёт $31,9 тыс. Пессимистичный сценарий даёт ноль.
 
 **Как поднять маржу:** доставка покупателю $6,00 это самая крупная строка после комиссии криейтора. Порог бесплатной доставки и наборы по 2 коробки снижают её долю. Комиссия криейтора 20% против 25% у топовых даёт около $1,45 с заказа.
 
@@ -374,50 +406,51 @@ Every number below comes from the input file. Nothing is looked up or guessed.
 | line | per order (1.2 boxes avg) |
 | --- | ---: |
 | Price | $30.59 |
-| Returns 5% of paid | -$1.53 |
+| Returns 5% + guarantee claims 5% (estimate) | -$3.06 |
 | TikTok Shop referral fee 6% | -$1.74 |
 | Creator commission 20% | -$5.81 |
 | Product landed DDP Miami, 1.2 boxes x $3.80 (blend Mg ~$3.73 + KSM-66 ~$4.15) | -$4.56 |
 | Fulfillment + shipping to buyer (estimate) | -$6.00 |
-| **Contribution** (what each order (1.2 boxes avg) leaves to pay the fixed costs) | **$10.95** (36%) |
+| Tracker card + how-to-take card in box, 1.2 boxes (estimate) | -$0.10 |
+| **Contribution** (what each order (1.2 boxes avg) leaves to pay the fixed costs) | **$9.32** (30%) |
 
 ### The margin that matters
 
-Fixed costs: $520 a month (Creator samples, ~18 boxes/month incl. shipping (estimate) $170, Software and subscriptions (Shopify, tools) (estimate) $100, Spark Ads on proven creator videos (estimate) $250).
+Fixed costs: $530 a month (Creator samples, ~18 boxes/month incl. shipping (estimate) $170, Software and subscriptions (Shopify, tools) (estimate) $100, Spark Ads on proven creator videos (estimate) $250, Batch report hosting page + QR (estimate) $10).
 
 - **Break-even: 2 order (1.2 boxes avg)s a day.** Below that you lose money every month.
-- **Profit margin at your plan** (15 a day): **32%** of every sale, after every cost.
+- **Profit margin at your plan** (15 a day): **27%** of every sale, after every cost.
 
 ### Year 1, month by month
 
 | month | order (1.2 boxes avg)s a day | revenue | profit | cumulative (after $13,433 startup) |
 | ---: | ---: | ---: | ---: | ---: |
-| 1 | 5 | $4,221 | $991 | -$12,442 |
-| 2 | 12 | $11,288 | $3,521 | -$8,921 |
-| 3 | 15 | $14,133 | $4,539 | -$4,382 |
-| 4 | 15 | $14,133 | $4,539 | $156 |
-| 5 | 15 | $14,133 | $4,539 | $4,695 |
-| 6 | 15 | $14,133 | $4,539 | $9,234 |
-| 7 | 15 | $14,133 | $4,539 | $13,773 |
-| 8 | 15 | $14,133 | $4,539 | $18,312 |
-| 9 | 15 | $14,133 | $4,539 | $22,851 |
-| 10 | 15 | $14,133 | $4,539 | $27,390 |
-| 11 | 15 | $14,133 | $4,539 | $31,929 |
-| 12 | 15 | $14,133 | $4,539 | $36,468 |
+| 1 | 5 | $4,221 | $756 | -$12,677 |
+| 2 | 12 | $11,288 | $2,909 | -$9,768 |
+| 3 | 15 | $14,133 | $3,776 | -$5,992 |
+| 4 | 15 | $14,133 | $3,776 | -$2,216 |
+| 5 | 15 | $14,133 | $3,776 | $1,560 |
+| 6 | 15 | $14,133 | $3,776 | $5,336 |
+| 7 | 15 | $14,133 | $3,776 | $9,111 |
+| 8 | 15 | $14,133 | $3,776 | $12,887 |
+| 9 | 15 | $14,133 | $3,776 | $16,663 |
+| 10 | 15 | $14,133 | $3,776 | $20,439 |
+| 11 | 15 | $14,133 | $3,776 | $24,215 |
+| 12 | 15 | $14,133 | $3,776 | $27,991 |
 
-- **Year 1 operating profit: $49,901** on $156,835 of revenue.
-- After the $13,433 startup spend: $36,468.
-- Startup money earned back: month 4.
+- **Year 1 operating profit: $41,424** on $156,835 of revenue.
+- After the $13,433 startup spend: $27,991.
+- Startup money earned back: month 5.
 - Cash you need before it pays for itself: **$13,433**.
 
 ### What if
 
 | scenario | margin at plan | break-even a day | year 1 profit |
 | --- | ---: | ---: | ---: |
-| Base plan | 32% | 2 | $49,901 |
-| Price -10% | 25% | 3 | $34,217 |
-| Volume -20% | 31% | 2 | $38,673 |
-| Unit costs +15% | 22% | 3 | $34,797 |
+| Base plan | 27% | 2 | $41,424 |
+| Price -10% | 19% | 3 | $25,740 |
+| Volume -20% | 26% | 2 | $31,867 |
+| Unit costs +15% | 16% | 3 | $25,066 |
 
 No red flags in these numbers. They are only as good as the inputs: check every cost against a real quote.
 
