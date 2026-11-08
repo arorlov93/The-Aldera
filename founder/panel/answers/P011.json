@@ -1,13 +1,13 @@
 {
   "id": "P011",
-  "buys": false,
-  "purchases_first_month": 0,
+  "buys": true,
+  "purchases_first_month": 1,
   "reason_code": "trust",
-  "reason": "The dose and the bisglycinate form are right, and a batch report behind a QR code is more than most brands give. But it is a new brand with zero reviews, and I read every review before I buy, so I would not put money in on a TikTok video alone.",
-  "objection": "No reviews yet, and I cannot tell who the independent lab is or whether the report is real. Also $29.99 is above Toplux and Goli, and 200 mg in two capsules does not look like a better deal than what I can already get.",
-  "would_change_my_mind": "A few dozen honest verified reviews, plus a QR report I can open now that names the lab and shows magnesium content by batch, at $24 or less per box.",
-  "price_too_cheap": 9,
-  "price_cheap": 18,
-  "price_expensive": 28,
+  "reason": "The named independent lab and a report for each batch is exactly what I look for, and 200 mg elemental from bisglycinate with no oxide is a real dose. At $24.99 launch price it is close enough to Toplux that I would try one box, but not at $29.99.",
+  "objection": "Brand new, so zero reviews to read, and $29.99 is more than Toplux or Goli. I would want to open the lab report first and check it is a real lab and matches the label.",
+  "would_change_my_mind": "If the lab report turns out to be vague or not tied to a batch number, I walk. If there were a few real reviews and the full price came down near $25, I would consider a second box.",
+  "price_too_cheap": 12,
+  "price_cheap": 21,
+  "price_expensive": 29,
   "price_too_expensive": 38
 }

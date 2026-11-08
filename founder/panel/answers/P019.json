@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "habit",
-  "reason": "It's capsules, and I only buy gummies or drinks because I hate swallowing pills. I also already have a drawer full of half-used bottles and $30 is a lot when I'm watching my money.",
-  "objection": "Two pills every day is a dealbreaker for me, and $30 for something I might quit after a week like all the others.",
-  "would_change_my_mind": "A gummy or powder version at around $15 a month.",
-  "price_too_cheap": 6,
-  "price_cheap": 12,
-  "price_expensive": 22,
-  "price_too_expensive": 30
+  "reason": "I don't swallow pills, and this is two capsules a day. I'd just be adding another thing to my drawer of half-used bottles. The lab report is a nice touch, but it doesn't fix the capsule problem.",
+  "objection": "Two capsules every day and I hate swallowing pills. I'd quit by day four and be out $25 on a box I didn't finish.",
+  "would_change_my_mind": "The same magnesium as a gummy or a drink mix, with the lab report, at about $20 a month.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 26,
+  "price_too_expensive": 35
 }

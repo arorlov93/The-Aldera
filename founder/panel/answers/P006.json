@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "values",
-  "reason": "A foil sachet for every single day is 30 pieces of trash a month, and I already know a bottle of magnesium glycinate costs less per day. 20% off is nice but I'd wait for a bigger coupon or a bundle anyway.",
-  "objection": "Sachets feel like more packaging waste, and I'm paying about $1 a day for the convenience of not counting two capsules, which I don't really need.",
-  "would_change_my_mind": "A bigger discount or a multi-box bundle that gets it well under 70 cents a day, plus a recyclable or refill option for the sachets.",
+  "reason": "Thirty foil sachets a month is a lot of trash for something I can get in a bottle, and I already compare magnesium by price per day. The lab report and the guarantee are nice, but they don't beat a bottle that costs less.",
+  "objection": "Every day is one more piece of foil in the bin, and I'm paying extra for the packaging when a bottle of magnesium costs a lot less per day.",
+  "would_change_my_mind": "A price near $15 to $18 for 30 days, or a flash sale deal on two boxes, plus a clear answer on whether the sachet foil can be recycled.",
   "price_too_cheap": 9,
   "price_cheap": 16,
-  "price_expensive": 25,
-  "price_too_expensive": 33
+  "price_expensive": 26,
+  "price_too_expensive": 34
 }
