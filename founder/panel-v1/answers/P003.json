@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, and I have a drawer of half-used bottles. I don't need one that fits in a gym bag.",
+  "objection": "I'm not convinced most supplements do anything unless a doctor recommends them, and I already have magnesium at home. Paying for a pocket-sized version of something I take at home is paying for nothing.",
+  "would_change_my_mind": "My doctor telling me my magnesium is low, or a clear reason I need it away from home.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 45
+}

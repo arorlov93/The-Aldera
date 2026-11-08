@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "Batch lab reports on the page and behind the QR code are what I check before buying anything, and the sachets are handy when I travel twice a month. At the $24.99 launch price I would try one box, not two.",
+  "objection": "$29.99 full price is more than Toplux or Goli, and I want to open the actual lab report and see the lab named before I trust it. If the report is missing or vague, I walk away.",
+  "would_change_my_mind": "A visible, real batch report from a named independent lab on the listing, plus the full price at or under about $27.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 28,
+  "price_too_expensive": 38
+}

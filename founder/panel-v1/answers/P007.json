@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and reorder it when it runs out, so I have no reason to switch. $29.99 is more than what I pay now, and with two kids I am not paying extra for a pocket sachet when my gym bag already holds a bottle.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. I do not know this brand and I would be paying more for something I do not need.",
+  "would_change_my_mind": "A price at or below what I pay now, around $22 for the month, or a free sample box that shows me it works better than what I already take.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 26,
+  "price_too_expensive": 33
+}

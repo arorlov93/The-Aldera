@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and reorder when it runs out, and $29.99 is more than Toplux or Goli for a month. I'm not switching a routine that works for something I've never heard of.",
+  "objection": "It costs more than what I already buy and I have no reason to think it's better for me.",
+  "would_change_my_mind": "A price near $20 a month, or a creator I trust showing it side by side with what I take now.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 26,
+  "price_too_expensive": 32
+}

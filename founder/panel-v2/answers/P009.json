@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and a report per batch is the exact thing I check before buying, and 200 mg elemental with no oxide is a real dose. At $24.99 I would try one box, but at $29.99 I would probably keep scrolling.",
+  "objection": "I have never heard of this brand and there are no reviews yet, and I read every review. I also want to open the lab report and see that it is real before I trust it, and $29.99 is more than Toplux or Goli.",
+  "would_change_my_mind": "If the lab report did not open on the product page, or the lab was not a real, named lab, I would not buy. A few honest verified reviews, or a lower regular price near $25, would make me buy more than one box.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

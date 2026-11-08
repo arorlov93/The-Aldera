@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "values",
+  "reason": "Thirty foil sachets a month is a lot of trash for something I can get in a bottle, and I already compare magnesium by price per day. The lab report and the guarantee are nice, but they don't beat a bottle that costs less.",
+  "objection": "Every day is one more piece of foil in the bin, and I'm paying extra for the packaging when a bottle of magnesium costs a lot less per day.",
+  "would_change_my_mind": "A price near $15 to $18 for 30 days, or a flash sale deal on two boxes, plus a clear answer on whether the sachet foil can be recycled.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 26,
+  "price_too_expensive": 34
+}
