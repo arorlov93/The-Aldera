@@ -1,0 +1,29 @@
+{
+  "business": "The Aldera: магний бисглицинат и ашваганда KSM-66 в саше (30 саше в коробке), TikTok Shop + криейторы",
+  "unit": "order (1.2 boxes avg)",
+  "price": 30.59,
+  "variable": [
+    {"label": "Returns 5% of paid", "cost": 1.53},
+    {"label": "TikTok Shop referral fee 6%", "cost": 1.74},
+    {"label": "Creator commission 20%", "cost": 5.81},
+    {"label": "Product landed DDP Miami, 1.2 boxes x $3.80 (blend Mg ~$3.73 + KSM-66 ~$4.15)", "cost": 4.56},
+    {"label": "Fulfillment + shipping to buyer (estimate)", "cost": 6.00}
+  ],
+  "fixed_monthly": [
+    {"label": "Creator samples, ~18 boxes/month incl. shipping (estimate)", "cost": 170},
+    {"label": "Software and subscriptions (Shopify, tools) (estimate)", "cost": 100},
+    {"label": "Spark Ads on proven creator videos (estimate)", "cost": 250}
+  ],
+  "startup": [
+    {"label": "First batch magnesium 1,000 boxes x ~$3.73 DDP (estimate from Salih/Liferio quotes)", "cost": 3730},
+    {"label": "First batch ashwagandha KSM-66 1,420 boxes (Liferio MOQ) x ~$4.15 DDP (estimate)", "cost": 5893},
+    {"label": "Lab reports for TikTok/Amazon, 2 products (estimate)", "cost": 2000},
+    {"label": "Launch samples to creators, ~92 boxes incl. shipping (estimate)", "cost": 860},
+    {"label": "Factory samples (2 x $30 + shipping)", "cost": 100},
+    {"label": "Trademark application USPTO, 1 class (estimate)", "cost": 350},
+    {"label": "Spark Ads reserve for launch", "cost": 500}
+  ],
+  "days_per_month": 30,
+  "plan_per_day": 15.4,
+  "ramp_per_day": [4.6, 12.3, 15.4, 15.4, 15.4, 15.4, 15.4, 15.4, 15.4, 15.4, 15.4, 15.4]
+}
