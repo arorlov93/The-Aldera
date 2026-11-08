@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my vitamins at home all the time and I live out of a gym bag, so a sachet I can toss in a pocket actually fits how I live. At $24 after the launch discount I would try one box, but only because of the sachet.",
+  "objection": "$29.99 is more than Toplux or Goli and those last longer. Full price for one month of magnesium feels like a lot, so I would not reorder unless I clearly notice it helps.",
+  "would_change_my_mind": "A full-price box at $24 or under, or a bigger box (like 60 sachets) at about the same cost per day.",
+  "price_too_cheap": 10,
+  "price_cheap": 19,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "I like the glycinate form and the batch QR report, but it's a brand I've never heard of with no reviews yet, and I read every review before I buy. At $29.99 it's more than Toplux or Goli, so I'd scroll past and maybe save it.",
+  "objection": "No reviews and no track record, and I can't check the lab report until the box is already in my hands. For $30 I could buy a known magnesium with hundreds of reviews.",
+  "would_change_my_mind": "A real lab report I can open before buying, plus a few dozen honest verified reviews, at around $24 or less.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

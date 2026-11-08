@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "It's capsules, and I only buy gummies or drinks because I hate swallowing pills. I also already have a drawer full of half-used bottles and $30 is a lot when I'm watching my money.",
+  "objection": "Two pills every day is a dealbreaker for me, and $30 for something I might quit after a week like all the others.",
+  "would_change_my_mind": "A gummy or powder version at around $15 a month.",
+  "price_too_cheap": 6,
+  "price_cheap": 12,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

@@ -1,0 +1,208 @@
+{
+ "business": "The Aldera, magnesium bisglycinate in daily sachets",
+ "seed": 672709,
+ "dealt": 20,
+ "answered": 20,
+ "skipped": [],
+ "buys": 4,
+ "passes": 16,
+ "buy_rate": 0.2,
+ "by_segment": [
+  [
+   "Gym-goer / active",
+   4,
+   0.5
+  ],
+  [
+   "Budget-tight shopper",
+   3,
+   0.3333333333333333
+  ],
+  [
+   "Busy working mom",
+   7,
+   0.14285714285714285
+  ],
+  [
+   "Young professional, wellness routine",
+   6,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "On-the-go routine person",
+   2,
+   1.0
+  ],
+  [
+   "Reads every review and label",
+   3,
+   0.3333333333333333
+  ],
+  [
+   "Impulse buyer from TikTok videos",
+   4,
+   0.25
+  ],
+  [
+   "Skeptic of supplements",
+   2,
+   0.0
+  ],
+  [
+   "Deal hunter",
+   3,
+   0.0
+  ],
+  [
+   "Already loyal to a competitor",
+   4,
+   0.0
+  ],
+  [
+   "Gummy-only",
+   2,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "under $49,000",
+   6,
+   0.3333333333333333
+  ],
+  [
+   "$72,000 and up",
+   7,
+   0.2857142857142857
+  ],
+  [
+   "$49,000 to $72,000",
+   7,
+   0.0
+  ]
+ ],
+ "why_not": [
+  [
+   "habit",
+   6,
+   [
+    "I already take Toplux and reorder it when it runs out, so I have no reason to switch. $29.99 is more than what I pay now, and with two kids I am not paying extra for a pocket sachet when my gym bag already holds a bottle.",
+    "I already have my gummies that I reorder when they run out, and I'm not looking to switch. Two capsules every day is not something I want to swallow when I have something I like."
+   ],
+   [
+    "P007",
+    "P008"
+   ]
+  ],
+  [
+   "need",
+   4,
+   [
+    "I don't take supplements unless a doctor tells me to, and nobody has told me I'm low on magnesium. Two capsules a day for $30 a month is money for something I don't think I need.",
+    "I already take magnesium at night at home, and I have a drawer of half-used bottles. I don't need one that fits in a gym bag."
+   ],
+   [
+    "P002",
+    "P003"
+   ]
+  ],
+  [
+   "trust",
+   3,
+   [
+    "I like the glycinate form and the batch QR report, but it's a brand I've never heard of with no reviews yet, and I read every review before I buy. At $29.99 it's more than Toplux or Goli, so I'd scroll past and maybe save it.",
+    "The dose and the bisglycinate form are right, and a batch report behind a QR code is more than most brands give. But it is a new brand with zero reviews, and I read every review before I buy, so I would not put money in on a TikTok video alone."
+   ],
+   [
+    "P009",
+    "P011"
+   ]
+  ],
+  [
+   "price",
+   1,
+   [
+    "I'm a deal hunter and I already have a drawer of half-used supplement bottles. $24 for the first box is fine on paper, but I'd rather wait for a bigger coupon or a flash sale than pay full price for a brand I've never heard of."
+   ],
+   [
+    "P004"
+   ]
+  ],
+  [
+   "values",
+   1,
+   [
+    "A foil sachet for every single day is 30 pieces of trash a month, and I already know a bottle of magnesium glycinate costs less per day. 20% off is nice but I'd wait for a bigger coupon or a bundle anyway."
+   ],
+   [
+    "P006"
+   ]
+  ],
+  [
+   "quality",
+   1,
+   [
+    "I'd scroll past. One form of magnesium in a sachet doesn't tell me why it's better than the multi-form capsules I can already get for less, and nothing here hits a problem I actually have right now."
+   ],
+   [
+    "P017"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "convenience",
+   2,
+   [
+    "I forget my vitamins at home all the time and I live out of a gym bag, so a sachet I can toss in a pocket actually fits how I live. At $24 after the launch discount I would try one box, but only because of the sachet.",
+    "My doctor said my magnesium could be low and I always forget pills at home, so a sachet I can toss in my bag is the first version of this I would actually take. $24 with the launch discount is fine to try one box."
+   ],
+   [
+    "P010",
+    "P012"
+   ]
+  ],
+  [
+   "trust",
+   1,
+   [
+    "The batch-tested QR report and 200 mg bisglycinate with no oxide are what I look for, and with 20% off the first box it comes to about $24, close to what I already pay. The sachet is handy on work trips and for the gym bag, so I would try one box."
+   ],
+   [
+    "P001"
+   ]
+  ],
+  [
+   "need",
+   1,
+   [
+    "My doctor said my magnesium could be low, so this is a real problem and not just a cute video. With 20% off it comes to about $24, which I can stretch for one box, but I'd only try one and see."
+   ],
+   [
+    "P018"
+   ]
+  ]
+ ],
+ "flip": [
+  "My doctor saying my magnesium is low and recommending it.",
+  "My doctor telling me my magnesium is low, or a clear reason I need it away from home.",
+  "A flash sale or coupon that gets the first box to around $15 to $18, or a small trial pack so I don't commit to 30 sachets.",
+  "A price near 50 cents a day, or a big bundle or coupon deal that beats my bottle on price per day.",
+  "A bigger discount or a multi-box bundle that gets it well under 70 cents a day, plus a recyclable or refill option for the sachets.",
+  "A price at or below what I pay now, around $22 for the month, or a free sample box that shows me it works better than what I already take.",
+  "If it were a gummy or a powder instead of capsules, or if a friend I trust swore it helped her sleep.",
+  "A real lab report I can open before buying, plus a few dozen honest verified reviews, at around $24 or less.",
+  "A few dozen honest verified reviews, plus a QR report I can open now that names the lab and shows magnesium content by batch, at $24 or less per box.",
+  "A creator video where she shows a real situation I recognize, like skipping my night dose when I'm away or after a late gym session, plus a price closer to what my bottle costs.",
+  "A gummy or drink-mix version of it at around $20 to $24 a box.",
+  "A creator I already follow showing it over a few weeks, plus a cheap trial size so I don't risk a full box.",
+  "A price around $15 to $18 for the box, or a free sample sachet so I can see it actually works better than what I take now.",
+  "A creator video where she has the exact problem I have (sleep, legs cramping after the gym) and explains why this one form works, plus real reviews from other moms.",
+  "A gummy or powder version at around $15 a month.",
+  "A creator I follow showing it fixing a real problem like bad sleep or gym cramps, plus a clear reason why bisglycinate alone beats the 8-form blends."
+ ],
+ "purchases_first_month_per_buyer": 1.0,
+ "price_answers": 20
+}

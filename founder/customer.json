@@ -1,0 +1,38 @@
+{
+  "business": "The Aldera, magnesium bisglycinate in daily sachets",
+  "target": "US adults 25 to 45, mostly women, who buy supplements on TikTok Shop after watching wellness and sleep videos",
+  "where": "United States, online (TikTok Shop)",
+  "age": [25, 45],
+  "segments": [
+    {"name": "Busy working mom", "share": 0.35, "income": [45000, 95000]},
+    {"name": "Young professional, wellness routine", "share": 0.30, "income": [40000, 85000]},
+    {"name": "Gym-goer / active", "share": 0.20, "income": [35000, 90000]},
+    {"name": "Budget-tight shopper", "share": 0.15, "income": [22000, 40000]}
+  ],
+  "behaviours": [
+    {"name": "Impulse buyer from TikTok videos", "share": 0.22, "how": "Buys from the yellow cart when a creator's video hits a problem she has."},
+    {"name": "Already loyal to a competitor", "share": 0.18, "how": "Already takes Toplux or Goli and reorders when it runs out."},
+    {"name": "Deal hunter", "share": 0.15, "how": "Waits for flash sales and coupons, compares price per day."},
+    {"name": "Reads every review and label", "share": 0.15, "how": "Checks reviews, dose and third-party testing before buying."},
+    {"name": "On-the-go routine person", "share": 0.12, "how": "Carries everything in a bag, forgets pills at home, travels often."},
+    {"name": "Skeptic of supplements", "share": 0.10, "how": "Thinks most supplements are a waste unless a doctor recommends it."},
+    {"name": "Gummy-only", "share": 0.08, "how": "Hates swallowing pills, buys gummies or drinks."}
+  ],
+  "objections": [
+    "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer",
+    "Why one form of magnesium when others have 8 forms in one capsule?",
+    "I take magnesium at night at home, I don't need it to go",
+    "Two capsules to swallow every day",
+    "Is it really tested, or just marketing?",
+    "Will I actually feel a difference?",
+    "Sachets feel like more packaging waste"
+  ],
+  "habits": [
+    "you scroll TikTok before bed",
+    "you keep vitamins on the kitchen counter and forget them half the time",
+    "you go to the gym three times a week",
+    "you travel for work twice a month",
+    "you already have a drawer full of half-used supplement bottles",
+    "your doctor said your magnesium could be low"
+  ]
+}
