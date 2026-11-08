@@ -1,0 +1,13 @@
+{
+  "id": "P046",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my pills at home every time I travel, and one sachet in the gym bag fixes that. The named lab and a report per batch answers my 'is it really tested' question, so I'd try one box at the launch price.",
+  "objection": "A lab report on their own product page could still be cherry-picked. I'd want to check that the lab is a real one and that the report matches the batch number on my box.",
+  "would_change_my_mind": "If the lab report turned out to be missing, vague, or not tied to the batch on the box, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

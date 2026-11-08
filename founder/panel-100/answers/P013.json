@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "At $24.99 with the money-back guarantee and a named lab report, I'd try one box. It's close to what I pay for Toplux, and the empty-box refund means I can't really lose. I would not pay the full $29.99.",
+  "objection": "$29.99 is more than Toplux or Goli and those last longer, so at full price I'd just keep buying what I already know. The launch price is the only reason I'd try it.",
+  "would_change_my_mind": "A price of $19.99 or less for the first box, or a coupon on TikTok Shop that makes the full-price box come in under $25.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

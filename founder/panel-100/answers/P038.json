@@ -1,0 +1,13 @@
+{
+  "id": "P038",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and reorder when it runs out, so I have no reason to switch. Magnesium is not something I am short on, and I forget my vitamins half the time anyway.",
+  "objection": "Why one form of magnesium when others have 8 forms in one capsule? Bisglycinate alone feels like less for $30, and I already have a brand I reorder.",
+  "would_change_my_mind": "A creator I trust showing it side by side with my current one, with a clear reason one form beats eight, at around the same price or lower.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

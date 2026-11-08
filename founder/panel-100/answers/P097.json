@@ -1,0 +1,13 @@
+{
+  "id": "P097",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and a report for each batch is the thing I usually have to dig for, and the dose is stated plainly with no oxide. At $24.99 with a money-back guarantee I'll try one box, but I won't commit to a second until I see how I sleep.",
+  "objection": "Foil sachets are more trash every single day, 30 of them a box, and the paper box being recyclable doesn't fix that. Also it's a new brand with zero reviews, so I'm relying on the lab report alone.",
+  "would_change_my_mind": "If the lab report turned out to be missing, vague or not for the batch I'm buying, I'd walk away. If the sachets were recyclable or a refill option existed, I'd be more likely to reorder.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 33,
+  "price_too_expensive": 42
+}

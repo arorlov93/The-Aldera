@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "My doctor said my magnesium could be low and I always forget pills at home when I travel, so a tear-and-go sachet in my bag actually fits my life. I'd try one box at the $24.99 launch price, not two.",
+  "objection": "It's one form of magnesium, when other brands put several forms in one capsule. I'm not sure bisglycinate alone is the best deal, and I haven't seen the lab report yet to know it's real.",
+  "would_change_my_mind": "If the lab report on the product page turned out to be vague, or the lab wasn't actually named, I'd pass. If it checks out, I'm in.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 33,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P054",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "Testing is the first thing I check, and here the lab is named and the report is on the page before I pay. Sachets are easy for my work trips and $24.99 with an empty-box guarantee is a low-risk way to try one box.",
+  "objection": "Brand new, so zero reviews. I would open the lab report and check that the batch and numbers match the 200 mg on the box, and if it looks like a generic PDF I walk away.",
+  "would_change_my_mind": "If the lab report were missing, not for my batch, or from a lab I cannot look up, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

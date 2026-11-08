@@ -1,0 +1,13 @@
+{
+  "id": "P049",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$25 to $30 a month for magnesium is a lot on my budget when I can get a bottle of bisglycinate capsules for way less and just toss them in my gym bag. I'd be paying extra for the foil packet.",
+  "objection": "30 foil sachets a month is more packaging waste, and I'm paying a premium for the tear-and-go part I don't really need.",
+  "would_change_my_mind": "A price around $15 for the 30 days, or a flash sale or coupon that gets the box under about $0.50 a day.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 24,
+  "price_too_expensive": 32
+}

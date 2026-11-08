@@ -1,0 +1,13 @@
+{
+  "id": "P041",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget pills at home all the time and I travel a lot, so one tear-and-go sachet in my bag actually fits how I live. At $24.99 I'd try one box, mostly because I'm scrolling TikTok at night anyway and magnesium for sleep keeps coming up.",
+  "objection": "It's still two capsules every day, and it's a brand I've never heard of. I'm not sure it'll work for me, and I don't want to be stuck with a box I stop using.",
+  "would_change_my_mind": "A smaller trial pack, like 7 sachets, so I could test it on a trip before paying for 30 days.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P032",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first thought is always whether it's actually tested, and a named independent lab with a report for each batch answers that. At $24.99 with the empty-box guarantee, I'd risk one box, mostly because I don't have to count capsules or dig out another bottle.",
+  "objection": "I already have a drawer of half-used bottles. I'm not sure I'll finish 30 days, and I'd want to open the lab report and see it's a real one, not a pretty PDF.",
+  "would_change_my_mind": "If the lab report on the page were vague, or didn't match the batch number on the box, I'd skip it.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P075",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I only buy gummies or drinks because I really don't like swallowing pills, and this is two capsules every day. My doctor did say my magnesium could be low, so I'd look for a gummy or a powder drink instead.",
+  "objection": "It's capsules, two a day, and I don't swallow pills. Also a foil sachet for every single day sounds like a lot of packaging waste, even if the outer box is paper.",
+  "would_change_my_mind": "A gummy or drink version with the same lab report. Or if my doctor told me capsules were the only form that would work.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

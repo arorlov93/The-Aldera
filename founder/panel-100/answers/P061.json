@@ -1,0 +1,13 @@
+{
+  "id": "P061",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's actually tested, and here the lab is named and the report is on the page, so I can check it myself. Sachets mean no bottle going into the drawer, and $24.99 is an easy impulse buy for one box to try.",
+  "objection": "I've got a drawer of half-used bottles. I'd want to open the lab report and see that it matches the label before I trust it, and I'm not sure I'd actually finish 30 days.",
+  "would_change_my_mind": "If the lab report on the page was missing, generic, or didn't name a real lab, I'd skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

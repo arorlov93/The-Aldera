@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "My doctor only said my magnesium could be low, so I'd get a blood test and pick up a $10 bottle at the drugstore if it's confirmed. $25 to $30 a month for fancy packaging is hard on my budget.",
+  "objection": "I'm paying extra for single-serve foil sachets and a box, which is more trash, when the same magnesium comes in a regular bottle for a third of the price. I also don't buy supplements off a TikTok video.",
+  "would_change_my_mind": "My doctor confirming I'm low and naming this exact kind of magnesium, with the price down near $12 to $15 a month.",
+  "price_too_cheap": 6,
+  "price_cheap": 12,
+  "price_expensive": 20,
+  "price_too_expensive": 30
+}

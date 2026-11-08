@@ -1,0 +1,13 @@
+{
+  "id": "P088",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I travel twice a month and a sachet I can toss in a bag without carrying a bottle is the part that gets me. At $24.99 for the first box it is an easy impulse buy if a creator's video is about sleep or being wrecked after a flight.",
+  "objection": "Two capsules every day is still a pill routine, and I can get magnesium at a regular store for way less. Why am I paying double for a foil pack?",
+  "would_change_my_mind": "A creator I follow showing it fixing bad sleep on a work trip, or a price near $20 for the first box.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

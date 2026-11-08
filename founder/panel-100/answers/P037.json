@@ -1,0 +1,13 @@
+{
+  "id": "P037",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "At $24.99 it works out to about 83 cents a day, and the money-back guarantee means I am not stuck if I hate it. A sachet in my bag might actually get taken, unlike the bottle on my counter that I forget. I would only do it at the launch price, not $29.99.",
+  "objection": "Sachets feel like more packaging waste, one foil packet a day, 30 a month. And I would still want to know I am not overpaying per day compared to a regular bottle of magnesium.",
+  "would_change_my_mind": "If the launch price were gone and it was the full $29.99 with no coupon, I would pass and buy a bottle instead.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 30,
+  "price_too_expensive": 38
+}

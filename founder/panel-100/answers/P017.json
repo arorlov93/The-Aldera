@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 for the first box is about 83 cents a day, and the sachet is easy to toss in my bag when I travel twice a month. The lab report is a real plus, so I'd grab one box at the launch price and see if it works for me.",
+  "objection": "Two capsules every day is a lot to swallow, and I'm not sure magnesium will do anything for me. I'd also wait for a better deal if I thought one was coming.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and the report on the product page answer my first question, and the empty-box guarantee means I am not stuck with another half-used bottle in the drawer. At $24.99 it is an easy impulse buy if a creator shows a sleep or stress problem I have.",
+  "objection": "Anyone can put a QR code on a box. I would want to open the report and see it is for the real batch, not a generic one. And I have been burned by bottles I stopped taking after a week.",
+  "would_change_my_mind": "If the lab report did not open, or was not for a specific batch, I would pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

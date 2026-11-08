@@ -1,0 +1,13 @@
+{
+  "id": "P026",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's really tested, and a named lab with a report per batch answers that. One sachet I just tear open also fixes my problem of forgetting vitamins on the counter, and $24.99 is low enough to try on impulse.",
+  "objection": "I can't tell yet if the lab report is real or just a nice-looking PDF. And $30 a month is a lot if I stop taking it after a week like I always do.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

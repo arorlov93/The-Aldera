@@ -1,0 +1,13 @@
+{
+  "id": "P050",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and the lab report plus the empty-box refund make one box a low-risk try. I would only do it at the $24.99 launch price, not $29.99.",
+  "objection": "$29.99 is more than Toplux or Goli and those last longer. I can probably get plain magnesium glycinate for less, so I am paying extra for the sachets.",
+  "would_change_my_mind": "If the launch price were not there and it was full $29.99 with no coupon, I would skip it and buy a cheaper bottle.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

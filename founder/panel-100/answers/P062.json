@@ -1,0 +1,13 @@
+{
+  "id": "P062",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and a report for each batch is what I actually look for, and 200 mg elemental bisglycinate with no oxide is a real dose. The money-back guarantee with nothing to ship back makes one box at $24.99 a low-risk try before bed.",
+  "objection": "No reviews yet, so I can't tell if anyone actually sleeps or feels better on it. I'd want to open the lab report and check it is real before I pay.",
+  "would_change_my_mind": "If the lab report on the page turned out to be vague, missing a batch number, or the lab couldn't be found, I'd pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

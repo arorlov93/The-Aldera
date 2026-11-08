@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$29.99 for one thing is more than I spend on any supplement, and I only take stuff my doctor tells me to. Even $24.99 is a lot when I'm watching every dollar.",
+  "objection": "I think most supplements are a waste unless a doctor recommends it, and this costs more than Toplux or Goli, which last longer.",
+  "would_change_my_mind": "My doctor telling me to take magnesium, and a price closer to $15 for the month.",
+  "price_too_cheap": 7,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

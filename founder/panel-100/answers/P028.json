@@ -1,0 +1,13 @@
+{
+  "id": "P028",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home out of a bottle, so a sachet to carry around solves a problem I don't have. The lab report is nice, but I'd just keep using what's in my cabinet.",
+  "objection": "I take it at night at home, I don't need it to go. Why pay $30 a month for a travel format when a bottle does the same thing for less?",
+  "would_change_my_mind": "If my doctor's blood test showed I'm actually low and I needed a better quality magnesium than what I have now, or if a creator I trust showed the lab report next to my current brand and it came out clearly better.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

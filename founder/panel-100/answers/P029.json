@@ -1,0 +1,13 @@
+{
+  "id": "P029",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I don't take supplements unless a doctor tells me to, and nobody has told me I'm low on magnesium. The lab report and the guarantee are nice, but they don't answer whether I'd feel anything.",
+  "objection": "Will I actually feel a difference? A tested capsule only proves what's in it, not that it does anything for me, and I'd probably forget to take it anyway.",
+  "would_change_my_mind": "My doctor telling me to take magnesium, or a blood test showing I'm low.",
+  "price_too_cheap": 9,
+  "price_cheap": 16,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

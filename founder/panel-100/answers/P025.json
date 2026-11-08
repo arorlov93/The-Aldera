@@ -1,0 +1,13 @@
+{
+  "id": "P025",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my Toplux and I just reorder it when it runs out, I'm not hunting for something new. $29.99 is more than what I pay now, and I'm too tired to switch and research a new thing.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. I have no reason to pay extra for a brand I've never heard of.",
+  "would_change_my_mind": "A price at or under what I pay now, plus a creator I trust showing it actually helps me sleep better than what I take.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 26,
+  "price_too_expensive": 33
+}

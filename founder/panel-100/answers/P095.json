@@ -1,0 +1,13 @@
+{
+  "id": "P095",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "My doctor said my magnesium could be low and I always forget pills at home, so a sachet I can toss in my bag is exactly what I'd actually take. The lab report and the money-back thing make $24.99 a low-risk try.",
+  "objection": "It's only one form of magnesium, and other brands put 8 forms in one capsule. I'm not sure bisglycinate alone is enough, and $29.99 a month is real money on my budget once the launch price ends.",
+  "would_change_my_mind": "If the price after the launch deal stayed closer to $25, or if the lab report showed the amount matches the label exactly. If it were only one box at $29.99 with no lab report, I'd skip it.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

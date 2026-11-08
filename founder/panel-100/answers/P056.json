@@ -1,0 +1,13 @@
+{
+  "id": "P056",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and reorder it when it runs out, and I forget vitamins half the time anyway. $29.99 is more than Toplux ($23) or Goli ($19) and those last longer, so I have no reason to switch.",
+  "objection": "$29.99 is more than Toplux or Goli and they last longer. I'm not leaving something I already reorder for a brand I've never heard of.",
+  "would_change_my_mind": "A price at or under what I pay for Toplux now, plus a free or very cheap trial box so I can try it without dropping money on it.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 27,
+  "price_too_expensive": 36
+}

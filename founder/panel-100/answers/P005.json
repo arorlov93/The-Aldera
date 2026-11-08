@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "If a creator's video hits my sleep problem, $24.99 is an easy yellow-cart tap, and the sachets mean I can't leave it half-used in the drawer like everything else. The empty-box refund takes most of the risk out.",
+  "objection": "Still two capsules every single day, and I've quit a bunch of supplements by week two. I'd be paying for 30 days I might not finish.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

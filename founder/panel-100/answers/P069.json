@@ -1,0 +1,13 @@
+{
+  "id": "P069",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and a named independent lab with a report for each batch is exactly what I check before buying. At $24.99 for the first box I'd try one box and read the report before the first sachet.",
+  "objection": "It's one form, bisglycinate only, when other brands put several forms in one capsule. It's also a new brand with no reviews yet, so the lab report has to hold up when I actually open it.",
+  "would_change_my_mind": "If the lab report turned out to be missing, vague, or didn't show the actual magnesium amount per batch, I'd pass. A few real reviews from verified buyers would make me more comfortable.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P092",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I never remember to take pills at home, so one tear-and-go sachet I can toss in my bag is what gets me. At $24.99 with a money-back guarantee I'd try one box if a creator I follow shows it, it's cheap enough to be an impulse buy.",
+  "objection": "It's still two capsules a day and I pay more per day than a regular bottle of magnesium at the store. I don't know if it will actually help me sleep, and I'd quit by week two if I don't feel anything.",
+  "would_change_my_mind": "If the price were closer to $35 or higher for one box, or if I saw no real mom on TikTok using it, I'd scroll past.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

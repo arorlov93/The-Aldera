@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$25 to $30 a month for magnesium is a lot on my money when a bottle at the store is a fraction of that. The pocket packs are nice for my work trips, but I'd need a creator video that hits a problem I actually have before I tap the cart.",
+  "objection": "Why pay triple for a foil sachet when I can get a bottle of magnesium for $10? And it's still two capsules to swallow every day.",
+  "would_change_my_mind": "A creator video showing it fixing my sleep on the road, plus a price near $15 for the 30 days.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 27,
+  "price_too_expensive": 38
+}
