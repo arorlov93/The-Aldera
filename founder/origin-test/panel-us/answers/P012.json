@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I don't swallow pills, I only buy gummies or drinks, and this is 2 capsules every single day. The lab report and the foil sachets are nice, but they don't fix the part I hate.",
+  "objection": "Two capsules a day, every day. I'd end up with a box in the cupboard I never finish, and the guarantee only works if I take all 30 sachets.",
+  "would_change_my_mind": "A gummy or powder drink version with the same tested magnesium bisglycinate dose.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

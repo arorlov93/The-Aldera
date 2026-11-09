@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and a report matching the batch number is what I normally have to hunt for, and the empty-box guarantee means I can try one box without much risk. The pre-counted sachet helps because I forget things on the counter anyway.",
+  "objection": "Two capsules every day is a lot to keep up with, and I forget my vitamins half the time. I would also want to open the lab report and check it is real before I trust it.",
+  "would_change_my_mind": "If the lab report did not open, did not name the lab, or did not match the batch number on the box, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

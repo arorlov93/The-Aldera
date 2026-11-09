@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my routine with Toplux and Goli and I reorder when they run out. My doctor only said my magnesium could be low, not that I need a new brand, and a foil sachet every day feels like a lot of trash for something I could take from a bottle.",
+  "objection": "A foil sachet a day for 30 days is more packaging waste, and I have no reason yet to switch from what I already trust.",
+  "would_change_my_mind": "My doctor's blood test confirming low magnesium, plus a bottle or refill option instead of single-use sachets.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

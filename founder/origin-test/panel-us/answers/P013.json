@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab with the report for my batch is more than I get from the drugstore bottle. At $24.99 with the money-back guarantee I'd try one box, but I'm not dropping my usual stuff for it.",
+  "objection": "Thirty foil sachets a month is a lot of packaging waste, and I could just buy a cheap bottle of magnesium for a fraction of the price.",
+  "would_change_my_mind": "A bottle or refill option instead of single-use sachets, or my doctor's blood test showing my magnesium is fine.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

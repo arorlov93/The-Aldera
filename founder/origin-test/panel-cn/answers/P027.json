@@ -1,0 +1,13 @@
+{
+  "id": "P027",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The $24.99 launch price plus the money-back guarantee means I can try one box with almost no risk, and I like that the lab report is on the box. I would not pay $29.99 without the guarantee, there is cheaper magnesium out there.",
+  "objection": "Will I actually feel a difference, or am I paying about $25 for a month of something I could get cheaper at the drugstore?",
+  "would_change_my_mind": "If the guarantee turned out to be hard to claim, or if the launch price were gone and it was the full $29.99.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

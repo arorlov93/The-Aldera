@@ -1,0 +1,13 @@
+{
+  "id": "P027",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 for the first box is a launch price I can take a chance on, and the empty-box refund means I do not lose money if I feel nothing. The named lab report I can check makes it feel less sketchy than the usual TikTok Shop stuff.",
+  "objection": "Will I actually feel a difference? Magnesium might do nothing for my sleep and I would have spent $25 I do not have to spare.",
+  "would_change_my_mind": "If the price were still $29.99 with no launch deal, or if the lab report on the page was not real or did not match the batch number, I would skip it.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

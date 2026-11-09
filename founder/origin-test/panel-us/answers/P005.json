@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so I don't need single sachets to carry around. The lab report is a real plus, but I'd be paying extra for portability I wouldn't use.",
+  "objection": "$29.99 a month is a lot on my budget when a regular bottle with the same dose costs much less, and the foil sachet just adds cost for something I don't need.",
+  "would_change_my_mind": "A price close to what I pay now for a bottle, around $15 a month, with the same 200 mg dose and a named lab report.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

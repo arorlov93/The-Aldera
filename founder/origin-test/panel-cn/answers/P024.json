@@ -1,0 +1,13 @@
+{
+  "id": "P024",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 for the first box with a money-back guarantee is low risk, and the named lab report is more than most TikTok Shop supplements give you. I would try one box at the launch price and decide after that.",
+  "objection": "Individual foil sachets for 2 capsules is a lot of packaging waste, and at $29.99 a month I can get plain magnesium bisglycinate in a bottle for less per day.",
+  "would_change_my_mind": "A regular price closer to $20 a box or a bottle refill option. I would not buy a second box at $29.99 without a coupon.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have my gummies and I just reorder them when they run out, so I'm not looking for another one. A box of 30 foil sachets also feels like a lot of trash for something I take once a day.",
+  "objection": "Sachets feel like more packaging waste, and I already have a routine with a brand I reorder.",
+  "would_change_my_mind": "A refill or recyclable packaging option, or a clear reason it works better than what I already take.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

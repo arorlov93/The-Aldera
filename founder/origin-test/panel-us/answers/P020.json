@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I'm wiped out by bedtime and not sleeping great, so one pre-counted evening packet I can grab without thinking appeals to me. The named lab and the report on the box make me feel it's not a random TikTok brand, and $24.99 for the first box is an easy impulse buy.",
+  "objection": "Thirty little foil sachets with two capsules in each is a lot of trash for something I take every day. If it doesn't help me sleep I'll feel like I wasted money and added to the garbage.",
+  "would_change_my_mind": "If I saw a creator I trust take it and say it helped with sleep, I'd be fully in. If the price at checkout were over $30 with no launch deal, I'd skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

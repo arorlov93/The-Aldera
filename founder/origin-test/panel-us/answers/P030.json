@@ -1,0 +1,13 @@
+{
+  "id": "P030",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I only buy gummies or drinks because I hate swallowing pills, and this is 2 capsules every night. The lab report is a good sign, but it does not fix the format for me.",
+  "objection": "It's capsules, two of them. I'd stop taking them after a few days, so even a tested product would sit in a drawer.",
+  "would_change_my_mind": "A gummy or drink-mix version with the same tested magnesium bisglycinate and the same batch report.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

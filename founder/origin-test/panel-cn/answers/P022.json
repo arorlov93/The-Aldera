@@ -1,0 +1,13 @@
+{
+  "id": "P022",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and a named lab with the report for my batch plus a money-back guarantee takes most of the risk out. At $24.99 for one box I'd try it once and see if I even notice anything.",
+  "objection": "Why only one form of magnesium when others put several forms in one capsule? And I still think most supplements are a waste unless my doctor backs it.",
+  "would_change_my_mind": "My doctor telling me to skip it or a blood test showing my magnesium is fine would flip it to a no.",
+  "price_too_cheap": 10,
+  "price_cheap": 19,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}
