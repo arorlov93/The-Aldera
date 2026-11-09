@@ -119,8 +119,7 @@ Capsule: vegetarian HPMC, size 00, no titanium dioxide.
 Pack: 2 capsules sealed in a printed foil sachet, about 30x50 mm, with a tear notch.
 30 sachets in a printed carton, about 137x62x52 mm, lot number on each sachet and carton.
 Order size: 1,000 cartons, repeat orders 1,000 to 5,000 cartons. Product is for export to the US only.
-Please quote price per carton, MOQ and lead time for 1,000 and 5,000 cartons, FCA your facility.
-Do you seal the capsules into the sachets in your own facility?
+What would be your price per carton, MOQ and lead time for 1,000 and 5,000 cartons, with the capsules sealed into the sachets at your own facility, FCA your facility?
 Best regards,
 Aleksandr Orlov
 Manager, 518 GROUP LLC (The Aldera)
@@ -133,15 +132,14 @@ info@thealdera.com
 Тема: Запрос цены: капсулы магния бисглицината в печатных фольгированных саше, 1 000 коробок
 Здравствуйте,
 Мы 518 GROUP LLC, компания из Флориды, которая продаёт под брендом The Aldera в США.
-Нам нужна партия под нашей маркой магния бисглицината (полностью прореагировавшего), 100 мг элементарного магния в капсуле.
+Нам нужна партия под нашей маркой магния бисглицината (полностью связанного), 100 мг элементного магния в капсуле.
 Капсула: растительная HPMC, размер 00, без диоксида титана.
 Упаковка: 2 капсулы, запечатанные в печатное фольгированное саше, около 30x50 мм, с надрезом для отрыва.
 30 саше в печатной коробке, около 137x62x52 мм, номер партии на каждом саше и коробке.
 Объём заказа: 1 000 коробок, повторные заказы от 1 000 до 5 000 коробок. Продукт только на экспорт в США.
-Пожалуйста, укажите цену за коробку, MOQ и срок для 1 000 и 5 000 коробок, FCA ваш завод.
-Вы запечатываете капсулы в саше на своём собственном производстве?
+Какая будет ваша цена за коробку, минимальный заказ и срок для 1 000 и 5 000 коробок, с запечатыванием капсул в саше на вашем собственном производстве, FCA ваш завод?
 С уважением,
 Александр Орлов
-Менеджер, 518 GROUP LLC (The Aldera)
+Управляющий, 518 GROUP LLC (The Aldera)
 info@thealdera.com
 ```
