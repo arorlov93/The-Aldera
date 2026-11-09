@@ -1,0 +1,13 @@
+{
+  "id": "P219",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and just reorder it when it runs out, so I have no reason to switch. A named lab and a batch report is nice, but I would need a reason to change what already works for me.",
+  "objection": "Is it really tested, or just marketing? A report on a product page is something the brand itself posts, and I have never heard of this brand.",
+  "would_change_my_mind": "Seeing my current brand fail an independent test, or a creator I already trust showing the same lab report for this batch and saying it worked for them.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

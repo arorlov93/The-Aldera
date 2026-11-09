@@ -1,0 +1,13 @@
+{
+  "id": "P136",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab report behind a QR code plus a 24.99 launch price makes it an easy one-box try from the TikTok cart. The pre-counted evening sachets are handy too.",
+  "objection": "Why only one form of magnesium when others put 8 forms in one capsule? I also have no idea if bisglycinate alone is what my doctor meant.",
+  "would_change_my_mind": "If a quick check showed the lab report did not match the batch number on the box, or if my doctor said one form is not enough.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named lab and a batch report I can match to the number on the box is exactly what I look for, and it is rare on TikTok Shop. At $24.99 with a money-back guarantee I will try one box, mostly because a sachet I can't forget on the counter suits me.",
+  "objection": "Brand new, no real customer reviews yet, and it is made in China. I would open the lab report and check that it is a real lab and a real batch, not a pretty PDF.",
+  "would_change_my_mind": "If the lab report turned out to be generic, not tied to the batch number, or the lab could not be found, I would not buy.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P247",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "The $24.99 launch price works out to about $0.83 a day, and the sachets are easy to throw in a bag when I travel for work. I would only try one box, and only at the launch price.",
+  "objection": "Two capsules every day is a chore, and it is made in China. I am trusting a lab report I cannot check myself, and I would not pay $29.99 when a coupon or sale somewhere else might beat it.",
+  "would_change_my_mind": "A bigger discount or coupon stacked on the launch price, or a one-capsule version.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

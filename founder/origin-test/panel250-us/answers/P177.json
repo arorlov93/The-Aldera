@@ -1,0 +1,13 @@
+{
+  "id": "P177",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget pills at home and travel a lot, so a pre-counted sachet I can throw in my bag is the first thing that has actually fit my life. The named lab and batch report are why I'd risk one box at the launch price.",
+  "objection": "Is the report really for my batch, and is the lab actually independent? I already have a drawer of half-used bottles, so I don't want to buy another one I quit after a week.",
+  "would_change_my_mind": "If I opened the QR report and the lab name or batch number didn't match the box, or the lab turned out to be one they pay or own, I'd cancel.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

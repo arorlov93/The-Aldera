@@ -1,0 +1,13 @@
+{
+  "id": "P194",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "My doctor said my magnesium might be low, but I can grab a bottle of magnesium at the drugstore for way less than $25 and I already have my Toplux that I reorder. Thirty foil sachets a month feels like a lot of trash for something I can take from a bottle.",
+  "objection": "$24.99 to $29.99 a month is a lot on my budget when a plain bottle of magnesium costs a fraction of that, and the sachets are just extra packaging waste.",
+  "would_change_my_mind": "A price near $15 a month, or my doctor telling me this exact form is the one I need.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

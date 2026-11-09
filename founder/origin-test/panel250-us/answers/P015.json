@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab with the report for my batch on the page is exactly what I look for, and the dose is clear with no magnesium oxide. At $24.99 for the first box I would try one, and the pre-counted sachet might help me stop forgetting.",
+  "objection": "It is a brand new product with no reviews yet, so I would open the lab report first to check it is real and matches the batch number. If the report is vague or the lab can't be verified, I walk away.",
+  "would_change_my_mind": "A lab report I can actually open and check, plus a few real buyer reviews.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

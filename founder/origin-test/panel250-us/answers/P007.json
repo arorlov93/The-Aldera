@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my vitamins on the counter all the time, so a sachet that is already counted and goes in my bag is a real fix. $24.99 for the first box with a money-back guarantee is low risk for an impulse buy.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? I am not sure bisglycinate alone is enough, and I will not reorder unless I actually feel something.",
+  "would_change_my_mind": "If the price were closer to $35 for the first box, or if the lab report on the page turned out not to match the batch, I would pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

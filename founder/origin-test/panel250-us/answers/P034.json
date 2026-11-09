@@ -1,0 +1,13 @@
+{
+  "id": "P034",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "The lab report and named lab are good, but $25 to $30 a month is too much when I watch every dollar. I can find magnesium for less and I would rather pick something with several forms in it.",
+  "objection": "Why only one form of magnesium when other products put 8 forms in one capsule? I would be paying more for a single form.",
+  "would_change_my_mind": "A price around $15 a month, or a trial box at that price, with the lab report showing the actual tested dose per capsule.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

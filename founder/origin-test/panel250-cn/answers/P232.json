@@ -1,0 +1,13 @@
+{
+  "id": "P232",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, so this hits a real problem, and the lab report on the box plus the money-back guarantee make one box at $24.99 feel low risk. I would only do the first box at the launch price.",
+  "objection": "$29.99 a month is a lot on my budget, and 30 foil sachets feel like more packaging waste than a normal bottle.",
+  "would_change_my_mind": "A regular price closer to $20, or a bottle option so there is less packaging.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 28,
+  "price_too_expensive": 38
+}

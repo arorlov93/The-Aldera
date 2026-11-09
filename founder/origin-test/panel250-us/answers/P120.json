@@ -1,0 +1,13 @@
+{
+  "id": "P120",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my vitamins on the counter all the time, so a sachet I can toss in my bag fits how I live. $24.99 for the first box is something I can try once, and the money-back if I finish the box lowers the risk.",
+  "objection": "Will I actually feel a difference? I'm on a tight budget and $30 a month is real money if it does nothing.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

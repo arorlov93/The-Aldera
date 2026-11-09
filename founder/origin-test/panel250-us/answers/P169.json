@@ -1,0 +1,13 @@
+{
+  "id": "P169",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's really tested, and a named lab with a report for my batch on the page and behind the QR code actually answers that. At $24.99 for the first box with a money-back guarantee, I'd try one box after a creator video about sleep or sore muscles.",
+  "objection": "I can't tell from the page who the lab is or whether the report is real, and 'globally sourced ingredients' is vague. If the report turns out to be just marketing, I'm out.",
+  "would_change_my_mind": "If I scanned the QR code and the report didn't match the batch number on the box, or the lab name looked made up.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

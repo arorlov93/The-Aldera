@@ -1,0 +1,13 @@
+{
+  "id": "P040",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home, and I have my usual brands I reorder when they run out. I don't need it in a sachet to go, so there's nothing here I'm missing.",
+  "objection": "I already have a magnesium routine at home that works. The sachet is for people on the move and I'm not, so I'd be paying for something I don't need.",
+  "would_change_my_mind": "If I started travelling a lot and needed something to carry, or if my current one stopped working for me.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P119",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 for the first box is about 83 cents a day and I can get my money back if I finish it, so a one-box trial is low risk. I'd only buy during the launch price, not at $29.99.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? I'm not sure bisglycinate alone does enough for gym recovery.",
+  "would_change_my_mind": "If the launch price ended or the box went back to $29.99 with no deal, I'd skip it and keep buying the multi-form stuff on sale.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

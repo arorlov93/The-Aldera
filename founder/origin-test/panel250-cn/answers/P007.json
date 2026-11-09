@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my vitamins on the counter, so a pre-counted evening sachet fixes a real problem for me. At $24.99 for the first box with a money-back guarantee, it is an easy yellow-cart impulse buy.",
+  "objection": "Why only one form of magnesium when other brands put several forms in one capsule? I am not sure bisglycinate alone is better, and $29.99 after the launch price feels a bit high for a brand I have never heard of.",
+  "would_change_my_mind": "A creator video showing the sachet in a real evening routine, or a clear simple explanation of why bisglycinate alone is enough.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

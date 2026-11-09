@@ -1,0 +1,13 @@
+{
+  "id": "P213",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, so I have an actual reason to try it, and a named lab with the report for my batch is the first time a supplement ad answered my question. At $24.99 for one box with a money-back guarantee, I'll try one and not a second until I see how I feel.",
+  "objection": "A lab report on a page doesn't prove much until I can check the lab is real and the batch number on the box matches. Also my doctor never said to take this brand, and I'm not sure I need 200 mg.",
+  "would_change_my_mind": "If I could not find the named lab or the report did not match the batch number on the box, I would pass. Hearing from my doctor that magnesium was not actually low would also stop me.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

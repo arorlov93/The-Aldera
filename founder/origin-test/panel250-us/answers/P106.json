@@ -1,0 +1,13 @@
+{
+  "id": "P106",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a drawer full of half-used supplement bottles, and I don't finish what I start. The lab report is nice, but it doesn't make me need one more bottle in the house.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule for less per day? I'd wait for a flash sale or a coupon, and a launch price that ends in January doesn't beat the deals I can find on my own.",
+  "would_change_my_mind": "A deeper flash-sale price, around $17 to $18 a box, or a coupon stack that gets it near $0.60 a day, plus a clear reason the single form beats the 8-form ones.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

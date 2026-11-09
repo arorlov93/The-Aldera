@@ -1,0 +1,13 @@
+{
+  "id": "P178",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's really tested, and here the lab is named and the report for my batch is on the page, so I can check it myself. At $24.99 for the first box I'd try one and see if I sleep any better.",
+  "objection": "I can get a big bottle of magnesium for way less per day, so at $29.99 I'm paying extra for the sachet and the lab report. If the launch price wasn't there I'd probably scroll past.",
+  "would_change_my_mind": "If the lab report didn't match the batch number on the box, or the price at checkout was the full $29.99 with no coupon.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P086",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab report for the exact batch plus a money-back guarantee makes one box at $24.99 an easy trial. I would only buy the first box at the launch price, not two.",
+  "objection": "Why only one form of magnesium when others have 8 forms in one capsule? And at about $0.83 to $1 a day I can probably find cheaper bisglycinate elsewhere.",
+  "would_change_my_mind": "A lower price per day, around $0.60, or a clear explanation of why bisglycinate alone is enough for low magnesium.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

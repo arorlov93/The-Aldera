@@ -1,0 +1,13 @@
+{
+  "id": "P181",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and this is the first one that shows a named lab and a batch report I can check against the box. Bisglycinate with no oxide and a stated 200 mg dose is what I look for, and $24.99 for the first box is fair enough to try one.",
+  "objection": "It is made in China and I have not opened the lab report yet. If the report does not match the label or the lab turns out to be unknown, I will not reorder. At $29.99 it is also pricier than Toplux or Goli.",
+  "would_change_my_mind": "If the lab report for the batch was missing or did not match the batch number on the box, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 38
+}

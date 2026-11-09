@@ -1,0 +1,13 @@
+{
+  "id": "P088",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and this is the first one that shows the form, the dose and a lab report for the exact batch. At $24.99 for the first box I will try one and see how I sleep.",
+  "objection": "$29.99 is more than Toplux or Goli, and I have not seen the lab's name or the actual report yet. If the report does not match the box or the lab is unknown, I am out.",
+  "would_change_my_mind": "Seeing the named lab and a real batch report on the page before I pay, and the price staying at $24.99 or lower for the first box.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

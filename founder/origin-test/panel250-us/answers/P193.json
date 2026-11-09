@@ -1,0 +1,13 @@
+{
+  "id": "P193",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I travel twice a month and always leave my pills at home, so a pre-counted foil sachet I can toss in my bag is exactly my problem. Named lab and a batch report I can check is what gets me past my usual 'is this just marketing' reaction, and the empty-box guarantee makes one box low risk.",
+  "objection": "A named lab and a QR report sound good, but I would want to actually open the report for my batch and see it matches. Otherwise it is just marketing with a nicer label. Also 2 capsules a day is a bit more than I like to carry.",
+  "would_change_my_mind": "If the QR report did not open or did not match the batch number on the box, I would not buy again.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P128",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and the batch report behind the QR code are more than most TikTok magnesium gives me, and $24.99 is an easy impulse buy if a creator's sleep video hooks me. I'd try one box, not two.",
+  "objection": "Two capsules every day is a chore I'll probably skip after a couple of weeks, and I can't tell if it actually does anything for me.",
+  "would_change_my_mind": "Seeing the lab report on the product page before I buy and a creator I follow actually using it; a one-capsule dose would also help.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

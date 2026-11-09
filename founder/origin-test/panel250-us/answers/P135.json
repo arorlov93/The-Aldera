@@ -1,0 +1,13 @@
+{
+  "id": "P135",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named independent lab and a batch report that matches the number on the box is exactly what I look for, and 200 mg of bisglycinate with no oxide is a real dose. At $24.99 for the first box I would try one and see how I sleep.",
+  "objection": "Thirty foil sachets a month is more packaging waste, and it is a brand with no reviews yet, so I would open the lab report before I trust it.",
+  "would_change_my_mind": "If the batch report on the page did not match the batch number on the box, or the lab was not a real, checkable one, I would pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

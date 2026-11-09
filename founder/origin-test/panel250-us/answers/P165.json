@@ -1,0 +1,13 @@
+{
+  "id": "P165",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab with the batch report behind the QR code is what I usually have to dig for, and 200 mg of bisglycinate with no oxide is a dose I can check. The pre-counted sachets are handy when I'm travelling, and $24.99 with an empty-box guarantee is low risk for one box.",
+  "objection": "It's a brand new product with no reviews yet, and I read every review before buying. I also don't love swallowing two capsules every day.",
+  "would_change_my_mind": "Seeing the actual lab report on the page and confirming the batch number matches would make me comfortable. Without a real report, or if the lab turned out to be unknown or the report unreadable, I'd pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

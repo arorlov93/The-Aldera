@@ -1,0 +1,13 @@
+{
+  "id": "P223",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I'm on a tight budget and $25 to $30 for magnesium is a lot when I'm not sure I even need it. I buy on impulse when a creator nails a problem I have, and this is just an ad with lab talk, so nothing makes me tap the cart.",
+  "objection": "Two capsules every day, and $30 a month is too much for me for something I can't feel working.",
+  "would_change_my_mind": "A creator I follow showing it fixed her sleep problem, and a price closer to $15 for the box.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

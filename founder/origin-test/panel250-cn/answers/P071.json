@@ -1,0 +1,13 @@
+{
+  "id": "P071",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$29.99 is more than Toplux or Goli and I already have a drawer of half-used bottles. The lab report is nice, but I would wait for a flash sale or coupon instead of paying near full price for a brand I have never tried.",
+  "objection": "It costs more per day than what I can already get on TikTok Shop, and I have a habit of not finishing supplements, so I would be paying for the box I stop taking halfway.",
+  "would_change_my_mind": "A flash sale or coupon that brings one box to around $19 to $20, or a small trial pack so I can see if I actually keep taking it.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 25,
+  "price_too_expensive": 33
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P092",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home and I reorder my usual brand when it runs out. I don't need it in a sachet to go, and I'm not switching for a brand I've never heard of.",
+  "objection": "I already have a magnesium I trust and a routine for it. Made in China from an unknown brand is one more reason to stay with what I have.",
+  "would_change_my_mind": "If my current magnesium sold out or went up a lot in price, or if I started traveling often and needed something portable.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

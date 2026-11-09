@@ -1,0 +1,13 @@
+{
+  "id": "P033",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$25 to $30 a month is real money on my budget, and I can get magnesium at the drugstore for a lot less per day. The lab report is nice, but I'm not paying extra for it when I'd rather wait for a coupon.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule for less money per day?",
+  "would_change_my_mind": "A price near $15 to $18 for 30 days, or a flash sale or coupon that brings the first box under that.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

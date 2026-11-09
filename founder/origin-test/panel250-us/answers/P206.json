@@ -1,0 +1,13 @@
+{
+  "id": "P206",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already reorder my Toplux when it runs out and I barely remember to take what I have as it is. The lab report is a nice touch, but it does not make me switch something that is already in my routine.",
+  "objection": "I am already set with my usual brand, and I forget vitamins half the time, so another one just sits on the counter.",
+  "would_change_my_mind": "If a sachet came with a clear reason it works better than what I take now, like a real result I could see, and the first box was cheap enough that skipping it costs me nothing.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

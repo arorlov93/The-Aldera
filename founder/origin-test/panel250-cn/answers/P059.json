@@ -1,0 +1,13 @@
+{
+  "id": "P059",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it is really tested, and here the lab is named and the report is tied to the batch number, so I can check it. At $24.99 for one box, with sachets I can throw in my bag when I travel, I would try it.",
+  "objection": "Made in China. I want to actually open the report and see a real lab name and a matching batch before I believe it is not just marketing.",
+  "would_change_my_mind": "If the QR report did not load or the batch number did not match, I would pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

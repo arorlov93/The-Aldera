@@ -1,0 +1,13 @@
+{
+  "id": "P175",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I count price per day, and $0.83 to $1 a day for magnesium is way more than a big bottle at the store. I also forget my vitamins half the time, so a box of 30 would probably sit on the counter.",
+  "objection": "It is two capsules every day for a price I can beat with a bottle of magnesium, and I would not stick with it anyway.",
+  "would_change_my_mind": "A price around $15 for the 30 days, or a bigger flash-sale discount, plus a single capsule instead of two.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 32
+}

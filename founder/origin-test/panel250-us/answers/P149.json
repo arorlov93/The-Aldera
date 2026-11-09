@@ -1,0 +1,13 @@
+{
+  "id": "P149",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named lab and a report for my exact batch is the first time one of these has answered my 'is it tested or just marketing' question. At $24.99 for a first box with my money back if I finish it, I'll risk one box.",
+  "objection": "I have a drawer of half-used bottles already. I don't know if I'll actually take it every night, and the guarantee only works if I finish all 30 sachets.",
+  "would_change_my_mind": "If the QR code report turned out to be missing or not matching the batch number on the box, I'd walk away.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

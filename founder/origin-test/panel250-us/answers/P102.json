@@ -1,0 +1,13 @@
+{
+  "id": "P102",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already reorder Toplux and I have a drawer full of half-used bottles, so I am not adding another one. $29.99 is more than what I pay now and I have no reason to switch.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. I do not need a new brand when I already have one that works for me.",
+  "would_change_my_mind": "A price close to what I pay now, around $20, or a sample sachet I could try for free before committing.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 26,
+  "price_too_expensive": 33
+}

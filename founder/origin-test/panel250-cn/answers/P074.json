@@ -1,0 +1,13 @@
+{
+  "id": "P074",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "The lab report is a real plus, but $25 to $30 a month is a lot when I can get magnesium glycinate at the drugstore for about $12 to $15. A brand-new product with no reviews yet is also hard for me to trust with tight money.",
+  "objection": "I pay almost double what a known brand costs, for a product with zero reviews from real buyers, and it still means swallowing 2 capsules every day.",
+  "would_change_my_mind": "A price near $15 to $18 a box, plus a few hundred honest verified reviews from people who finished a box.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 32
+}

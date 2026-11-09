@@ -1,0 +1,13 @@
+{
+  "id": "P162",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "I only take gummies or drinks, and this is 2 capsules every evening. My doctor said my magnesium might be low, so I care, but I would not stick with pills.",
+  "objection": "It is capsules, and I hate swallowing pills. Also, why just one form of magnesium when other brands put 8 forms in one capsule?",
+  "would_change_my_mind": "A gummy or drink version with the same lab-tested dose, or a clear reason why bisglycinate alone is enough for low magnesium.",
+  "price_too_cheap": 10,
+  "price_cheap": 19,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P220",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my pills at home every time I travel, and a pre-counted foil sachet I can toss in my bag fixes that. $24.99 for the first box is low enough to try, and the named lab report plus the money-back guarantee make it a small risk.",
+  "objection": "Two capsules every day is still a chore, and it is made in China. I only half believe the lab report matches what is really in the box until I scan the QR code myself.",
+  "would_change_my_mind": "If the QR code did not open a real report with my batch number, or the price was back at $29.99 with no first-box deal, I would skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

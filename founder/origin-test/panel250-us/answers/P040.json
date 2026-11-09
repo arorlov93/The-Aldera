@@ -1,0 +1,13 @@
+{
+  "id": "P040",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home and I reorder my usual stuff when it runs out. I don't need a single-serve sachet to carry around, so there's no reason for me to switch.",
+  "objection": "I don't need magnesium to go. I take it at home before bed, and I already have a brand I reorder, so a new one on TikTok Shop is just one more thing to figure out.",
+  "would_change_my_mind": "If it cost clearly less per day than what I'm already buying and I could try one box with no risk.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

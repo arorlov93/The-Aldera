@@ -1,0 +1,13 @@
+{
+  "id": "P105",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a drawer full of half-used bottles I stopped taking. $25 to $30 on something I might drop after a week is money I don't have to waste.",
+  "objection": "Will I actually feel a difference? I've bought stuff like this before and felt nothing, and then it just sits there.",
+  "would_change_my_mind": "A creator I trust showing it fixing the exact problem I have, at around $15 for the first box.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

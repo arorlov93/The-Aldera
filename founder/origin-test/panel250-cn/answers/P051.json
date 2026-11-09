@@ -1,0 +1,13 @@
+{
+  "id": "P051",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and a named independent lab with the batch report behind a QR code is what I check for anyway. At $24.99 for the first box I would try one, but I would read the report before the box goes in my cart.",
+  "objection": "Made in China, and I want to see that the lab report is real and matches the batch number. $29.99 is also more than Toplux or Goli, and I would not reorder at that price without feeling a difference.",
+  "would_change_my_mind": "If the lab report was missing, vague, or did not show the actual magnesium amount and heavy metals results, I would pass. A price at or under $24.99 on reorders would make me subscribe.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 29,
+  "price_too_expensive": 38
+}

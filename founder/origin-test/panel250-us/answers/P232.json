@@ -1,0 +1,13 @@
+{
+  "id": "P232",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and the named lab with the report for my batch makes me feel safer than a random bottle. The $24.99 launch price is about what I'd spend, so I'd try one box.",
+  "objection": "Sachets feel like more packaging waste, and $29.99 a month is a lot when a plain bottle of magnesium costs less. I would not reorder at full price unless I actually feel better.",
+  "would_change_my_mind": "A regular bottle option at a lower price per day, or the launch price staying below $25.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 29,
+  "price_too_expensive": 42
+}

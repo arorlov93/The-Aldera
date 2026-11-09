@@ -1,0 +1,13 @@
+{
+  "id": "P038",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "At $24.99 it is close enough to what I pay now, and the named lab report for my batch plus the money-back guarantee with nothing to ship back lowers the risk. I would try one box only because of the launch price.",
+  "objection": "$29.99 is more than Toplux or Goli, and the launch price ends on January 15. I would not pay full price when I can compare per day and wait for a coupon.",
+  "would_change_my_mind": "A coupon or flash sale bringing the regular price to about $24 would make me reorder instead of going back to my usual brand.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 27,
+  "price_too_expensive": 35
+}

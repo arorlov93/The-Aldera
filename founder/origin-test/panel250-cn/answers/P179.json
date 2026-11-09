@@ -1,0 +1,13 @@
+{
+  "id": "P179",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already have a drawer full of half-used supplement bottles and I don't buy supplements unless my doctor says so. The lab report is nice, but it doesn't change that I have no reason to add another one.",
+  "objection": "Thirty foil sachets a month is a lot of packaging waste, and I can't tell I'd even need magnesium. It's $30 I'd rather keep.",
+  "would_change_my_mind": "My doctor telling me I'm low on magnesium and should take it, and a regular bottle version that costs a lot less per month.",
+  "price_too_cheap": 8,
+  "price_cheap": 13,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P139",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and a named lab with the batch report on the page is exactly what I look for. At $24.99 for the first box with a money-back guarantee, I'll try one box and see if I actually sleep better.",
+  "objection": "I can't check that the lab report is real until the box arrives, and it is only one box, so I can't tell if it works. I'd also want to see that the lab and the batch number are genuine.",
+  "would_change_my_mind": "If the lab report wasn't actually on the page, or the batch didn't match, I'd skip it.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

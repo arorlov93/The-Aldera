@@ -1,0 +1,13 @@
+{
+  "id": "P101",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab with the batch report behind a QR code is exactly what I look for, and bisglycinate with no oxide at 200 mg is a real dose. At $24.99 for the first box I would try one and check the report before I order a second.",
+  "objection": "Made in China. I want to open the report and confirm the lab is real and the batch number matches, not just trust that it says so on the page.",
+  "would_change_my_mind": "If the QR code led to a generic or missing report, or the lab name did not check out, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

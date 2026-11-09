@@ -1,0 +1,13 @@
+{
+  "id": "P132",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, and I'm only away about twice a month. I don't need 30 travel sachets when a few capsules in a bag do the job.",
+  "objection": "I'd be paying for portability I use maybe four nights a month, when my home routine already works.",
+  "would_change_my_mind": "A small travel pack of 7 sachets for around $9 that I could try just for trips.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

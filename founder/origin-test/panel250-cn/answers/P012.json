@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home, and I reorder the brand I'm used to when it runs out. A sachet to carry around solves a problem I don't have.",
+  "objection": "I already have a magnesium I'm loyal to, and I take it at home. I don't need a portable version, and I'd be paying for the convenience.",
+  "would_change_my_mind": "If my current brand got more expensive or went out of stock, or if I started traveling a lot and needed something to carry.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

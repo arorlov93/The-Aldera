@@ -1,0 +1,13 @@
+{
+  "id": "P070",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The lab report behind the QR code and the empty-box guarantee make it low risk, and $24.99 is about what I'd impulse-spend if a creator's sleep video hit my problem. The pre-counted evening sachets mean I might actually finish a box, unlike the bottles in my drawer.",
+  "objection": "Will I actually feel a difference? I already have a drawer full of half-used bottles, and 'Made in China' makes me want to see that lab report before I trust it.",
+  "would_change_my_mind": "If the lab report wasn't really there or the batch number didn't match, or if the price were over $35, I'd skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

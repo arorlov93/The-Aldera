@@ -1,0 +1,13 @@
+{
+  "id": "P209",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I always forget pills at home when I travel or go straight to the gym, so a pre-counted sachet I can toss in my bag fixes my actual problem. At $24.99 for the first box with a money-back guarantee, I'll try one box.",
+  "objection": "It's still 2 capsules every day, and I'll probably skip it on days I'm rushing. I'm also not sure I'd notice anything, so I wouldn't commit to a second box before trying the first.",
+  "would_change_my_mind": "If it were one capsule instead of two, I'd be more likely to keep buying. If the lab report turned out to be missing or not matching my batch, I'd drop it.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

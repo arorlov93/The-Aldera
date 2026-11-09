@@ -1,0 +1,13 @@
+{
+  "id": "P228",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and $24.99 for a first box with a named lab report and a money-back guarantee is cheap enough to try once. I would buy one box at the launch price, not two.",
+  "objection": "Will I actually feel a difference? And I would have to finish all 30 sachets before the guarantee counts, so I am out a month either way.",
+  "would_change_my_mind": "Seeing the lab report for a real batch before I pay, or a price above about $35 for one box would flip me to no.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P021",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, and I have a drawer full of half-used bottles. Sachets are neat, but I don't need magnesium to go, so I'd just scroll past.",
+  "objection": "I already have magnesium at home and I take it there every night. Paying $30 for a travel format of something I already own feels like adding one more bottle to the drawer I never finish.",
+  "would_change_my_mind": "If I were about to travel a lot and my current bottle was empty, or if one cheap trial box (around $10) let me try it without committing to a month.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

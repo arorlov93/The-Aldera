@@ -1,0 +1,13 @@
+{
+  "id": "P215",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I always leave my pills at home and I travel a lot, so a counted sachet I can toss in my bag is the first version of this that fits how I live. At $24.99 for the first box it is cheap enough to just try once.",
+  "objection": "I don't know if I'll actually feel a difference, and I'm not thrilled that it's made in China, even with the lab report.",
+  "would_change_my_mind": "If the lab report wasn't really on the page or the batch number didn't match, I'd pass. A visible price above about $35 for the first box would also flip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

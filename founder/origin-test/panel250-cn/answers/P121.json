@@ -1,0 +1,13 @@
+{
+  "id": "P121",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I'm skeptical of supplements unless my doctor brings it up, and nobody has told me I need magnesium. I already forget the vitamins on my counter half the time, and a box of 30 foil sachets is just more trash.",
+  "objection": "Nobody has said I'm low on magnesium, and a daily sachet means 30 pieces of foil packaging to throw away. The lab report is nice, but it doesn't tell me I need it.",
+  "would_change_my_mind": "My doctor recommending magnesium for me, plus a plain recyclable pack instead of foil sachets.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

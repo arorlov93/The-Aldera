@@ -1,0 +1,13 @@
+{
+  "id": "P176",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already reorder my Toplux when it runs out and I have a drawer full of half-used bottles. I don't need another supplement, and I'm not swapping something I already take for two capsules every night.",
+  "objection": "Two capsules a day is a chore, and I already own too many bottles I don't finish. $30 a month for something I'd probably quit after two weeks.",
+  "would_change_my_mind": "A free or very cheap one-box trial, or a single capsule a day instead of two.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

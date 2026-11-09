@@ -1,0 +1,13 @@
+{
+  "id": "P044",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and just reorder it when it runs out, and I have a drawer full of half-used bottles. $25 to $30 a month is real money on my budget, and I'm not switching for one form of magnesium.",
+  "objection": "Why only one form of magnesium when other products put 8 forms in one capsule? Plus it's made in China and I've never heard of this brand.",
+  "would_change_my_mind": "A much lower price, around $12 to $15 for 30 days, or a free trial sachet that proves it works better than what I already take.",
+  "price_too_cheap": 6,
+  "price_cheap": 12,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

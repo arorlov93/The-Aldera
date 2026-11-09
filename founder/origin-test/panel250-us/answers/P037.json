@@ -1,0 +1,13 @@
+{
+  "id": "P037",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I don't take magnesium because no doctor has told me to, and I already forget the vitamins I have on my counter. The lab report is a nice touch, but it doesn't change that I don't have a reason to start.",
+  "objection": "Tested for what is in the capsule is not the same as proven to do anything for me. Why would I pay $30 a month for something my doctor never suggested?",
+  "would_change_my_mind": "My doctor telling me my magnesium is low or recommending it for sleep.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 45
+}

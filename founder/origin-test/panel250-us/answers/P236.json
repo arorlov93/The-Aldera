@@ -1,0 +1,13 @@
+{
+  "id": "P236",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "At $22k a year, $25 to $30 a month for one supplement is more than I want to spend, and I already forget my vitamins on the counter half the time. Foil sachets also feel like extra packaging waste for something I could get in a bottle for less.",
+  "objection": "Too much money per month for one mineral, and a sachet a day is more packaging than a bottle. I would be paying extra for the 'on the go' format I do not need at home.",
+  "would_change_my_mind": "A price near $15 for 30 days, or a bottle option with the same lab report and dose, so I am not paying for the sachets.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

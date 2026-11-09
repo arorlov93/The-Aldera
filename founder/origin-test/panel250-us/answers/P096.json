@@ -1,0 +1,13 @@
+{
+  "id": "P096",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "The lab report on the page is more than most brands give me, but I don't take magnesium because no doctor has told me to. I'm not going to start a daily supplement off a TikTok Shop listing.",
+  "objection": "Nothing here tells me I actually need magnesium. A tested batch only proves the capsule contains what the box says, not that it does anything for me.",
+  "would_change_my_mind": "My doctor recommending magnesium, or a blood test showing I'm low. Then I'd look at the lab report and probably try one box at the launch price.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 35,
+  "price_too_expensive": 50
+}

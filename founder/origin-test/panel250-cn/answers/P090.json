@@ -1,0 +1,13 @@
+{
+  "id": "P090",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, so I already have a reason to try it, and $24.99 for the first box is an easy impulse buy on TikTok Shop. The lab report behind the QR code and the empty-box guarantee make it feel low risk.",
+  "objection": "Made in China makes me nervous about what is really in it, even with a lab report. And it is still 2 capsules every day, which I will probably forget on a busy night.",
+  "would_change_my_mind": "If the lab report did not match the batch number on the box, or I saw reviews saying the guarantee was not honored.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

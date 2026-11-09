@@ -1,0 +1,13 @@
+{
+  "id": "P122",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I don't take supplements unless my doctor says to, and I haven't been told I need magnesium. Thirty bucks a month is real money on my budget for something I'm not sure does anything.",
+  "objection": "Will I actually feel a difference? A lab report shows what's in the capsule, not that it does anything for me.",
+  "would_change_my_mind": "My doctor telling me I'm low on magnesium and to take it.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 24,
+  "price_too_expensive": 32
+}

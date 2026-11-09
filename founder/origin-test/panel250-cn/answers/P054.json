@@ -1,0 +1,13 @@
+{
+  "id": "P054",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a drawer full of half-used bottles and I reorder my usual brand when it runs out. I don't need another one to sit next to them.",
+  "objection": "Made in China, and I've never heard of this brand. A lab report on a page is nice, but I'd have to actually check it, and I'm not going to.",
+  "would_change_my_mind": "A friend or a creator I already trust saying they slept better on it for a few weeks, plus a first box at a trial price under $15.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P171",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab report for the exact batch is more than I get from most brands. At $24.99 I would try one box, but I would not commit to more before I see if I feel anything.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? Also 2 capsules a day for 200 mg feels like a lot of capsules for one form.",
+  "would_change_my_mind": "A clear note on why bisglycinate alone is enough, or my doctor saying that form is fine for me.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 33,
+  "price_too_expensive": 45
+}

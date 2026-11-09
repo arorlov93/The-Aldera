@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I travel a lot and always leave my pills at home, so a pre-counted sachet I can toss in my bag is the first version of this that fits how I live. At the $24.99 launch price I'd try one box, but I wouldn't pay $29.99 on a first look.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. Also it's made in China, so I'd want to see that lab report actually matches the box before I trust it.",
+  "would_change_my_mind": "If the price stayed at $24.99 or lower after the launch window, I'd likely reorder; if it went to $29.99 with no other change, I'd skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

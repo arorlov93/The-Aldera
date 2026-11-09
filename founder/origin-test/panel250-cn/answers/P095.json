@@ -1,0 +1,13 @@
+{
+  "id": "P095",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I travel twice a month and my evenings are chaotic, so pre-counted sachets I can toss in a bag are a real plus. The named lab and the report for my batch make it feel less sketchy, and $24.99 for one box is an easy impulse buy.",
+  "objection": "Will I actually feel a difference? Magnesium is hit or miss, and the money-back only counts if I finish all 30 sachets, so I'd be committing a month to find out.",
+  "would_change_my_mind": "If the guarantee let me ask for my money back after two weeks instead of making me finish all 30, I'd be more comfortable. If the price were over $35 for one box, I'd pass.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 35,
+  "price_too_expensive": 49
+}

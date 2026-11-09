@@ -1,0 +1,13 @@
+{
+  "id": "P026",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "The $24.99 launch price is about 83 cents a day and the named lab report with the empty-box guarantee lowers the risk, so I would try one box. I would not pay full price or buy two until I know it works for me.",
+  "objection": "Thirty foil sachets a month is a lot of packaging waste, and I can get magnesium in a bottle for less per day.",
+  "would_change_my_mind": "Recyclable or compostable sachets, or a bottle refill option at a lower price per day.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

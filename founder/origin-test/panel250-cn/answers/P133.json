@@ -1,0 +1,13 @@
+{
+  "id": "P133",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "The $24.99 launch price plus the empty-box refund makes it a low-risk try, and a pre-counted sachet is easier than the bottle I forget on the counter. I'd buy one box, not two, until I know it works.",
+  "objection": "Will I actually feel a difference? Magnesium might do nothing for me and I'd be out $25 and a month of trying.",
+  "would_change_my_mind": "A full price of $29.99 with no launch deal, or a refund that needs a hassle to claim, would make me wait for a coupon.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

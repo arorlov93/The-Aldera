@@ -1,0 +1,13 @@
+{
+  "id": "P148",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so a travel sachet solves a problem I don't have. The named lab and batch report are nice, but I'd still be paying $29.99 for something I already have on my shelf.",
+  "objection": "I don't need it to go. I'm home every evening and already have a magnesium I trust, and I'd have to compare this against it before switching.",
+  "would_change_my_mind": "If it were clearly cheaper per day than what I buy now and I could open a real lab report for a batch before ordering, I might try one box.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 29,
+  "price_too_expensive": 40
+}

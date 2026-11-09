@@ -1,0 +1,13 @@
+{
+  "id": "P093",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home and I reorder what I have when it runs out. I don't need it in a sachet, and I'm not switching a routine that works for a new brand.",
+  "objection": "I already have a magnesium I trust, and I take it at home, so paying $30 for the 'to go' part doesn't solve anything for me.",
+  "would_change_my_mind": "If it cost clearly less per month than what I buy now, or if my current one stopped working for me on trips.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

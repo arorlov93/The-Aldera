@@ -1,0 +1,13 @@
+{
+  "id": "P039",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, so I have an actual reason, and a named lab report for the batch plus an empty-box refund means I can try one box without much risk. At $24.99 I'd buy it once and see.",
+  "objection": "Will I actually feel a difference? And it's made in China, so I'm relying on that lab report being real.",
+  "would_change_my_mind": "If my doctor's blood test shows my magnesium is normal, I would not buy it.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

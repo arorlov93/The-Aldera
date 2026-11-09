@@ -1,0 +1,13 @@
+{
+  "id": "P100",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I don't take supplements unless my doctor says to, and magnesium isn't something she has brought up. Two capsules every day is one more thing to remember on top of everything else with the kids.",
+  "objection": "I have no medical reason to take it, and most supplements feel like a waste of money to me. The lab report is nice, but it doesn't tell me I need magnesium.",
+  "would_change_my_mind": "My doctor telling me to take magnesium.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

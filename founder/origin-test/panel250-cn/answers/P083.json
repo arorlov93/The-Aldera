@@ -1,0 +1,13 @@
+{
+  "id": "P083",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and this is the first one that shows the dose, the form and a batch report I can actually check. At $24.99 for the first box I will try one box and see.",
+  "objection": "Made in China, so I will open the lab report first and make sure the batch number matches the box. Also two capsules a day is annoying, and I want to know whether I can really finish 30 days.",
+  "would_change_my_mind": "If the lab report for my batch is missing, does not match the batch number on the box, or the lab is not a real independent one I can look up.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

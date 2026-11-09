@@ -1,0 +1,13 @@
+{
+  "id": "P026",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "A dollar a day for magnesium feels like a lot when I know I can get a big bottle for much less, and I would be paying extra for individual foil packets. The lab report is a nice touch, but I would wait for a bigger coupon.",
+  "objection": "Sachets feel like more packaging waste, and I am paying for the convenience of counted capsules that I do not really need at home.",
+  "would_change_my_mind": "A price near $0.50 a day or a real coupon or flash sale on the two-box deal, plus a way to see the packaging is recyclable.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 27,
+  "price_too_expensive": 38
+}

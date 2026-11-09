@@ -1,0 +1,13 @@
+{
+  "id": "P090",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab with a report for my batch is more than most TikTok supplements give me. $24.99 for the first box is an easy impulse buy, and the empty-box refund makes it low risk.",
+  "objection": "It is still two capsules every day, and I do not know if I will stick with it. I also have no idea if my magnesium is actually low, so I might be paying for something I do not need.",
+  "would_change_my_mind": "If it were one capsule instead of two, or if the price at checkout were closer to $35 or more with no launch discount.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

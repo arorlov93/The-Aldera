@@ -1,0 +1,13 @@
+{
+  "id": "P087",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and a named independent lab with the batch report behind a QR code is the first supplement pitch that gives me something I can check. At $24.99 for one box I'd try it once.",
+  "objection": "Why only one form of magnesium when others put several forms in one capsule, and is 200 mg actually enough to matter for me? Also it's made in China and sold on TikTok.",
+  "would_change_my_mind": "My doctor confirming that bisglycinate alone at 200 mg is the right thing for me, or me opening the lab report and finding it doesn't match the box.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

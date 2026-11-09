@@ -1,0 +1,13 @@
+{
+  "id": "P079",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already reorder my own thing when it runs out and my drawer is full of half-used bottles. I'm not adding another one for a single form of magnesium.",
+  "objection": "Why only one form of magnesium when other products have several forms in one capsule? And it's made in China, which makes me want to see that lab report before I trust it.",
+  "would_change_my_mind": "A reason this one form works better than the multi-form blends I already see, plus a free or very cheap trial box so I don't end up with another half-used bottle.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P159",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it is really tested, and here the lab is named and the report for my batch is on the page. The sachets are easy to throw in my bag when I travel, and $24.99 for the first box is an easy impulse buy.",
+  "objection": "Made in China makes me nervous. I want to see that the lab report is real and matches the batch number on the box, not just a nice claim on a TikTok page.",
+  "would_change_my_mind": "If the lab report did not open, or the batch number on the box did not match it, I would not buy a second box.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 50
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P067",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take Toplux and reorder when it runs out. $29.99 is more than what I pay now, and the lab report is nice but it does not make me switch something that works.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. I have no reason to switch a routine that already works.",
+  "would_change_my_mind": "A price close to what I pay now, around $20 to $22 for 30 days, plus an easy way to try one box without losing my current routine.",
+  "price_too_cheap": 12,
+  "price_cheap": 18,
+  "price_expensive": 26,
+  "price_too_expensive": 32
+}

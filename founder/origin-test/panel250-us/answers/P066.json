@@ -1,0 +1,13 @@
+{
+  "id": "P066",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I don't take supplements unless a doctor tells me to, and I already forget the vitamins on my counter. One form of magnesium for $25 to $30 a month isn't something I'd pick up off a TikTok.",
+  "objection": "Why only one form of magnesium when others put 8 forms in one capsule? And I have no reason to think I need it in the first place.",
+  "would_change_my_mind": "My doctor telling me I'm low on magnesium and recommending this kind.",
+  "price_too_cheap": 10,
+  "price_cheap": 17,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

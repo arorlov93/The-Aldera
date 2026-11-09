@@ -1,0 +1,13 @@
+{
+  "id": "P114",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's actually tested, and a named lab with the report for my batch behind a QR code answers that. At $24.99 for the launch box it's under a dollar a day and the sachets are easy to throw in a bag for work trips.",
+  "objection": "Made in China. I'd want to open the QR report and see that the batch number matches before I trust it. Also, I only get the launch price on the first box, so I'm not signing up for the full price until I know it works for me.",
+  "would_change_my_mind": "If the QR report didn't open, or the batch number on the box didn't match the report, I'd skip it.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

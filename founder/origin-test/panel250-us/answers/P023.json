@@ -1,0 +1,13 @@
+{
+  "id": "P023",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "At $24.99 launch price it is close enough to Toplux, and the named lab report plus the money-back guarantee lowers the risk of trying one box. I would not pay $29.99 full price, and I would not buy a second box unless it was on sale.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19), and those last longer. I am paying extra for the sachets and the lab report.",
+  "would_change_my_mind": "A regular price at or under $24.99, or a coupon or flash sale that brings a box to about $20.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 27,
+  "price_too_expensive": 34
+}

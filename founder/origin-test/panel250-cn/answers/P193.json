@@ -1,0 +1,13 @@
+{
+  "id": "P193",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I travel twice a month and always leave my pills at home, so a counted sachet I can toss in my bag is exactly my problem. A named lab and a batch report I can check is the only reason I'd try it at $24.99.",
+  "objection": "Is it really tested, or just marketing? I'd want to actually open the report and see that the batch number matches. Made in China also makes me want to see that the lab is real.",
+  "would_change_my_mind": "If the lab report didn't open or the batch number didn't match the box, I'd pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 33,
+  "price_too_expensive": 45
+}

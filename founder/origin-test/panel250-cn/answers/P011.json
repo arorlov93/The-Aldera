@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "$24.99 to $29.99 is more than I pay for Toplux or Goli and I can find magnesium glycinate in a big bottle for way less per day. I wait for a real flash sale or coupon before I try a new brand.",
+  "objection": "I'm paying extra for the sachets and the lab report, and the per-day cost is higher than what I already see on the shelf. Made in China with a brand I've never heard of doesn't help.",
+  "would_change_my_mind": "A TikTok Shop flash deal or coupon that brings one box to about $15 to $18, or the two-box price dropping to around $0.60 a day.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 33
+}

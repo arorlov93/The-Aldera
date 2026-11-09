@@ -1,0 +1,13 @@
+{
+  "id": "P097",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The lab report for my batch on the page and the money-back guarantee make it a low-risk try at $24.99, and the sachets are easy to toss in my bag. I would only buy it once to see if I sleep better.",
+  "objection": "Two capsules every day is a lot to swallow, and I am not sure I will stick with it for 30 days. I also have no way to know if it works for me.",
+  "would_change_my_mind": "A creator video showing someone with my sleep problem using it and getting results, or a one capsule dose.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,346 @@
+{
+ "business": "The Aldera, magnesium bisglycinate in daily sachets",
+ "seed": 158554,
+ "dealt": 250,
+ "answered": 250,
+ "skipped": [],
+ "buys": 116,
+ "passes": 134,
+ "buy_rate": 0.464,
+ "by_segment": [
+  [
+   "Young professional, wellness routine",
+   75,
+   0.56
+  ],
+  [
+   "Gym-goer / active",
+   50,
+   0.44
+  ],
+  [
+   "Busy working mom",
+   88,
+   0.4318181818181818
+  ],
+  [
+   "Budget-tight shopper",
+   37,
+   0.3783783783783784
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Reads every review and label",
+   37,
+   0.7837837837837838
+  ],
+  [
+   "Impulse buyer from TikTok videos",
+   55,
+   0.7090909090909091
+  ],
+  [
+   "On-the-go routine person",
+   30,
+   0.6333333333333333
+  ],
+  [
+   "Deal hunter",
+   38,
+   0.5526315789473685
+  ],
+  [
+   "Skeptic of supplements",
+   25,
+   0.16
+  ],
+  [
+   "Already loyal to a competitor",
+   45,
+   0.08888888888888889
+  ],
+  [
+   "Gummy-only",
+   20,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$53,000 to $71,000",
+   84,
+   0.5476190476190477
+  ],
+  [
+   "$71,000 and up",
+   88,
+   0.4431818181818182
+  ],
+  [
+   "under $53,000",
+   78,
+   0.3974358974358974
+  ]
+ ],
+ "why_not": [
+  [
+   "habit",
+   55,
+   [
+    "I already reorder Toplux when it runs out and I have a drawer full of half-used bottles. $29.99 is more than I pay now, so I would not switch.",
+    "I already take Toplux and reorder it when it runs out, and I have a drawer full of half-used bottles. $29.99 is more than what I pay now, so I have no reason to switch."
+   ],
+   [
+    "P003",
+    "P010"
+   ]
+  ],
+  [
+   "need",
+   43,
+   [
+    "I already take magnesium at night at home, so I don't need a travel version. My doctor said mine could be low, but I'd get that tested and fix it with what I already have.",
+    "I already take magnesium at night at home, and I reorder my usual brand when it runs out. The on-the-go sachet solves a problem I don't have."
+   ],
+   [
+    "P004",
+    "P012"
+   ]
+  ],
+  [
+   "price",
+   28,
+   [
+    "$29.99 is more than Toplux or Goli and I already know those. The sachet idea is nice since I forget my vitamins, but I'm not paying extra for it on a first look.",
+    "Almost $30 for a month of magnesium is more than the Toplux or Goli I already look at, and I wait for sales anyway. The $24.99 launch price is still above what I pay now, so I would not buy it this week."
+   ],
+   [
+    "P006",
+    "P011"
+   ]
+  ],
+  [
+   "convenience",
+   5,
+   [
+    "I only do gummies or drinks, and this is 2 capsules every night. I hate swallowing pills, so it's a no for me, and the foil sachets look like extra trash.",
+    "I only do gummies or drinks, I hate swallowing pills. Two capsules every night is exactly what I avoid, so it's a no even though the lab testing is a nice touch."
+   ],
+   [
+    "P049",
+    "P063"
+   ]
+  ],
+  [
+   "quality",
+   2,
+   [
+    "The lab report and the empty-box guarantee are nice, but it is one form of magnesium and I keep seeing blends with several forms in one capsule for about the same money. Nothing here hits a problem I have right now, so I would just keep scrolling.",
+    "I read labels and compare forms and doses. One form of magnesium at 200 mg for $30 a month doesn't beat the blends I already look at, and I don't know this brand. The lab report is a good sign, but a new brand on TikTok Shop is still a risk for me."
+   ],
+   [
+    "P117",
+    "P157"
+   ]
+  ],
+  [
+   "trust",
+   1,
+   [
+    "I make $24k a year and I don't spend on supplements unless a doctor tells me to. A named lab report is better than most, but it is still a TikTok Shop product and I'd skip it."
+   ],
+   [
+    "P246"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "trust",
+   68,
+   [
+    "The named lab and a batch report I can check against the number on the box is exactly what I look for, and the dose is written down. One box at the launch price is a small risk, and the empty-box guarantee means I can try it without the drawer-of-bottles regret.",
+    "A named independent lab with the report for my batch on the page is exactly what I look for, and the dose is clear with no magnesium oxide. At $24.99 for the first box I would try one, and the pre-counted sachet might help me stop forgetting."
+   ],
+   [
+    "P005",
+    "P015"
+   ]
+  ],
+  [
+   "convenience",
+   28,
+   [
+    "I forget my pills at home all the time and travel a lot, so a pre-counted foil sachet I can toss in my bag is the first version of this that fits how I actually live. At $24.99 for the first box with the money-back guarantee, I'd try one box and not more.",
+    "I forget my vitamins on the counter all the time, so a sachet that is already counted and goes in my bag is a real fix. $24.99 for the first box with a money-back guarantee is low risk for an impulse buy."
+   ],
+   [
+    "P002",
+    "P007"
+   ]
+  ],
+  [
+   "need",
+   10,
+   [
+    "My doctor said my magnesium could be low, and a named lab with a report for my exact batch is more than I get from most bottles. At $24.99 launch price I would try one box, but only that one.",
+    "My doctor said my magnesium could be low, so a named-lab report and no magnesium oxide speaks to a problem I actually have. $24.99 for the first box is easy to try from the yellow cart, and the empty-box guarantee takes the risk out."
+   ],
+   [
+    "P001",
+    "P008"
+   ]
+  ],
+  [
+   "price",
+   10,
+   [
+    "$24.99 for the first box is about 83 cents a day, which is fair for bisglycinate with a named lab report, and I travel twice a month so pre-counted sachets are handy. I would try one box at the launch price and not stock up.",
+    "At $24.99 launch price it is close enough to Toplux, and the named lab report plus the money-back guarantee lowers the risk of trying one box. I would not pay $29.99 full price, and I would not buy a second box unless it was on sale."
+   ],
+   [
+    "P009",
+    "P023"
+   ]
+  ]
+ ],
+ "flip": [
+  "A price close to what I pay now, around $20 a box, without having to rely on a launch price that ends.",
+  "A bloodwork result showing my magnesium is low and my current brand isn't working, or the first box at around $15.",
+  "A creator video showing it fixing my evening routine, with the price at $19 to $22 a box.",
+  "A price at or under what I pay now, like $19 to $22 for 30 days, or a free trial box so I can see if it beats what I already take.",
+  "A price near $19 a box, or a coupon or flash sale that brings two boxes under $40.",
+  "If I traveled a lot and my usual brand had no travel option, or if it were clearly cheaper than what I pay now for the same dose.",
+  "A gummy or powder-in-water version with the same lab report on the page.",
+  "A bottle or refill option at around $0.60 a day or less, or sachets that are recyclable.",
+  "My doctor recommending magnesium, or a blood test showing I am low.",
+  "A gummy or powder-drink version with the same named-lab report for each batch.",
+  "My doctor telling me I'm low on magnesium, and the price coming down to around $20 a month.",
+  "A smaller trial pack for a trip, around $10 to $12, so I could try the sachets without committing to 30 days.",
+  "My doctor telling me to take magnesium, or a blood test showing I'm low.",
+  "A creator video showing it fixing something I deal with, like sore legs after the gym or sleeping badly on days I'm away from home, and a price closer to what I pay for my current bottle.",
+  "A gummy or drink version at about the same price.",
+  "A price near $0.50 a day or a real coupon or flash sale on the two-box deal, plus a way to see the packaging is recyclable.",
+  "A friend or a creator I trust who has taken it for a month and says it actually helped my sleep or recovery, plus a cheaper trial size so I'm not committing to a full 30 days.",
+  "A price near $20 a box, or a bigger box that lasts longer for the same money.",
+  "A price clearly lower than what I pay now for a tested magnesium bisglycinate, plus a real lab report I can open and check.",
+  "A price near $15 to $18 for 30 days, or a flash sale or coupon that brings the first box under that.",
+  "A price around $15 a month, or a trial box at that price, with the lab report showing the actual tested dose per capsule.",
+  "A creator I already follow showing it working for a few weeks, or a much cheaper trial box so I am not stuck with another half-used bottle.",
+  "My doctor telling me my magnesium is low or recommending it for sleep.",
+  "If it cost clearly less per day than what I'm already buying and I could try one box with no risk.",
+  "A free trial or a much lower first price, plus a refill option that isn't a single-use foil sachet.",
+  "A price near $15 a month, or a sample I could try first, plus a plain reason why bisglycinate alone beats the 8-form blends.",
+  "A gummy or drink-mix version at around $20 a month, then I'd try it.",
+  "A small travel pack (like 7 sachets) at a few dollars so I could try it on a trip without committing to a 30-day box.",
+  "A creator video showing it fixing a specific problem of mine, like sore legs or bad sleep after training, plus a clear reason why bisglycinate alone beats the multi-form blends.",
+  "A gummy or drink-mix version with the same lab-tested magnesium bisglycinate dose.",
+  "If my current magnesium ran out and I saw the lab report for the batch actually check out, I might try one box at the launch price.",
+  "A price around $15 for the month, or a small trial pack first so I can see if I stick with it.",
+  "A gummy or drink version at around the same price as Toplux.",
+  "My doctor telling me my magnesium is low and recommending bisglycinate specifically.",
+  "A gummy or drink-mix version with the same tested dose.",
+  "Recyclable or compostable sachets, plus a reason to think it works better than what I already take.",
+  "My doctor telling me I'm low on magnesium and recommending this kind.",
+  "A price at or below what I pay for Toplux, or a free trial box so I can compare it myself without spending more.",
+  "A price near what I pay now ($23 or less for 30 days) plus a free trial box to see if it is any better than my current one.",
+  "A flash sale or coupon that brings the first box to about $19, so it costs the same per day as Toplux.",
+  "A small trial pack of about 7 sachets for around $9 to $10, so I can see if I even keep taking it before paying for a full month.",
+  "A price near $15 to $18 a month, or a small trial box so I can see if I actually remember to take it.",
+  "If I ran out of what I take now and a friend I trust said this one actually helped her sleep, I might try the single box at the launch price.",
+  "My doctor telling me I'm low on magnesium, plus a price closer to $12 to $15 a month.",
+  "A price near $0.50 a day or a deep TikTok Shop flash deal or coupon, plus a real reason I'd need to take it away from home.",
+  "A price near $0.50 a day or a real coupon deal, plus a reason I'd actually need it on the go.",
+  "A gummy or drink-mix version at a similar price.",
+  "A deep coupon or flash sale that brings it under about $0.50 a day, or a bottle with the same lab-tested dose for less.",
+  "A much lower price per day than what I pay now, or a real reason my current magnesium is worse, like a lab report showing it has less magnesium than the label says.",
+  "If it cost clearly less per month than what I buy now, or if my current one stopped working for me on trips.",
+  "A creator video showing a real moment where I would need it away from home, like travel or a late night out, plus a price close to what my current bottle costs per day.",
+  "My doctor recommending magnesium, or a blood test showing I'm low. Then I'd look at the lab report and probably try one box at the launch price.",
+  "A creator video showing someone with my exact sleep problem actually sleeping better on it after a couple of weeks, plus a plain explanation of why bisglycinate alone is enough.",
+  "My doctor telling me to take magnesium.",
+  "A price close to what I pay now, around $20, or a sample sachet I could try for free before committing.",
+  "A deeper flash-sale price, around $17 to $18 a box, or a coupon stack that gets it near $0.60 a day, plus a clear reason the single form beats the 8-form ones.",
+  "A creator video showing a real problem I have, like sleeping badly when I travel, plus a price closer to what my bottle costs.",
+  "A creator I follow showing it fixing my sleep problem in a video, or a clear explanation of why bisglycinate alone beats the multi-form blends.",
+  "A deeper flash-sale or coupon price that gets it under about $0.60 a day, or a bigger box at that rate.",
+  "If a friend or a creator I trust told me she slept clearly better on it after a couple of weeks, I might try the cheap first box.",
+  "A gummy or powder-drink version at about the price of Toplux.",
+  "My doctor telling me I'm low on magnesium.",
+  "A price close to what I pay now, around $20 for 30 days, and a reason the lab-tested batch report is worth switching for.",
+  "A creator video where someone like me says it helped her sleep, plus a clear reason why one form is better than a mix.",
+  "A creator video where someone like me shows it fixing my exact problem (sleep or leg cramps after workouts), plus a price near $20 for the first box.",
+  "My doctor telling me to take magnesium, and then a plain bottle or recyclable packaging instead of single-use foil.",
+  "My doctor telling me I'm low on magnesium and to take it.",
+  "A gummy or a drink-mix version with the same tested dose.",
+  "A gummy or drink version at about the same price.",
+  "A blood test showing my magnesium is actually low and my doctor saying to take this kind of magnesium.",
+  "Something showing my doctor would prefer bisglycinate specifically, or a cheaper first box small enough that trying it costs me nothing next to what I already pay.",
+  "A single capsule per sachet at the same price, or a free trial box I could try next to my current one on a work trip.",
+  "If it were clearly cheaper than my current bottle per day, or if I started traveling much more and kept forgetting my pills.",
+  "My doctor telling me I'm low on magnesium or should take it, or a friend I trust saying it really helped her sleep.",
+  "A creator I already follow showing it working for them for a few weeks, plus a single-capsule or gummy version.",
+  "A price near $0.60 a day, like a flash sale or coupon bringing one box to about $18 to $19.",
+  "A gummy or drink-powder version of the same magnesium with the lab report.",
+  "A creator video showing it fixing a real travel-sleep problem for me, plus a small trial pack under $10 so I could try it without committing to 30 days.",
+  "A gummy or drink version with the same lab report and a named lab I can check.",
+  "My doctor telling me to take magnesium, plus a price closer to $20 for the month.",
+  "If it were clearly cheaper per day than what I buy now and I could open a real lab report for a batch before ordering, I might try one box.",
+  "A clearly lower price per day than what I pay now, plus a reason to take it away from home, like regular travel.",
+  "A TikTok Shop flash sale or coupon that brings a one-month box down to about $19 to $20, or a cheap trial size so I can try it once without committing.",
+  "A price near $0.50 a day or a real flash sale, plus a clear reason why bisglycinate alone beats a multi-form blend.",
+  "A single easy gummy or one capsule, and a real reason to switch from what I already reorder, like a clearly lower price per day.",
+  "A gummy or drink-mix version with the same tested magnesium dose.",
+  "A much lower trial price, like under $15 for the first box, or a creator I already follow showing real results over a few weeks.",
+  "A number of verified reviews from real buyers, plus a clear reason why bisglycinate alone is enough, with the lab report showing the actual tested amount.",
+  "A price under $20 a box, or a cheap first box I could try without committing, since the sachet in my bag is the part I do like.",
+  "A gummy or drink version with the same lab-tested dose, or a clear reason why bisglycinate alone is enough for low magnesium.",
+  "My doctor telling me to take magnesium, and a price closer to $20 for the month.",
+  "A friend or a creator I trust telling me it really helped her sleep, plus a cheap one-box trial around $15 so it's not another bottle I abandon.",
+  "If I could try a small box of 7 sachets for a few dollars to see if I actually use them on trips, or if my next blood test shows I'm low and I'm traveling a lot that month.",
+  "A creator video showing it fixing a sleep problem my current magnesium doesn't, or a much lower trial price.",
+  "If my current brand stopped working or got pulled, and the lab report was easy to check, I might try a single box.",
+  "A price around $15 for the 30 days, or a bigger flash-sale discount, plus a single capsule instead of two.",
+  "A free or very cheap one-box trial, or a single capsule a day instead of two.",
+  "My doctor telling me I'm low on magnesium and should take it.",
+  "Recyclable or minimal packaging, plus a clearly lower price than what I pay now for my usual one.",
+  "A creator video showing the sleep problem I actually have, plus the price at $19.99 or less for the first box.",
+  "A TikTok Shop flash sale or coupon that brings the first box to about $19 or less, or a cheap trial size.",
+  "A price close to what I pay now, around $19 to $20 a box, plus a free first box to try.",
+  "A creator I trust on TikTok showing it side by side with what I take now, or a free sample so I can try it without spending anything.",
+  "A creator I trust on TikTok saying it actually helped her sleep, plus a first box at about $15.",
+  "If my doctor's blood test showed I really was low and it cost clearly less than what I pay now, around $15 to $18 a month, I'd try one box.",
+  "A much lower per-day price than my current bottle, or a small travel-sized trial pack for my work trips only.",
+  "A price close to what I pay now for a bottle, or a travel trip where I'd actually forget my own supply.",
+  "A much cheaper first box, like $15, or a single capsule a day, so trying it costs me almost nothing.",
+  "A price around $19 to $20 a box for the regular price, or a small trial pack so I can try a few nights before committing to 30.",
+  "If a sachet came with a clear reason it works better than what I take now, like a real result I could see, and the first box was cheap enough that skipping it costs me nothing.",
+  "A doctor-confirmed low magnesium result plus recyclable packaging or a bottle option.",
+  "A regular price near $22 to $24, or the $24.99 launch price being a repeat price and not just the first box.",
+  "A real flash sale or coupon that brings it clearly under what I pay per day now, or if my current bottle ran out and this was cheaper per day.",
+  "A price around $20 to $22 for the 30 days, or a cheap trial box so I can see if it is worth it.",
+  "If the sachets were recyclable or it came in a bottle, and it was clearly cheaper or better than what I already take.",
+  "Seeing my current brand fail an independent test, or a creator I already trust showing the same lab report for this batch and saying it worked for them.",
+  "A creator video showing a real problem I have, like travel or late nights away from home where I skip my dose, plus a price closer to $15 for the first box.",
+  "A creator I follow showing it fixed her sleep problem, and a price closer to $15 for the box.",
+  "A gummy or drink-mix version at around $15 a month.",
+  "A gummy or drink version at a similar price.",
+  "A flash sale or coupon that brings a box to around $15 to $18, or my doctor confirming I'm actually low and that this form is worth it.",
+  "A price at or under what I pay now, around $19 for the 30 days, or a free first box so I could see if it does anything for my sleep.",
+  "My doctor telling me I'm low on magnesium or recommending it.",
+  "A creator video showing someone with my exact problem (can't wind down after the kids are asleep) using it, plus a clear reason bisglycinate alone beats the 8-form blends.",
+  "A price near $15 for 30 days, or a bottle option with the same lab report and dose, so I am not paying for the sachets.",
+  "My doctor telling me I should be taking magnesium.",
+  "A gummy or drink-powder version of the same tested magnesium at a similar price.",
+  "A gummy or drink version at around $15 a month.",
+  "A price closer to $15 for the month, or my doctor telling me this exact form is what I need.",
+  "My doctor telling me my magnesium is low and recommending this kind of magnesium.",
+  "My doctor telling me to take magnesium, or a much lower price like a free trial sachet.",
+  "A lower price, around $20 for the month, plus a lab report I could actually open and verify before paying.",
+  "A gummy or drink version of the same magnesium at about the same price.",
+  "A much lower price, like a free or nearly free first box to try, or if my current brand stopped working for me."
+ ],
+ "purchases_first_month_per_buyer": 1.0,
+ "price_answers": 250
+}

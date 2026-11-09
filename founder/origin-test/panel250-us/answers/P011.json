@@ -1,0 +1,13 @@
+{
+  "id": "P011",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Almost $30 for a month of magnesium is more than the Toplux or Goli I already look at, and I wait for sales anyway. The $24.99 launch price is still above what I pay now, so I would not buy it this week.",
+  "objection": "I can get a month of magnesium for $19 to $23, so paying $25 to $30 for the same thing in a foil sachet feels like paying for the packaging.",
+  "would_change_my_mind": "A price near $19 a box, or a coupon or flash sale that brings two boxes under $40.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 25,
+  "price_too_expensive": 32
+}

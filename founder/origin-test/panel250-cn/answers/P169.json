@@ -1,0 +1,13 @@
+{
+  "id": "P169",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's really tested, and here the lab is named and the report is behind the QR code, so I can check it. $24.99 for the first box is an easy try on TikTok Shop, and I'd take it in the evening after the gym.",
+  "objection": "Made in China. A report only covers the batch they tested, and I'd want to be sure the QR report really matches the box I get.",
+  "would_change_my_mind": "If the lab report didn't open or the batch number didn't match the box, I'd pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

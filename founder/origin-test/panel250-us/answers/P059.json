@@ -1,0 +1,13 @@
+{
+  "id": "P059",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's really tested, and here the lab is named and the report for my batch is on the page and behind a QR code. The sachets are handy for my work trips and $24.99 for the first box is an easy impulse buy with the money-back promise.",
+  "objection": "I can't check a lab report myself, so I'm trusting that the lab is real and the report isn't just for show. And $29.99 after the launch price is a bit more than I'd normally pay for magnesium.",
+  "would_change_my_mind": "If the named lab turned out to be unknown or the report didn't match the batch number on my box, I would not buy again.",
+  "price_too_cheap": 10,
+  "price_cheap": 19,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

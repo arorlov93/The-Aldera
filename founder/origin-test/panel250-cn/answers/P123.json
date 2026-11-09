@@ -1,0 +1,13 @@
+{
+  "id": "P123",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I only buy gummies or drinks because I really don't like swallowing pills, and this is 2 capsules every single day. The lab report is nice, but it doesn't change the fact that it's a format I avoid.",
+  "objection": "Two capsules to swallow every day. I don't take pills, so I'd end up with a box sitting in a drawer.",
+  "would_change_my_mind": "A gummy or drink-mix version at a similar price.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

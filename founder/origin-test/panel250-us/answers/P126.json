@@ -1,0 +1,13 @@
+{
+  "id": "P126",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "My doctor only said my magnesium could be low, she did not tell me to take a supplement. I would want a blood test result first before spending money on a monthly box.",
+  "objection": "Will I actually feel a difference? Lab testing is nice, but it does not tell me it will help me sleep or feel better.",
+  "would_change_my_mind": "A blood test showing my magnesium is actually low and my doctor saying to take this kind of magnesium.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 30,
+  "price_too_expensive": 45
+}

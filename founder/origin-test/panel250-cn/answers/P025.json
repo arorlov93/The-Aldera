@@ -1,0 +1,13 @@
+{
+  "id": "P025",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so a sachet to carry around solves nothing for me. And I'm gummy-only, I don't want to swallow 2 capsules.",
+  "objection": "I hate swallowing pills and I don't need magnesium on the go, I take it at home at night anyway.",
+  "would_change_my_mind": "A gummy or drink version of it at a similar price.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

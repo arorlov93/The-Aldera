@@ -1,0 +1,13 @@
+{
+  "id": "P111",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 is under a dollar a day, the lab report is on the page, and the empty-box guarantee makes one box a cheap test. Pre-counted sachets are handy when I'm travelling.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? I'd also want to know I'm not overpaying versus a big bottle at the drugstore.",
+  "would_change_my_mind": "If the launch price were gone and it was $29.99 with no coupon or bundle deal, I'd skip it and wait for a flash sale.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

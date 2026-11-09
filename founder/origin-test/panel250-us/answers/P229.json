@@ -1,0 +1,13 @@
+{
+  "id": "P229",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my vitamins on the counter half the time and travel a lot, so a pre-counted sachet I can toss in my bag is the first thing that actually fits how I live. The empty-box guarantee and the named lab report make one box a low-risk try, especially at the $24.99 launch price.",
+  "objection": "$29.99 is more than Toplux ($23) or Goli ($19) and those last longer. I'm paying extra for the sachet format and I don't know yet if I'll actually remember to take it.",
+  "would_change_my_mind": "If the box stayed at $29.99 with no launch price, I would probably pass and stay with a cheaper bottle I can keep in my bag.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

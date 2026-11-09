@@ -1,0 +1,13 @@
+{
+  "id": "P082",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so I don't need it in a sachet to go. $0.83 a day is more than I pay for a bottle of capsules, and I'd rather wait for a coupon on what I already use.",
+  "objection": "I take it at home every night anyway, so I'm paying extra for portability I don't use. A regular bottle costs way less per day.",
+  "would_change_my_mind": "A deep discount, like around $15 for the box, or a bundle deal that brings it under about 50 cents a day.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

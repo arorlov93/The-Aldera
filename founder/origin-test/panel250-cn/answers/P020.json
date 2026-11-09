@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I think most supplements are a waste unless a doctor tells me to take them, and $29.99 is more than Toplux or Goli, which last longer. The lab report is a nice touch, but it does not change that I have no reason to think I need magnesium.",
+  "objection": "I have no doctor telling me I need magnesium, and $29.99 a month is steep for something I already doubt works.",
+  "would_change_my_mind": "My doctor recommending magnesium to me, and a price closer to $20 a month.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 27,
+  "price_too_expensive": 35
+}

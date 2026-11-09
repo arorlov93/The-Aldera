@@ -1,0 +1,13 @@
+{
+  "id": "P200",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "The $24.99 launch price for a first box is under what I usually pay, and a named lab with the batch report on the page answers my 'is it tested' question. The pre-counted sachet helps because I forget my vitamins on the counter half the time.",
+  "objection": "It is made in China and sold on TikTok Shop, so I would open the lab report myself to check it is a real lab and the batch number matches before I trust it.",
+  "would_change_my_mind": "If the lab report was missing, unreadable, or did not match the batch number, I would not buy.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

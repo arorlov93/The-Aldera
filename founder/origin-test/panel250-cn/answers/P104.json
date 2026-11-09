@@ -1,0 +1,13 @@
+{
+  "id": "P104",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, so this is not a random wellness buy. A named lab report, a known dose and the empty-box refund make one box at $24.99 an easy risk.",
+  "objection": "Will I actually feel a difference? I would not buy a second box until I know it did something, and a lab report only proves what is in it, not that it works for me.",
+  "would_change_my_mind": "My doctor telling me not to take it, or a blood test showing my magnesium is normal.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

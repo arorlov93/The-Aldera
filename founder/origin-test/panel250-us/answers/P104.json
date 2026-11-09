@@ -1,0 +1,13 @@
+{
+  "id": "P104",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor did say my magnesium could be low, and a named lab report for the exact batch plus an empty-box refund means I can try one box without much risk. At $24.99 it is cheap enough to test for a month.",
+  "objection": "Will I actually feel a difference, or is this just another supplement that does nothing I can notice?",
+  "would_change_my_mind": "If my doctor's blood test showed my magnesium was normal, I would skip it.",
+  "price_too_cheap": 9,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

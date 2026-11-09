@@ -1,0 +1,13 @@
+{
+  "id": "P175",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "$24.99 for a month is a price I'll try once, and a named lab report I can check is more than most magnesium brands give me. The pre-counted sachet helps since I forget my vitamins on the counter half the time.",
+  "objection": "Two capsules every day is a lot to keep up with, and it's made in China. If the lab report turns out to be vague I'm out, and after the launch price it's $29.99 which is a lot for one thing I may stop taking.",
+  "would_change_my_mind": "If the price stayed above $29.99 for a single box with no coupon, or the QR code report didn't show my batch number, I would skip it.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

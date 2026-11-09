@@ -1,0 +1,13 @@
+{
+  "id": "P165",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "Named independent lab with the batch report behind the QR code is what I normally have to hunt for, and the pre-counted sachets suit my travel weeks. At $24.99 for a first box I will try one and read the report before I open it.",
+  "objection": "Brand new with no reviews yet, and made in China. I will check that the lab and the report are real and that the batch number matches. Two capsules a day is also a bit annoying.",
+  "would_change_my_mind": "If the lab report did not exist, or the batch number on the box did not match it, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

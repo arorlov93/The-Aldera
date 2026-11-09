@@ -1,0 +1,13 @@
+{
+  "id": "P071",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I have a drawer full of half-used bottles and I compare price per day. $24.99 to $29.99 is more than Toplux or Goli, and I would wait for a bigger coupon or flash sale instead of paying launch price.",
+  "objection": "It costs more per day than what I already know, and I do not need another supplement I might quit after a week.",
+  "would_change_my_mind": "A flash sale or coupon that brings the first box to about $19, so it costs the same per day as Toplux.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 27,
+  "price_too_expensive": 35
+}

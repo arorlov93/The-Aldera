@@ -1,0 +1,13 @@
+{
+  "id": "P110",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "At $24.99 it's close to what I'd pay for Toplux, and the named lab report plus the money-back if I finish the box takes the risk out. I'd grab one box, but only because of the launch price.",
+  "objection": "$29.99 is more than Toplux or Goli and I already have a drawer of half-used bottles, so I'm scared this becomes another one I quit after a week.",
+  "would_change_my_mind": "If the launch price weren't there and it was full $29.99 for the first box, I'd scroll past.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 28,
+  "price_too_expensive": 38
+}

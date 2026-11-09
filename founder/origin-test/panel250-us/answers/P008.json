@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, so a named-lab report and no magnesium oxide speaks to a problem I actually have. $24.99 for the first box is easy to try from the yellow cart, and the empty-box guarantee takes the risk out.",
+  "objection": "Every day is a foil sachet, which feels like a lot of packaging waste for two capsules I could keep in a bottle.",
+  "would_change_my_mind": "If it were only sold at $29.99 with no launch price, or if I could not find the lab report when I scanned the QR code, I would skip it.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

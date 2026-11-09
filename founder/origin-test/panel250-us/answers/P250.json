@@ -1,0 +1,13 @@
+{
+  "id": "P250",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take magnesium at night at home and I reorder my Toplux or Goli when it runs out. I don't need sachets to go, I'm not switching a routine that works.",
+  "objection": "I already have a magnesium I trust and take at home, so the carry-anywhere sachet solves a problem I don't have. Why pay $30 to change something that's fine?",
+  "would_change_my_mind": "A much lower price, like a free or nearly free first box to try, or if my current brand stopped working for me.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

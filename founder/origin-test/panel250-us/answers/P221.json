@@ -1,0 +1,13 @@
+{
+  "id": "P221",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my vitamins on the counter all the time, so a sachet that's already counted for the evening actually fits how I am. $24.99 for the first box is an easy impulse buy if a creator's video hits the sleep or recovery thing.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? Is bisglycinate alone really enough, or am I paying for a nicer box?",
+  "would_change_my_mind": "If it was $29.99 with no launch price I'd probably skip it. Seeing a creator I trust explain why bisglycinate alone is enough would also help.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P138",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and I only buy if I can see the dose and the testing. A named independent lab with a batch report I can check against the box is exactly what I look for. At $24.99 I'd try one box.",
+  "objection": "Individual foil sachets for 2 capsules each feel like a lot of packaging waste, and 'made in China' makes me want to open the lab report and check it is real before I trust it.",
+  "would_change_my_mind": "If the lab report for my batch turned out not to match the batch number on the box, or the lab could not be found, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

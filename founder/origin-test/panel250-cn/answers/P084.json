@@ -1,0 +1,13 @@
+{
+  "id": "P084",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab with the batch report behind a QR code answers my first question about whether it's really tested. At $24.99 for one box I'd try it once, but I keep my Toplux order going.",
+  "objection": "Made in China. I'd want to open the report and see that the batch number really matches the box before I trust it.",
+  "would_change_my_mind": "If the batch report on the product page didn't match the box, or the lab turned out not to be a real independent one.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

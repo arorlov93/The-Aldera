@@ -1,0 +1,13 @@
+{
+  "id": "P139",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab with the batch report on the page is the first time a TikTok supplement answered my 'is it really tested' question. $24.99 for the first box is under a dollar a day, so I'd try one box.",
+  "objection": "It's made in China, and I can't tell yet if the lab report is real until I scan the QR code on my own box. I'd also still want to check with my doctor that 200 mg is the right dose for me.",
+  "would_change_my_mind": "If the lab report on the page didn't match a batch number, or the lab turned out not to be a real independent one I can look up, I'd pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

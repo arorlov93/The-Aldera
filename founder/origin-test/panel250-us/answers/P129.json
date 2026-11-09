@@ -1,0 +1,13 @@
+{
+  "id": "P129",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a magnesium I reorder when it runs out, and my doctor only said mine could be low, not to switch things. I'm not changing a routine that works for one brand I've never heard of.",
+  "objection": "Why only one form of magnesium when others put 8 forms in one capsule? For $30 I'd want to know why this one is better than what I already take.",
+  "would_change_my_mind": "Something showing my doctor would prefer bisglycinate specifically, or a cheaper first box small enough that trying it costs me nothing next to what I already pay.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

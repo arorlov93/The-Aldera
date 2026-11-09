@@ -1,0 +1,13 @@
+{
+  "id": "P114",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "The $24.99 launch box is a cheap way to try it, and the named lab with a batch report is what I usually can't find. The pre-counted sachets are handy when I'm travelling.",
+  "objection": "Is the report real or just marketing? I would check that the batch number matches and that the lab actually exists before I trust it. I also won't pay $29.99 if the launch price is gone.",
+  "would_change_my_mind": "If the lab report didn't open or the batch number didn't match, I wouldn't buy. A bigger discount on two boxes would get me to buy two.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

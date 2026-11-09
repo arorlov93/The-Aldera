@@ -1,0 +1,13 @@
+{
+  "id": "P050",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I always forget pills at home, so a sachet I can toss in my gym bag with the 2 capsules already counted is actually useful. At $24.99 for the first box I'd give it a try, but only one box.",
+  "objection": "Two capsules every day is still two capsules, and I'm not sure I'd remember to take the sachet in the evening either. I don't know if magnesium would do anything noticeable for me.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 33,
+  "price_too_expensive": 45
+}

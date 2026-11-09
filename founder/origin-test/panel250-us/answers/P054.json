@@ -1,0 +1,13 @@
+{
+  "id": "P054",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already reorder my own brand when it runs out and my drawer is full of half-used bottles. I don't need another one to sit there.",
+  "objection": "Is it really tested, or just marketing? A named lab and a report sound good, but I have no way to know the QR report is real, and I'm not switching from what I already take.",
+  "would_change_my_mind": "If my current magnesium ran out and I saw the lab report for the batch actually check out, I might try one box at the launch price.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

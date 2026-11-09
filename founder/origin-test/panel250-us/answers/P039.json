@@ -1,0 +1,13 @@
+{
+  "id": "P039",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, so I actually have a reason, and the named lab with a batch report I can check is the first supplement pitch that answers my doubts. At the launch price of $24.99 and with the empty-box guarantee, one box is a low-risk try.",
+  "objection": "Will I actually feel a difference? I don't know if my level is truly low, and I'd want to be sure this is the right dose for me.",
+  "would_change_my_mind": "If my doctor told me not to take magnesium, or if the lab report on the product page turned out not to match the batch number on the box.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P056",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "A counted evening dose, a named lab and a report I can scan from the box feel like a real answer to my bedtime problem. $24.99 for the first box is an easy impulse buy if a creator's video hits my sleep struggle, and I can get my money back if I hate it.",
+  "objection": "Sachets feel like more packaging waste, and I have no proof yet that it will actually help me sleep.",
+  "would_change_my_mind": "Seeing no real person's video showing it helped them, or learning the lab report did not match the batch on the box.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

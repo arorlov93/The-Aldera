@@ -1,0 +1,13 @@
+{
+  "id": "P062",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already have a drawer full of half-used supplement bottles and I don't buy supplements unless a doctor tells me to. One form of magnesium for $30 a month doesn't change that.",
+  "objection": "Why only one form of magnesium when others put 8 forms in one capsule? And nobody has told me I'm low on magnesium, so why pay $30 a month for it.",
+  "would_change_my_mind": "My doctor saying I should take magnesium, or a blood test showing I'm low.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

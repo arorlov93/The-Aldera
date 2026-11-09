@@ -1,0 +1,13 @@
+{
+  "id": "P128",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "I scroll TikTok before bed and sleep is a thing for me, so $24.99 for the first box is an easy impulse add to cart. The lab report on the box is a nice extra, but the price is what gets me to tap.",
+  "objection": "Two capsules every day is a lot to keep up with, and I know I will probably quit around week two. Also it says made in China, so I only half believe the lab thing.",
+  "would_change_my_mind": "A creator I follow showing it helping her sleep in a real video, or one capsule instead of two.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

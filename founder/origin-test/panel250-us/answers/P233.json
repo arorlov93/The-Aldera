@@ -1,0 +1,13 @@
+{
+  "id": "P233",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and this is the first one I've seen that shows the batch lab report behind a QR code. Bisglycinate with a known 200 mg dose and no oxide is what I would look for anyway, so I'd try one box at the $24.99 launch price.",
+  "objection": "It's one form of magnesium, and I want to see the actual lab report and the lab's name before I trust it. A brand-new product with zero reviews is also a risk, because I read every review and there are none.",
+  "would_change_my_mind": "If the QR report did not open, did not match the batch number, or came from a lab I could not look up, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

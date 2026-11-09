@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "I can get a bottle of magnesium glycinate for way less per day, and I already have a drawer full of half-used bottles. $24.99 for a month of sachets is paying extra for convenience I don't really need.",
+  "objection": "Sachets feel like more packaging waste, and at about $0.83 a day it costs a lot more per day than the bottle I could grab at the store.",
+  "would_change_my_mind": "A price near $15 for the month, or a small 7-day trial pack so I can see if I even take it before committing to 30 days.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

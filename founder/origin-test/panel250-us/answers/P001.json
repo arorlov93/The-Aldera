@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "My doctor said my magnesium could be low, and a named lab with a report for my exact batch is more than I get from most bottles. At $24.99 launch price I would try one box, but only that one.",
+  "objection": "It is still two capsules a day and about $0.83 a day on the two-box deal, which is a lot more than the magnesium I could grab at the drugstore or on Amazon.",
+  "would_change_my_mind": "A price closer to $19.99 a box, or a coupon or flash sale that brings it under about $0.65 a day.",
+  "price_too_cheap": 9,
+  "price_cheap": 18,
+  "price_expensive": 29,
+  "price_too_expensive": 39
+}

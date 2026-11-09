@@ -1,0 +1,13 @@
+{
+  "id": "P065",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab and a batch report I can check against the number on the box is exactly what I look for before buying. At $24.99 for the first box I would try one, mostly because the sachet fixes my habit of leaving vitamins on the counter and forgetting them.",
+  "objection": "It is made in China and brand new, with no reviews yet. I would open the lab report first and check that the batch number matches. Two capsules a day is also more than I like to swallow.",
+  "would_change_my_mind": "If the lab report on the page turned out to be generic, not matching a real batch number, or the lab could not be looked up, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

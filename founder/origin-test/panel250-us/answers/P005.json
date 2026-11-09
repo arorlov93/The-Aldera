@@ -1,0 +1,13 @@
+{
+  "id": "P005",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and a batch report I can check against the number on the box is exactly what I look for, and the dose is written down. One box at the launch price is a small risk, and the empty-box guarantee means I can try it without the drawer-of-bottles regret.",
+  "objection": "I want to open the report and see what the lab actually tested, like the magnesium amount and contaminants, and not just a logo that says tested. If the report is thin or the lab is unknown, I walk away.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

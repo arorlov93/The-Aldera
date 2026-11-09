@@ -1,0 +1,13 @@
+{
+  "id": "P140",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The named lab and the batch report behind the QR code is the first time a supplement ad has answered my 'is it tested or just marketing' question. At $24.99 for the first box and a money-back guarantee with nothing to send back, I can afford to try one box.",
+  "objection": "A report on their own page is still their word until I see the lab is a real one I can look up. I also have a drawer of half-used bottles, so I do not want to buy another one I quit after a week.",
+  "would_change_my_mind": "If the lab turned out not to be a real, independent lab, or the report did not match the batch number on the box, I would not buy.",
+  "price_too_cheap": 9,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

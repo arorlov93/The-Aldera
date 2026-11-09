@@ -1,0 +1,13 @@
+{
+  "id": "P088",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My doctor said my magnesium could be low, and I actually read labels. A named independent lab with the batch report behind a QR code, plus a known 200 mg of bisglycinate and no oxide, is what I normally have to dig for. At $24.99 for the first box I would try one.",
+  "objection": "Made in China and a brand with no reviews yet. I would open the lab report first and check the batch number matches before taking a single capsule. At $29.99 it is more than Toplux, so the launch price is what gets me in.",
+  "would_change_my_mind": "If the lab report on the page turned out to be generic or not for the batch number on the box, I would pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

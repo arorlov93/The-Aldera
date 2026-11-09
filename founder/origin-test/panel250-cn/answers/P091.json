@@ -1,0 +1,13 @@
+{
+  "id": "P091",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "My first question is always whether it's really tested, and here the lab is named and the report is tied to the batch number. At $24.99 for the first box and under a dollar a day, I'll try one box before I think about a second.",
+  "objection": "Made in China, so I want to actually open the report and see it's a real lab and that the batch number matches. I also won't pay full $29.99 every month when I can wait for a coupon.",
+  "would_change_my_mind": "If the report on the page turned out to be generic or not for my batch number, or if the price went above $30 with no discount.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

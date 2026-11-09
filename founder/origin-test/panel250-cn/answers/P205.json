@@ -1,0 +1,13 @@
+{
+  "id": "P205",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "The lab report behind the QR code and the empty-box refund make a $24.99 first box an easy try, and I already take something in the evening after the gym anyway. If a creator showed it fixing my bad sleep I'd tap the yellow cart.",
+  "objection": "Why only one form of magnesium when other brands put 8 forms in one capsule? And 'made in China' makes me want to check that lab report is real.",
+  "would_change_my_mind": "A creator video showing the real lab report and explaining why bisglycinate alone is enough would keep me in; if the report wasn't actually there I'd pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P238",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I only buy gummies or drinks because I hate swallowing pills, and this is 2 capsules every single day. The lab testing is nice, but it doesn't change the format for me.",
+  "objection": "Two capsules to swallow every day. I'd give up on it in a week and have 20 sachets left over.",
+  "would_change_my_mind": "A gummy or drink-powder version of the same tested magnesium at a similar price.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

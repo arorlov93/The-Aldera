@@ -1,0 +1,13 @@
+{
+  "id": "P130",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already take my Toplux and reorder it when it runs out, so I have no reason to switch. Two capsules every day is also more than I want to deal with.",
+  "objection": "I already have a supplement I trust and take. Two capsules a day is a chore, and a new brand with a first batch of 1,000 boxes has no track record for me.",
+  "would_change_my_mind": "A single capsule per sachet at the same price, or a free trial box I could try next to my current one on a work trip.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

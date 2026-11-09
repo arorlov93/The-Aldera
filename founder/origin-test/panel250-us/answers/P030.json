@@ -1,0 +1,13 @@
+{
+  "id": "P030",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "I already take magnesium at night at home, so the sachet-to-go idea solves a problem I don't have. The named lab and batch report are good, but that alone doesn't make me switch from what I have.",
+  "objection": "I don't need a portable format, and I'd be paying about $30 for a convenience when my current bottle is cheaper per day. I'd also want to read the actual lab report before trusting it.",
+  "would_change_my_mind": "A price clearly lower than what I pay now for a tested magnesium bisglycinate, plus a real lab report I can open and check.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

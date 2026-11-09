@@ -1,0 +1,13 @@
+{
+  "id": "P161",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "A named independent lab and a batch report I can open before I pay is exactly what I check for, and 200 mg of bisglycinate with no oxide is a real dose. At $24.99 for the first box I would try one, not two.",
+  "objection": "I only believe the testing once I open the report and see the lab name and that the batch number matches. Globally sourced ingredients also makes me wonder where the magnesium actually comes from.",
+  "would_change_my_mind": "If the report on the page was missing, generic, or the batch number did not match the box, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

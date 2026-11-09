@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "I already have a drawer full of half-used supplement bottles, and I know I'd quit this one too. A foil sachet every day also feels like a lot of trash for something I can get in a bottle.",
+  "objection": "Thirty foil sachets a month is packaging waste, and I'd pay extra for a daily routine I probably won't keep up. A bottle is cheaper per day and I already own stuff I'm not finishing.",
+  "would_change_my_mind": "A bottle or refill option at around $0.60 a day or less, or sachets that are recyclable.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 38
+}

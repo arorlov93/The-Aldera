@@ -1,0 +1,13 @@
+{
+  "id": "P160",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "I forget my pills at home whenever I travel, and a counted sachet I can toss in my bag fixes that. The named lab and batch report make me trust it more, and $24.99 for one box is an easy trial.",
+  "objection": "It is still 2 capsules every day, and $29.99 after launch is more than the plain magnesium I could grab at the store. I would not buy two boxes until I know it works for me.",
+  "would_change_my_mind": "If the regular price stayed above $30 or I found the lab report was vague, I would pass.",
+  "price_too_cheap": 10,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}
