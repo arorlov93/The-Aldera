@@ -194,3 +194,91 @@ Assemblies единственный, кто дословно пишет «Pills/
 - Цен на фасовку в саше в США: ни один фасовщик их не публикует.
 - Подтверждения россыпи у Sun и TiO2 в капсуле.
 - Проверки по реестру NSF для новых имён (Gilman, Nature's Products, Arnet, Assemblies Seminole): по нашему правилу запрашиваем номер сертификата и проверяем в реестре до денег.
+
+## Письма (10.11.2026, отправлять после «отправляй»)
+
+### 1. Sun Nutraceuticals (sales@sunnutra.com)
+
+```
+Subject: Magnesium bisglycinate capsules in bulk, 60,000 capsules
+
+Hello,
+
+We are 518 GROUP LLC (brand The Aldera), Florida.
+We are interested in your stock magnesium bisglycinate in vegetarian capsules, 100 mg elemental magnesium per capsule, size 00, no magnesium oxide.
+We need the capsules in bulk, without bottles, because we pack 2 capsules per printed foil sachet and 30 sachets per carton.
+Our requirements: no titanium dioxide, a certificate of analysis for the lot, lot number and expiry date on the bulk container.
+First order: 60,000 capsules (1,000 cartons), then repeat orders of 60,000 to 300,000 capsules.
+
+What would be your price and lead time for 60,000 capsules in bulk, or for the finished sachets and cartons if your team can pack them?
+
+Best regards,
+Aleksandr Orlov
+Manager, 518 GROUP LLC (The Aldera)
+info@thealdera.com
+```
+
+```
+Тема: Капсулы магния бисглицината навалом, 60 000 капсул
+
+Здравствуйте,
+
+Мы 518 GROUP LLC (бренд The Aldera), Флорида.
+Нас интересует ваш стоковый магний бисглицинат в растительных капсулах, 100 мг элементного магния на капсулу, размер 00, без оксида магния.
+Нам нужны капсулы навалом, без банок, потому что мы фасуем 2 капсулы в печатное фольгированное саше и 30 саше в коробку.
+Наши требования: без диоксида титана, сертификат анализа на партию, номер партии и срок годности на таре с капсулами.
+Первый заказ: 60 000 капсул (1 000 коробок), затем повторные заказы от 60 000 до 300 000 капсул.
+
+Какая будет ваша цена и срок для 60 000 капсул навалом, или для готовых саше и коробок, если ваша команда может их упаковать?
+
+С уважением,
+Александр Орлов
+Управляющий, 518 GROUP LLC (The Aldera)
+info@thealdera.com
+```
+
+### 2. Фасовщики (Скрытая копия: sales@assemblies.com, info@natures-products.com, INFO@ARNETUSA.COM, sales@pharma-tech.com)
+
+```
+Subject: Contract packaging: 2 capsules per printed foil sachet, 30,000 sachets
+
+Hello,
+
+We are 518 GROUP LLC (brand The Aldera), a supplement company in Florida.
+We are looking for a contract packager to seal our supplement capsules into single-dose sachets:
+- 2 vegetarian capsules (size 00, magnesium bisglycinate) per printed foil sachet, about 30 x 50 mm, with a tear notch
+- Lot number and expiry date printed on each sachet
+- 30 sachets per printed carton, about 137 x 62 x 52 mm, lot number and expiry on each carton
+- First run: 30,000 sachets (1,000 cartons), then repeat runs of 30,000 to 150,000 sachets
+- We supply the bulk capsules with a certificate of analysis; printed film and cartons can come from us or from you
+- The packager must work under FDA dietary supplement cGMP (21 CFR 111)
+
+What would be your price per carton, minimum run and lead time for 30,000 sachets?
+
+Best regards,
+Aleksandr Orlov
+Manager, 518 GROUP LLC (The Aldera)
+info@thealdera.com
+```
+
+```
+Тема: Контрактная фасовка: 2 капсулы в печатное фольгированное саше, 30 000 саше
+
+Здравствуйте,
+
+Мы 518 GROUP LLC (бренд The Aldera), компания по БАДам во Флориде.
+Мы ищем контрактного фасовщика, чтобы запечатывать наши капсулы БАДов в саше на одну порцию:
+- 2 растительные капсулы (размер 00, магний бисглицинат) в печатное фольгированное саше, около 30 x 50 мм, с надрезом для отрыва
+- Номер партии и срок годности напечатаны на каждом саше
+- 30 саше в печатной коробке, около 137 x 62 x 52 мм, номер партии и срок годности на каждой коробке
+- Первый прогон: 30 000 саше (1 000 коробок), затем повторные прогоны от 30 000 до 150 000 саше
+- Мы поставляем капсулы навалом с сертификатом анализа; печатная плёнка и коробки могут быть от нас или от вас
+- Фасовщик должен работать по правилам cGMP FDA для БАДов (21 CFR 111)
+
+Какая будет ваша цена за коробку, минимальный прогон и срок для 30 000 саше?
+
+С уважением,
+Александр Орлов
+Управляющий, 518 GROUP LLC (The Aldera)
+info@thealdera.com
+```
