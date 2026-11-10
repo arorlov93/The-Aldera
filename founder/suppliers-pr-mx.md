@@ -96,3 +96,68 @@ MOQ (минимальный заказ), сроки и сертификаты п
 2. Номер регистрации FDA завода и продлена ли она в окне 2026; последний аудит по 21 CFR 111 и форма 483, если была.
 3. Бисглицинат магния полностью реагированный (без оксида), 100 мг элементного магния на капсулу, капсула без диоксида титана; есть ли свой сток; COA на каждую партию.
 4. MOQ и срок для 1 000 коробок по 30 саше, включая печать плёнки и коробки.
+
+## Письмо заводам Мексики (испанский, 10.11.2026)
+
+Скрытая копия: contacto@gcabcompany.com, cotizaciones@mglmaquila.com.mx, contacto@mezquitallabs.com, jayrohazael@proher-natura.com, ventas@nanosciencelabs.com.mx
+Отдельно: Telomer Lab через WhatsApp +52 55 2727 9593 или форму telomerlab.com/contacto.
+
+```
+Asunto: Solicitud de cotización: cápsulas de magnesio en sobres monodosis de aluminio
+
+Hola,
+
+Somos 518 GROUP LLC, una empresa de Florida, y vendemos suplementos con nuestra marca The Aldera.
+Lanzamos primero en Estados Unidos y planeamos agregar Francia (UE) en la primavera de 2027, por lo que el producto debe cumplir con ambos mercados.
+
+Este es el producto que buscamos:
+- Bisglicinato de magnesio (totalmente reaccionado, sin óxido de magnesio), 100 mg de magnesio elemental por cápsula
+- Cápsulas vegetales HPMC, tamaño 00, sin dióxido de titanio, con ingredientes permitidos en suplementos de la UE
+- 2 cápsulas selladas en un sobre de aluminio impreso, de aproximadamente 30 x 50 mm, con muesca para abrir
+- 30 sobres en una caja impresa, de aproximadamente 137 x 62 x 52 mm
+- Número de lote y fecha de caducidad en cada sobre y en cada caja, vida útil de 24 meses o más
+- Etiqueta y Supplement Facts conforme a las reglas de la FDA de EE. UU., distribuido por 518 GROUP LLC, Florida
+- Metales pesados dentro de los límites de la Proposición 65 de California y de los límites de la UE para suplementos
+- Certificado de análisis por lote (magnesio elemental, plomo, cadmio, arsénico, mercurio, microbiología) y algunas muestras selladas para nuestra propia prueba de laboratorio en EE. UU.
+
+También estamos abiertos a su fórmula de magnesio en cápsulas vegetales ya existente, si es similar, envasada en nuestros sobres y cajas.
+Volumen: 1,000 cajas en el primer lote, luego lotes de 1,000 a 5,000 cajas.
+
+¿Cuál sería su precio por caja, pedido mínimo y tiempo de entrega para 1,000 y 5,000 cajas, con las cápsulas selladas en los sobres en su propia planta?
+
+Saludos cordiales,
+Aleksandr Orlov
+Gerente, 518 GROUP LLC (The Aldera)
+info@thealdera.com
+```
+
+Дословный перевод, строка в строку:
+
+```
+Тема: Запрос цены: капсулы магния в одноразовых алюминиевых саше
+
+Здравствуйте,
+
+Мы 518 GROUP LLC, компания из Флориды, и мы продаём БАДы под нашей маркой The Aldera.
+Мы запускаемся сначала в Соединённых Штатах и планируем добавить Францию (ЕС) весной 2027 года, поэтому продукт должен соответствовать обоим рынкам.
+
+Вот продукт, который мы ищем:
+- Бисглицинат магния (полностью прореагировавший, без оксида магния), 100 мг элементного магния на капсулу
+- Растительные капсулы HPMC, размер 00, без диоксида титана, с ингредиентами, разрешёнными в БАДах ЕС
+- 2 капсулы, запечатанные в печатное алюминиевое саше, примерно 30 x 50 мм, с надрезом для открытия
+- 30 саше в печатной коробке, примерно 137 x 62 x 52 мм
+- Номер партии и срок годности на каждом саше и на каждой коробке, срок хранения 24 месяца или больше
+- Этикетка и Supplement Facts по правилам FDA США, дистрибьютор 518 GROUP LLC, Флорида
+- Тяжёлые металлы в пределах норм Proposition 65 Калифорнии и норм ЕС для БАДов
+- Сертификат анализа на партию (элементный магний, свинец, кадмий, мышьяк, ртуть, микробиология) и несколько запечатанных образцов для нашего собственного лабораторного теста в США
+
+Мы также открыты к вашей уже существующей формуле магния в растительных капсулах, если она похожа, упакованной в наши саше и коробки.
+Объём: 1 000 коробок в первой партии, затем партии от 1 000 до 5 000 коробок.
+
+Какой будет ваша цена за коробку, минимальный заказ и срок поставки для 1 000 и 5 000 коробок, с капсулами, запечатанными в саше на вашем собственном заводе?
+
+С уважением,
+Александр Орлов
+Управляющий, 518 GROUP LLC (The Aldera)
+info@thealdera.com
+```
