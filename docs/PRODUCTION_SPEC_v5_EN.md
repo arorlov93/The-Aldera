@@ -93,14 +93,14 @@ State the stability data that supports the shelf life.
 
 | | Target | Minimum acceptable |
 |---|---|---|
-| Form | Magnesium bisglycinate, fully reacted chelate | Same. **PASS OR FAIL** |
+| Form | Magnesium bisglycinate chelate; buffered grade (for example 16% Mg) is accepted | Same |
 | Elemental magnesium | 100 mg per capsule, 200 mg per sachet | Same |
-| Other forms of magnesium | None. No magnesium oxide, carbonate or blends | Same. **PASS OR FAIL** |
+| Other forms of magnesium | Only what the buffered bisglycinate grade itself contains; no separate magnesium salts added | Same |
 | Other active ingredients | None | None |
 
 Label line on the Supplement Facts: "Magnesium (as magnesium bisglycinate) 200 mg" per serving of 2 capsules.
 
-Raw material certificate of analysis for the lot used: magnesium content in % (pure bisglycinate is about 14%), glycine content in %, heavy metals, and the name of the raw material maker.
+Raw material certificate of analysis for the lot used: magnesium content in %, glycine content in %, measured heavy metals, and the name of the raw material maker.
 
 ### B2. Ashwagandha root extract KSM-66
 
@@ -127,7 +127,7 @@ Note for the EU: before the French launch we will confirm the status of ashwagan
 
 1. Printed foil sachet, 2 capsules, 30 sachets per carton, lot and expiry on every sachet and carton.
 2. HPMC capsule size 00, no gelatin, no titanium dioxide, EU-permitted ingredients only.
-3. Magnesium only as fully reacted bisglycinate, no oxide.
+3. Magnesium as magnesium bisglycinate chelate (buffered grade accepted), 100 mg elemental magnesium per capsule.
 4. Ashwagandha only as KSM-66 root extract, with Ixoreal authorization.
 5. Certificate of analysis per lot with measured numbers from a laboratory.
 6. Lead, cadmium and mercury within California Proposition 65 and EU limits.
