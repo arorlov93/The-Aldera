@@ -211,7 +211,7 @@ const facWins = [];
     // окна верхних этажей
     for (let yy = 150; yy < 780; yy += 175) for (let xx = x + 40; xx < x + bw - 90; xx += 105) {
       fx.fillStyle = '#05070d'; fx.fillRect(xx, yy, 58, 100);
-      if (rnd() < 0.16) facWins.push({ x: xx + 4, y: yy + 4, w: 50, h: 92, col: rnd() < 0.25 ? '#c4182f' : '#c9c5b8', ph: rnd() * 50 });
+      if (rnd() < 0.30) facWins.push({ x: xx + 4, y: yy + 4, w: 50, h: 92, col: rnd() < 0.25 ? '#c4182f' : '#c9c5b8', ph: rnd() * 50 });
     }
     // пожарная лестница
     if (rnd() < 0.7) {
@@ -368,10 +368,12 @@ function shoe(x, y, shin, len, heel, toeOff) {
 }
 // o: walk-амплитуда amp (0..1), фаза ph, fem, hat, umbrella, smoke
 function figure(t, o) {
-  const fem = !!o.umbrella, amp = o.amp || 0, ph = o.ph || 0, F = o.front || 0;
-  const A = o.A || (fem ? 0.34 : 0.40);
-  const hipY = -150 - 4 * amp * Math.cos(2 * ph) + (1 - amp) * 1.5 * Math.sin(t * 1.7);
-  const lean = 0.06 * amp + (o.lean || 0);
+  const fem = o.fem !== undefined ? !!o.fem : !!o.umbrella, amp = o.amp || 0, ph = o.ph || 0, F = o.front || 0;
+  const R = o.run || 0, S = o.sit || 0;
+  const A = (o.A || (fem ? 0.34 : 0.40)) * (1 - R) + 0.58 * R;
+  const bA = o.breathA !== undefined ? o.breathA : 1.5, bF = o.breathF || 1.7;
+  const hipY = -150 - (4 + 7 * R) * amp * Math.cos(2 * ph) + (1 - amp) * bA * Math.sin(t * bF) + 70 * S;
+  const lean = 0.06 * amp + 0.10 * R * amp + (o.lean || 0);
   const sh = { y: hipY - 112, w: fem ? 23 : 31 };
   return function (ink) {
     g.fillStyle = ink; g.strokeStyle = ink; g.lineCap = 'round'; g.lineJoin = 'round';
@@ -380,15 +382,16 @@ function figure(t, o) {
     for (let i = 0; i < 2; i++) {
       const p = ph + i * Math.PI;
       // бедро вперёд при sin>0; перенос ноги вперёд при cos>0, тогда же сгиб колена (голень назад)
-      const thW = A * Math.sin(p), knW = 0.06 + 0.85 * Math.pow(Math.max(0, Math.cos(p - 0.35)), 1.6);
+      const thW = A * Math.sin(p) + 0.12 * R, knW = 0.06 + (0.85 + 0.65 * R) * Math.pow(Math.max(0, Math.cos(p - 0.35)), 1.6);
       const thI = (i ? -0.10 : 0.08) + 0.03 * Math.sin(t * 0.5), knI = i ? 0.14 : 0.04;
       const toe = amp * 0.5 * Math.max(0, -Math.sin(p)) * Math.max(0, Math.cos(p + 0.9));   // отрыв носка в конце опоры
       let th = thI + (thW - thI) * amp, kn = knI + (knW - knI) * amp;
       th *= (1 - F); kn = kn * (1 - F) + 0.05 * F;
+      th = th * (1 - S) + (i ? 1.38 : 1.5) * S; kn = kn * (1 - S) + (i ? 1.3 : 1.5) * S;   // посадка: бедро вперёд, голень вниз
       if (o.step) kn += 0.55 * Math.max(0, Math.sin(o.step + i * Math.PI));   // переступание при повороте
       legs.push({ th, kn, toe: toe * (1 - F), far: i === 1 });
       // рука в противофазе своей ноге: дальняя рука (i=0) идёт вместе с ближней ногой
-      const uaW = 0.34 * Math.sin(p), faW = 0.22 + 0.35 * Math.max(0, Math.sin(p));
+      const uaW = (0.34 + 0.4 * R) * Math.sin(p), faW = 0.22 + 0.35 * Math.max(0, Math.sin(p)) + 1.05 * R;
       arms.push({ a1: 0.05 + (uaW - 0.05) * amp, a2: 0.12 + (faW - 0.12) * amp, far: i === 0 });
     }
     let smokeK = 0;
@@ -416,6 +419,7 @@ function figure(t, o) {
       }
     }
     if (o.armR) arms[1] = { a1: o.armR[0], a2: o.armR[1], far: false };
+    if (o.armL) arms[0] = { a1: o.armL[0], a2: o.armL[1], far: true };
     if (F > 0) for (const a of arms) { if (a === arms[1] && o.armR) continue; a.a1 *= (1 - F); a.a2 = a.a2 * (1 - F) + 0.1 * F; }
     const drawLeg = (L) => {
       const hx = (L.far ? -1 : 1) * (4 + 11 * F);
@@ -429,10 +433,10 @@ function figure(t, o) {
       return [hx, hy];
     };
     drawLeg(legs[1]);
-    if (!o.umbrella) drawArm(arms[0]);
-    const sway = -9 * amp * Math.sin(ph) + (1 - amp) * 2 * Math.sin(t * 0.8);
-    const hemY = hipY + (fem ? 78 : 70), hemW = 40;
-    const breathe = (1 - amp) * 1.5 * Math.sin(t * 1.7);
+    if (!(o.umbrella && !o.armR)) drawArm(arms[0]);
+    const sway = -9 * amp * Math.sin(ph) * (1 + 0.6 * R) + (1 - amp) * 2 * Math.sin(t * 0.8) + 40 * S;
+    const hemY = hipY + (fem ? 78 : 70) - 46 * S, hemW = 40;
+    const breathe = (1 - amp) * bA * Math.sin(t * bF);
     g.beginPath();
     g.moveTo(-sh.w, sh.y + 8);
     g.quadraticCurveTo(-sh.w - 3, sh.y - 4 - breathe, -sh.w + 12, sh.y - 6 - breathe);
@@ -460,7 +464,7 @@ function figure(t, o) {
     g.restore();
     drawLeg(legs[0]);
     let hand;
-    if (o.umbrella) { const r = limb(sh.w - 8, sh.y + 10, 0.35, 52, 2.3, 58, 10, 8); g.beginPath(); g.arc(r[0], r[1], 5, 0, 7); g.fill(); hand = r; }
+    if (o.umbrella && !o.armR) { const r = limb(sh.w - 8, sh.y + 10, 0.35, 52, 2.3, 58, 10, 8); g.beginPath(); g.arc(r[0], r[1], 5, 0, 7); g.fill(); hand = r; }
     else hand = drawArm(arms[1]);
     if (o.hat && (o.hatIn === 'hand' || o.hatIn === 'table')) {   // шляпа в руке
       g.save(); g.translate(hand[0] + 4, hand[1] - 6); g.rotate(o.hatIn === 'hand' ? -0.5 : 0);
@@ -469,7 +473,7 @@ function figure(t, o) {
       g.restore();
     }
     g.restore();
-    return { hand, smokeK, lean };
+    return { hand, smokeK, lean, sh, breathe };
   };
 }
 function person(x, footY, t, o) {
@@ -487,6 +491,26 @@ function person(x, footY, t, o) {
   g.save(); g.translate(x, footY); g.scale(dir * s, s);
   if (rim > 0.05) { g.save(); g.translate(2.6 * side * dsg, -1.5); draw(`rgba(215,218,228,${0.55 * rim})`); g.restore(); }
   const info = draw(o.ink || '#030306');
+  if (o.scarf) {
+    const w = Math.max(0, Math.min(1, o.wind || 0));
+    g.save(); g.rotate(info.lean); g.translate(0, info.sh.y - 13 - info.breathe);
+    const red = g.createLinearGradient(-60, 0, 20, 0); red.addColorStop(0, '#8a0c19'); red.addColorStop(1, '#d81a30');
+    g.fillStyle = red;
+    g.beginPath(); g.ellipse(2, 2, 19, 9, 0, 0, 7); g.fill();                     // виток вокруг шеи
+    for (let i = 0; i < 2; i++) {                                                 // два хвоста
+      const L = 70 + 70 * w - i * 14, pts = [];
+      for (let j = 0; j <= 10; j++) {
+        const k = j / 10, back = -k * L * (0.15 + 0.85 * w), down = k * L * (1 - 0.8 * w);
+        const wave = Math.sin(t * (6 + 6 * w) - j * 0.9 + i * 1.7) * k * (2 + 9 * w);
+        pts.push([back - 6 - i * 4 + wave * 0.3, 6 + down + wave + i * 5]);
+      }
+      g.beginPath(); g.moveTo(pts[0][0], pts[0][1] - 5);
+      for (const q of pts) g.lineTo(q[0], q[1] - 5 + 0);
+      for (let j = pts.length - 1; j >= 0; j--) g.lineTo(pts[j][0] + 1, pts[j][1] + 5 - j * 0.25);
+      g.fill();
+    }
+    g.restore();
+  }
   if (o.umbrella) {   // красный зонт: единственный яркий предмет на улице
     const [hx, hy] = info.hand, bob = (o.amp || 0) * Math.sin(2 * (o.ph || 0)) * 2, tilt = 0.12 + 0.03 * (o.amp || 0) * Math.sin(o.ph || 0);
     g.save(); g.rotate(info.lean); g.translate(hx, hy); g.rotate(tilt);
@@ -532,6 +556,22 @@ function person(x, footY, t, o) {
   }
   g.globalAlpha = A0;
   if (o.clip) g.restore();
+  return info;
+}
+// Мужчина курит у открытого окна на третьем этаже
+const WS_ARM = (() => { const k = [[0, 0.05, 0.12]]; for (let c = 1.5; c < 31; c += 6.2) k.push([c, 0.05, 0.12], [c + 0.65, 0.67, 2.75], [c + 1.6, 0.67, 2.75], [c + 2.2, 0.05, 0.12]); return k; })();
+function drawWindowSmoker(t) {
+  const wx = 935, wy = 300, ww = 130, wh = 170;
+  const gr = g.createLinearGradient(0, wy, 0, wy + wh); gr.addColorStop(0, 'rgba(205,200,182,0.85)'); gr.addColorStop(1, 'rgba(140,136,122,0.8)');
+  g.fillStyle = gr; g.fillRect(wx, wy, ww, wh);
+  g.save(); g.beginPath(); g.rect(wx, wy, ww, wh); g.clip();
+  const arm = kf(t, WS_ARM), c = (t - 1.5) % 6.2;
+  person(wx + 70, wy + wh + 95, t, { hat: 0, smoke: 1, scale: 0.6, dir: -1, noRim: 1, ink: 'rgba(12,11,13,0.95)', armR: arm,
+    exhale: c > 3.7 && c < 6.0 ? (c - 3.7) / 2.3 : -1, nod: 0.03 * Math.sin(t * 0.6) });
+  g.restore();
+  g.fillStyle = '#06070b'; g.fillRect(wx - 6, wy + wh - 4, ww + 12, 10);          // подоконник
+  g.fillRect(wx + ww / 2 - 2, wy, 4, wh * 0.45); g.fillRect(wx, wy + wh * 0.45, ww, 4);   // переплёт верхней рамы
+  g.strokeStyle = '#06070b'; g.lineWidth = 6; g.strokeRect(wx, wy, ww, wh);
 }
 // Маршруты и сценарий. Все движения заданы ключевыми позами с мягким разгоном и торможением.
 const SMOKER_X = 590;                      // lamps[0].x + 120
@@ -643,7 +683,8 @@ function drawDoorPanel(t) {
 }
 // Внутри закусочной: друзья за столиком, герой входит, садится, снимает шляпу
 const IN = { walk0: 24.9, walk1: 26.9, sit0: 26.95, sit1: 27.8, A: 0.36 };
-const HERO_ARM = [[0, ...P.REST], [27.85, ...P.REST], [28.3, ...P.HAT], [28.45, ...P.HAT], [28.95, ...P.TABLE]];
+P.CHIN = [0.55, 2.8];
+const HERO_ARM = [[0, ...P.REST], [27.9, ...P.REST], [28.25, 0.3, 1.4], [28.65, ...P.CHIN]];
 const FRIEND1_ARM = [[0, ...P.REST], [28.1, ...P.REST], [28.7, ...P.CUP], [29.6, ...P.CUP]];
 const FRIEND2_ARM = [[0, ...P.REST], [25.6, ...P.REST], [26.0, ...P.WAVE1], [26.3, ...P.WAVE2], [26.6, ...P.WAVE1], [27.0, ...P.REST]];
 function drawDinerInterior(s, top, bot, t) {
@@ -654,15 +695,17 @@ function drawDinerInterior(s, top, bot, t) {
   if (f1[1] > 1.2) {   // чашка в руке друга
     const h = handLocal(f1[0], f1[1], t); g.fillStyle = 'rgba(230,228,215,0.7)'; g.fillRect(s.x + 58 + sc * h[0] - 2, seatY + sc * h[1] - 14, 10, 12);
   }
-  person(s.x + 140, seatY, t, { scale: sc, dir: 1, noRim: 1, ink, armR: kf(t, FRIEND2_ARM), nod: -0.03 * Math.sin(t * 1.3 + 1) });
+  person(s.x + 140, seatY, t, { scale: sc, dir: 1, noRim: 1, ink, armR: kf(t, FRIEND2_ARM), nod: -0.03 * Math.sin(t * 1.3 + 1) - 0.08 * pulse(t, 28.3, 28.5, 29.2, 29.6),
+    breathA: 1.5 + 3.5 * pulse(t, 28.3, 28.5, 29.2, 29.6), breathF: 1.7 + 9 * pulse(t, 28.3, 28.5, 29.2, 29.6) });
   if (t > IN.walk0) {
     const w = ease5((t - IN.walk0) / (IN.walk1 - IN.walk0));
     const xs = s.x + s.w + 35, xt = s.x + 268, x = xs + (xt - xs) * w;
     const amp = Math.max(0, Math.min(1, (t - IN.walk0) / 0.4, (IN.walk1 - t) / 0.4));
     const sit = ease5((t - IN.sit0) / (IN.sit1 - IN.sit0));
-    const hatIn = t < 28.42 ? 'head' : t < 28.95 ? 'hand' : 'table';
+    const hatIn = 'head';
     person(x, fy + (seatY - fy) * sit, t, { hat: 1, hatIn, scale: sc, dir: -1, noRim: 1, ink, amp, A: IN.A,
-      ph: (xs - x) * strideK(IN.A, sc), armR: kf(t, HERO_ARM), lean: 0.16 * Math.sin(Math.PI * sit) });
+      ph: (xs - x) * strideK(IN.A, sc), armR: kf(t, HERO_ARM), lean: 0.16 * Math.sin(Math.PI * sit) + 0.05 * ease5((t - 28.2) / 0.8),
+      nod: 0.13 * ease5((t - 28.1) / 0.9), breathA: 0.8, breathF: 1.1 });
   }
   // столик и спинки диванов закрывают ноги
   g.fillStyle = 'rgba(14,12,14,0.96)'; g.fillRect(s.x, bot - 74, s.w, 74);
@@ -720,6 +763,7 @@ function drawUpper(t, ox) {
   for (const w of facWins) { if (Math.sin(t * 0.3 + w.ph) > 0.97) continue; g.fillStyle = w.col; g.globalAlpha = w.col === '#c4182f' ? 0.7 : 0.32; g.fillRect(w.x - ox, w.y, w.w, w.h); }
   g.globalAlpha = 1;
   g.save(); g.translate(-ox, 0);
+  drawWindowSmoker(t);
   drawShops(t);
   // тротуар
   g.fillStyle = '#10131c'; g.fillRect(ox - 10, ST.side, W + 20, ST.curb - ST.side);
