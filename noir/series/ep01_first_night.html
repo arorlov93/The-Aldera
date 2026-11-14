@@ -699,22 +699,113 @@ function saxState(t, s) {
   const lift = Math.min(1, e * 1.3) * (1 - hold) + 0.9 * hold;              // на долгой ноте раструб поднят
   return { e, lift, sway: 0.05 * Math.sin(beat) * (1 - 0.7 * hold), bob: 2.5 * Math.abs(Math.sin(beat)) * (1 - hold) };
 }
-function drawSaxophone(mx, my, ang, d, sc, lift) {
-  // мундштук у рта, корпус вниз, колено, раструб вперёд-вверх; латунь единственный тёплый металл
+// ===== Саксофон (тенор): трубка по оси со светотенью цилиндра, клапаны, раструб =====
+function bez(p0, p1, p2, p3, n) { const r = []; for (let i = 0; i <= n; i++) { const u = i / n, v = 1 - u;
+  r.push([v*v*v*p0[0] + 3*v*v*u*p1[0] + 3*v*u*u*p2[0] + u*u*u*p3[0], v*v*v*p0[1] + 3*v*v*u*p1[1] + 3*v*u*u*p2[1] + u*u*u*p3[1]]); } return r; }
+function lerpPts(a, b, n) { const r = []; for (let i = 0; i <= n; i++) { const u = i / n; r.push([a[0] + (b[0] - a[0]) * u, a[1] + (b[1] - a[1]) * u]); } return r; }
+// ось инструмента в локальных координатах (рот = 0,0; вперёд = +x; вниз = +y) и толщина вдоль оси
+const SAX_SPINE = (() => {
+  const neck = bez([14, 5], [30, 2], [41, 14], [42, 34], 14);
+  const body = lerpPts([42, 34], [53, 166], 22);
+  const bow = bez([53, 166], [56, 206], [96, 212], [101, 178], 18);
+  const bellT = lerpPts([101, 178], [104, 124], 10);
+  const pts = [...neck, ...body.slice(1), ...bow.slice(1), ...bellT.slice(1)];
+  const n1 = neck.length, n2 = n1 + body.length - 1, n3 = n2 + bow.length - 1;
+  const w = pts.map((_, i) => i < n1 ? 8.5 + 2.5 * i / n1 : i < n2 ? 11 + 10 * (i - n1) / (n2 - n1) : i < n3 ? 21 + 5 * (i - n2) / (n3 - n2) : 26 + 6 * (i - n3) / (pts.length - n3));
+  return { pts, w, n1, n2, n3 };
+})();
+function tubeStroke(pts, w, k, off, col) {   // полоса вдоль оси со смещением по нормали (доля толщины)
+  g.strokeStyle = col; g.beginPath();
+  for (let i = 0; i < pts.length; i++) {
+    const a = pts[Math.max(0, i - 1)], b = pts[Math.min(pts.length - 1, i + 1)], dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1;
+    const nx = -dy / L, ny = dx / L, x = pts[i][0] + nx * off * w[i], y = pts[i][1] + ny * off * w[i];
+    if (i === 0) g.moveTo(x, y); else g.lineTo(x, y);
+  }
+  g.lineWidth = k; g.stroke();
+}
+function tubeShade(pts, w) {   // цилиндр: тёмный край, латунь, свет, блик, рефлекс неона
+  const avg = w.reduce((u, v) => u + v, 0) / w.length;
+  const layers = [[1.0, 0, '#3a2708'], [0.86, -0.02, '#7a5616'], [0.68, -0.06, '#b48a2e'], [0.46, -0.12, '#d9b158'], [0.26, -0.18, '#f2d688'], [0.08, -0.22, 'rgba(255,250,225,0.95)']];
+  for (const [k, off, col] of layers) {
+    // переменная толщина: рисуем сегментами
+    for (let i = 0; i < pts.length - 1; i++) tubeStroke([pts[i], pts[i + 1]], [w[i], w[i + 1]], (w[i] + w[i + 1]) / 2 * k, off, col);
+  }
+  // красный отблеск неона по нижнему краю
+  for (let i = 0; i < pts.length - 1; i++) tubeStroke([pts[i], pts[i + 1]], [w[i], w[i + 1]], (w[i] + w[i + 1]) / 2 * 0.07, 0.36, 'rgba(255,70,90,0.55)');
+}
+function drawSaxophone(mx, my, ang, d, sc, lift, t) {
+  t = t || 0;
+  const S = SAX_SPINE, P0 = S.pts;
   g.save(); g.translate(mx, my); g.scale(d * sc, sc); g.rotate(ang);
-  const br = g.createLinearGradient(-10, 0, 40, 0); br.addColorStop(0, '#5a4214'); br.addColorStop(0.45, '#d9b25a'); br.addColorStop(0.6, '#f3d98a'); br.addColorStop(1, '#6b4c16');
   g.lineCap = 'round'; g.lineJoin = 'round';
-  g.strokeStyle = '#0a0806'; g.lineWidth = 5; g.beginPath(); g.moveTo(-2, 0); g.quadraticCurveTo(18, 2, 26, 22); g.stroke();   // эска
-  g.strokeStyle = br; g.lineWidth = 15;
-  g.beginPath(); g.moveTo(26, 22); g.lineTo(34, 150); g.quadraticCurveTo(38, 196, 66, 192); g.quadraticCurveTo(84, 188, 84, 160); g.lineTo(84, 140); g.stroke();
-  g.lineWidth = 18; g.beginPath(); g.moveTo(84, 150); g.lineTo(86, 128); g.stroke();
-  // раструб
-  const bg = g.createLinearGradient(66, 100, 112, 100); bg.addColorStop(0, '#7a5a1c'); bg.addColorStop(0.5, '#f0d283'); bg.addColorStop(1, '#8a641f');
-  g.fillStyle = bg; g.beginPath(); g.moveTo(76, 134); g.quadraticCurveTo(70, 112, 62, 100); g.lineTo(112, 92); g.quadraticCurveTo(100, 110, 96, 134); g.closePath(); g.fill();
-  g.fillStyle = '#1a1206'; g.beginPath(); g.ellipse(87, 96, 25, 6, -0.16, 0, 7); g.fill();
-  g.strokeStyle = 'rgba(255,90,110,0.75)'; g.lineWidth = 2; g.beginPath(); g.ellipse(87, 96, 25, 6, -0.16, Math.PI, 2 * Math.PI); g.stroke();   // отблеск неона
-  g.fillStyle = 'rgba(255,245,210,0.85)'; for (const [kx, ky] of [[30, 50], [31, 72], [32, 94], [33, 116]]) { g.beginPath(); g.arc(kx + 6, ky, 3.2, 0, 7); g.fill(); }
-  g.fillStyle = 'rgba(255,255,255,0.55)'; for (const [kx, ky] of [[95, 116], [81, 104], [101, 101]]) { g.beginPath(); g.arc(kx, ky, 1.6, 0, 7); g.fill(); }   // капли
+  // ремень к шее музыканта
+  g.strokeStyle = 'rgba(8,6,6,0.95)'; g.lineWidth = 3; g.beginPath(); g.moveTo(44, 60); g.quadraticCurveTo(20, 20, -6, -22); g.stroke();
+  // мундштук (эбонит) и лигатура
+  g.fillStyle = '#0b0a0c'; g.beginPath(); g.moveTo(-2, -3.5); g.lineTo(15, 0.5); g.lineTo(15, 10); g.lineTo(-2, 3); g.closePath(); g.fill();
+  g.fillStyle = 'rgba(200,205,215,0.85)'; g.fillRect(4, -1.6, 4, 9); g.fillStyle = 'rgba(255,255,255,0.4)'; g.fillRect(-1, -2.8, 12, 1.3);
+  // тело инструмента
+  tubeShade(P0, S.w);
+  // пробка эски и кольцо октавного механизма
+  const nk = P0[Math.floor(S.n1 * 0.55)];
+  g.strokeStyle = '#e8c870'; g.lineWidth = 2; g.beginPath(); g.moveTo(nk[0] - 2, nk[1] - 8); g.quadraticCurveTo(nk[0] + 12, nk[1] - 10, nk[0] + 10, nk[1] + 6); g.stroke();
+  g.fillStyle = '#8a6420'; g.beginPath(); g.arc(nk[0] + 10, nk[1] + 6, 2.5, 0, 7); g.fill();
+  // раструб: раскрытие и чаша
+  const top = P0[P0.length - 1];
+  g.save(); g.translate(top[0], top[1]); g.rotate(-0.05);
+  const fl = g.createLinearGradient(-36, 0, 40, 0); fl.addColorStop(0, '#5a3e0e'); fl.addColorStop(0.25, '#c99a3c'); fl.addColorStop(0.5, '#ffe8a6'); fl.addColorStop(0.7, '#d4a547'); fl.addColorStop(1, '#4e350c');
+  g.fillStyle = fl; g.beginPath(); g.moveTo(-16, 6); g.quadraticCurveTo(-20, -6, -36, -16); g.lineTo(40, -22); g.quadraticCurveTo(22, -8, 17, 6); g.closePath(); g.fill();
+  // гравировка
+  g.strokeStyle = 'rgba(90,60,15,0.55)'; g.lineWidth = 0.9;
+  for (let k = 0; k < 3; k++) { g.beginPath(); g.moveTo(-8 + k * 6, 2); g.quadraticCurveTo(-2 + k * 7, -6, 8 + k * 6, -4 - k); g.stroke(); }
+  // чаша раструба
+  const cup = g.createRadialGradient(4, -20, 2, 2, -19, 38); cup.addColorStop(0, '#120c03'); cup.addColorStop(0.55, '#3d2a0b'); cup.addColorStop(0.85, '#a87d2c'); cup.addColorStop(1, '#f6dc94');
+  g.fillStyle = cup; g.beginPath(); g.ellipse(2, -19, 38.5, 8.5, -0.08, 0, 7); g.fill();
+  g.strokeStyle = '#fff1c0'; g.lineWidth = 1.6; g.beginPath(); g.ellipse(2, -19, 38.5, 8.5, -0.08, Math.PI * 0.95, Math.PI * 1.9); g.stroke();
+  g.strokeStyle = 'rgba(255,60,85,0.85)'; g.lineWidth = 1.4; g.beginPath(); g.ellipse(2, -19, 37.5, 7.8, -0.08, Math.PI * 0.05, Math.PI * 0.6); g.stroke();
+  // капли на раструбе
+  for (const [qx, qy, r] of [[-22, -6, 1.6], [-9, 0, 1.2], [8, -3, 1.4], [24, -10, 1.1], [-14, -12, 1.0]]) {
+    g.fillStyle = 'rgba(255,255,240,0.9)'; g.beginPath(); g.arc(qx, qy, r, 0, 7); g.fill();
+    g.fillStyle = 'rgba(60,40,10,0.5)'; g.beginPath(); g.arc(qx + 0.5, qy + 0.7, r * 0.6, 0, 7); g.fill(); }
+  g.restore();
+  // защитная дуга колена и клапаны раструба
+  const bw = P0[S.n2 + 9];
+  g.strokeStyle = '#d8b464'; g.lineWidth = 1.6; g.beginPath(); g.arc(bw[0], bw[1] - 2, 17, 0.1, 1.5); g.stroke();
+  // клапаны: подушки-чашки сбоку корпуса, перламутровые кнопки, тяги со стойками
+  const keyAt = (i, side, r) => { const a = P0[i - 1], b = P0[i + 1], dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy), nx = -dy / L, ny = dx / L;
+    return [P0[i][0] + nx * side * (S.w[i] * 0.5 - r * 0.15), P0[i][1] + ny * side * (S.w[i] * 0.5 - r * 0.15), nx, ny]; };
+  // тяга вдоль корпуса
+  const rod = []; for (let i = S.n1 + 2; i < S.n2 - 1; i++) { const k = keyAt(i, 1, 2); rod.push([k[0], k[1]]); }
+  g.strokeStyle = '#e9cd7c'; g.lineWidth = 1.5; g.beginPath(); rod.forEach((q, i) => i ? g.lineTo(q[0], q[1]) : g.moveTo(q[0], q[1])); g.stroke();
+  for (let i = S.n1 + 3; i < S.n2 - 1; i += 4) { const k = keyAt(i, 1, 2); g.fillStyle = '#7a5616'; g.fillRect(k[0] - 1.2, k[1] - 1.2, 2.4, 2.4); }
+  // чашки клапанов
+  for (let j = 0; j < 7; j++) {
+    const i = S.n1 + 3 + j * 3, k = keyAt(i, -1, 5.0), r = 4.6 + j * 0.3;
+    const cg = g.createRadialGradient(k[0] - 1.5, k[1] - 1.5, 0.5, k[0], k[1], r); cg.addColorStop(0, '#fff0b8'); cg.addColorStop(0.5, '#c9a04a'); cg.addColorStop(1, '#5c4012');
+    g.fillStyle = cg; g.beginPath(); g.ellipse(k[0], k[1], r, r * 0.62, Math.atan2(k[3], k[2]), 0, 7); g.fill();
+    g.strokeStyle = 'rgba(40,25,5,0.8)'; g.lineWidth = 0.8; g.stroke();
+  }
+  // перламутровые кнопки под пальцы (лицевая сторона)
+  for (const f of [0.18, 0.30, 0.42, 0.62, 0.74, 0.86]) {
+    const i = Math.floor(S.n1 + (S.n2 - S.n1) * f), k = keyAt(i, 0.15, 0);
+    const pg = g.createRadialGradient(k[0] - 1, k[1] - 1, 0.3, k[0], k[1], 3.4); pg.addColorStop(0, '#ffffff'); pg.addColorStop(0.6, '#e8e2d6'); pg.addColorStop(1, '#8e8778');
+    g.fillStyle = '#b8923e'; g.beginPath(); g.arc(k[0], k[1], 4.1, 0, 7); g.fill();
+    g.fillStyle = pg; g.beginPath(); g.arc(k[0], k[1], 3.2, 0, 7); g.fill();
+  }
+  // клапаны у колена
+  for (const [i, side] of [[S.n2 + 3, -1], [S.n2 + 7, -1], [S.n3 - 3, 1]]) { const k = keyAt(i, side, 7);
+    g.fillStyle = '#b8903c'; g.beginPath(); g.ellipse(k[0], k[1], 7, 4.5, Math.atan2(k[3], k[2]), 0, 7); g.fill(); g.strokeStyle = 'rgba(40,25,5,0.8)'; g.lineWidth = 0.8; g.stroke(); }
+  // скользящий блик фонаря по корпусу
+  const sh = (Math.sin(t * 0.9) * 0.5 + 0.5), si = Math.floor(S.n1 + (S.n2 - S.n1) * (0.2 + 0.6 * sh)), sp = keyAt(si, -0.15, 0);
+  const spg = g.createRadialGradient(sp[0], sp[1], 0, sp[0], sp[1], 14); spg.addColorStop(0, 'rgba(255,255,240,0.75)'); spg.addColorStop(1, 'rgba(255,255,240,0)');
+  g.fillStyle = spg; g.fillRect(sp[0] - 14, sp[1] - 14, 28, 28);
+  // кисти на клапанах: левая сверху, правая снизу, пальцы обхватывают корпус
+  const hand = (f, w) => { const i = Math.floor(S.n1 + (S.n2 - S.n1) * f), a = P0[i - 1], b = P0[i + 1], an = Math.atan2(b[1] - a[1], b[0] - a[0]);
+    g.save(); g.translate(P0[i][0], P0[i][1]); g.rotate(an);
+    g.fillStyle = '#050406'; g.beginPath(); g.ellipse(-2, -S.w[i] * 0.55 - 4, 15, 8, 0, 0, 7); g.fill();          // ладонь за корпусом
+    for (let k = 0; k < 3; k++) { g.beginPath(); g.ellipse(-9 + k * 8, -S.w[i] * 0.1 + 1, 3.4, S.w[i] * 0.5 + 2, 0, 0, 7); g.fill(); }   // пальцы на кнопках
+    g.beginPath(); g.ellipse(14, -S.w[i] * 0.5 - 2, 4, 3, 0, 0, 7); g.fill();
+    g.restore(); };
+  hand(0.24, 1); hand(0.70, 1);
   g.restore();
 }
 function drawSaxPlayer(t, s) {
@@ -723,8 +814,8 @@ function drawSaxPlayer(t, s) {
   // руки решены под корпус саксофона (обратная задача по двум точкам клапанов)
   person(x, fy, s, { hat: 1, scale: sc, dir: d, armR: [-0.24, 1.26], armL: [0.24, 1.68], lean, nod: -0.05 * st.lift + 0.04, breathA: 1.6, breathF: 1.6 });
   const W2 = (lx, ly) => [x + d * sc * (lx * Math.cos(lean) - ly * Math.sin(lean)), fy + sc * (lx * Math.sin(lean) + ly * Math.cos(lean))];
-  const [mx, my] = W2(20, -288), ang = -0.15 - 0.06 * st.lift;
-  drawSaxophone(mx, my, ang + lean, d, sc, st.lift);
+  const [mx, my] = W2(12, -290), ang = -0.15 - 0.06 * st.lift;
+  drawSaxophone(mx, my, ang + lean, d, sc, st.lift, s);
   // ближняя кисть поверх корпуса
   const hr = (() => { const a1 = -0.24, a2 = 1.26, ex = 21 + 48 * Math.sin(a1), ey = -252 + 48 * Math.cos(a1); return [ex + 74 * Math.sin(a1 + a2), ey + 74 * Math.cos(a1 + a2)]; })();
   const [hx, hy] = W2(hr[0], hr[1]); g.fillStyle = '#030306'; g.beginPath(); g.ellipse(hx, hy, 8 * sc, 7 * sc, 0, 0, 7); g.fill();
