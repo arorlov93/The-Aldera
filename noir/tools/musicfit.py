@@ -2,7 +2,7 @@
 # и музыка заканчивалась собственной концовкой. Ищем пару (C, E): C - точка выхода из начала, E - точка входа в концовку,
 # C - S + END - E = DUR, хрома за 2 c до C похожа на хрому за 2 c до E.
 import sys, librosa, numpy as np
-f, S, DUR = sys.argv[1], float(sys.argv[2]), float(sys.argv[3])
+f, S, DUR = sys.argv[1], float(sys.argv[2]), float(sys.argv[3]); MINA = float(sys.argv[4]) if len(sys.argv) > 4 else 15
 y, sr = librosa.load(f, sr=22050); hop = 512; fr = sr / hop
 ch = librosa.feature.chroma_cqt(y=y, sr=sr, hop_length=hop)
 rms = librosa.feature.rms(y=y, hop_length=hop)[0]
@@ -13,7 +13,7 @@ best = None
 L = int(2 * fr)
 for E in np.arange(max(S + 10, END - 60), END - 8, 0.05):
     C = S + DUR - (END - E)
-    if C <= S + 15 or C >= E - 5: continue
+    if C <= S + MINA or C >= E - 5: continue
     a = ch[:, int(C * fr) - L:int(C * fr)]; b = ch[:, int(E * fr) - L:int(E * fr)]
     sim = (a * b).sum() / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-9)
     # склейка на атаке ноты: сильный онсет сразу после E и после C
