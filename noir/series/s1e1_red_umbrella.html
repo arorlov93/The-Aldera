@@ -750,6 +750,12 @@ function drawDinerInterior(s, top, bot, t) {
   g.fillStyle = 'rgba(14,12,14,0.96)'; g.fillRect(s.x, bot - 74, s.w, 74);
   g.fillStyle = 'rgba(200,198,185,0.3)'; g.fillRect(s.x + 165, bot - 76, 80, 4);
   g.fillStyle = 'rgba(230,228,215,0.55)'; g.fillRect(s.x + 200, bot - 84, 8, 8);
+  // часы на стене закусочной: 11:37 → 11:49, она проходит ровно в 11:40
+  const ccx = s.x + 375, ccy = top + 44, R = 28, mins = 37 + 12 * (t / 60), hr = 11 + mins / 60;
+  g.fillStyle = 'rgba(240,236,222,0.95)'; g.beginPath(); g.arc(ccx, ccy, R, 0, 7); g.fill();
+  g.strokeStyle = '#120f10'; g.lineWidth = 4; g.stroke(); g.lineCap = 'round';
+  g.lineWidth = 4; g.beginPath(); g.moveTo(ccx, ccy); g.lineTo(ccx + 15 * Math.sin(hr / 12 * 2 * Math.PI), ccy - 15 * Math.cos(hr / 12 * 2 * Math.PI)); g.stroke();
+  g.lineWidth = 2.5; g.beginPath(); g.moveTo(ccx, ccy); g.lineTo(ccx + 24 * Math.sin(mins / 60 * 2 * Math.PI), ccy - 24 * Math.cos(mins / 60 * 2 * Math.PI)); g.stroke();
   g.restore();
 }
 const walkers = [
