@@ -251,7 +251,6 @@ function drawShops(t) {
       g.fillStyle = '#07080b'; g.fillRect(dx0 + 4, top - 16, 56, (bot - top + 12) * 0.42); g.fillRect(dx0 + 4, top - 16 + (bot - top + 12) * 0.58, 56, (bot - top + 12) * 0.42);
       for (let i = 0; i < 9; i++) { g.fillStyle = i % 2 ? '#3a0d16' : '#1a0509'; g.fillRect(s.x - 20 + i * (s.w + 40) / 9, top - 70, (s.w + 40) / 9 + 1, 60); }
       neonText('BAR', s.x + s.w / 2, top - 130, 96, '#ff1f3d', t, 3.1);
-      neonText('JAZZ', s.x + s.w / 2 + 160, top - 105, 34, '#ff5a6e', t, 0.7);
     } else if (s.kind === 'diner') {
       const fl = 0.92 + 0.08 * Math.sin(t * 13);
       const gr = g.createLinearGradient(0, top, 0, bot);
@@ -812,12 +811,12 @@ function drawSaxPlayer(t, s) {
   const st = saxState(t, s), x = SAX.x, fy = SAX.foot + st.bob, d = SAX.dir, sc = SAX.s;
   const lean = st.sway - 0.12 * st.lift;                                   // на сильных нотах откидывается назад
   // руки решены под корпус саксофона (обратная задача по двум точкам клапанов)
-  person(x, fy, s, { hat: 1, scale: sc, dir: d, armR: [-0.24, 1.26], armL: [0.24, 1.68], lean, nod: -0.05 * st.lift + 0.04, breathA: 1.6, breathF: 1.6 });
+  person(x, fy, s, { hat: 1, scale: sc, dir: d, armR: [-0.64, 2.0], armL: [0.26, 1.86], lean, nod: -0.05 * st.lift + 0.04, breathA: 1.6, breathF: 1.6 });
   const W2 = (lx, ly) => [x + d * sc * (lx * Math.cos(lean) - ly * Math.sin(lean)), fy + sc * (lx * Math.sin(lean) + ly * Math.cos(lean))];
   const [mx, my] = W2(12, -290), ang = -0.15 - 0.06 * st.lift;
-  drawSaxophone(mx, my, ang + lean, d, sc, st.lift, s);
+  drawSaxophone(mx, my, ang + lean, d, sc * 0.78, st.lift, s);   // инструмент меньше, пропорционально фигуре
   // ближняя кисть поверх корпуса
-  const hr = (() => { const a1 = -0.24, a2 = 1.26, ex = 21 + 48 * Math.sin(a1), ey = -252 + 48 * Math.cos(a1); return [ex + 74 * Math.sin(a1 + a2), ey + 74 * Math.cos(a1 + a2)]; })();
+  const hr = (() => { const a1 = -0.64, a2 = 2.0, ex = 21 + 48 * Math.sin(a1), ey = -252 + 48 * Math.cos(a1); return [ex + 74 * Math.sin(a1 + a2), ey + 74 * Math.cos(a1 + a2)]; })();
   const [hx, hy] = W2(hr[0], hr[1]); g.fillStyle = '#030306'; g.beginPath(); g.ellipse(hx, hy, 8 * sc, 7 * sc, 0, 0, 7); g.fill();
 }
 // --- бар внутри: бармен протирает бокал, двое у стойки, часы на стене показывают 11:40
@@ -955,7 +954,7 @@ function drawStreetAt(t, ox) {
 
 // камера: [s, центр x, центр y, зум] в координатах улицы
 // камера по реальному времени ролика t: [t, центр x, центр y, зум]
-const CAM = [[0, 775, 1065, 4.0], [2.6, 780, 1060, 3.7], [7.6, 720, 1060, 1.45], [10.5, 600, 1060, 1.50], [13.4, 600, 1010, 1.85], [17.6, 640, 1000, 1.95],
+const CAM = [[0, 800, 1040, 4.4], [2.6, 805, 1035, 4.1], [7.6, 720, 1060, 1.45], [10.5, 600, 1060, 1.50], [13.4, 600, 1010, 1.85], [17.6, 640, 1000, 1.95],
   [20.4, 680, 1030, 1.70], [22.2, 640, 1080, 2.25], [23.5, 650, 1090, 2.35]];
 function camButt(t, s) {   // камера летит за окурком к луже и поднимается к окну бара
   const [bx, by] = buttPos(Math.max(s, FLICK.t));
