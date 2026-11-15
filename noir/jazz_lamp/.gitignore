@@ -1,0 +1,7 @@
+out/
+audio/*.mp3
+audio/.placeholder
+music.wav
+mix.m4a
+video_silent.mp4
+events.js
