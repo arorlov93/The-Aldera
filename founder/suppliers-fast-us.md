@@ -282,3 +282,55 @@ info@thealdera.com
 Управляющий, 518 GROUP LLC (The Aldera)
 info@thealdera.com
 ```
+
+### 2б. Фасовщики, версия 17.11: капсулы GCAB (Мексика), 150 000 капсул = 75 000 саше = 2 500 коробок
+
+Скрытая копия: sales@assemblies.com, info@natures-products.com, INFO@ARNETUSA.COM, sales@pharma-tech.com, info@fillab.com
+
+```
+Subject: Contract packaging: 2 capsules per printed foil sachet, 75,000 sachets
+
+Hello,
+
+We are 518 GROUP LLC (brand The Aldera), a supplement company in Florida.
+We are looking for a contract packager to seal our capsules into single-dose foil sachets:
+- 2 vegetarian capsules (size 00, magnesium bisglycinate) per printed foil sachet, about 30 x 50 mm, with a tear notch
+- Lot number and expiry date printed on each sachet
+- 30 sachets per printed carton, lot number and expiry date on each carton
+- First run: 150,000 capsules, which is 75,000 sachets and 2,500 cartons
+- We supply the bulk capsules from our manufacturer in Mexico, with a certificate of analysis
+- Printed film and cartons can come from us or from you
+- The packager must work under FDA dietary supplement cGMP (21 CFR 111)
+
+What would be your price per carton, minimum run and lead time for 75,000 sachets?
+
+Best regards,
+Polina Orlova
+518 GROUP LLC (The Aldera)
++1 929 830 0038
+info@thealdera.com
+```
+
+```
+Тема: Контрактная фасовка: 2 капсулы в печатное фольгированное саше, 75 000 саше
+
+Здравствуйте,
+
+Мы 518 GROUP LLC (бренд The Aldera), компания по БАДам во Флориде.
+Мы ищем контрактного фасовщика, чтобы запечатывать наши капсулы в фольгированные саше на одну порцию:
+- 2 растительные капсулы (размер 00, бисглицинат магния) в печатное фольгированное саше, около 30 x 50 мм, с надрезом для отрыва
+- Номер партии и срок годности напечатаны на каждом саше
+- 30 саше в печатной коробке, номер партии и срок годности на каждой коробке
+- Первый прогон: 150 000 капсул, то есть 75 000 саше и 2 500 коробок
+- Капсулы навалом поставляем мы от нашего производителя в Мексике, с сертификатом анализа
+- Печатная плёнка и коробки могут быть от нас или от вас
+- Фасовщик должен работать по правилам cGMP FDA для БАДов (21 CFR 111)
+
+Какая будет ваша цена за коробку, минимальный прогон и срок для 75 000 саше?
+
+С уважением,
+Полина Орлова
+518 GROUP LLC (The Aldera)
++1 929 830 0038
+info@thealdera.com
+```
