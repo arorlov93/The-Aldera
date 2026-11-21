@@ -1,0 +1,394 @@
+<title>Aldera: магний и упаковка</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: одна читаемая колонка; разделы с меткой слева на широком экране; схемы упаковки как чертежи */
+:root{
+  --bg:#FBF8F6; --surface:#FFFFFF; --ink:#22161F; --muted:#6E5E69; --line:#E7DDE2;
+  --berry:#7A2550; --berry-soft:#F4E4EC; --apricot:#E8915B; --apricot-soft:#FBEADF;
+  --ok:#2F7A55; --warn:#A8641C; --stop:#B33A3A;
+  --display:"Unbounded", "Manrope", system-ui, sans-serif;
+  --body:"Manrope", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#17111A; --surface:#211923; --ink:#F3EAF0; --muted:#B7A6B1; --line:#3A2D38;
+  --berry:#E28AB5; --berry-soft:#3A2030; --apricot:#F0A77A; --apricot-soft:#3A2A20;
+  --ok:#7CC9A0; --warn:#E6AE6A; --stop:#EE8A8A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#17111A; --surface:#211923; --ink:#F3EAF0; --muted:#B7A6B1; --line:#3A2D38;
+  --berry:#E28AB5; --berry-soft:#3A2030; --apricot:#F0A77A; --apricot-soft:#3A2A20;
+  --ok:#7CC9A0; --warn:#E6AE6A; --stop:#EE8A8A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:920px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:40px 80px}
+header.top{border-bottom:2px solid var(--ink);padding-bottom:24px;margin-bottom:8px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,5vw,42px);line-height:1.1;margin:8px 0 12px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:500;font-size:clamp(21px,3.2vw,26px);line-height:1.2;margin:0 0 14px;text-wrap:balance}
+h3{font-family:var(--body);font-weight:700;font-size:17px;margin:26px 0 8px}
+p{margin:0 0 12px;max-width:68ch}
+.lead{font-size:18px;color:var(--ink);max-width:62ch}
+section{padding-block:36px;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;margin-bottom:6px}
+.sec-head .eyebrow{min-width:5ch}
+ul,ol{margin:0 0 12px;padding-left:22px;max-width:70ch}
+li{margin-bottom:6px}
+li::marker{color:var(--berry)}
+strong{font-weight:700}
+.mono{font-family:var(--mono);font-size:.92em}
+.tbl{overflow-x:auto;margin:10px 0 16px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11.5px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.pick{background:var(--berry-soft)}
+.chip{display:inline-block;font-family:var(--mono);font-size:11px;letter-spacing:.04em;padding:2px 8px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.chip.ok{color:var(--ok)} .chip.warn{color:var(--warn)} .chip.stop{color:var(--stop)} .chip.berry{color:var(--berry)}
+.decide{border:2px solid var(--berry);border-radius:8px;padding:18px 20px;background:var(--surface);margin-top:18px}
+.decide h3{margin-top:0;color:var(--berry)}
+.decide ol{margin-bottom:0}
+.note{font-size:14px;color:var(--muted)}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:12px 0}
+.grid2>div{min-width:0}
+.panel{border:1px solid var(--line);border-radius:6px;padding:14px 16px;background:var(--surface)}
+.panel h3{margin-top:0}
+blockquote{margin:10px 0 14px;padding:10px 16px;border-left:3px solid var(--berry);background:var(--surface);max-width:68ch}
+blockquote .ru{display:block;color:var(--muted);font-size:14.5px;margin-top:4px}
+.fig{margin:14px 0 6px;overflow-x:auto}
+.fig svg{display:block;max-width:100%;height:auto}
+.fig figcaption{font-size:13px;color:var(--muted);margin-top:6px}
+svg text{font-family:var(--body)}
+.s-ink{fill:var(--ink)} .s-muted{fill:var(--muted)} .s-berry{fill:var(--berry)} .s-surface{fill:var(--surface)} .s-line{stroke:var(--line)}
+.s-stroke{stroke:var(--ink)} .s-tag{fill:var(--berry-soft)}
+a{color:var(--berry)}
+a:focus-visible{outline:2px solid var(--berry);outline-offset:2px}
+@media (min-width:860px){
+  section{display:grid;grid-template-columns:150px 1fr;gap:28px}
+  .sec-head{display:block}
+  .sec-body{min-width:0}
+}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">The Aldera · 518 GROUP LLC · 21.11.2026</div>
+  <h1>Магний, комплекс и упаковка: итог отдела маркетинга и совета</h1>
+  <p class="lead">Анализ TikTok Shop и Amazon, три формулы магниевого комплекса, разбор брифа брендбука советом директоров и директором по маркетингу, ТЗ на коробку и саше.</p>
+  <p class="note">Исходники в репозитории: <span class="mono">founder/marketing-2026-11-21/</span> (tiktok-shop.md, amazon.md, complex-formulas.md, brandbook-brief.md) и <span class="mono">founder/board-v6/</span>. Данные рынка сняты 21.11.2026, это неделя Black Friday: часть цен со скидкой.</p>
+</header>
+
+<section>
+  <div class="sec-head"><div class="eyebrow">Коротко</div></div>
+  <div class="sec-body">
+    <h2>Шесть выводов</h2>
+    <ol>
+      <li><strong>Капсул магния в саше нет ни на TikTok Shop, ни на Amazon.</strong> Порционный магний продаётся только порошком в стиках (Thorne, Calm, Nature's Way с 20.10.2026). Формат свободен.</li>
+      <li><strong>Комплексы продают в десятки раз быстрее чистого глицината.</strong> Toplux 8 форм: 2 315 505 шт. на TikTok Shop (около 3 600 в день). Чистый глицинат у лучших продаётся по 20-50 шт. в день. Поэтому второй продукт с тремя формами нужен.</li>
+      <li><strong>Лучше всех на Amazon продаётся тройка глицинат + малат + цитрат</strong> (BioEmblem, 50K+ покупок в месяц). Это ровно формула B, которую рекомендует формулятор.</li>
+      <li><strong>Слово «tested» уже занято, а названная лаборатория и номер партии не заняты.</strong> Ни один конкурент не печатает лабораторию и QR отчёта партии. Это наше отличие, и его надо сделать видимым на каждом саше.</li>
+      <li><strong>Совет: 3 голоса «финансировать при условиях», средняя оценка 5 из 10.</strong> Бриф хорошо задаёт характер (юмор, «никогда не стыдим»), но не называет продукт и прячет проверку партии.</li>
+      <li><strong>Фото для листингов только настоящие.</strong> И TikTok Shop, и Amazon не принимают рендеры. К запуску 15.12 нужна напечатанная коробка с саше, значит срок Medimes становится главным вопросом.</li>
+    </ol>
+  </div>
+</section>
+
+<section id="market">
+  <div class="sec-head"><div class="eyebrow">Рынок</div></div>
+  <div class="sec-body">
+    <h2>TikTok Shop и Amazon</h2>
+    <h3>TikTok Shop: кто продаёт магний</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Карточка</th><th>Что внутри</th><th>Продано, шт.</th><th>Примечание</th></tr></thead>
+      <tbody>
+        <tr><td>Toplux Magnesium Complex</td><td>8 форм, первым в составе оксид</td><td class="num">2 315 505</td><td>+57 449 за 16 дней; III кв.: 438 929 шт., $8,24 млн (FastMoss)</td></tr>
+        <tr><td>VEV DeepCalm</td><td>14-in-1</td><td class="num">297 967</td><td>сколько магния в порции, не раскрыто</td></tr>
+        <tr><td>MaxCalm</td><td>комплекс</td><td class="num">296 682</td><td></td></tr>
+        <tr><td>Totaria</td><td>12-in-1</td><td class="num">253 666</td><td>около 105 мг магния в капсуле</td></tr>
+        <tr><td>Micro Ingredients</td><td>20-in-1</td><td class="num">238 117</td><td>«third party lab tested»</td></tr>
+        <tr><td>Micro Ingredients Triple</td><td>глицинат, малат, таурат</td><td class="num">11 767</td><td>тройка уже есть</td></tr>
+        <tr><td>Decent Nature</td><td>чистый глицинат</td><td class="num">25 297</td><td>лучший из чистых</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">«700 mg» и «1000 mg» на банках означают вес смеси солей, а не сам магний. Долю каждой формы лидеры не раскрывают.</p>
+
+    <h3>Amazon: топ магния</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Бренд</th><th>Покупок в месяц</th><th>Цена 200 мг магния</th><th>Форма</th></tr></thead>
+      <tbody>
+        <tr><td>Pure Encapsulations</td><td class="num">100K+</td><td class="num">$0,50</td><td>глицинат, №1</td></tr>
+        <tr><td>Nature's Bounty</td><td class="num">80K+</td><td class="num">$0,22</td><td></td></tr>
+        <tr><td>Double Wood</td><td class="num">70K+</td><td class="num">$0,26</td><td>глицинат</td></tr>
+        <tr><td>Thorne</td><td class="num">70K+</td><td class="num">$0,48</td><td>бисглицинат</td></tr>
+        <tr><td>BioEmblem Triple</td><td class="num">50K+</td><td class="num">$0,30</td><td>глицинат, малат, цитрат</td></tr>
+        <tr><td>BIOptimizers</td><td class="num">40K+</td><td class="num">около $1,00</td><td>7 форм</td></tr>
+        <tr class="pick"><td><strong>The Aldera</strong></td><td class="num">запуск весной 2027</td><td class="num">$1,00</td><td>бисглицинат в саше</td></tr>
+      </tbody>
+    </table></div>
+    <p>Главные жалобы в отзывах: у комплексов <strong>желудок</strong>, у одиночных глицинатов <strong>размер капсулы</strong>. Значит, на фото капсулы показываем в натуральную величину, а в тексте не обещаем «мягко для желудка» без основания.</p>
+
+    <h3>Правила площадок, которые влияют на упаковку</h3>
+    <ul>
+      <li><strong>Главная картинка:</strong> белый фон, без наложенного текста и рамок; товар занимает не меньше 85% кадра (Amazon). Весь текст должен быть напечатан на самой упаковке.</li>
+      <li><strong>Только реальные фото:</strong> 3D-рендеры и макеты запрещены (TikTok Shop, официальные правила, проверено 19.11; Amazon по отраслевым источникам).</li>
+      <li><strong>Amazon проверяет каждый БАД</strong> через одобренную лабораторию; на фото листинга должны читаться Supplement Facts, номер партии и адрес дистрибьютора.</li>
+      <li><strong>TikTok Shop замораживает карточку</strong> с дозой выше верхнего предела NIH (для магния из добавок 350 мг). Наши 200 и 207 мг ниже.</li>
+      <li><strong>Нельзя в названии:</strong> «Anxiety &amp; Stress Relief» TikTok приводит как пример запрещённого.</li>
+    </ul>
+
+    <h3>Названия карточек (предварительно)</h3>
+    <blockquote>The Aldera Magnesium Bisglycinate 200 mg | 30 Sachets, 2 Capsules Each | Lab-Tested Batch
+      <span class="ru">The Aldera магний бисглицинат 200 мг | 30 саше, по 2 капсулы в каждом | партия проверена в лаборатории</span></blockquote>
+    <blockquote>The Aldera Magnesium Complex 3 Forms 207 mg | Malate, Citrate, Bisglycinate | 30 Sachets
+      <span class="ru">The Aldera магниевый комплекс, 3 формы, 207 мг | малат, цитрат, бисглицинат | 30 саше</span></blockquote>
+    <p class="note">«Lab-Tested Batch» ставим только после первого отчёта лаборатории на 518 GROUP LLC. «No Magnesium Oxide» теперь возможно (решение 21.11 о чистом бисглицинате), но только после подписанной спецификации Medimes и COA партии.</p>
+  </div>
+</section>
+
+<section id="complex">
+  <div class="sec-head"><div class="eyebrow">Продукт 2</div></div>
+  <div class="sec-body">
+    <h2>Магниевый комплекс: три формулы</h2>
+    <p>Во всех трёх 1 450 мг сырья на порцию, около 732 мг на капсулу с 1% вещества для сыпучести. Капсула 00 вмещает 570-760 мг в зависимости от плотности порошка; Medimes уже кладёт 830 мг бисглицината. <strong>Войдёт ли смесь, покажет только пробная набивка.</strong> Если не войдёт, все формы уменьшаем пропорционально, магния станет примерно на 10% меньше.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Формула</th><th>Состав на порцию (2 капсулы)</th><th>Магний</th><th>% нормы США / ЕС</th><th>ЕС</th></tr></thead>
+      <tbody>
+        <tr><td><strong>A «Вечер»</strong><br><span class="note">спокойствие</span></td><td>бисглицинат 700 мг, таурат 450 мг, цитрат 300 мг</td><td class="num">171 мг</td><td class="num">41% / 46%</td><td><span class="chip ok">разрешено</span></td></tr>
+        <tr class="pick"><td><strong>B «Актив»</strong><br><span class="note">энергия, мышцы</span></td><td>малат 500 мг, цитрат 450 мг, бисглицинат 500 мг</td><td class="num">207 мг</td><td class="num">49% / 55%</td><td><span class="chip ok">разрешено</span></td></tr>
+        <tr><td><strong>C «Фокус»</strong></td><td>треонат Magtein 1 000 мг, бисглицинат 300 мг, цитрат 150 мг</td><td class="num">около 137 мг</td><td class="num">33% / 37%</td><td><span class="chip warn">с условиями</span></td></tr>
+      </tbody>
+    </table></div>
+    <h3>Рекомендация: B «Актив»</h3>
+    <ul>
+      <li>Не спорит с основным продуктом за одну задачу: A «Вечер» отбирал бы покупателей у бисглицината.</li>
+      <li>Самая продаваемая тройка на Amazon (BioEmblem, 50K+ в месяц).</li>
+      <li>Сырьё дешёвое, все формы разрешены в ЕС, одна формула на США и Францию. Нужен обычный малат магния: димагниевый малат Albion в ЕС не разрешён.</li>
+      <li>Разрешённые в ЕС заявления (усталость, мышцы, энергетический обмен) совпадают с обещанием продукта.</li>
+    </ul>
+    <h3>Почему не C</h3>
+    <p>Треонат в ЕС разрешён с ноября 2025 года только у одного поставщика (AIDP) до 07.11.2029, только для взрослых, кроме беременных и кормящих, с обязательной фразой на этикетке. Сырьё дорогое, а 1 г в порции вдвое меньше дозы из исследований (1,5-2 г).</p>
+    <h3>Ограничения</h3>
+    <ul>
+      <li><strong>Не продавать бисглицинат и комплекс как пару на день.</strong> Вместе это 337-407 мг магния, выше предела ЕС 250 мг и французского 300 мг.</li>
+      <li>На этикетке указываем миллиграммы каждой формы, без «смеси со скрытыми долями». Это требование честности FTC и одновременно наше отличие: лидеры доли не раскрывают.</li>
+      <li>Цифру магния на этикетке ставим по COA конкретной партии сырья.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="brandbook">
+  <div class="sec-head"><div class="eyebrow">Брендбук</div></div>
+  <div class="sec-body">
+    <h2>Чего не хватает брифу брендбука</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Участник</th><th>Оценка</th><th>Голос</th><th>Главная претензия</th></tr></thead>
+      <tbody>
+        <tr><td>Предложение (Offers lens)</td><td class="num">5/10</td><td><span class="chip warn">при условиях</span></td><td>бриф продаёт упаковку, а не результат; слово «магний» не звучит</td></tr>
+        <tr><td>Отличие от конкурентов (Monopoly lens)</td><td class="num">4/10</td><td><span class="chip warn">при условиях</span></td><td>формат легко скопировать; защищает только проверка партии</td></tr>
+        <tr><td>Продукт (Product lens)</td><td class="num">6/10</td><td><span class="chip warn">при условиях</span></td><td>в брифе нет одного продукта; саше не описано как вещь</td></tr>
+        <tr><td>Директор по маркетингу</td><td class="num"></td><td></td><td>нет фразы позиционирования, иерархии фронта и правил заявлений</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Что дописать</h3>
+    <ol>
+      <li><strong>Ядро продукта.</strong> Два SKU одной системы: Magnesium Bisglycinate 200 mg и Magnesium Complex (3 forms). Порция 2 капсулы, 30 саше в коробке. Схема имени: The Aldera + вещество + доза или число форм + 30 sachets. У каждого SKU свой цвет.</li>
+      <li><strong>Фраза позиционирования с рамкой сравнения.</strong> Сравниваем себя с порционным магнием «с собой» (стики Thorne около $1,57 за порцию, пакетики Cymbiotika $1,75-2,43), а не с банками по $0,26-0,52. Доводы: 200 мг в саше, названная лаборатория, отчёт по каждой партии.</li>
+      <li><strong>Знак проверки партии.</strong> Полоса на коробке и каждом саше: LOT, лаборатория, QR. Оформлена как бирка или чек, а не как лаборатория: запрет на колбы и молекулы сохраняется.</li>
+      <li><strong>Главная сцена.</strong> «Somewhere to be» включает вечер не дома: отель, ночёвка у партнёра, поздний зал, ужин. Магний пьют вечером, и бриф с этим больше не спорит.</li>
+      <li><strong>Порядок фраз бренда.</strong> Сейчас их три: «Daily care. To go.» (28.10), «Self-care with somewhere to be.» (бриф) и дескриптор «batch-checked supplements». На коробке должна быть одна.</li>
+      <li><strong>Иерархия фронта для маленькой картинки:</strong> 1) Magnesium, 2) 200 mg или 3 forms, 3) 30 sachets, 4) The Aldera. Имя бренда не крупнее названия продукта (принцип Ritual из брифа).</li>
+      <li><strong>Правила голоса.</strong> Шутим про день, сумку и хаос. Про дозу, лабораторию, сон и стресс говорим сухо. Функции продукта берём только с этикетки завода со звёздочкой *.</li>
+      <li><strong>Саше как предмет.</strong> Размер, где надрыв, открывается ли одной рукой, как выглядит в руке за ужином (фольгу с капсулами легко принять за лекарство).</li>
+      <li><strong>Честная фраза про фольгу.</strong> Саше многослойное, в обычную переработку не идёт. Материал сверить у Medimes, слово «recyclable» не писать. Это прямо продолжает ценность «Честность» из брифа.</li>
+      <li><strong>Стиль фото и видео для криейторов.</strong> Реальные места, живые руки, звук отрыва саше как фирменный кадр, отчёт партии на экране телефона.</li>
+      <li><strong>Гарантия возврата</strong> (Offers lens) и <strong>узкий первый рынок через поведение</strong>, а не возраст и город (Monopoly lens): например, «пьёт магний и часто ночует не дома».</li>
+      <li><strong>Карта конкурентов.</strong> Sakara и Thorne из другой категории. По Binto и Lemme данных нет, собрать до брендбука.</li>
+    </ol>
+
+    <h3>Что убрать</h3>
+    <ul>
+      <li>«мб плюс ашва», «пробиотик и тд», «мягкие капсулы», «30/60 саше», «2-3 капсулы».</li>
+      <li>«Everyday supplements» без слова «магний» в описании продукта (миссию бренда можно оставить общей).</li>
+    </ul>
+
+    <h3>Фраза позиционирования: три варианта</h3>
+    <blockquote><strong>A.</strong> For women whose day does not end at home: magnesium in capsules, one sealed sachet per serving, with a named lab report for every batch. Self-care with somewhere to be.
+      <span class="ru">Для женщин, чей день не заканчивается дома: магний в капсулах, одно закрытое саше на порцию, с отчётом названной лаборатории по каждой партии. Забота о себе, у которой есть планы.</span></blockquote>
+    <blockquote><strong>B (рекомендуем).</strong> Your magnesium, already packed for tonight, wherever tonight is. Two capsules, one sachet, a batch report on the box. Self-care with somewhere to be.
+      <span class="ru">Твой магний, уже собранный на сегодняшний вечер, где бы ни был этот вечер. Две капсулы, одно саше, отчёт партии на коробке. Забота о себе, у которой есть планы.</span></blockquote>
+    <blockquote><strong>C.</strong> Magnesium that fits in your clutch and comes with its own lab report. Self-care with somewhere to be.
+      <span class="ru">Магний, который помещается в твой клатч и идёт со своим отчётом лаборатории. Забота о себе, у которой есть планы.</span></blockquote>
+    <p class="note">В варианте B директор по маркетингу предлагал «no water» (без воды). Я убрал: капсулы обычно запивают, это было бы обещание, которое продукт не выполняет.</p>
+  </div>
+</section>
+
+<section id="tz">
+  <div class="sec-head"><div class="eyebrow">ТЗ</div></div>
+  <div class="sec-body">
+    <h2>ТЗ на коробку и саше</h2>
+    <p>Основа: бриф владельца (не аптечный, не наукообразный, не мистический; дизайн уровня бьюти-аксессуара; референсы Rhode, Recess Mood, Ritual, Cymbiotika), данные площадок и технические условия Medimes из КП 20.11. <strong>Тексты на макете стоят заглушками</strong>, финальные формулировки даём на стадии пре-пресса. Состав, Supplement Facts, способ применения и предупреждения переносим с макета производителя дословно.</p>
+
+    <h3>Концепция: «Бирка»</h3>
+    <p>Саше и коробка выглядят как вещь, которую берут с собой: цветная, плотная, приятная в руке. Единственный «проверочный» элемент оформлен как багажная бирка: белая полоса с номером партии, названием лаборатории и QR. Так одна деталь закрывает и историю «somewhere to be», и проверку партии, без колб и аптечной белизны. Бирка повторяется на каждом саше в одном и том же месте: это знак бренда, узнаваемый в кадре ролика.</p>
+
+    <h3>Технические условия производства (Medimes)</h3>
+    <div class="grid2">
+      <div class="panel"><h3>Саше</h3>
+        <ul>
+          <li>Плёнка LEIPA PETW белая: белый цвет даёт сама плёнка, его не печатаем.</li>
+          <li><strong>Печать до 3 цветов</strong> + УФ-лак.</li>
+          <li>Рабочий размер 30 × 50 мм (макет 30.10), 2 капсулы 00 рядом. Финальный размер и развёртку даёт Medimes.</li>
+          <li>Номер партии и срок годности наносятся при фасовке (уточнить у Medimes способ: тиснение или струйная печать).</li>
+        </ul></div>
+      <div class="panel"><h3>Коробка</h3>
+        <ul>
+          <li>Картон GC2 300 г, печать 4/0 (полноцвет снаружи, внутри без печати) + водно-дисперсионный лак.</li>
+          <li>Soft-touch, окна и фольгирования в цене нет: если нужны, это отдельный расчёт.</li>
+          <li>Конструкция по брифу: коробка-диспенсер на 30 саше. Варианты у Medimes запросить: перфорированное окно для выдачи саше или футляр с выдвижным лотком.</li>
+          <li>Размер и развёртку даёт Medimes.</li>
+        </ul></div>
+    </div>
+
+    <h3>Схема саше</h3>
+    <figure class="fig">
+      <svg viewBox="0 0 640 300" role="img" aria-label="Схема лицевой и оборотной стороны саше">
+        <g transform="translate(40,20)">
+          <rect x="0" y="0" width="150" height="250" rx="6" class="s-berry"/>
+          <path d="M0 24 H150" stroke-dasharray="4 4" class="s-surface" style="stroke:var(--surface)" stroke-width="1.5"/>
+          <text x="75" y="16" text-anchor="middle" font-size="10" class="s-surface" style="fill:var(--surface)">надрыв ▸</text>
+          <text x="14" y="70" font-size="12" class="s-surface" style="fill:var(--surface)">the aldera</text>
+          <text x="14" y="112" font-size="22" font-weight="700" class="s-surface" style="fill:var(--surface)">Magnesium</text>
+          <text x="14" y="140" font-size="16" class="s-surface" style="fill:var(--surface)">200 mg</text>
+          <rect x="0" y="184" width="150" height="66" class="s-surface" style="fill:var(--surface)"/>
+          <text x="10" y="206" font-size="10" class="s-ink" font-family="monospace">LOT ____  EXP __/__</text>
+          <text x="10" y="224" font-size="10" class="s-ink">Tested by [лаборатория]</text>
+          <rect x="112" y="196" width="30" height="30" fill="none" stroke-width="1.5" class="s-stroke"/>
+          <text x="127" y="215" text-anchor="middle" font-size="8" class="s-ink">QR</text>
+          <text x="75" y="282" text-anchor="middle" font-size="12" class="s-muted">Лицо</text>
+        </g>
+        <g transform="translate(240,20)">
+          <rect x="0" y="0" width="150" height="250" rx="6" fill="none" stroke-width="1.5" class="s-stroke"/>
+          <rect x="18" y="40" width="44" height="120" rx="22" class="s-tag"/>
+          <rect x="88" y="40" width="44" height="120" rx="22" class="s-tag"/>
+          <text x="75" y="186" text-anchor="middle" font-size="11" class="s-ink">2 капсулы, натуральная</text>
+          <text x="75" y="201" text-anchor="middle" font-size="11" class="s-ink">величина, контур</text>
+          <text x="75" y="228" text-anchor="middle" font-size="10" class="s-muted">Dietary supplement · строка завода</text>
+          <text x="75" y="282" text-anchor="middle" font-size="12" class="s-muted">Оборот</text>
+        </g>
+        <g transform="translate(430,30)">
+          <text x="0" y="14" font-size="13" font-weight="700" class="s-ink">3 цвета печати</text>
+          <rect x="0" y="28" width="22" height="22" class="s-berry"/><text x="32" y="44" font-size="12" class="s-ink">1. цвет SKU (заливка)</text>
+          <rect x="0" y="60" width="22" height="22" class="s-ink"/><text x="32" y="76" font-size="12" class="s-ink">2. тёмный (текст бирки)</text>
+          <rect x="0" y="92" width="22" height="22" class="s-tag" stroke-width="1" style="stroke:var(--line)"/><text x="32" y="108" font-size="12" class="s-ink">3. акцент или второй тон</text>
+          <rect x="0" y="124" width="22" height="22" class="s-surface" stroke-width="1" style="stroke:var(--line)"/><text x="32" y="140" font-size="12" class="s-ink">белый = плёнка, бесплатно</text>
+        </g>
+      </svg>
+      <figcaption>Схема зон, не дизайн. Тексты заглушками. Цвета на схеме условные.</figcaption>
+    </figure>
+
+    <h3>Саше: задачи дизайнеру</h3>
+    <ol>
+      <li>Лицо заливается цветом SKU почти целиком. Название продукта и доза читаются с расстояния вытянутой руки (ролик, стол за ужином).</li>
+      <li>Внизу белая бирка в одном и том же месте на обоих SKU: LOT, EXP, «Tested by [лаборатория]», QR. Белый берём из плёнки, а не печатаем.</li>
+      <li>Линия надрыва видна и подписана; надрыв открывается одной рукой. Надрыв со звуком нужен как первый кадр ролика.</li>
+      <li>На обороте контур двух капсул в натуральную величину, чтобы капсулы на фото не казались крупнее (главная жалоба категории).</li>
+      <li>Не больше трёх печатных цветов, проверить контраст текста на цвете SKU по норме AA (стандарт читаемости WCAG).</li>
+      <li>Саше должно выглядеть как вещь из косметички, а не как блистер из аптеки: без крестиков, без синего, без молекул.</li>
+    </ol>
+
+    <h3>Схема коробки, лицевая сторона</h3>
+    <figure class="fig">
+      <svg viewBox="0 0 640 330" role="img" aria-label="Схема лицевой панели коробки">
+        <g transform="translate(40,16)">
+          <rect x="0" y="0" width="300" height="290" rx="4" class="s-berry"/>
+          <text x="20" y="34" font-size="13" class="s-surface" style="fill:var(--surface)">the aldera · [дескриптор]</text>
+          <text x="20" y="104" font-size="38" font-weight="700" class="s-surface" style="fill:var(--surface)">Magnesium</text>
+          <text x="20" y="138" font-size="18" class="s-surface" style="fill:var(--surface)">Bisglycinate · 200 mg</text>
+          <text x="20" y="162" font-size="14" class="s-surface" style="fill:var(--surface)">[функция со звёздочкой *]</text>
+          <rect x="196" y="150" width="64" height="104" rx="6" class="s-surface" style="fill:var(--surface)" transform="rotate(-8 228 202)"/>
+          <text x="228" y="206" text-anchor="middle" font-size="10" class="s-ink" transform="rotate(-8 228 202)">саше</text>
+          <rect x="0" y="232" width="300" height="58" class="s-surface" style="fill:var(--surface)"/>
+          <text x="16" y="256" font-size="12" font-weight="700" class="s-ink">DIETARY SUPPLEMENT</text>
+          <text x="16" y="276" font-size="12" class="s-ink">30 sachets · 60 capsules</text>
+          <text x="284" y="270" text-anchor="end" font-size="10" class="s-muted">LOT · QR на боку</text>
+        </g>
+        <g transform="translate(380,30)">
+          <text x="0" y="14" font-size="13" font-weight="700" class="s-ink">Порядок чтения</text>
+          <text x="0" y="42" font-size="12" class="s-ink">1  Magnesium</text>
+          <text x="0" y="64" font-size="12" class="s-ink">2  200 mg / 3 forms</text>
+          <text x="0" y="86" font-size="12" class="s-ink">3  30 sachets</text>
+          <text x="0" y="108" font-size="12" class="s-ink">4  The Aldera</text>
+          <text x="0" y="144" font-size="12" class="s-muted">Нижние 30%: название</text>
+          <text x="0" y="162" font-size="12" class="s-muted">категории и количество</text>
+          <text x="0" y="180" font-size="12" class="s-muted">(требование FDA к лицу)</text>
+        </g>
+      </svg>
+      <figcaption>Схема зон лицевой панели. Боковые панели: Supplement Facts (с макета завода), способ применения, предупреждения, Distributed by 518 GROUP LLC, Made in Poland, бирка партии с QR.</figcaption>
+    </figure>
+
+    <h3>Коробка: задачи дизайнеру</h3>
+    <ol>
+      <li>Лицо работает как главная картинка карточки: читается в размере ногтя в ленте. Порядок: Magnesium, доза или «3 forms», 30 sachets, бренд.</li>
+      <li>На лице одно саше в натуральную величину: изображение или реальное окно, если Medimes сделает его в той же цене. Формат «саше в капсулах» никто не продаёт, его надо показать сразу.</li>
+      <li>Цвет коробки = цвет SKU, тот же, что на саше. Коробка не белая, не янтарная, не чёрная и не синяя: этими цветами занята полка Amazon.</li>
+      <li>Бирка партии на боковой панели крупно: LOT, лаборатория, QR, строка «Scan for this batch's lab report» (заглушка). Видна на главном фото Amazon, где коробку ставят под углом.</li>
+      <li>Внутренняя сторона без печати (4/0); если нужен рисунок внутри, это отдельный расчёт.</li>
+      <li>Для комплекса на лице или на боку миллиграммы каждой из трёх форм. Этого не делает ни один лидер.</li>
+      <li>Пустеющая коробка должна выглядеть аккуратно: диспенсер, а не разорванный клапан.</li>
+    </ol>
+
+    <h3>Цвет и шрифт</h3>
+    <ul>
+      <li>Точных цветов в брифе нет. Направление: насыщенные цвета бьюти-аксессуара, по одному на SKU (Recess Mood, Cymbiotika). Для вечернего бисглицината подходят ягодные и сливовые тона, для «Актива» тёплые абрикосовые. Окончательно выбирает дизайнер.</li>
+      <li>Запрещено брифом: бежевый с шалфеем, холодный минимализм, конфетность, 3D люди, листочки и капли, экозначки.</li>
+      <li>Шрифт: один характерный для названия продукта, один спокойный для цифр и бирки. Цифры дозы набираются крупно (принцип «цифры о порции вместо громких слов»).</li>
+    </ul>
+
+    <h3>Обязательные элементы (США)</h3>
+    <ul>
+      <li>Лицо: название продукта и слово «Dietary Supplement»; количество в нижних 30% панели («30 sachets, 60 capsules»).</li>
+      <li>Supplement Facts, способ применения, предупреждения, функции со звёздочкой * и дисклеймер FDA дословно с макета завода.</li>
+      <li>«Distributed by 518 GROUP LLC, 7901 4th St N, Suite 300, St. Petersburg, FL 33702».</li>
+      <li>«Made in Poland»: страну происхождения требует таможня США для ввозного товара.</li>
+      <li>LOT и срок годности на коробке и на каждом саше.</li>
+      <li>Знаки только со звёздочкой *, крестики † запрещены.</li>
+    </ul>
+    <p class="note">Версия для Франции (весна 2027) печатается отдельным тиражом: французский язык, «complément alimentaire», % NRV, обязательные предупреждения ЕС, адрес ответственного лица в ЕС. Макет строим так, чтобы текстовые блоки менялись без перерисовки.</p>
+
+    <h3>Приёмка</h3>
+    <ul>
+      <li>Лицо коробки читается на экране телефона в квадрате 120 × 120 пикселей.</li>
+      <li>Саше и коробка вместе на белом фоне дают главное фото без единой надписи поверх.</li>
+      <li>Цветопроба от Medimes до тиража; печатный образец до съёмки листингов.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="decide">
+  <div class="sec-head"><div class="eyebrow">Решения</div></div>
+  <div class="sec-body">
+    <h2>Что решить владельцу</h2>
+    <div class="decide">
+      <h3>Пять решений</h3>
+      <ol>
+        <li><strong>Формула комплекса:</strong> A, B или C. Рекомендуем B «Актив» (малат, цитрат, бисглицинат, 207 мг).</li>
+        <li><strong>Фраза позиционирования:</strong> A, B или C. Рекомендуем B.</li>
+        <li><strong>Одна строка на коробку:</strong> «Self-care with somewhere to be.», «Daily care. To go.» или дескриптор «batch-checked». Рекомендуем: brand line на сайт и в соцсети, на коробку дескриптор.</li>
+        <li><strong>Концепция «Бирка»</strong> для упаковки: да или нет.</li>
+        <li><strong>Конструкция коробки:</strong> диспенсер с перфорированным окном или футляр с лотком (после ответа Medimes о вариантах).</li>
+      </ol>
+    </div>
+    <h3>Что нужно от Medimes (после ответа о сроке и FDA)</h3>
+    <ul>
+      <li>Пробная набивка смеси формулы B: входят ли 725 мг в капсулу 00.</li>
+      <li>Есть ли у них малат и цитрат магния.</li>
+      <li>Развёртки саше и коробки, варианты коробки-диспенсера, способ нанесения LOT и срока на саше.</li>
+      <li>Спецификация бисглицината с подтверждением «без оксида» и COA партии.</li>
+    </ul>
+    <p class="note">Риск по сроку: для листингов TikTok Shop и Amazon нужны фото напечатанной упаковки. Если Medimes не успевает к началу декабря, запуск 15.12 придётся проводить на временной упаковке или сдвигать.</p>
+  </div>
+</section>
+</div>
