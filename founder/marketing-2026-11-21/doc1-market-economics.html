@@ -1,0 +1,307 @@
+<title>Магний: рынок и экономика</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: документ-отчёт; разделы с меткой слева на широком экране; таблицы с горизонтальной прокруткой */
+:root{
+  --bg:#FAF7F5; --surface:#FFFFFF; --ink:#1F1219; --muted:#6B5B65; --line:#E6DCE1;
+  --plum:#3D1E33; --plum-soft:#F1E6EC; --ember:#9C4529; --ember-soft:#F8E9DF;
+  --ok:#2E7550; --warn:#9C5F14; --stop:#A93636;
+  --display:"Unbounded","Manrope",system-ui,sans-serif;
+  --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#160F14; --surface:#20171D; --ink:#F2E9EE; --muted:#B5A3AE; --line:#3A2C35;
+  --plum:#D9A6C4; --plum-soft:#35202D; --ember:#EDA07F; --ember-soft:#3A2419;
+  --ok:#7CC9A0; --warn:#E6AE6A; --stop:#EE8A8A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#160F14; --surface:#20171D; --ink:#F2E9EE; --muted:#B5A3AE; --line:#3A2C35;
+  --plum:#D9A6C4; --plum-soft:#35202D; --ember:#EDA07F; --ember-soft:#3A2419;
+  --ok:#7CC9A0; --warn:#E6AE6A; --stop:#EE8A8A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:960px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:40px 80px}
+header.top{border-bottom:2px solid var(--ink);padding-bottom:22px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,5vw,40px);line-height:1.12;margin:8px 0 12px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:500;font-size:clamp(20px,3vw,25px);line-height:1.2;margin:0 0 14px;text-wrap:balance}
+h3{font-weight:700;font-size:17px;margin:24px 0 8px}
+p{margin:0 0 12px;max-width:70ch}
+.lead{font-size:18px;max-width:64ch}
+section{padding-block:34px;border-bottom:1px solid var(--line)}
+ul,ol{margin:0 0 12px;padding-left:22px;max-width:72ch}
+li{margin-bottom:6px}
+li::marker{color:var(--plum)}
+.mono{font-family:var(--mono);font-size:.92em}
+.note{font-size:14px;color:var(--muted)}
+.tbl{overflow-x:auto;margin:10px 0 14px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:14.5px}
+th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.n{font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+th.n{text-align:right}
+tr.us td{background:var(--plum-soft);font-weight:600}
+tr.sum td{font-weight:700;border-top:2px solid var(--ink)}
+.chip{display:inline-block;font-family:var(--mono);font-size:11px;padding:1px 8px;border-radius:99px;border:1px solid currentColor;white-space:nowrap}
+.ok{color:var(--ok)} .warn{color:var(--warn)} .stop{color:var(--stop)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:16px 0}
+.kpi{border:1px solid var(--line);border-radius:6px;background:var(--surface);padding:14px 16px;min-width:0}
+.kpi b{display:block;font-family:var(--display);font-size:24px;font-weight:500;font-variant-numeric:tabular-nums;color:var(--plum)}
+.kpi span{font-size:14px;color:var(--muted)}
+.gap{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin:10px 0;background:var(--surface)}
+.gap>div{padding:12px 14px;min-width:0;border-bottom:1px solid var(--line)}
+.gap>div:nth-child(odd){border-right:1px solid var(--line)}
+.gap>div.h{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+.gap>div:nth-last-child(-n+2){border-bottom:0}
+.callout{border-left:3px solid var(--plum);background:var(--surface);padding:12px 16px;margin:12px 0;max-width:72ch}
+@media (max-width:620px){.gap{grid-template-columns:1fr}.gap>div:nth-child(odd){border-right:0}.gap>div.h:nth-child(2){display:none}}
+@media (min-width:880px){section{display:grid;grid-template-columns:140px 1fr;gap:28px}.sb{min-width:0}}
+a{color:var(--plum)} a:focus-visible{outline:2px solid var(--plum);outline-offset:2px}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">The Aldera · документ 1 из 2 · данные на 21.11.2026</div>
+  <h1>Магний на TikTok Shop и Amazon: что продаётся, чего нет, сколько зарабатываем</h1>
+  <p class="lead">Два продукта: чистый магний бисглицинат (100 мг магния в капсуле, 2 капсулы в саше, 30 саше) и магниевый комплекс из 3 форм в том же формате. Цифры сняты с карточек площадок 21.11.2026, неделя Black Friday: часть цен со скидкой.</p>
+  <p class="note">Подробные отчёты аналитиков с источниками: <span class="mono">founder/marketing-2026-11-21/tiktok-shop.md</span>, <span class="mono">amazon.md</span>, <span class="mono">complex-formulas.md</span>.</p>
+</header>
+
+<section>
+  <div class="eyebrow">Итог</div>
+  <div class="sb">
+    <h2>Главное на одной странице</h2>
+    <div class="kpis">
+      <div class="kpi"><b>0</b><span>капсул магния в порционных саше на TikTok Shop и Amazon (поиск 21.11)</span></div>
+      <div class="kpi"><b>0</b><span>конкурентов с названной лабораторией и QR отчёта конкретной партии</span></div>
+      <div class="kpi"><b>в 70+ раз</b><span>быстрее продаёт комплекс Toplux, чем лучшие чистые глицинаты на TikTok Shop</span></div>
+      <div class="kpi"><b>$1,00</b><span>наша цена порции 200 мг; банки $0,14-0,61, порционный магний $0,57-1,57</span></div>
+    </div>
+    <ol>
+      <li><strong>Рынок магния огромный и продаётся банками.</strong> Лидер Amazon (Pure Encapsulations) продаёт не меньше 100 тыс. банок в месяц, лидер TikTok Shop (Toplux) около 3 600 штук в день.</li>
+      <li><strong>Чистый глицинат на TikTok Shop продаётся слабо</strong> (20-50 штук в день у лучших), <strong>комплексы продаются в десятки раз лучше.</strong> На Amazon наоборот: чистый глицинат лидирует. Значит, чистый магний ведём через Amazon и сайт, комплекс через TikTok Shop.</li>
+      <li><strong>Свободных мест на рынке четыре:</strong> капсулы в саше «с собой», отчёт конкретной партии по QR, честная доза чистого магния на лицевой стороне, комплекс без оксида с раскрытыми мг каждой формы. Плюс дизайн: категория выглядит как аптека (белые, янтарные, синие банки).</li>
+      <li><strong>Нас сравнят с порционным магнием, а не с банками.</strong> Среди саше и стиков $1,00 за порцию это середина: дешевле Thorne ($1,57), дороже Calm и Trace ($0,67-0,77).</li>
+      <li><strong>Экономика коробки за $29,99:</strong> на TikTok Shop остаётся около $9,3-9,5 с коробки, на Amazon около $13,5-13,7 до рекламы при себестоимости с доставкой и премиальной упаковкой $4,6-4,8 (Китай или США). При производстве в ЕС остаётся на $3,50 меньше.</li>
+      <li><strong>Окно закрывается.</strong> Nature's Way вывел на Amazon «Magnesium On the Go» (30 саше порошка) 20.10.2026. Крупные бренды уже идут в «магний с собой».</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">TikTok Shop</div>
+  <div class="sb">
+    <h2>TikTok Shop: топ магния</h2>
+    <p>«Продано» берём со счётчика карточки (за всё время). Скорость посчитана по приросту счётчика за 16 дней (05.11 → 21.11). Выручка в день = скорость × цена карточки 21.11; реальная средняя цена ниже из-за распродаж, поэтому это верхняя оценка.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Товар</th><th>Формы</th><th class="n">Цена</th><th class="n">Цена в день</th><th class="n">Продано всего</th><th class="n">Штук в день</th><th class="n">Выручка в день</th></tr></thead>
+      <tbody>
+        <tr><td>Toplux Magnesium Complex</td><td>8 форм, оксид первым</td><td class="n">$23,36 средняя III кв.</td><td class="n">$0,17-0,26</td><td class="n">2 315 505</td><td class="n">около 3 600</td><td class="n">около $84 тыс.</td></tr>
+        <tr><td>Micro Ingredients 20-in-1</td><td>не раскрыты + витамины</td><td class="n">$32,44</td><td class="n">$0,27</td><td class="n">238 117</td><td class="n">около 1 320</td><td class="n">до $43 тыс.</td></tr>
+        <tr><td>MaxCalm (порошок)</td><td>цитрат + глицинат</td><td class="n">$28,59</td><td class="n">$0,25</td><td class="n">296 682</td><td class="n">около 765</td><td class="n">до $22 тыс.</td></tr>
+        <tr><td>VEV DeepCalm (мармелад)</td><td>14-in-1</td><td class="n">$49,99</td><td class="n">нет данных</td><td class="n">297 967</td><td class="n">около 740</td><td class="n">до $37 тыс.</td></tr>
+        <tr><td>Totaria 12-in-1</td><td>11 форм, оксид</td><td class="n">$21,99</td><td class="n">$0,18</td><td class="n">253 666</td><td class="n">нет данных</td><td class="n"></td></tr>
+        <tr><td>Decent Nature Glycinate</td><td>чистый глицинат, 150 мг</td><td class="n">$19,49</td><td class="n">нет данных</td><td class="n">25 297</td><td class="n">нет данных</td><td class="n"></td></tr>
+        <tr><td>Nutricost Glycinate 210</td><td>чистый глицинат</td><td class="n">$22-45</td><td class="n">нет данных</td><td class="n">8 811</td><td class="n">около 48</td><td class="n">около $1 тыс.</td></tr>
+        <tr><td>Toplux Glycinate 525</td><td>чистый глицинат</td><td class="n">$49,97</td><td class="n">нет данных</td><td class="n">13 766</td><td class="n">около 30</td><td class="n"></td></tr>
+        <tr><td>Micro Ingredients Pure Glycinate</td><td>чистый глицинат</td><td class="n">$21,95</td><td class="n">$0,27</td><td class="n">19 778</td><td class="n">около 22</td><td class="n">около $0,5 тыс.</td></tr>
+        <tr><td>Micro Ingredients Triple</td><td>глицинат, малат, таурат</td><td class="n">$24,99</td><td class="n">$0,25</td><td class="n">11 767</td><td class="n">нет данных</td><td class="n"></td></tr>
+        <tr><td>BioEmblem Triple</td><td>глицинат, малат, цитрат</td><td class="n">$54,99 за 2</td><td class="n">$0,61</td><td class="n">3 562</td><td class="n">нет данных</td><td class="n"></td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Toplux за III квартал: 438 929 штук и $8,24 млн (FastMoss); за неделю 19-25.10 первое место в Health: 25 212 штук, $420 369.</p>
+    <h3>Что видно</h3>
+    <ul>
+      <li><strong>Продаёт число форм крупно на банке:</strong> «8 FORMS», «12-IN-1», «20-in-1». Формы и доли лидеры не раскрывают.</li>
+      <li><strong>Доза завышена:</strong> «700mg», «1000mg» на банке означают вес смеси солей. У Totaria около 105 мг чистого магния в капсуле «700MG».</li>
+      <li><strong>Внешний вид категории:</strong> 9 из 10 главных картинок на белом фоне, банка у 9 из 10, синий цвет у 7 из 10.</li>
+      <li><strong>Порционность продаёт рядом:</strong> стики шиладжита BetterAlt 490 111 штук, напиток Minerals &amp; Chill 44 087. Магний в стиках порошком почти не продаётся (MagicMag 447). Капсул магния в саше нет.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Amazon</div>
+  <div class="sb">
+    <h2>Amazon: топ магния</h2>
+    <p>«Куплено за месяц» Amazon показывает корзинами (100K+, 70K+): это нижняя граница. Выручка в месяц = нижняя граница × цена 21.11.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Товар</th><th>Форма</th><th class="n">Мг магния в капсуле</th><th class="n">Цена</th><th class="n">За 200 мг</th><th class="n">Куплено за месяц</th><th class="n">Выручка в месяц, не меньше</th></tr></thead>
+      <tbody>
+        <tr><td>Pure Encapsulations</td><td>глицинат</td><td class="n">120</td><td class="n">$27,00 / 90</td><td class="n">$0,50</td><td class="n">100K+</td><td class="n">$2,7 млн</td></tr>
+        <tr><td>Thorne</td><td>глицинат</td><td class="n">120</td><td class="n">$26,00 / 90</td><td class="n">$0,48</td><td class="n">70K+</td><td class="n">$1,8 млн</td></tr>
+        <tr><td>Nature's Bounty</td><td>глицинат</td><td class="n">120</td><td class="n">$15,97 / 120</td><td class="n">$0,22</td><td class="n">80K+</td><td class="n">$1,3 млн</td></tr>
+        <tr><td>BIOptimizers Breakthrough</td><td>7 форм, с оксидом</td><td class="n">около 250</td><td class="n">$29,96 / 60</td><td class="n">$0,40</td><td class="n">40K+</td><td class="n">$1,2 млн</td></tr>
+        <tr><td>Spectrum 5</td><td>5 форм, с оксидом</td><td class="n">не подтверждено</td><td class="n">$27,95 / 60</td><td class="n">нет данных</td><td class="n">40K+</td><td class="n">$1,1 млн</td></tr>
+        <tr><td>BioEmblem Triple</td><td>глицинат, малат, цитрат</td><td class="n">150</td><td class="n">$20,22 / 90</td><td class="n">$0,30</td><td class="n">50K+</td><td class="n">$1,0 млн</td></tr>
+        <tr><td>Double Wood</td><td>бисглицинат</td><td class="n">60</td><td class="n">$13,95 / 180</td><td class="n">$0,26</td><td class="n">70K+</td><td class="n">$1,0 млн</td></tr>
+        <tr><td>Nature Made</td><td>бисглицинат</td><td class="n">100</td><td class="n">$11,70 / 60</td><td class="n">$0,39</td><td class="n">60K+</td><td class="n">$0,7 млн</td></tr>
+        <tr><td>Sports Research</td><td>глицинат</td><td class="n">80</td><td class="n">$14,35 / 90</td><td class="n">$0,40</td><td class="n">10K+</td><td class="n">$0,14 млн</td></tr>
+        <tr><td>Designs for Health</td><td>бисглицинат + оксид</td><td class="n">150</td><td class="n">$33,49 / 120</td><td class="n">$0,37</td><td class="n">10K+</td><td class="n">$0,33 млн</td></tr>
+        <tr class="us"><td>The Aldera</td><td>чистый бисглицинат, саше</td><td class="n">100</td><td class="n">$29,99 / 60</td><td class="n">$1,00</td><td class="n">старт весной 2027</td><td class="n"></td></tr>
+      </tbody>
+    </table></div>
+    <h3>Что видно</h3>
+    <ul>
+      <li><strong>100 мг магния в капсуле это норма категории</strong> (Nature Made 100, Pure Encapsulations и Thorne 120). Отличаться будем не дозой, а форматом, доказательством и видом.</li>
+      <li><strong>Главные жалобы:</strong> у одиночных глицинатов размер капсулы (Nature Made: 304 отрицательных из 372 упоминаний) и мало магния в капсуле (Double Wood, NatureBell); у комплексов желудок (BioEmblem 171 из 334, BIOptimizers 225 из 529) и цена.</li>
+      <li><strong>Вид полки:</strong> белые, янтарные и чёрные банки с синими, зелёными и жёлтыми этикетками. Минимализм Thorne и Pure Encapsulations работает только потому, что их знают по имени.</li>
+      <li><strong>Правила Amazon для БАДов с 2026 года:</strong> проверка каждого товара одобренной лабораторией (TIC), сертификат cGMP от третьей стороны, на фото листинга читается вся этикетка с номером партии, фото только настоящие (рендеры не принимают).</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Порции</div>
+  <div class="sb">
+    <h2>С кем нас реально сравнят: порционный магний</h2>
+    <p>Покупатель, который хочет порцию «с собой», выбирает не между банками, а между стиками и пакетиками. Здесь наша цена в середине.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Товар</th><th>Формат</th><th class="n">Магний в порции</th><th class="n">Цена</th><th class="n">За порцию</th><th>Продажи</th></tr></thead>
+      <tbody>
+        <tr><td>Thorne Magnesium Bisglycinate</td><td>30 стиков порошка</td><td class="n">200 мг</td><td class="n">$47,00</td><td class="n">$1,57</td><td>1K+ в месяц (Amazon)</td></tr>
+        <tr class="us"><td>The Aldera</td><td>30 саше по 2 капсулы</td><td class="n">200 мг</td><td class="n">$29,99</td><td class="n">$1,00</td><td>запуск 15.12.2026</td></tr>
+        <tr><td>Trace Minerals Glycinate</td><td>30 стиков порошка</td><td class="n">нет данных</td><td class="n">$22,99</td><td class="n">$0,77</td><td>200+ в месяц</td></tr>
+        <tr><td>Natural Vitality Calm</td><td>30 стиков порошка</td><td class="n">нет данных</td><td class="n">$19,99</td><td class="n">$0,67</td><td>3K+ в месяц</td></tr>
+        <tr><td>Nature's Way Magnesium On the Go</td><td>30 саше порошка «без воды»</td><td class="n">300 мг</td><td class="n">$16,97</td><td class="n">$0,57</td><td>новинка с 20.10.2026</td></tr>
+      </tbody>
+    </table></div>
+    <div class="callout">Наше отличие внутри порционных: <strong>капсулы, а не порошок.</strong> Нет вкуса, ничего не надо растворять или высыпать на язык, порция выглядит одинаково в сумке и на столе. Ни у одного из пяти этого нет.</div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Пробелы</div>
+  <div class="sb">
+    <h2>Чего не хватает рынку и что делаем мы</h2>
+    <div class="gap">
+      <div class="h">Чего нет на рынке</div><div class="h">Наш ответ</div>
+      <div><strong>Капсулы магния в порционном саше.</strong> Ноль карточек на TikTok Shop и Amazon. Порционный магний есть только порошком.</div>
+      <div>2 капсулы в герметичном саше, 30 саше в коробке-диспенсере. Формат, под который спроектирован весь бренд по брифу.</div>
+      <div><strong>Отчёт конкретной партии.</strong> «Tested» пишут Toplux (NSF), Micro Ingredients, BIOptimizers, но лаборатории и номера партии нет ни у кого.</div>
+      <div>На коробке и каждом саше: номер партии, название лаборатории, QR, который открывает отчёт именно этой партии (магний, тяжёлые металлы, микробиология).</div>
+      <div><strong>Честная доза на лицевой стороне.</strong> Лидеры пишут вес соли («700mg», «1000mg») или раздувают число.</div>
+      <div>На лице: «200 mg magnesium per sachet, 100 mg per capsule». Только чистый магний, без веса соли.</div>
+      <div><strong>Комплекс без оксида с раскрытыми долями.</strong> Лидеры комплексов (Toplux, BIOptimizers, Spectrum 5) содержат оксид и не раскрывают мг каждой формы.</div>
+      <div>Комплекс из 3 форм без оксида; на лице мг каждой формы и итог. Этого не делает ни один лидер.</div>
+      <div><strong>Магний, который выглядит как вещь, а не лекарство.</strong> Полка из белых, янтарных и синих банок.</div>
+      <div>Коробка и саше уровня бьюти-аксессуара, насыщенный цвет на продукт, без аптечной эстетики (бриф владельца).</div>
+    </div>
+    <p class="note">«No magnesium oxide» на упаковке пишем после подписанной спецификации сырья и COA партии: решение 21.11 о чистом бисглицинате это позволяет, но слово должно подтверждаться документом.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Продукт 1</div>
+  <div class="sb">
+    <h2>Чистый магний бисглицинат</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Параметр</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Сырьё</td><td>магний бисглицинат полностью хелатированный (около 12-14% магния), без оксида магния</td></tr>
+        <tr><td>Капсула</td><td>растительная HPMC, размер 00, без диоксида титана</td></tr>
+        <tr><td>Магний</td><td>100 мг в капсуле (около 830 мг сырья при 12%), 200 мг в саше</td></tr>
+        <tr><td>Доля нормы</td><td>48% суточной нормы США (420 мг), 53% нормы ЕС (375 мг); ниже предела ЕС 250 мг и порога TikTok Shop 350 мг</td></tr>
+        <tr><td>Упаковка</td><td>30 саше по 2 капсулы, коробка-диспенсер</td></tr>
+        <tr><td>Цена</td><td>$29,99 за 30 дней</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Где продавать в первую очередь</h3>
+    <p>На Amazon чистый глицинат главный продукт категории (7 из 10 лидеров первой десятки). На TikTok Shop чистые глицинаты продаются по 20-50 штук в день даже у известных брендов, там нас должен вести формат саше и видимая проверка партии, а объём даст комплекс.</p>
+    <h3>Риск</h3>
+    <p>Капсула 00 с 830 мг сырья крупная, а размер капсулы главная жалоба на Amazon. На фото и на саше показываем капсулы в натуральную величину и не обещаем «маленькие». Если найдётся сырьё с 14% магния, наполнение упадёт до около 715 мг.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Продукт 2</div>
+  <div class="sb">
+    <h2>Магниевый комплекс: 3 формы в 2 капсулах</h2>
+    <p>На порцию 1 450 мг сырья, около 725 мг на капсулу. Капсула 00 вмещает 570-760 мг в зависимости от плотности порошка, точно покажет пробная набивка на заводе.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Вариант</th><th>Состав на саше</th><th class="n">Магний</th><th class="n">Норма США / ЕС</th><th>ЕС</th><th>Комментарий</th></tr></thead>
+      <tbody>
+        <tr class="us"><td>B «Тройной» (рекомендуем)</td><td>бисглицинат 500 мг (60), малат 500 мг (75), цитрат 450 мг (72)</td><td class="n">207 мг</td><td class="n">49% / 55%</td><td><span class="chip ok">разрешено</span></td><td>самая продаваемая тройка (BioEmblem 50K+ в месяц на Amazon); сырьё дешёвое; одна формула на США и Францию</td></tr>
+        <tr><td>B2 «Мягкий»</td><td>бисглицинат 700 мг (84), малат 450 мг (68), таурат 300 мг (26)</td><td class="n">178 мг</td><td class="n">42% / 47%</td><td><span class="chip ok">разрешено</span></td><td>без цитрата: меньше риск жалоб на желудок, главной беды комплексов; магния меньше</td></tr>
+        <tr><td>A «Вечер»</td><td>бисглицинат 700 мг (84), таурат 450 мг (39), цитрат 300 мг (48)</td><td class="n">171 мг</td><td class="n">41% / 46%</td><td><span class="chip ok">разрешено</span></td><td>спорит с продуктом 1 за ту же задачу</td></tr>
+        <tr><td>C «Фокус»</td><td>треонат Magtein 1 000 мг (77), бисглицинат 300 мг (36), цитрат 150 мг (24)</td><td class="n">137 мг</td><td class="n">33% / 37%</td><td><span class="chip warn">с условиями</span></td><td>в ЕС только сырьё AIDP до 2029, дорогое, доза вдвое ниже изученной</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">В скобках мг чистого магния из каждой формы. Проценты магния в сырье: бисглицинат 12%, малат 15%, цитрат безводный 16%, таурат 8,7%, треонат 7,2-8,3% (источники в complex-formulas.md).</p>
+    <h3>Почему B</h3>
+    <ul>
+      <li>Совпадает с самым продаваемым комплексом на Amazon (глицинат, малат, цитрат) и даёт больше всего магния.</li>
+      <li>Без оксида и с мг каждой формы на лицевой стороне: прямой ответ лидерам, которые доли скрывают.</li>
+      <li>На TikTok Shop комплекс это поисковый запрос, который продаёт объём («complex», «forms»).</li>
+      <li>Если важнее не получать жалоб на желудок, берём B2: тот же принцип, цитрат заменён на таурат.</li>
+    </ul>
+    <h3>Ограничения</h3>
+    <ul>
+      <li>Не продавать продукт 1 и комплекс как пару на день: вместе 378-407 мг магния, выше предела ЕС 250 мг, французского 300 мг и порога TikTok Shop 350 мг.</li>
+      <li>Цифры на этикетке ставим по COA конкретной партии сырья.</li>
+      <li>Название на карточке: «Magnesium Complex, 3 Forms» или «Triple Magnesium Complex» с перечнем форм.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Экономика</div>
+  <div class="sb">
+    <h2>Сколько остаётся с коробки за $29,99</h2>
+    <p>Себестоимость с доставкой до склада в США по трём сценариям производства (из полученных КП): Китай около $3,80, США около $4,00, ЕС около $7,50 (готовая коробка $5,93 у польского завода плюс доставка и пошлина США). К каждому сценарию добавляем <strong>$0,80 на премиальную упаковку</strong> (матовая ламинация, диспенсер, лак): это оценка, точную цену дадут типографии по чертежу.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Строка</th><th class="n">TikTok Shop</th><th class="n">Amazon</th><th>Основание</th></tr></thead>
+      <tbody>
+        <tr><td>Цена коробки</td><td class="n">$29,99</td><td class="n">$29,99</td><td>решение по цене</td></tr>
+        <tr><td>Комиссия площадки</td><td class="n">−$2,40</td><td class="n">−$4,50</td><td>TikTok 8% (с августа 2026, сверить в Seller Center), Amazon 15%</td></tr>
+        <tr><td>Комиссия криейтора</td><td class="n">−$6,00</td><td class="n">0</td><td>20% на TikTok</td></tr>
+        <tr><td>Доставка покупателю / FBA</td><td class="n">−$6,00</td><td class="n">−$5,10</td><td>оценка; FBA для коробки не плоской посылкой</td></tr>
+        <tr><td>Хранение и размещение</td><td class="n">0</td><td class="n">−$0,55</td><td>оценка</td></tr>
+        <tr><td>Возвраты и гарантия 5%</td><td class="n">−$1,50</td><td class="n">−$1,50</td><td>оценка</td></tr>
+        <tr class="sum"><td>Остаток до себестоимости</td><td class="n">$14,09</td><td class="n">$18,34</td><td></td></tr>
+      </tbody>
+    </table></div>
+    <div class="tbl"><table>
+      <thead><tr><th>Сценарий производства</th><th class="n">Себестоимость + упаковка</th><th class="n">TikTok, с коробки</th><th class="n">Amazon до рекламы</th><th class="n">Amazon при рекламе 20%</th></tr></thead>
+      <tbody>
+        <tr><td>Китай</td><td class="n">$4,60</td><td class="n">$9,49 (32%)</td><td class="n">$13,74 (46%)</td><td class="n">$7,74 (26%)</td></tr>
+        <tr><td>США</td><td class="n">$4,80</td><td class="n">$9,29 (31%)</td><td class="n">$13,54 (45%)</td><td class="n">$7,54 (25%)</td></tr>
+        <tr><td>ЕС</td><td class="n">$8,30</td><td class="n">$5,79 (19%)</td><td class="n">$10,04 (33%)</td><td class="n">$4,04 (13%)</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Без Spark Ads и образцов криейторам. Цифры доставки и FBA оценочные, уточняются по весу и размеру готовой коробки. Комплекс по себестоимости близок к продукту 1 (малат и цитрат дешевле бисглицината).</p>
+    <h3>Сколько это в месяц (TikTok Shop, сценарий США)</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Коробок в день</th><th class="n">В месяц</th><th class="n">Выручка</th><th class="n">Остаётся до рекламы и постоянных расходов</th><th>Ориентир на рынке</th></tr></thead>
+      <tbody>
+        <tr><td>10</td><td class="n">300</td><td class="n">$9 000</td><td class="n">$2 790</td><td>ниже лучших чистых глицинатов</td></tr>
+        <tr><td>30</td><td class="n">900</td><td class="n">$26 990</td><td class="n">$8 360</td><td>как лучшие чистые глицинаты (20-50 в день)</td></tr>
+        <tr><td>100</td><td class="n">3 000</td><td class="n">$89 970</td><td class="n">$27 870</td><td>около 3% скорости Toplux</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Выводы по экономике</h3>
+    <ul>
+      <li>Производство в ЕС съедает около $3,50 с каждой коробки. Под США имеет смысл Китай или США, если сырьё и проверка партии те же; под Францию отдельная партия в ЕС.</li>
+      <li>Премиальная упаковка ($0,80) окупается одним процентом конверсии: она и есть главная картинка карточки.</li>
+      <li>Amazon даёт больше с коробки, но только когда реклама падает до 20% цены; первые месяцы она выше.</li>
+      <li>Цена $29,99 держится, только если покупатель сравнивает нас с порционным магнием (Thorne $47), а не с банкой за $14. Это задача упаковки и названия, а не скидок.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Риски</div>
+  <div class="sb">
+    <h2>Что проверить до заказа партии</h2>
+    <ul>
+      <li><strong>Сырьё:</strong> спецификация «бисглицинат полностью хелатированный, без оксида» и COA с измеренным магнием и тяжёлыми металлами до заказа.</li>
+      <li><strong>Комплекс:</strong> пробная набивка 725 мг в капсулу 00; если не входит, все формы уменьшаются пропорционально.</li>
+      <li><strong>Срок:</strong> для карточек нужны фото напечатанной упаковки; без образца к началу декабря запуск 15.12 идёт во временной упаковке или сдвигается.</li>
+      <li><strong>Лаборатория:</strong> отчёт партии от лаборатории ISO/IEC 17025 на имя 518 GROUP LLC; тот же отчёт нужен TikTok Shop (не старше 180 дней) и проверке Amazon.</li>
+      <li><strong>Конкуренты:</strong> Nature's Way уже вошёл в «магний с собой»; формат саше могут повторить, защищает только отчёт партии, бренд и скорость.</li>
+    </ul>
+  </div>
+</section>
+</div>

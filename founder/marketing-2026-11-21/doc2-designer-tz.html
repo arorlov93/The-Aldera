@@ -1,0 +1,521 @@
+<title>ТЗ: коробка и саше Aldera</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: техническое задание; разделы с меткой слева; схемы упаковки в цветах продукта, подписи в цветах темы */
+:root{
+  --bg:#FAF7F5; --surface:#FFFFFF; --ink:#1F1219; --muted:#6B5B65; --line:#E6DCE1;
+  --accent:#3D1E33; --accent-soft:#F1E6EC;
+  --display:"Unbounded","Manrope",system-ui,sans-serif;
+  --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#160F14; --surface:#20171D; --ink:#F2E9EE; --muted:#B5A3AE; --line:#3A2C35;
+  --accent:#D9A6C4; --accent-soft:#35202D; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#160F14; --surface:#20171D; --ink:#F2E9EE; --muted:#B5A3AE; --line:#3A2C35;
+  --accent:#D9A6C4; --accent-soft:#35202D; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:960px;margin:0 auto;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:40px 80px}
+header.top{border-bottom:2px solid var(--ink);padding-bottom:22px}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,5vw,40px);line-height:1.12;margin:8px 0 12px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:500;font-size:clamp(20px,3vw,25px);line-height:1.2;margin:0 0 14px;text-wrap:balance}
+h3{font-weight:700;font-size:17px;margin:24px 0 8px}
+p{margin:0 0 12px;max-width:70ch}
+.lead{font-size:18px;max-width:64ch}
+section{padding-block:34px;border-bottom:1px solid var(--line)}
+ul,ol{margin:0 0 12px;padding-left:22px;max-width:72ch}
+li{margin-bottom:6px}
+li::marker{color:var(--accent)}
+.mono{font-family:var(--mono);font-size:.92em}
+.note{font-size:14px;color:var(--muted)}
+.tbl{overflow-x:auto;margin:10px 0 14px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:600px;font-size:14.5px}
+th,td{text-align:left;padding:8px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--mono);font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:600;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+td.en{font-family:var(--mono);font-size:13px}
+blockquote{margin:10px 0 14px;padding:10px 16px;border-left:3px solid var(--accent);background:var(--surface);max-width:70ch}
+blockquote .ru{display:block;color:var(--muted);font-size:14.5px;margin-top:4px}
+.swatches{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin:12px 0}
+.sw{border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--surface);min-width:0}
+.sw .c{height:64px}
+.sw .t{padding:8px 12px;font-size:13.5px}
+.sw .t b{display:block;font-size:14.5px}
+.sw .t span{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.fig{margin:14px 0 8px;overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px}
+.fig svg{display:block;max-width:100%;height:auto;margin:0 auto}
+figcaption{font-size:13px;color:var(--muted);margin-top:8px}
+svg .lbl{fill:var(--ink);font-family:var(--body)}
+svg .lblm{fill:var(--muted);font-family:var(--body)}
+svg .ln{stroke:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+.two>div{min-width:0}
+.panel{border:1px solid var(--line);border-radius:6px;padding:14px 16px;background:var(--surface)}
+.panel h3{margin-top:0}
+.no{color:var(--muted)}
+@media (min-width:880px){section{display:grid;grid-template-columns:140px 1fr;gap:28px}.sb{min-width:0}}
+a{color:var(--accent)} a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+<header class="top">
+  <div class="eyebrow">The Aldera · документ 2 из 2 · ТЗ дизайнеру · 21.11.2026</div>
+  <h1>Коробка и саше The Aldera: техническое задание</h1>
+  <p class="lead">Нужно разработать упаковку двух продуктов одной системы: месячную коробку-диспенсер и саше с одной порцией. Основа задания: бриф на брендбук владельца. Упаковка должна сразу останавливать взгляд, выглядеть по-взрослому и доказывать, что внутри ровно то, что написано.</p>
+  <p class="note">Тексты на макете ставятся заглушками. Английские строки ниже рабочие, под ними дословный перевод; финальные формулировки дадим на стадии пре-пресса. Состав, Supplement Facts, способ применения и предупреждения переносятся с этикетки производителя дословно.</p>
+</header>
+
+<section>
+  <div class="eyebrow">Бренд</div>
+  <div class="sb">
+    <h2>Позиционирование (из брифа владельца)</h2>
+    <div class="tbl"><table>
+      <tbody>
+        <tr><th>Кто покупает</th><td>Женщины 26-38 лет в США, крупные города и пригороды, офисный или гибридный график, доход позволяет платить за удобство. Их день проходит вне дома: офис, спорт, встречи, ужины, поездки, ночёвки не дома.</td></tr>
+        <tr><th>Проблема</th><td>Добавка куплена, но банка стоит дома в шкафу. Приём зависит от того, вспомнит ли человек заранее отсчитать капсулы. Это проблема логистики, а не дисциплины, поэтому бренд никогда не стыдит за пропуски.</td></tr>
+        <tr><th>Продукт</th><td>Магний в растительных капсулах. Единица продукта не банка, а герметичное саше с одной порцией (2 капсулы). 30 саше в месячной коробке-диспенсере.</td></tr>
+        <tr><th>Обещание</th><td>One packet. One serving. Ready to go.</td></tr>
+        <tr><th>Brand line</th><td>Self-care with somewhere to be. <span class="no">(Забота о себе, у которой есть планы.)</span></td></tr>
+        <tr><th>Доказательства</th><td>200 мг чистого магния в саше (100 мг в капсуле), без оксида магния; каждая партия проверена независимой лабораторией; отчёт партии открывается по QR на коробке и на саше.</td></tr>
+        <tr><th>Отличие</th><td>Один знакомый продукт в одном саше, переноска как главный сценарий, дизайн уровня бьюти-аксессуара, характер с юмором, честные слова без обещаний чудес.</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Фраза позиционирования</h3>
+    <blockquote>For women whose day doesn't happen at home: magnesium already packed, one sealed sachet per serving, every batch checked by an independent lab. Self-care with somewhere to be.
+      <span class="ru">Для женщин, чей день проходит не дома: магний, уже собранный в дорогу, одно закрытое саше на порцию, каждая партия проверена независимой лабораторией. Забота о себе, у которой есть планы.</span></blockquote>
+    <h3>Чего упаковка должна добиться</h3>
+    <ol>
+      <li>Остановить взгляд в ленте TikTok и в выдаче Amazon, где стоят белые, янтарные и синие банки.</li>
+      <li>За 2 секунды сказать: магний, 200 мг, 30 саше, проверено лабораторией.</li>
+      <li>Выглядеть как вещь, которую не стыдно достать из сумки за ужином и поставить на туалетный столик.</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Характер</div>
+  <div class="sb">
+    <h2>Как должна ощущаться упаковка</h2>
+    <div class="two">
+      <div class="panel"><h3>Да</h3>
+        <ul>
+          <li>Взрослая и уверенная: спокойная, дорогая на ощупь, без суеты.</li>
+          <li>Тёплая: насыщенный цвет, мягкий матовый материал.</li>
+          <li>С лёгкой иронией в мелочах: одна короткая фраза в неожиданном месте, а не шутки на лицевой стороне.</li>
+          <li>Честная: цифры крупно, доказательство на виду.</li>
+        </ul></div>
+      <div class="panel"><h3>Нет (из брифа)</h3>
+        <ul>
+          <li>Аптека: белая банка, синий крестик, капсулы на белом.</li>
+          <li>Наука: молекулы, формулы, колбы.</li>
+          <li>Мистика: кристаллы, глаза, таро.</li>
+          <li>Бежевый с шалфеем, листочки и капли.</li>
+          <li>Холодный безликий минимализм.</li>
+          <li>Мультяшность, конфетность, 3D люди. Упаковка не детская.</li>
+          <li>Экозначки и «зелёные» символы без подтверждения.</li>
+        </ul></div>
+    </div>
+    <h3>Референсы: берём принцип, не стиль</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Референс</th><th>Принцип</th><th>Как применяем</th></tr></thead>
+      <tbody>
+        <tr><td>Rhode</td><td>Узкое ядро; предмет красив в кадре сам по себе</td><td>Саше и коробка работают как объект: одно саше на столе уже готовый кадр для ролика</td></tr>
+        <tr><td>Recess Mood</td><td>Упаковка и язык не похожи на БАДы</td><td>Цветовое поле вместо этикетки на белом; спокойная типографика; никаких медицинских символов</td></tr>
+        <tr><td>Ritual</td><td>Читаемый фронт: что внутри, сколько, зачем</td><td>На лицевой стороне ровно три вещи крупно: Magnesium, 200 mg, 30 sachets</td></tr>
+        <tr><td>Cymbiotika</td><td>Смелый цвет; саше и коробка одной системой</td><td>Один насыщенный цвет на продукт, одинаковый на коробке и саше</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Система</div>
+  <div class="sb">
+    <h2>Два продукта, одна система</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Продукт</th><th>Название на упаковке</th><th>Главная цифра</th><th>Цвет</th></tr></thead>
+      <tbody>
+        <tr><td>1. Магний бисглицинат</td><td class="en">Magnesium · Bisglycinate</td><td class="en">200 mg magnesium per sachet · 100 mg per capsule</td><td>Слива</td></tr>
+        <tr><td>2. Магниевый комплекс</td><td class="en">Magnesium Complex · 3 forms</td><td class="en">207 mg per sachet + мг каждой формы</td><td>Медь</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li>Одинаковая сетка, шрифты, место логотипа и блока проверки партии на обоих продуктах. Отличаются только цвет, название и цифры.</li>
+      <li>Система должна принимать следующие продукты линейки без перерисовки: новый цвет, новое название, та же сетка.</li>
+      <li>Цифры комплекса (мг каждой формы) предварительные, финальные дадим по спецификации сырья.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Цвет</div>
+  <div class="sb">
+    <h2>Цвета</h2>
+    <p>Точных цветов в брифе нет; ниже направление. Цвет продукта занимает почти всю поверхность коробки и саше: это главный способ выделиться среди белых банок. Подобрать ближайшие Pantone и CMYK, проверить на матовом материале.</p>
+    <div class="swatches">
+      <div class="sw"><div class="c" style="background:#3D1E33"></div><div class="t"><b>Слива</b><span>#3D1E33 · продукт 1, фон</span></div></div>
+      <div class="sw"><div class="c" style="background:#E8C4C6"></div><div class="t"><b>Пудра</b><span>#E8C4C6 · акцент продукта 1</span></div></div>
+      <div class="sw"><div class="c" style="background:#9C4529"></div><div class="t"><b>Медь</b><span>#9C4529 · продукт 2, фон</span></div></div>
+      <div class="sw"><div class="c" style="background:#F1C7A4"></div><div class="t"><b>Абрикос</b><span>#F1C7A4 · акцент продукта 2</span></div></div>
+      <div class="sw"><div class="c" style="background:#F4EFE9;border-bottom:1px solid #E6DCE1"></div><div class="t"><b>Кость</b><span>#F4EFE9 · текст на цвете, блок проверки</span></div></div>
+      <div class="sw"><div class="c" style="background:#1F1219"></div><div class="t"><b>Чернила</b><span>#1F1219 · текст на светлом</span></div></div>
+    </div>
+    <ul>
+      <li><strong>Почему так:</strong> слива читается как вечер и взрослая косметика, медь как тепло и движение. Оба цвета не встречаются в топе магния на Amazon и TikTok Shop (там белый, янтарный, синий, чёрный).</li>
+      <li><strong>Правило контраста:</strong> текст «кость» на сливе и меди, «чернила» на пудре, абрикосе и кости. Мелкий текст не печатать акцентным цветом по фону продукта.</li>
+      <li><strong>Запасное направление</strong> на случай, если слива окажется слишком тёмной на фото: малиново-ягодный #8A1F4A для продукта 1 и шафрановый #C9861F для продукта 2, остальное то же.</li>
+      <li>Не использовать: белый как основной фон, аптечный синий, неон, пастель «как конфета», градиенты.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Шрифт</div>
+  <div class="sb">
+    <h2>Типографика</h2>
+    <ul>
+      <li><strong>Название продукта:</strong> современный гротеск с характером, средней или полужирной насыщенности. Слово «Magnesium» самый крупный элемент лицевой стороны.</li>
+      <li><strong>Цифры и блок проверки:</strong> узкий или моноширинный шрифт: номер партии, лаборатория, мг. Даёт ощущение документа без научных символов.</li>
+      <li><strong>Логотип The Aldera:</strong> не крупнее названия продукта (принцип Ritual: продаём то, что внутри).</li>
+      <li>Не использовать: системные шрифты по умолчанию, рукописные и скругло-игривые шрифты, больше двух семейств. Лицензия на коммерческое использование и упаковку обязательна.</li>
+      <li>Минимальные размеры: на коробке 7 pt; Supplement Facts по правилам FDA (основной текст не меньше 8 pt); на саше 6 pt; количество на лицевой стороне коробки высотой не меньше 3,2 мм.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Проверка</div>
+  <div class="sb">
+    <h2>Блок «Отчёт партии»: главный элемент</h2>
+    <p>Это то, чего нет ни у одного конкурента: названная лаборатория и QR, который открывает результаты именно этой партии. Блок должен быть заметным и выглядеть как знак качества дорогого бренда (чистая типографика, рамка, цифры), а не как лаборатория: без колб, пробирок и молекул.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Где</th><th>Что в блоке</th><th>Размер</th></tr></thead>
+      <tbody>
+        <tr><td>Лицевая сторона коробки</td><td>Знак-печать: «Every batch lab-tested» + малый QR</td><td>QR не меньше 18 × 18 мм</td></tr>
+        <tr><td>Бок коробки (целая панель)</td><td>«Batch report», QR, поле LOT и EXP, название лаборатории, «ISO/IEC 17025», что проверяем, адрес страницы</td><td>QR не меньше 22 × 22 мм</td></tr>
+        <tr><td>Оборот каждого саше</td><td>Мини-QR, LOT и EXP, «Lab-tested batch»</td><td>QR не меньше 12 × 12 мм</td></tr>
+      </tbody>
+    </table></div>
+    <h3>Рабочий текст для боковой панели</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Строка (EN)</th><th>Дословный перевод</th></tr></thead>
+      <tbody>
+        <tr><td class="en">Batch report</td><td>Отчёт партии</td></tr>
+        <tr><td class="en">Every batch is tested by [Lab name], an independent ISO/IEC 17025 accredited lab.</td><td>Каждую партию проверяет [название лаборатории], независимая лаборатория с аккредитацией ISO/IEC 17025.</td></tr>
+        <tr><td class="en">We test: magnesium content · lead · cadmium · mercury · arsenic · microbiology</td><td>Мы проверяем: содержание магния · свинец · кадмий · ртуть · мышьяк · микробиология</td></tr>
+        <tr><td class="en">Scan to see the results for this batch.</td><td>Отсканируйте, чтобы увидеть результаты этой партии.</td></tr>
+        <tr><td class="en">LOT ______ · EXP ______</td><td>Партия ______ · Годен до ______</td></tr>
+        <tr><td class="en">thealdera.com/batch</td><td>адрес страницы отчётов</td></tr>
+      </tbody>
+    </table></div>
+    <ul>
+      <li>QR тёмным по светлому («чернила» по «кость»), белое поле вокруг не меньше 2 мм. Должен считываться телефоном с 20 см с саше и с 40 см с коробки.</li>
+      <li>Поле LOT и EXP оставить незапечатанным светлым окном: номер наносится на линии фасовки.</li>
+      <li>Название лаборатории и адрес QR дадим перед печатью; в макете заглушка правильного размера.</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Коробка</div>
+  <div class="sb">
+    <h2>Коробка-диспенсер</h2>
+    <h3>Конструкция</h3>
+    <ul>
+      <li><strong>Футляр с выдвижным лотком</strong> (как коробка дорогой косметики или украшений): внешний футляр с печатью, внутри лоток, в нём 30 саше стоят в два ряда по 15. Лоток выдвигается за вырез под палец. Коробка стоит на столе открытой и сама выдаёт саше по одному.</li>
+      <li>Рабочий размер лицевой стороны около 105 × 150 мм (вертикально), глубина около 70 мм. Финальный размер по образцу саше и развёртке производителя.</li>
+      <li>Запасной вариант, если футляр не проходит по цене: коробка с откидной верхней крышкой и перфорацией «Pull to open», саше стоят внутри в два ряда.</li>
+    </ul>
+    <h3>Материал и отделка</h3>
+    <ul>
+      <li>Плотный белый картон 350-400 г/м² (SBS или FBB).</li>
+      <li>Матовая ламинация soft-touch (бархатистая на ощупь) по всему футляру.</li>
+      <li>Одна выборочная отделка: глянцевый выборочный лак на слове «Magnesium» или блинтовое тиснение логотипа. Не больше одной, иначе дешевит.</li>
+      <li>Печать внутри лотка: одна фраза на дне (см. «Юмор»).</li>
+      <li>Без фольги «под золото», без голограмм.</li>
+    </ul>
+
+    <h3>Лицевая сторона: схема</h3>
+    <figure class="fig">
+      <svg viewBox="0 0 700 380" role="img" aria-label="Схема лицевой стороны коробки для двух продуктов">
+        <!-- Продукт 1 -->
+        <g transform="translate(20,16)">
+          <rect width="210" height="300" rx="4" fill="#3D1E33"/>
+          <text x="105" y="26" text-anchor="middle" font-size="10" letter-spacing="3" fill="#F4EFE9" font-family="Manrope, sans-serif">THE ALDERA</text>
+          <text x="16" y="86" font-size="33" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">Magnesium</text>
+          <text x="16" y="106" font-size="13" fill="#E8C4C6" font-family="Manrope, sans-serif">Bisglycinate</text>
+          <text x="16" y="146" font-size="26" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">200 mg</text>
+          <text x="16" y="161" font-size="9" fill="#F4EFE9" font-family="Manrope, sans-serif">magnesium per sachet</text>
+          <text x="16" y="173" font-size="9" fill="#E8C4C6" font-family="Manrope, sans-serif">100 mg per capsule</text>
+          <g transform="rotate(-7 160 158)">
+            <rect x="134" y="118" width="54" height="78" rx="4" fill="#5A2C4B" stroke="#E8C4C6" stroke-width="1"/>
+            <text x="161" y="146" text-anchor="middle" font-size="6.5" fill="#F4EFE9" font-family="Manrope, sans-serif">Magnesium</text>
+            <text x="161" y="160" text-anchor="middle" font-size="9" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">200 mg</text>
+          </g>
+          <text x="16" y="198" font-size="8.5" fill="#E8C4C6" font-family="Manrope, sans-serif">No magnesium oxide</text>
+          <rect x="12" y="206" width="186" height="34" rx="3" fill="#F4EFE9"/>
+          <text x="20" y="221" font-size="8.5" font-weight="700" fill="#1F1219" font-family="Manrope, sans-serif">Every batch lab-tested</text>
+          <text x="20" y="233" font-size="7.5" fill="#1F1219" font-family="Manrope, sans-serif">Scan your batch report</text>
+          <rect x="166" y="210" width="26" height="26" fill="none" stroke="#1F1219" stroke-width="1.2"/>
+          <text x="179" y="226" text-anchor="middle" font-size="6.5" fill="#1F1219" font-family="Manrope, sans-serif">QR</text>
+          <line x1="12" y1="252" x2="198" y2="252" stroke="#E8C4C6" stroke-width=".6"/>
+          <text x="16" y="268" font-size="8" fill="#F4EFE9" font-family="Manrope, sans-serif">[функция с этикетки*]</text>
+          <text x="16" y="286" font-size="8.5" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">DIETARY SUPPLEMENT · 30 SACHETS · 60 CAPSULES</text>
+        </g>
+        <!-- Продукт 2 -->
+        <g transform="translate(250,16)">
+          <rect width="210" height="300" rx="4" fill="#9C4529"/>
+          <text x="105" y="26" text-anchor="middle" font-size="10" letter-spacing="3" fill="#F4EFE9" font-family="Manrope, sans-serif">THE ALDERA</text>
+          <text x="16" y="86" font-size="33" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">Magnesium</text>
+          <text x="16" y="106" font-size="13" fill="#F1C7A4" font-family="Manrope, sans-serif">Complex · 3 forms</text>
+          <text x="16" y="138" font-size="9" fill="#F4EFE9" font-family="Manrope, sans-serif">Bisglycinate</text><text x="118" y="138" text-anchor="end" font-size="9" fill="#F4EFE9" font-family="Manrope, sans-serif">60 mg</text>
+          <text x="16" y="151" font-size="9" fill="#F4EFE9" font-family="Manrope, sans-serif">Malate</text><text x="118" y="151" text-anchor="end" font-size="9" fill="#F4EFE9" font-family="Manrope, sans-serif">75 mg</text>
+          <text x="16" y="164" font-size="9" fill="#F4EFE9" font-family="Manrope, sans-serif">Citrate</text><text x="118" y="164" text-anchor="end" font-size="9" fill="#F4EFE9" font-family="Manrope, sans-serif">72 mg</text>
+          <line x1="16" y1="170" x2="118" y2="170" stroke="#F1C7A4" stroke-width=".6"/>
+          <text x="16" y="185" font-size="12" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">207 mg</text><text x="118" y="185" text-anchor="end" font-size="8" fill="#F1C7A4" font-family="Manrope, sans-serif">per sachet</text>
+          <g transform="rotate(-7 160 158)">
+            <rect x="134" y="118" width="54" height="78" rx="4" fill="#B5603F" stroke="#F1C7A4" stroke-width="1"/>
+            <text x="161" y="146" text-anchor="middle" font-size="6.5" fill="#F4EFE9" font-family="Manrope, sans-serif">Mg Complex</text>
+            <text x="161" y="160" text-anchor="middle" font-size="9" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">207 mg</text>
+          </g>
+          <text x="16" y="198" font-size="8.5" fill="#F1C7A4" font-family="Manrope, sans-serif">No magnesium oxide</text>
+          <rect x="12" y="206" width="186" height="34" rx="3" fill="#F4EFE9"/>
+          <text x="20" y="221" font-size="8.5" font-weight="700" fill="#1F1219" font-family="Manrope, sans-serif">Every batch lab-tested</text>
+          <text x="20" y="233" font-size="7.5" fill="#1F1219" font-family="Manrope, sans-serif">Scan your batch report</text>
+          <rect x="166" y="210" width="26" height="26" fill="none" stroke="#1F1219" stroke-width="1.2"/>
+          <text x="179" y="226" text-anchor="middle" font-size="6.5" fill="#1F1219" font-family="Manrope, sans-serif">QR</text>
+          <line x1="12" y1="252" x2="198" y2="252" stroke="#F1C7A4" stroke-width=".6"/>
+          <text x="16" y="268" font-size="8" fill="#F4EFE9" font-family="Manrope, sans-serif">[функция с этикетки*]</text>
+          <text x="16" y="286" font-size="8.5" font-weight="700" fill="#F4EFE9" font-family="Manrope, sans-serif">DIETARY SUPPLEMENT · 30 SACHETS · 60 CAPSULES</text>
+        </g>
+        <!-- Подписи -->
+        <g font-size="11.5">
+          <text x="480" y="44" class="lbl" font-weight="700">1 · Бренд, малый</text>
+          <text x="480" y="98" class="lbl" font-weight="700">2 · Magnesium, самый крупный</text>
+          <text x="480" y="114" class="lblm">форма вторым уровнем</text>
+          <text x="480" y="160" class="lbl" font-weight="700">3 · Главная цифра</text>
+          <text x="480" y="176" class="lblm">у комплекса мг каждой формы</text>
+          <text x="480" y="200" class="lbl" font-weight="700">4 · Саше в натуральную</text>
+          <text x="480" y="216" class="lblm">величину, справа</text>
+          <text x="480" y="244" class="lbl" font-weight="700">5 · Знак проверки + QR</text>
+          <text x="480" y="284" class="lbl" font-weight="700">6 · Нижние 30%:</text>
+          <text x="480" y="300" class="lblm">категория и количество</text>
+          <text x="480" y="316" class="lblm">(обязательно по FDA)</text>
+        </g>
+        <text x="125" y="350" text-anchor="middle" font-size="12" class="lblm">Продукт 1 · слива</text>
+        <text x="355" y="350" text-anchor="middle" font-size="12" class="lblm">Продукт 2 · медь</text>
+      </svg>
+      <figcaption>Схема зон и порядка чтения, не дизайн. Пропорции и шрифты подбирает дизайнер. Тексты рабочие.</figcaption>
+    </figure>
+
+    <h3>Лицевая сторона: что и где</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>#</th><th>Элемент</th><th>Рабочий текст</th><th>Перевод</th><th>Правило</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Логотип</td><td class="en">THE ALDERA</td><td>бренд</td><td>верх, небольшой, не крупнее названия</td></tr>
+        <tr><td>2</td><td>Название</td><td class="en">Magnesium<br>Bisglycinate / Complex · 3 forms</td><td>Магний<br>Бисглицинат / Комплекс · 3 формы</td><td>самый крупный элемент; читается в картинке 120 × 120 пикселей</td></tr>
+        <tr><td>3</td><td>Доза</td><td class="en">200 mg magnesium per sachet<br>100 mg per capsule</td><td>200 мг магния в саше<br>100 мг в капсуле</td><td>вторая по размеру; у комплекса столбик «форма, мг» и итог 207 mg</td></tr>
+        <tr><td>4</td><td>Саше</td><td>изображение саше</td><td></td><td>в натуральную величину, с лёгкой тенью; показывает формат, которого нет у конкурентов</td></tr>
+        <tr><td>5</td><td>Чистота</td><td class="en">No magnesium oxide</td><td>Без оксида магния</td><td>одна строка; ставим только при подтверждении спецификацией сырья</td></tr>
+        <tr><td>6</td><td>Знак проверки</td><td class="en">Every batch lab-tested · Scan your batch report</td><td>Каждая партия проверена в лаборатории · Отсканируйте отчёт своей партии</td><td>светлая плашка + QR от 18 мм</td></tr>
+        <tr><td>7</td><td>Функция</td><td>[с этикетки производителя]*</td><td></td><td>только формулировка производителя, со звёздочкой *</td></tr>
+        <tr><td>8</td><td>Категория и количество</td><td class="en">DIETARY SUPPLEMENT · 30 SACHETS · 60 VEGAN CAPSULES</td><td>БАД · 30 саше · 60 растительных капсул</td><td>нижние 30% лицевой стороны, высота цифр от 3,2 мм</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Остальные стороны</h3>
+    <figure class="fig">
+      <svg viewBox="0 0 700 250" role="img" aria-label="Карта сторон футляра и лотка">
+        <g font-family="Manrope, sans-serif">
+          <rect x="10" y="40" width="80" height="150" fill="#5A2C4B"/><text x="50" y="112" text-anchor="middle" font-size="10" fill="#F4EFE9">Бок A</text><text x="50" y="126" text-anchor="middle" font-size="8" fill="#E8C4C6">Supplement</text><text x="50" y="137" text-anchor="middle" font-size="8" fill="#E8C4C6">Facts</text>
+          <rect x="94" y="40" width="105" height="150" fill="#3D1E33"/><text x="146" y="112" text-anchor="middle" font-size="11" font-weight="700" fill="#F4EFE9">Лицо</text>
+          <rect x="203" y="40" width="80" height="150" fill="#5A2C4B"/><text x="243" y="112" text-anchor="middle" font-size="10" fill="#F4EFE9">Бок B</text><text x="243" y="126" text-anchor="middle" font-size="8" fill="#E8C4C6">Batch</text><text x="243" y="137" text-anchor="middle" font-size="8" fill="#E8C4C6">report</text>
+          <rect x="287" y="40" width="105" height="150" fill="#3D1E33"/><text x="339" y="112" text-anchor="middle" font-size="11" font-weight="700" fill="#F4EFE9">Оборот</text>
+          <rect x="430" y="70" width="105" height="70" fill="#E8C4C6"/><text x="482" y="100" text-anchor="middle" font-size="10" fill="#1F1219">Торец лотка</text><text x="482" y="114" text-anchor="middle" font-size="8" fill="#1F1219">вырез под палец</text>
+          <rect x="560" y="40" width="105" height="150" fill="#F4EFE9" stroke="#E8C4C6"/><text x="612" y="112" text-anchor="middle" font-size="10" fill="#1F1219">Дно лотка</text><text x="612" y="126" text-anchor="middle" font-size="8" fill="#1F1219">одна фраза</text>
+        </g>
+        <text x="200" y="220" text-anchor="middle" font-size="12" class="lblm">Футляр: развёртка вокруг</text>
+        <text x="548" y="220" text-anchor="middle" font-size="12" class="lblm">Лоток</text>
+      </svg>
+      <figcaption>Условная карта. Реальная развёртка от производителя упаковки.</figcaption>
+    </figure>
+    <div class="tbl"><table>
+      <thead><tr><th>Сторона</th><th>Содержание</th><th>Рабочий текст и перевод</th></tr></thead>
+      <tbody>
+        <tr><td>Оборот</td><td>Brand line крупно; история в 2-3 строки; как пользоваться в три шага простыми линейными пиктограммами; адрес сайта; штрихкод UPC внизу</td><td><span class="mono">Self-care with somewhere to be.</span> (Забота о себе, у которой есть планы.)<br><span class="mono">Pull one. Drop it in your bag. Take two capsules wherever the day goes.</span> (Достань одно. Брось в сумку. Прими две капсулы там, где окажешься.)</td></tr>
+        <tr><td>Бок A</td><td>Supplement Facts, прочие ингредиенты, способ применения, предупреждения, условия хранения, сноска * про FDA, «Distributed by», страна производства</td><td>Дословно с этикетки производителя. <span class="mono">Distributed by 518 GROUP LLC, 7901 4th St N, Suite 300, St. Petersburg, FL 33702</span>. <span class="mono">Made in [страна]</span>.</td></tr>
+        <tr><td>Бок B</td><td>Блок «Отчёт партии» во всю панель (см. раздел «Проверка»)</td><td><span class="mono">Batch report</span> (Отчёт партии) и строки выше</td></tr>
+        <tr><td>Торец лотка</td><td>Логотип, название продукта, вырез под палец, маленькое «Pull»</td><td><span class="mono">Pull</span> (Потяни)</td></tr>
+        <tr><td>Дно лотка</td><td>Одна фраза, видна, когда саше заканчиваются; адрес для повторного заказа</td><td><span class="mono">All 30 went places. Restock at thealdera.com</span> (Все 30 побывали где-то. Пополнить на thealdera.com)</td></tr>
+        <tr><td>Дно футляра</td><td>Честная строка о материалах</td><td><span class="mono">Box: recycle with paper. Sachets: multi-layer film, not curbside recyclable.</span> (Коробка: сдавать с бумагой. Саше: многослойная плёнка, в обычную переработку не идёт.)</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Строка о материалах прямо из ценности «Честность» брифа: говорим даже о неудобном, из чего сделано саше. Слово «recyclable» про саше не писать.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Саше</div>
+  <div class="sb">
+    <h2>Саше</h2>
+    <h3>Формат</h3>
+    <ul>
+      <li>Рабочий размер 45 × 65 мм (вертикально), внутри 2 капсулы размера 00 рядом. Меньше половины банковской карты: помещается в карман, кошелёк, косметичку.</li>
+      <li>Материал: матовая многослойная плёнка с барьером от влаги и воздуха (PET/AL/PE или металлизированная). Магний бисглицинат тянет влагу, барьер обязателен.</li>
+      <li>Скруглённые углы (радиус около 3 мм), надсечка для отрыва с одной стороны и лазерная линия, чтобы саше открывалось одной рукой и ровно.</li>
+      <li>Печать полноцветная с двух сторон; один выборочный глянец на логотипе по матовому фону.</li>
+    </ul>
+    <figure class="fig">
+      <svg viewBox="0 0 640 330" role="img" aria-label="Схема лица и оборота саше">
+        <g font-family="Manrope, sans-serif">
+          <g transform="translate(30,20)">
+            <rect width="135" height="195" rx="9" fill="#3D1E33"/>
+            <path d="M118 0 L135 10" stroke="#E8C4C6" stroke-width="1"/>
+            <line x1="0" y1="22" x2="135" y2="22" stroke="#E8C4C6" stroke-width=".7" stroke-dasharray="3 3"/>
+            <text x="12" y="16" font-size="7" fill="#E8C4C6">tear here</text>
+            <text x="67" y="44" text-anchor="middle" font-size="7.5" letter-spacing="2" fill="#F4EFE9">THE ALDERA</text>
+            <text x="12" y="92" font-size="22" font-weight="700" fill="#F4EFE9">Magnesium</text>
+            <text x="12" y="108" font-size="9" fill="#E8C4C6">Bisglycinate</text>
+            <text x="12" y="140" font-size="24" font-weight="700" fill="#F4EFE9">200 mg</text>
+            <text x="12" y="153" font-size="7.5" fill="#F4EFE9">magnesium · 2 capsules</text>
+            <rect x="12" y="166" width="111" height="18" rx="2" fill="#F4EFE9"/>
+            <text x="67" y="178" text-anchor="middle" font-size="7" font-weight="700" fill="#1F1219">LAB-TESTED BATCH</text>
+          </g>
+          <g transform="translate(210,20)">
+            <rect width="135" height="195" rx="9" fill="#3D1E33"/>
+            <line x1="0" y1="22" x2="135" y2="22" stroke="#E8C4C6" stroke-width=".7" stroke-dasharray="3 3"/>
+            <text x="12" y="44" font-size="8" fill="#F4EFE9">Tear. Take two. Carry on.</text>
+            <text x="12" y="62" font-size="6.5" fill="#E8C4C6">Dietary supplement · 2 capsules</text>
+            <text x="12" y="72" font-size="6.5" fill="#E8C4C6">Keep out of reach of children</text>
+            <text x="12" y="82" font-size="6.5" fill="#E8C4C6">Distributed by 518 GROUP LLC</text>
+            <rect x="10" y="96" width="115" height="88" rx="3" fill="#F4EFE9"/>
+            <rect x="18" y="106" width="40" height="40" fill="none" stroke="#1F1219" stroke-width="1.2"/>
+            <text x="38" y="129" text-anchor="middle" font-size="7" fill="#1F1219">QR</text>
+            <text x="66" y="116" font-size="6.5" fill="#1F1219">Scan this</text>
+            <text x="66" y="126" font-size="6.5" fill="#1F1219">batch report</text>
+            <rect x="18" y="156" width="99" height="20" fill="#FFFFFF" stroke="#1F1219" stroke-width=".5" stroke-dasharray="2 2"/>
+            <text x="67" y="169" text-anchor="middle" font-size="6.5" fill="#1F1219">LOT ____ EXP ____</text>
+          </g>
+        </g>
+        <text x="97" y="240" text-anchor="middle" font-size="12" class="lblm">Лицо</text>
+        <text x="277" y="240" text-anchor="middle" font-size="12" class="lblm">Оборот</text>
+        <g font-size="11.5">
+          <text x="380" y="46" class="lbl" font-weight="700">Надсечка и линия отрыва</text>
+          <text x="380" y="62" class="lblm">открывается одной рукой</text>
+          <text x="380" y="110" class="lbl" font-weight="700">Название и доза</text>
+          <text x="380" y="126" class="lblm">читаются с вытянутой руки</text>
+          <text x="380" y="174" class="lbl" font-weight="700">Блок проверки</text>
+          <text x="380" y="190" class="lblm">мини-QR от 12 мм, окно LOT/EXP</text>
+          <text x="380" y="206" class="lblm">незапечатанное под маркировку</text>
+          <text x="380" y="250" class="lbl" font-weight="700">Масштаб схемы 3:1</text>
+        </g>
+      </svg>
+      <figcaption>Схема саше продукта 1. Продукт 2 тот же макет в меди с «Mg Complex · 207 mg».</figcaption>
+    </figure>
+    <div class="tbl"><table>
+      <thead><tr><th>Сторона</th><th>Элемент</th><th>Рабочий текст</th><th>Перевод</th></tr></thead>
+      <tbody>
+        <tr><td>Лицо</td><td>Логотип</td><td class="en">THE ALDERA</td><td>бренд</td></tr>
+        <tr><td>Лицо</td><td>Название, доза</td><td class="en">Magnesium · Bisglycinate · 200 mg magnesium · 2 capsules</td><td>Магний · бисглицинат · 200 мг магния · 2 капсулы</td></tr>
+        <tr><td>Лицо</td><td>Знак</td><td class="en">LAB-TESTED BATCH</td><td>Партия проверена в лаборатории</td></tr>
+        <tr><td>Оборот</td><td>Фраза</td><td class="en">Tear. Take two. Carry on.</td><td>Оторви. Прими две. Живи дальше.</td></tr>
+        <tr><td>Оборот</td><td>Обязательное</td><td class="en">Dietary supplement · Keep out of reach of children · Distributed by 518 GROUP LLC</td><td>БАД · Хранить в недоступном для детей месте · Дистрибьютор 518 GROUP LLC</td></tr>
+        <tr><td>Оборот</td><td>Проверка</td><td class="en">Scan this batch report · LOT ____ EXP ____</td><td>Отсканируйте отчёт этой партии · Партия ____ Годен до ____</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Саше могут попадать в руки отдельно от коробки (сумка, образцы криейторам), поэтому на нём есть всё, чтобы понять, что это и откуда.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Юмор</div>
+  <div class="sb">
+    <h2>Где и как шутим</h2>
+    <ul>
+      <li>Шутка живёт в неожиданных местах: оборот саше, дно лотка, внутренний клапан, оборот коробки. На лицевой стороне шуток нет: там цифры и доказательство.</li>
+      <li>Тон: сухая ирония взрослого человека про хаос дня, сумки и планы. Никогда не стыдим за пропуски.</li>
+      <li>Никогда не шутим про дозу, лабораторию, сон, стресс, здоровье.</li>
+      <li>Одна фраза на поверхность, не больше. Без восклицательных знаков и эмодзи.</li>
+    </ul>
+    <div class="tbl"><table>
+      <thead><tr><th>Место</th><th>Пример тона (EN)</th><th>Перевод</th></tr></thead>
+      <tbody>
+        <tr><td>Оборот саше</td><td class="en">Tear. Take two. Carry on.</td><td>Оторви. Прими две. Живи дальше.</td></tr>
+        <tr><td>Дно лотка</td><td class="en">All 30 went places.</td><td>Все 30 побывали где-то.</td></tr>
+        <tr><td>Оборот коробки</td><td class="en">Made for bags, not bathroom shelves.</td><td>Сделано для сумок, а не для полок в ванной.</td></tr>
+        <tr><td>Внутренний клапан</td><td class="en">Already packed. Unlike your weekend bag.</td><td>Уже собрано. В отличие от твоей сумки на выходные.</td></tr>
+      </tbody>
+    </table></div>
+    <p class="note">Это примеры тона для макета, финальные фразы утверждаются на пре-прессе.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Внимание</div>
+  <div class="sb">
+    <h2>Почему это остановит взгляд</h2>
+    <ol>
+      <li><strong>Цвет:</strong> одно насыщенное поле сливы или меди на белом фоне карточки Amazon и среди белых и синих банок TikTok Shop.</li>
+      <li><strong>Одно слово крупно:</strong> «Magnesium» и «200 mg» читаются даже в маленькой картинке выдачи.</li>
+      <li><strong>Саше рядом с коробкой:</strong> формат, которого нет ни у одного конкурента, виден сразу на главном фото.</li>
+      <li><strong>QR на лицевой стороне:</strong> знак «проверь сам», которого нет на полке.</li>
+      <li><strong>Движение для ролика:</strong> выдвинуть лоток, увидеть 30 саше в два ряда, оторвать одно со звуком. Упаковка сама даёт первый кадр.</li>
+      <li><strong>На ощупь:</strong> soft-touch и выборочный глянец, это видно и слышно в распаковке.</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Правила</div>
+  <div class="sb">
+    <h2>Обязательные требования</h2>
+    <h3>США (FDA)</h3>
+    <ul>
+      <li>Лицевая сторона: название продукта и слово «Dietary Supplement»; количество в нижних 30% («30 sachets, 60 capsules»).</li>
+      <li>Supplement Facts, ингредиенты, способ применения, предупреждения, функции со звёздочкой * и сноска FDA переносятся с этикетки производителя дословно.</li>
+      <li>«Distributed by 518 GROUP LLC» с адресом; страна производства («Made in …»).</li>
+      <li>LOT и срок годности на коробке и на каждом саше.</li>
+      <li>Только звёздочка *, крестики † запрещены. Без логотипа FDA и слов «FDA approved».</li>
+    </ul>
+    <h3>Площадки</h3>
+    <ul>
+      <li>Главное фото на TikTok Shop и Amazon: белый фон, без текста поверх, только реальное фото (рендеры не принимают). Весь продающий текст должен быть напечатан на упаковке.</li>
+      <li>Amazon требует, чтобы на фото читались Supplement Facts, номер партии и адрес дистрибьютора: бок A и окно LOT должны быть читаемы на фото 1600 пикселей.</li>
+      <li>Нельзя на упаковке и в названии: лечение болезней, «anxiety», «stress relief», «#1», «best seller».</li>
+    </ul>
+    <h3>Франция (весна 2027)</h3>
+    <p>Отдельный тираж: французский язык, «complément alimentaire», % нормы, обязательные предупреждения ЕС, адрес ответственного лица в ЕС. Сетку строить так, чтобы текстовые блоки менялись без перерисовки.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Сдача</div>
+  <div class="sb">
+    <h2>Что сдать и как принимаем</h2>
+    <h3>Этапы</h3>
+    <ol>
+      <li><strong>Концепция:</strong> 2 направления в рамках этого ТЗ, каждое: лицо коробки и лицо саше для обоих продуктов, плюс фото-макет «коробка + саше на белом фоне».</li>
+      <li><strong>Доработка</strong> выбранного направления: все стороны футляра, лоток, оборот саше.</li>
+      <li><strong>Печатные файлы:</strong> по развёрткам производителя, PDF/X-1a или PDF/X-4, CMYK + не больше одного Pantone, вылеты 3 мм, шрифты в кривых, QR и окно LOT как отдельные слои; исходники (AI или Figma).</li>
+      <li><strong>Мини-гид:</strong> цвета (HEX, CMYK, Pantone), шрифты, отступы логотипа, блок «Отчёт партии» как компонент.</li>
+    </ol>
+    <h3>Проверки приёмки</h3>
+    <div class="tbl"><table>
+      <thead><tr><th>Проверка</th><th>Как</th></tr></thead>
+      <tbody>
+        <tr><td>Маленькая картинка</td><td>Лицо коробки уменьшено до 120 × 120 пикселей: читаются «Magnesium», «200 mg», цвет продукта</td></tr>
+        <tr><td>Главное фото</td><td>Коробка и саше на белом фоне без единой надписи поверх продают сами</td></tr>
+        <tr><td>Саше с расстояния</td><td>Название и доза читаются с вытянутой руки</td></tr>
+        <tr><td>QR</td><td>Считывается обычным телефоном: с саше с 20 см, с коробки с 40 см</td></tr>
+        <tr><td>Контраст</td><td>Весь текст проходит норму AA (стандарт читаемости WCAG)</td></tr>
+        <tr><td>Не аптека</td><td>Поставить рядом с 5 банками магния из топа: наша упаковка не похожа ни на одну</td></tr>
+        <tr><td>Печать</td><td>Цветопроба на реальном материале до тиража; печатный образец до съёмки листингов</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+</div>
