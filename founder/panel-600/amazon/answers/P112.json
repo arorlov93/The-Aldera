@@ -1,0 +1,13 @@
+{
+  "id": "P112",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I saw was the QR code and 'Every batch lab-tested' on the box, and a named ISO 17025 lab is more than most brands give me. I would try one box for sleep, but only after opening the batch report, and it is 2 capsules per sachet, so I would check that the 200 mg is really per serving.",
+  "objection": "No reviews and no NSF or USP seal, so the lab report is only the brand's own claim until I read it. At about $1 a day it is not cheap for something nobody has vouched for.",
+  "would_change_my_mind": "An NSF or USP certification, or a real batch report that opens and shows the magnesium content matching the label.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

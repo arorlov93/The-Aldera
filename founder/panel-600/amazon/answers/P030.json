@@ -1,0 +1,13 @@
+{
+  "id": "P030",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I noticed was \"Every batch lab-tested\" with a QR code, and anyone can print that. A named ISO 17025 lab and a batch report are more than most brands give me, but there are zero reviews and no NSF or USP mark, so I would not spend $30 on it.",
+  "objection": "No reviews and no third-party seal. I read the 1-star reviews first, and there is nothing here to read. At $1 a serving for 200 mg I would also be paying more than for the bottles I already have.",
+  "would_change_my_mind": "A few hundred reviews with no complaints about stomach upset or capsule size, or an NSF or USP certification I can look up myself.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

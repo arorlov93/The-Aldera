@@ -1,0 +1,13 @@
+{
+  "id": "P212",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. First thing I saw was $29.99 for 30 sachets, so a dollar a day, when my Nature Made or Double Wood bottle costs me 20 to 40 cents a serving. The fancy plum box and the QR code are nice, but I'm on a tight budget and my Subscribe & Save magnesium already works.",
+  "objection": "A dollar a serving for a brand with zero reviews, when I can get a trusted brand for a third of that. I'm paying for the box and the sachets, not for more magnesium.",
+  "would_change_my_mind": "Price near $15 for 30 sachets, or a good pile of real reviews plus a Subscribe & Save discount that brings it close to what I pay now.",
+  "price_too_cheap": 8,
+  "price_cheap": 12,
+  "price_expensive": 18,
+  "price_too_expensive": 25
+}

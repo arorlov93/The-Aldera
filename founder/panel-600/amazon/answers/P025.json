@@ -1,0 +1,13 @@
+{
+  "id": "P025",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I saw was $29.99 for 30 days, which is a dollar a day for magnesium, and the brand has zero reviews. I can get magnesium for way less per serving, and I'd have to dump the sachets into my pill organizer anyway.",
+  "objection": "A dollar a day for a brand nobody has reviewed, plus 2 capsules a day and I can't tell how big they are. I've left bad reviews on huge capsules before and I won't gamble on that.",
+  "would_change_my_mind": "A price around $15 for the month, plus real reviews from other buyers that say the capsules are easy to swallow.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

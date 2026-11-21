@@ -1,0 +1,13 @@
+{
+  "id": "P150",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. The first thing I noticed was 'no magnesium oxide' and 200 mg elemental on the front, plus the QR to a named ISO 17025 lab report, which is exactly what I check for. I skip the Complex because it has citrate in it and citrate upsets my stomach.",
+  "objection": "I already have a drawer of half-used bottles, so I would only buy one box to see if I actually finish it. I also want to open the QR report and see it is a real batch result before I trust it.",
+  "would_change_my_mind": "If the QR report did not open or showed no magnesium content result, I would not buy.",
+  "price_too_cheap": 14,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

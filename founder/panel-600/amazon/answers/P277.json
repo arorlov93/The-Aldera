@@ -1,0 +1,13 @@
+{
+  "id": "P277",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I saw was $29.99 for 30 sachets, which is a dollar a day for 200 mg when my Nature Made 200 mg is about 39 cents. The lab QR is a nice touch, but I can't see paying 2.5x for it from a brand with zero reviews, and individual foil packets feel wasteful.",
+  "objection": "A dollar a day for the same 200 mg I get for 39 cents, plus a pile of foil packets, from a brand nobody has reviewed yet.",
+  "would_change_my_mind": "Price near $0.60 a serving or lower, plus a few hundred real reviews and a bulk bottle option without the foil.",
+  "price_too_cheap": 11,
+  "price_cheap": 16,
+  "price_expensive": 22,
+  "price_too_expensive": 28
+}

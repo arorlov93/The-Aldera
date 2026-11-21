@@ -1,0 +1,440 @@
+{
+ "business": "The Aldera: magnesium in single-serve capsule sachets (pure bisglycinate and a 3-form complex)",
+ "seed": 660555,
+ "dealt": 300,
+ "answered": 300,
+ "skipped": [],
+ "buys": 55,
+ "passes": 245,
+ "buy_rate": 0.18333333333333332,
+ "by_segment": [
+  [
+   "Frequent traveler / professional",
+   45,
+   0.26666666666666666
+  ],
+  [
+   "Sleep- and stress-focused adult 35-55",
+   60,
+   0.23333333333333334
+  ],
+  [
+   "Label-reading wellness woman",
+   90,
+   0.2111111111111111
+  ],
+  [
+   "Prime replenisher who reorders the same bottle",
+   75,
+   0.13333333333333333
+  ],
+  [
+   "Budget shopper",
+   30,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Wants third-party testing",
+   36,
+   0.7222222222222222
+  ],
+  [
+   "Travels and packs pills in a pill case",
+   24,
+   0.5
+  ],
+  [
+   "Subscribe & Save regular",
+   36,
+   0.2777777777777778
+  ],
+  [
+   "Hates big pills",
+   30,
+   0.13333333333333333
+  ],
+  [
+   "Compares price per serving",
+   60,
+   0.03333333333333333
+  ],
+  [
+   "Loyal to a known brand",
+   60,
+   0.016666666666666666
+  ],
+  [
+   "Reads the 1-star reviews first",
+   54,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$109,000 and up",
+   104,
+   0.22115384615384615
+  ],
+  [
+   "$80,000 to $109,000",
+   96,
+   0.17708333333333334
+  ],
+  [
+   "under $80,000",
+   100,
+   0.15
+  ]
+ ],
+ "why_not": [
+  [
+   "trust",
+   145,
+   [
+    "NONE. The first thing I noticed was $29.99 for 30 servings, which is a dollar a day when Nature Made or Double Wood run 20 to 40 cents, and then zero reviews. I spend 20 minutes on reviews before I try anything new and there is nothing here to read.",
+    "NONE. The first thing I noticed was the sachets, which is actually what I want for travel, but then the $29.99 and zero reviews. That is $1 a serving when Nature Made or Double Wood are $0.20-0.40, and I do not buy supplements with no reviews, I read the 1-star ones first."
+   ],
+   [
+    "P001",
+    "P003"
+   ]
+  ],
+  [
+   "price",
+   76,
+   [
+    "NONE. First thing I noticed was '200 mg' on the front, and then that it is two capsules, which is fine, but $29.99 for 30 days is $1.00 a day when I know Nature Made is about $0.39. The sachets suit my flying and the lab QR is a nice touch, but a brand with zero reviews does not get 2.5x the price from me.",
+    "NONE. First thing I noticed was $29.99 for 30 sachets, which is about $1.00 a day, and my Nature Made 200 mg is around $0.39 a day. I already have a magnesium that works for me, and a new brand with zero reviews doesn't give me a reason to pay almost 3x."
+   ],
+   [
+    "P002",
+    "P008"
+   ]
+  ],
+  [
+   "habit",
+   16,
+   [
+    "NONE. The first thing I noticed was the 2 capsules in every sachet, and nothing tells me how big they are, so I would have to read reviews first and there are none. I already reorder a magnesium that works for me, and $29.99 for 30 days is about $1 a day, which is more than I pay now.",
+    "NONE. The first thing I noticed was $29.99 for 30 sachets, which is about $1.00 a day, and my Nature Made is about $0.39 a day and already works for me. The QR lab report is nice, but I'm not paying more than double for a brand with no reviews."
+   ],
+   [
+    "P017",
+    "P036"
+   ]
+  ],
+  [
+   "quality",
+   5,
+   [
+    "NONE. The first thing I noticed was 200 mg per sachet in 2 capsules, and bisglycinate at that dose usually means big size 00 capsules, which I can't swallow comfortably. The lab-tested QR is a nice touch, but with no reviews and no capsule size listed I'm not risking $30 on a box I may not be able to take.",
+    "NONE. First thing I noticed is 2 capsules in every sachet and 200 mg per serving, and nowhere does it say how big the capsules are. I have left bad reviews on huge capsules, and a new brand with zero reviews is not getting my money to find out."
+   ],
+   [
+    "P039",
+    "P046"
+   ]
+  ],
+  [
+   "values",
+   3,
+   [
+    "NONE. The first thing I noticed was the \"Every batch lab-tested\" line with the QR code, which I like, but then I saw 30 individual foil sachets with 2 capsules each and thought that is a lot of trash for something I take at home at night. At $1 a day with no reviews and no NSF or USP seal, I would stay with my bottle.",
+    "NONE. The first thing I noticed was 30 foil sachets in a box, and my reaction was that it's a lot of packaging for 60 capsules I'd just dump into my weekly organizer anyway. The QR lab report is nice, but I'd rather pay for the magnesium than the wrapper."
+   ],
+   [
+    "P072",
+    "P200"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "trust",
+   37,
+   [
+    "PURE. First thing I noticed was 'no magnesium oxide' and the 'Every batch lab-tested' line with the QR, plus sachets I can toss in a carry-on since I fly every few weeks. I'd try one box of the bisglycinate only, and only move it to Subscribe & Save if it doesn't bother my stomach.",
+    "PURE. The first thing I checked was whether 200 mg was really two capsules, and the box says it plainly (100 mg per capsule, 2 in each sachet), so no trick there. What I noticed next was the 'Every batch lab-tested' line with the QR code, and I would scan it before ordering. For sleep I want bisglycinate with no oxide, and $1 a serving is fair for that."
+   ],
+   [
+    "P011",
+    "P026"
+   ]
+  ],
+  [
+   "convenience",
+   15,
+   [
+    "PURE. The first thing I noticed was \"200 mg\" on the front, and then I saw it is two capsules of 100 mg each, so I did the math: $1.00 a day against about $0.39 for Nature Made. But it is real bisglycinate with no oxide, the sachets fit in my carry-on, and the QR batch report is something I can actually check, so I would try one box for travel and sleep.",
+    "PURE. The first thing I noticed was the sachets: one a day, pocket-sized, tear open with one hand, which is exactly what I need in a carry-on every few weeks. The 200 mg is clearly 2 capsules of 100 mg and the QR batch report helps, so I would try one box, but not on auto-ship until I see it works."
+   ],
+   [
+    "P048",
+    "P081"
+   ]
+  ],
+  [
+   "quality",
+   3,
+   [
+    "PURE. What I noticed first was the QR code and 'Every batch lab-tested' on the front, plus that it's plain bisglycinate with no citrate, which is what gives me cramps. I'd try one box to see if it's gentle on my stomach, but only one, since there are no reviews yet.",
+    "PURE. The first thing I noticed was 'no magnesium oxide' and the QR on every sachet, plus the sachets fit my travel pill case. The complex has citrate in it, which gives me cramps, so I skip that one and try one box of the bisglycinate."
+   ],
+   [
+    "P116",
+    "P130"
+   ]
+  ]
+ ],
+ "flip": [
+  "A few hundred real reviews that mention sleep or no stomach upset, and a price closer to 50 to 60 cents a serving, or a small trial pack I could try for under $10.",
+  "A price near $19.99 for the 30 box, or a few dozen real verified reviews, or a small trial pack so I can try it on a trip without committing to a full box.",
+  "Several hundred reviews with the 1-star ones showing no stomach or dosing complaints, or a cheap trial pack (5 to 7 sachets) to test on a trip.",
+  "Several hundred verified reviews with a decent share of 4-5 stars and few stomach complaints, plus a bottle or larger-count option on Subscribe & Save at a lower price per serving.",
+  "Several hundred verified reviews with a good rating and few stomach or dosing complaints, plus a lower price or a small trial pack so I could try it for a few dollars.",
+  "An NSF or USP seal on the box, plus a few hundred real reviews. A smaller capsule or a lower price for a trial box would also help.",
+  "An NSF or USP certification, or a few hundred verified reviews saying it's real and doesn't upset the stomach. A first-order discount that makes a trial cheap would help too.",
+  "A few hundred honest reviews from people who sleep better on it, plus a lower price per serving (closer to $0.60 a day), or a cheap trial box so I can test it first.",
+  "An NSF or USP certification on the box, plus a few hundred real verified reviews, or a lower price per serving to try it once.",
+  "An NSF or USP certification on the box, plus a few hundred verified reviews with the 1-star complaints about stomach upset and pill size looking fine.",
+  "Around $19.99 for the bisglycinate, plus a few hundred real reviews, or a trial size under $10 to try it first.",
+  "A few hundred verified reviews with the 1-star ones clean on stomach and pill size, plus the front of the box saying \"2 capsules, 100 mg each\" instead of just 200 mg.",
+  "A few dozen verified reviews saying the Bisglycinate is gentle on the stomach, or a lower price per serving, like $22 to $24 for the 30 box.",
+  "An NSF or USP certification on the box, plus a few hundred real verified reviews, and a regular bottle or refill option without the foil.",
+  "Several hundred reviews with the 1-star ones showing no pill size or stomach complaints, plus the capsule size stated clearly and a batch report on the QR that really opens.",
+  "Dozens of verified reviews saying the capsules are small and easy to swallow, and a price closer to $20 for the month.",
+  "Under about $20 for 30 days, or a few hundred honest reviews showing it helps with sleep or cramps, plus a bottle or refill option instead of foil.",
+  "A price near $15 to $18 a box (about $0.50-0.60 a serving), or a few hundred honest reviews plus a visible lab report showing it really delivers the 200 mg.",
+  "An NSF or USP certification, or a few hundred honest reviews saying the capsules are small and easy to swallow and the QR report matches the label.",
+  "A price around $20 for the 30 sachets, plus a few dozen real reviews or one sample batch report I can open and check before paying.",
+  "An NSF or USP seal on the box, or a good number of verified reviews from real buyers.",
+  "A price near $15 to $18 a box, plus the capsule size stated clearly (small, easy to swallow) and a few dozen honest reviews.",
+  "A price near $0.60 a day ($18 for 30), plus a few hundred real reviews that mention sleep and no stomach upset.",
+  "A price around $15 for the month, plus real reviews from other buyers that say the capsules are easy to swallow.",
+  "A few hundred honest reviews, an NSF or USP certification, and a price closer to $0.60 a serving, or a trial box of 7 sachets at a low price.",
+  "An NSF or USP seal on the box, or a few hundred verified reviews from people who have taken it for a while.",
+  "A bottle or refill pouch option at roughly half the price per serving, plus a few hundred real reviews and Subscribe & Save eligibility.",
+  "A few hundred reviews with no complaints about stomach upset or capsule size, or an NSF or USP certification I can look up myself.",
+  "A price around $19.99 or less for 30 sachets, plus a few hundred real reviews saying the capsules go down easily.",
+  "Several hundred reviews with the 1-star ones showing no stomach or pill-size problems, and a price closer to $15-20 for 30 servings; the batch QR report would then be a real plus.",
+  "An NSF Certified or USP Verified mark on the box, plus a few hundred real reviews, and a price closer to $0.60 a day.",
+  "An NSF or USP certification on the box, plus a few hundred real reviews, or a lower price per serving.",
+  "A price near $15 to $18 for 30, plus a few hundred real reviews.",
+  "An NSF or USP seal on the box plus a few hundred real verified reviews, or a cheap trial size I could try without risking $30.",
+  "Reviews from real buyers saying the capsules are small and easy to swallow, or a powder or smaller-pill option. A cheaper travel trial pack would also help.",
+  "A stated capsule size (smaller than 00) or a powder option, plus a few real reviews saying they are easy to swallow.",
+  "A price near 50 cents a serving (about $15 a box), plus a few hundred real reviews and Subscribe & Save.",
+  "An NSF or USP certification on the box, plus a few hundred real reviews, at a price closer to $20 for 30 days.",
+  "A few hundred verified reviews with a decent share of 4-5 stars and 1-star reviews that don't mention stomach upset or fake dosing.",
+  "An NSF or USP seal on the box, plus a few hundred verified reviews, and only the Bisglycinate with no citrate. A cheaper trial size would also get me to try it once.",
+  "An NSF or USP seal, or a few dozen verified reviews from people who say it was gentle on the stomach. A small trial size would also get me to try the bisglycinate.",
+  "A stated capsule size that is small (not a 00), or a powder or small-pill option, plus a few dozen real reviews saying they go down easy.",
+  "NSF or USP certification, plus a price near 60 cents a serving or less (around $18 a box) and a few hundred real reviews.",
+  "Around $18 to $20 for 30 days, or an NSF or USP seal plus a few hundred real reviews, and Subscribe & Save pricing.",
+  "NSF or USP certification on the box, plus a few hundred real reviews, and a price closer to $15-18 a box.",
+  "A real capsule size shown in the photos or a few dozen honest reviews saying the capsules are easy to swallow, plus a price closer to $18-20 for 30 days or a launch deal.",
+  "Several hundred real reviews saying the capsules are easy to swallow, plus a price near $20 for 30 days or a Subscribe & Save discount.",
+  "Around $17 to $18 for the box, or a few hundred solid reviews showing it's worth the extra.",
+  "An NSF Certified or USP Verified mark on the box, or a few hundred verified reviews.",
+  "A few dozen verified reviews with a decent rating, or a lower first-box price, with the batch report actually opening and showing the named lab and real numbers.",
+  "Several hundred reviews with a good rating and few complaints about stomach upset, plus a lower price per serving than what I pay now.",
+  "A few hundred verified reviews, or a price closer to $20 for 30 servings, or a small trial pack so I do not risk a full box.",
+  "A few hundred verified reviews with a decent rating and no pattern of stomach or dosing complaints, plus a batch report I can actually open and check.",
+  "A few hundred honest reviews, with some from people who say the capsules are easy to swallow, or a small size or powder option.",
+  "A price near $18 to $20 for 30, or a few hundred real reviews and a bottle version at a much lower price per serving.",
+  "Around $17-18 a month, a few hundred real reviews saying the capsules are small and easy to swallow, or a cheaper small trial pack to try first.",
+  "An NSF or USP certification on the box, or a few hundred verified reviews from people who have used it for months.",
+  "An NSF or USP seal, or a few hundred honest reviews, plus a lower price per serving or a cheaper trial size.",
+  "A price around $18 to $20 for 30 days, plus a few hundred honest reviews. Or a refill pouch or bottle option so I'm not tossing 30 foil packets.",
+  "An NSF or USP seal plus a few hundred real reviews, and a price closer to $15 for 30 days, or a small travel trial pack at $8 to $10.",
+  "A regular bottle of the same bisglycinate at around 50 to 60 cents a day, with a few hundred real reviews.",
+  "Price down to around 50 cents a day (about $15 for the box), plus a pile of real reviews saying the capsules are small and easy to swallow.",
+  "An NSF or USP certification mark on the box, plus a few hundred verified reviews with the stomach and pill-size complaints answered. A lower price per serving would help too.",
+  "A price near $0.60 a day (about $18 a box), or a few hundred reviews showing it is worth the premium over a drugstore brand.",
+  "A bottle or refill version of the same capsules at a lower price per serving, or an NSF or USP certification on top of the batch reports.",
+  "An NSF or USP seal plus a few hundred real reviews, and a price closer to $18 for 30 servings, ideally in a bottle or refill.",
+  "An NSF or USP seal, or a few hundred real reviews, plus a clear capsule size so I know I can swallow them.",
+  "An NSF or USP certification on the box, plus a few hundred real reviews, or a lower price for a first box.",
+  "NSF or USP certification on the box, plus a price near $0.60 a day (about $18 for 30) and a few hundred real reviews.",
+  "A few hundred real reviews that say the capsules are easy to swallow, or a stated capsule size, plus Subscribe & Save so it fits my routine.",
+  "A regular bottle of the same capsules at a lower price per serving, plus a few hundred real reviews.",
+  "NSF or USP certification on the box, plus a few hundred reviews with the 1-star ones showing no stomach or dosing complaints.",
+  "A bulk bottle of the same bisglycinate at around $0.50 a day or less, plus some real reviews from reorderers.",
+  "Several hundred reviews with a decent share of verified buyers and few complaints about stomach or capsule size, or a doctor I trust recommending this specific brand.",
+  "Several hundred verified reviews with the 1-star ones showing no stomach or dosing complaints, plus a regular bottle or refill option without individual foil packets.",
+  "An NSF Certified or USP Verified seal on the box, plus a few hundred honest verified reviews.",
+  "Several hundred reviews with a decent 1-star section, and a price closer to $15 to $18 for 30 servings.",
+  "Several hundred reviews on the bisglycinate with few stomach complaints, and the capsule size shown clearly on the listing.",
+  "A few hundred verified reviews with a solid average and few complaints about stomach upset or dosing, or a way to try a small pack first for less.",
+  "An NSF or USP certification on the box, plus a few hundred verified reviews and the capsule size stated clearly (small enough to swallow easily).",
+  "A price near $15 to $18 a box, plus a few hundred real reviews that say the capsules are small and easy to swallow.",
+  "An NSF or USP seal on the box, plus a few hundred real reviews, and the capsule size stated.",
+  "Several hundred verified reviews with few complaints about stomach or capsule size, plus a regular bottle or refill pouch option that fits my pill organizer.",
+  "NSF or USP certification on the box, plus a few hundred reviews with the 1-star ones showing no stomach or dosing complaints.",
+  "A few dozen verified reviews at 4.5 stars or better, a batch report I can actually open and check, and a lower price or a smaller trial size.",
+  "An NSF or USP seal on the box, or a few hundred honest reviews, or a price per serving closer to Thorne or Nature Made.",
+  "A price near 50 to 60 cents a serving (about $15 to $18 for the box) plus a few hundred real reviews.",
+  "A price closer to $15 for 30 sachets, or real reviews showing it does something my cheap magnesium doesn't.",
+  "A few hundred reviews with mostly clean 1-star complaints, plus a refill option or bottle that isn't individual foil packets, and I'd want to open the batch report and see it match the label.",
+  "A few hundred honest reviews and a price closer to 50-60 cents a serving, or a cheap trial size so I can check it myself.",
+  "An NSF or USP seal on the box, plus a few hundred verified reviews that mention no stomach problems with the Bisglycinate.",
+  "Bisglycinate at around $18 to $20 for 30 sachets, plus a few hundred real reviews saying it doesn't upset the stomach.",
+  "Real reviews from verified buyers saying the capsules are small and easy to swallow, plus the capsule size stated in the listing, at around $24 or less.",
+  "A price near $0.50 a serving, or a few hundred honest reviews saying it helps sleep and doesn't upset the stomach.",
+  "An NSF or USP certification on the box, plus a few hundred real verified reviews, or a lower price for a first trial box.",
+  "A price near $15 to $18 for 30 servings, plus a few hundred real reviews that are mostly good.",
+  "A few hundred honest reviews, or a price around $20 to $22 for the month, so I could try it without feeling I wasted money.",
+  "NSF or USP certification on the box and a price closer to $15 for 30, or a small travel pack I could try cheaply first.",
+  "A few hundred honest reviews saying the capsules are small and easy to swallow, plus an NSF or USP mark, at a lower price per serving.",
+  "An NSF or USP certification on the box, a few hundred real reviews, and a price per serving close to what I pay now, or a Subscribe & Save discount.",
+  "An NSF or USP verified mark on the box, plus a few hundred real reviews, and a price closer to $20 for 30.",
+  "An NSF or USP seal on the box, or a few hundred honest verified reviews, at a price close to what I pay for Thorne.",
+  "A price near $12 to $15 a box, plus real reviews saying the capsules are small and easy to swallow.",
+  "A few hundred reviews with a decent share of verified purchases and 1-star complaints that are not about stomach or dosing, or my doctor naming this product.",
+  "A clearly stated small capsule size, or a powder option, plus a few dozen real reviews from people who say the capsules are easy to swallow.",
+  "A price near $0.60 a serving, or a smaller trial pack of 7 sachets for travel, plus a few hundred real reviews confirming it doesn't upset the stomach.",
+  "An NSF or USP certification mark on the box, plus a few hundred verified reviews or a lower trial price for a smaller box.",
+  "An NSF or USP seal on the box, plus a few hundred real reviews, or a price around $15 to $18 for the 30 days.",
+  "An NSF or USP certification on the box, plus a few hundred real verified reviews. A small trial size that I could try on one trip would also help.",
+  "An NSF or USP seal on the box, or a few hundred honest reviews. The sachets are handy for my gym bag and car, so then I would try one box.",
+  "An NSF or USP seal, or a few hundred verified reviews with a solid rating, or a lower price for a first box.",
+  "An NSF or USP seal on the box, or a few hundred verified reviews, plus a doctor-friendly label showing exactly how much magnesium I get per capsule.",
+  "An NSF or USP seal on the box and a few hundred honest reviews.",
+  "A few hundred verified reviews with a decent share of 4 and 5 stars and no pattern of stomach or dosing complaints in the 1-star ones, plus a lower price per serving or a first-order discount.",
+  "Several hundred reviews with the 1-star ones clean on stomach and pill size, and a price closer to 50 to 60 cents a serving.",
+  "A few hundred real reviews, or a price closer to $15 to $18 for 30, or a small 7-day travel pack at about $8 to try it on a trip.",
+  "A price near $0.60 to $0.70 a day (about $18 to $21 a box), or a few hundred honest reviews plus a trial size so I can test it on a trip.",
+  "A price around $0.55 a day or lower, plus a few hundred reviews saying the capsules are easy to swallow.",
+  "A few hundred reviews with a decent rating and few complaints about stomach upset, or a price near 15 to 18 dollars for the 30 sachets.",
+  "A price around $18 to $20 for the 30 box, or a few hundred honest reviews saying it does not upset the stomach.",
+  "An NSF or USP certification, or a few hundred verified reviews. A trial pack or a sample of sachets for travel would also help.",
+  "An NSF or USP certification, plus a few hundred real reviews, and a price closer to 50 or 60 cents a serving.",
+  "A few hundred honest reviews saying it doesn't upset the stomach, or a cheaper small trial box of 7 to 10 sachets.",
+  "An NSF or USP certification mark on the listing, plus a few hundred verified reviews where the 1-star complaints about stomach and dosing look clean.",
+  "A price near $0.60 a day (around $18 for 30), or a solid pile of verified reviews saying it helps sleep better than the cheap stuff.",
+  "An NSF or USP verified mark on the box, plus a few hundred real reviews, and a price closer to $0.60 a day, or a small trial box I could take on a trip.",
+  "A few hundred honest reviews, a Subscribe & Save discount, and a price closer to $15 for the 30 box, or a trial size I could test cheaply.",
+  "NSF or USP certification on the box, plus a few hundred verified reviews, and a price closer to $0.60 to $0.70 a day.",
+  "NSF Certified or USP Verified on the box, plus a few hundred real reviews, and a price closer to $20 for the month.",
+  "A few hundred honest reviews, or an NSF/USP certification, plus a price nearer $18-20 for 30 servings.",
+  "A price near $15 to $18 for the 30 days and a few hundred honest reviews saying it actually helps with sleep or leg cramps.",
+  "A few hundred real reviews, or a price closer to $0.60 a day (around $18 per box), or a small travel pack I could try first for a few dollars.",
+  "A price near $15 to $18 for 30 days, a few hundred real reviews, or an NSF or USP certificate. A plain bottle version of the same capsules would also do it.",
+  "Several hundred reviews with a solid average and few complaints about swallowing or stomach, plus a lower price per serving or a Subscribe & Save discount.",
+  "A few dozen real reviews saying the capsules are small and easy to swallow, plus the capsule size in the listing photos.",
+  "Around $15 to $18 a box (under 60 cents a day) and a few hundred real reviews, or a refill bag or bottle option without the foil.",
+  "A price near $0.50 a serving (about $15 a box), or a lot of verified reviews showing it works for sleep.",
+  "A price near $18 to $20 for the 30 count, or a few hundred real reviews showing it is worth the extra over a bottle.",
+  "A few hundred honest reviews from verified buyers, and a price near 50 to 60 cents a serving, or a small trial pack of the Bisglycinate to test without committing to a full box.",
+  "Under about $18 for the box, plus a visible capsule size and a few hundred real reviews saying the capsules are small and easy to swallow.",
+  "A price around $15 to $18 for the 30 days, plus a few hundred real reviews saying it helped with sleep or cramps.",
+  "A few dozen verified reviews, a sample batch report I can open before buying, and a price closer to $20 for 30 servings or a first-order discount.",
+  "A few hundred verified reviews with mostly good stomach and swallowing feedback, plus the capsule size stated on the listing.",
+  "A few hundred honest reviews from verified buyers saying it helped with sleep and was gentle on the stomach, or a lower price per serving than my current one.",
+  "A few dozen honest reviews that say the capsules are easy to swallow and it helped sleep, plus the capsule size shown on the listing.",
+  "The listing stating the capsule size (smaller than 00) and a handful of verified reviews saying they are easy to swallow, or a powder or smaller-pill option.",
+  "A price around $15 to $18 for 30 servings, or a few hundred real reviews and a refill option without individual foil packets.",
+  "A few hundred honest reviews, a lower price per serving that beats my current bottle, and a bottle or refill-pouch option for home with sachets just for trips.",
+  "Several hundred reviews with the 1-star ones clean on stomach and dosing, and a price closer to $15 to $18 a box.",
+  "Several hundred verified reviews with a decent rating and few 1-star complaints about stomach upset or dosing, on the bisglycinate.",
+  "A small trial pack of 7 to 10 sachets for around $9 to $12, or a bottle of the same tested capsules at a normal per-serving price, plus some real reviews.",
+  "A few hundred reviews with a decent share of verified purchases, and 1-star reviews that don't mention stomach trouble or fake dosing.",
+  "A few dozen verified reviews with a decent rating, and a price nearer $20 for the bisglycinate, or a coupon that brings the first box down to that.",
+  "Several hundred verified reviews with a decent share of 1-star ones I can read and find fair, plus the lab report on the QR showing the actual magnesium amount per capsule.",
+  "An NSF or USP certification on the box, plus a few hundred real verified reviews from people with sleep or cramp issues.",
+  "Several hundred verified reviews with a decent share of 1-star complaints I can read and find nothing alarming about stomach or dosing, plus the lab report matching the label.",
+  "NSF or USP certification on the box, plus a few hundred real reviews and a price closer to $0.60 a day or less.",
+  "An NSF or USP seal on the box, plus a few hundred real reviews, or a lower price for a first box.",
+  "A price near $18 to $20 for 30, a stated capsule size that is easy to swallow, and a few hundred real reviews.",
+  "An NSF or USP certification on the box, plus a few hundred solid reviews, and a lower price per serving than what I pay now on Subscribe & Save.",
+  "A price near 50 to 60 cents a serving (about $15 to $18 a box), plus a few hundred real reviews.",
+  "An NSF or USP certification on the box, or a few hundred real reviews, plus a price closer to $20 for the 30 days.",
+  "Around $18 to $20 for the box, plus a few hundred reviews and a clear capsule size so I know I can swallow them.",
+  "A few hundred reviews with a decent average and no pattern of stomach or dosing complaints, or a lower price per serving while it has no reviews. The batch lab report via QR helps a bit, but I would want to see that the report matches the label.",
+  "A price near 60 cents a day (around $18 for the box), plus a few hundred real reviews saying the capsules are easy to swallow and it helped with sleep or cramps.",
+  "A bottle or refill pouch at roughly $18 to $20 for 60 capsules with the same per-batch lab report, plus a few hundred real reviews.",
+  "Around $17 to $20 for the box, plus a few hundred real reviews and a capsule size I can see is small enough to swallow.",
+  "A few hundred honest reviews, plus a Subscribe & Save discount so it matches what I pay now. Then I might try one box just for travel.",
+  "An NSF or USP certification, or a few hundred honest reviews that say the capsules are easy to swallow.",
+  "Several hundred verified reviews with a decent share of 1-star complaints that are not about stomach or dosing, plus a price closer to $15-18 a box.",
+  "An NSF or USP certification on the box, plus a few hundred real reviews. A smaller first-order price would also let me try it once.",
+  "An NSF or USP certification on the box, or a few hundred honest verified reviews saying the bisglycinate is gentle on the stomach, ideally at a lower price for a first try.",
+  "A price near 60 to 70 cents a day plus a few hundred real reviews, or my doctor specifically telling me to move to bisglycinate.",
+  "An NSF or USP certification on the box, plus a few hundred real verified reviews, or my doctor naming this product.",
+  "Price near $15 for 30 sachets, or a good pile of real reviews plus a Subscribe & Save discount that brings it close to what I pay now.",
+  "A few hundred honest reviews and a price near $20 for the 30 box, or a small trial pack for travel that costs a few dollars.",
+  "A few hundred real verified reviews and a price per serving close to what I pay now, with Subscribe & Save available.",
+  "A price near 50 cents a serving (about $15 a box), plus a stated capsule size or a small-pill option, plus a few hundred real reviews saying they are easy to swallow.",
+  "A stated small capsule size (or a powder or small-tablet option) plus a few real verified reviews saying they are easy to swallow.",
+  "A few dozen verified reviews from people with sensitive stomachs, or a price near $19.99 for the bisglycinate so a first box feels like a low-risk trial.",
+  "A few hundred verified reviews with a solid rating, plus an NSF or USP certification, or a price closer to $18-20 for 30 sachets.",
+  "A price near $15 to $18 for the 30 box, plus a few hundred honest reviews, would make me try one box.",
+  "Several hundred reviews with few 1-star complaints about stomach or dosing, and a price nearer 15 to 18 dollars for the 30 sachets, or a small trial pack so I can try it on a trip first.",
+  "An NSF or USP seal on the box, a few hundred real reviews, and a price closer to $15 a box.",
+  "A few hundred verified reviews with a decent share of 1-star ones I can read and find nothing alarming, plus a price closer to $22-25 for 30 servings.",
+  "An NSF Certified or USP Verified mark on the box, plus a few hundred real reviews, or a lower price for a first box.",
+  "A price near $15 to $18 for 30 days, or a few hundred real reviews confirming it does something my current magnesium does not.",
+  "An NSF or USP seal on the box, plus a few hundred real reviews and a price closer to $15 for 30 days.",
+  "A few hundred honest reviews, an NSF or USP seal on the box, and a lower price per serving than my usual brand.",
+  "Several hundred verified reviews with a decent rating and few complaints about stomach or dosing, plus a lower price per serving or a Subscribe & Save discount.",
+  "An NSF or USP seal on the box, plus a few hundred honest reviews, and a lower price per serving than Nature Made.",
+  "A few hundred honest reviews, or a visible sample batch report I can check on the listing, and a price nearer $20 for 30.",
+  "Price near $15 for 30 servings, plus an NSF or USP seal and a few hundred honest verified reviews.",
+  "Several hundred reviews with a decent rating and few complaints about pill size or stomach, plus the capsule size stated on the listing.",
+  "An NSF or USP certification on the box, plus a few hundred real reviews, and a bottle or refill option instead of foil sachets.",
+  "A few hundred real reviews and a price near $20 for 30 days, or a small trial size so I could try it without committing to a full box.",
+  "A few hundred real reviews saying the capsules are small and easy to swallow, or a price closer to $20 for the month.",
+  "An NSF or USP certification, or a few dozen verified reviews that mention the QR batch report actually matching the box.",
+  "A few hundred honest reviews and a price near $0.60 a day (about $18 a box), or a cheap trial size so I can try it without committing to a full box.",
+  "Several hundred verified reviews with a decent 1-star section, and a price closer to $20 a month. Or a cheap trial pack so I can test my stomach tolerance first.",
+  "An NSF or USP certification mark on the box, plus a few hundred real reviews, or a trial price of around $20 for the 30 sachets.",
+  "An NSF Certified or USP Verified seal on the box, plus a few hundred real reviews, and a lower price per serving.",
+  "Several hundred verified reviews with the 1-star ones showing no stomach or dosing complaints, or a batch report I can open and match to a named lab before I buy.",
+  "A price under about $15 for 30 days, plus NSF or USP certification or a sample batch report I can check myself.",
+  "A few hundred verified reviews with a decent share of detailed ones, and the front of the box saying 2 capsules per serving next to the 200 mg.",
+  "NSF or USP certification, or a batch report I scanned that clearly names the lab, the lot number and the results. A few hundred honest verified reviews and a lower price per serving would also help.",
+  "A few hundred reviews with mostly good 1-star ones about stomach and capsule size, and a lower price per serving, or a refill bag in place of the individual sachets.",
+  "A few hundred verified reviews with a decent share of 4-5 stars and no pattern of stomach or dosing complaints, or a trusted brand or doctor I already follow recommending it.",
+  "A price near $0.50 to $0.60 a serving, a few hundred real reviews saying the capsules are easy to swallow, and a size shown on the listing.",
+  "An NSF or USP seal on the box plus a few hundred real reviews, or a sample size that costs a few dollars so I can try it without committing.",
+  "Around $15 a box (50 cents a serving) plus a few hundred real reviews. Or a trial pack I could try for a few dollars.",
+  "A bottle or bulk refill version of the same lab-tested bisglycinate at around $0.40 to $0.50 a day, and a few hundred real reviews.",
+  "NSF or USP certification on the box, plus a few hundred verified reviews.",
+  "Several hundred verified reviews with a decent share of 1-star complaints that turn out to be minor, plus a batch report that I actually open and that matches the label.",
+  "Several hundred verified reviews with few complaints about stomach or capsule size, plus a batch report I can actually open that matches the 200 mg on the box, and a lower price per serving.",
+  "NSF or USP certification on the box, plus a few hundred verified reviews with no stomach or dosing complaints. Then I'd try the Bisglycinate.",
+  "A few hundred honest reviews, the capsule size stated on the listing (smaller than 00), and a Subscribe & Save price closer to $22-24 for the 30 days.",
+  "A price around $15-18 for the 30 days, plus reviews saying the capsules are small and easy to swallow.",
+  "Several hundred verified reviews with a decent share of 1-star complaints I can read and find harmless, or a cheap trial size to test my stomach first.",
+  "An NSF or USP certification on the box, plus a stated capsule size that is easy to swallow and a few hundred real reviews.",
+  "A price near $0.50 a serving, a stated capsule size that is small, and a few hundred real reviews.",
+  "An NSF or USP certification, plus a few hundred reviews and a regular bottle option at a lower price per serving.",
+  "Several hundred reviews with a good rating and 1-star reviews that show no stomach or capsule size problems. A stated capsule size would also help.",
+  "A few dozen real reviews that mention the lab report actually matching, and a price closer to $18-20 for the 30 count, or a trial size I could test on one trip.",
+  "An NSF or USP seal on the box, plus a few hundred real reviews, and a price closer to $15 for the box.",
+  "A few dozen verified reviews saying the capsules are small and easy to swallow, plus a lower price per serving or a refill option without the foil.",
+  "An NSF or USP certification on the box, plus a few hundred real reviews and a note on capsule size.",
+  "An NSF or USP certification, plus a few hundred real reviews, and a clear capsule size that is easy to swallow.",
+  "Price near $0.60 a serving or lower, plus a few hundred real reviews and a bulk bottle option without the foil.",
+  "A few hundred honest reviews and a price near $18 to $20 for the 30 days, or a clear side by side showing the batch report matters.",
+  "A price near $0.60 a day or lower, plus a few hundred real reviews and a stated capsule size that I can swallow.",
+  "An NSF Certified or USP Verified mark on the box, plus a few hundred real verified reviews, at a price closer to $20 for 30.",
+  "An NSF or USP certification on the box, plus a few dozen verified reviews from people who took it for a few months.",
+  "Real reviews from verified buyers plus an NSF or USP seal, or a price around $15 to $18 for 30 servings.",
+  "Several hundred reviews at 4.3 stars or higher, with 1-star reviews that show no stomach problems or dosing complaints.",
+  "An NSF or USP seal on the box, plus a few hundred verified reviews.",
+  "Several hundred real reviews with clean 1-star complaints and a price closer to 50 to 60 cents a serving, or a smaller starter box so I can try it cheaply for the gym bag.",
+  "A few hundred real reviews with a good rating, and a price closer to 60 to 70 cents a serving, or a small trial box (5 to 7 sachets) for under $10 to test on a trip before committing.",
+  "Hundreds of reviews with few complaints about stomach and pill size, and a price near $12 for 30.",
+  "A few hundred reviews with a good rating and 1-star reviews that don't mention swallowing or stomach problems, plus the capsule size stated clearly in the listing.",
+  "An NSF or USP certification on the box, plus a few hundred real reviews and a clear capsule size that is easy to swallow.",
+  "A few hundred honest reviews, a bottle or refill option without the foil sachets, and a Subscribe & Save price that is clearly lower per serving.",
+  "An NSF or USP certification on the box, or a few hundred verified reviews from people who have used it for months.",
+  "A few hundred verified reviews with a decent share of 4-5 stars and no pattern of stomach or dosing complaints in the 1-star ones, or a cheap trial pack so I can test it without committing $30.",
+  "A bottle version at a normal price per serving, with Subscribe & Save and some real reviews."
+ ],
+ "purchases_first_month_per_buyer": 1.0,
+ "price_answers": 300
+}

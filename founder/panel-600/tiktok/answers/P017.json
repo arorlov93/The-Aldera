@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I noticed was \"Every batch lab-tested\" with the QR on the box, and the fact that the Bisglycinate has no oxide. Citrate wrecks my stomach, so I skip the Complex, but a named lab report I can open is the only proof I would accept from a supplement, so I would try one box.",
+  "objection": "Most supplements are marketing, and a QR code does not prove anything until I actually open it and see a real report with this batch number. $29.99 is a lot to risk on a brand I saw in one creator video.",
+  "would_change_my_mind": "Opening the QR and finding a real, named ISO 17025 lab report for that batch with the magnesium content matching the label.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

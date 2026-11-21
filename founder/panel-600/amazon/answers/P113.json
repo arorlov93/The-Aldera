@@ -1,0 +1,13 @@
+{
+  "id": "P113",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. First thing I noticed was $29.99 for 30 sachets, about $1 a day, when Nature Made 200 mg runs me roughly $0.39. The pocket sachet is a nice idea for flying, but I would be paying more than double for packaging.",
+  "objection": "Anyone can print 'lab-tested' and a QR code. I trust NSF or USP, and nothing here says the product is certified by either. No reviews, new brand, and over twice my per-serving price.",
+  "would_change_my_mind": "NSF or USP certification on the box and a price closer to $15 for 30, or a small travel pack I could try cheaply first.",
+  "price_too_cheap": 9,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

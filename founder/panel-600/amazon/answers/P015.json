@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I noticed was 30 individual foil sachets, which is a lot of trash for a daily pill, and then 'no reviews' on a brand I have never heard of. The QR lab report is a nice touch, but it is not an NSF or USP seal, and my doctor told me to take magnesium, so I stay with Pure Encapsulations or Thorne.",
+  "objection": "Unknown brand with zero reviews and no NSF or USP seal, packed in single-use foil packets that are wasteful. A QR code that the company itself controls does not replace a third-party certification I already trust.",
+  "would_change_my_mind": "An NSF or USP certification on the box, plus a few hundred real verified reviews, and a regular bottle or refill option without the foil.",
+  "price_too_cheap": 14,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

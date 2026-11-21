@@ -1,0 +1,13 @@
+{
+  "id": "P180",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I saw was zero reviews, and I don't buy a supplement without hundreds of them. The lab QR and \"no oxide\" are nice, but any brand can print that, and I'd want to read the 1-star reviews on stomach and capsule size first.",
+  "objection": "No reviews, so I can't check for stomach upset, pill size or whether the dose is real. A QR code is the brand's own claim, not strangers' experience.",
+  "would_change_my_mind": "A few hundred reviews with a decent share of verified purchases, and 1-star reviews that don't mention stomach trouble or fake dosing.",
+  "price_too_cheap": 14,
+  "price_cheap": 21,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

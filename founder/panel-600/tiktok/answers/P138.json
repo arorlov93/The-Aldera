@@ -1,0 +1,13 @@
+{
+  "id": "P138",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. The first thing I saw was 200 mg elemental, no oxide, and the QR lab report, which is exactly what I check on a label. The 3-form complex only has 60 mg of bisglycinate, so I would skip it and try the plain one box first.",
+  "objection": "New brand, so I want to open that QR report and see a real lab name and numbers that match the box before I trust it. Also $29.99 for 30 days is more than I pay for bottles I already half-use.",
+  "would_change_my_mind": "If the QR report did not load or the batch result did not show the magnesium content, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

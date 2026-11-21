@@ -1,0 +1,13 @@
+{
+  "id": "P185",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. The first thing I looked at was 200 mg elemental and 'no magnesium oxide', then the QR with a named ISO 17025 lab, which is what I check anyway. Sachets are easy to throw in a bag for my work trips, so I'd try one box.",
+  "objection": "Two size 00-type capsules at once are big and hard to swallow, and I can't see the actual lab report until the box is in my hand. A good-looking box doesn't prove anything.",
+  "would_change_my_mind": "A visible sample batch report I can open before buying, and a note on capsule size.",
+  "price_too_cheap": 14,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

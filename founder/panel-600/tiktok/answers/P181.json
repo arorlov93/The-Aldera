@@ -1,0 +1,13 @@
+{
+  "id": "P181",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I noticed was the QR code and the 'Every batch lab-tested' line on the front, because proof is the only thing that gets me to buy a supplement. I'd try one box of the plain bisglycinate, since one form is easier to judge than a blend, and I'd open the batch report before I ordered.",
+  "objection": "Most supplements are marketing, and a QR code only helps if the report is real, names the lab and shows the actual magnesium number. Two capsules a day is also a lot of pill to swallow if they are big.",
+  "would_change_my_mind": "If the QR report turned out to be vague, missing, or not matched to my batch, I would not buy. If the capsules were tiny and easy to swallow, I would be more likely to reorder.",
+  "price_too_cheap": 12,
+  "price_cheap": 21,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

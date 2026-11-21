@@ -1,0 +1,13 @@
+{
+  "id": "P286",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. First thing I noticed was 30 little foil sachets and $29.99, which is double what I pay for my 12-in-1 in a flash sale. The lab QR is neat but I'm not paying double for it on $22k a year.",
+  "objection": "$29.99 is about twice my usual $15, and 30 foil packets is more trash and more fuss than a bottle on my counter.",
+  "would_change_my_mind": "A price around $15 to $18 for the box, or a flash-sale deal that brings it close to what I already pay.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

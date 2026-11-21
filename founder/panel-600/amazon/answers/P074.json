@@ -1,0 +1,13 @@
+{
+  "id": "P074",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The \"Every batch lab-tested\" line with a QR on the front caught me first, since a batch report is what I look for before NSF or USP. I would scan the QR in the listing photos, and if the report is real I would try one box for sleep, and the sachets would fit in my gym bag.",
+  "objection": "It is a brand with zero reviews, and a lab report the brand chose to show me is not the same as NSF or USP certification. I want to see that the report is real and matches this batch.",
+  "would_change_my_mind": "If the QR report turned out to be generic, missing a batch number or not from the named lab, I would not buy. NSF or USP certification would make me buy more than one box.",
+  "price_too_cheap": 14,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

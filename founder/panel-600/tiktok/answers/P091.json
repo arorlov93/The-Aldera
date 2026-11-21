@@ -1,0 +1,13 @@
+{
+  "id": "P091",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I noticed was the \"Every batch lab-tested\" line with the QR code, and I like that someone shows proof, but $29.99 a month is a lot when I can get magnesium at the drugstore for far less. A lab report tells me what is in the capsule, not whether I will sleep better or have fewer cramps.",
+  "objection": "A lab test proves the capsule contains what it says, not that it does anything for me. For $30 a month I am paying for packaging and a creator's video, and I would forget the sachets half the time anyway.",
+  "would_change_my_mind": "A much lower price, around $15 to $18 a month, or a small trial pack with a money-back guarantee so I can find out if it helps my sleep or cramps without risking $30.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

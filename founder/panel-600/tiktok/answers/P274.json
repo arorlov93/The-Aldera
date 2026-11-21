@@ -1,0 +1,13 @@
+{
+  "id": "P274",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I saw was $29.99 and only 3 forms, when my 8-form one costs me about $15 in a flash sale. The sachets are handy for nights at my partner's place, but that is not worth double the price to me.",
+  "objection": "Why pay twice as much for 3 forms when I already get 8 or more in one capsule for $15?",
+  "would_change_my_mind": "A first-box price around $15 to $18, or a flash sale, so I could try the sachets without committing.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 24,
+  "price_too_expensive": 32
+}

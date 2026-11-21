@@ -1,0 +1,13 @@
+{
+  "id": "P281",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I noticed was \"Every batch lab-tested\" with a QR code, and anyone can print that; I look for NSF or USP, and there are no reviews yet. I read reviews for 20 minutes before trying anything new, and I already have a magnesium on Subscribe & Save that I won't swap for an unproven brand.",
+  "objection": "No NSF or USP seal and zero reviews, so \"lab-tested\" is only the brand's own claim. At $1 a day for 200 mg I'd be paying a premium for a box I can't verify.",
+  "would_change_my_mind": "An NSF or USP certification on the box, plus a few dozen verified reviews from people who took it for a few months.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

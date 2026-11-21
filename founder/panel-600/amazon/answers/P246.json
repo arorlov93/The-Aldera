@@ -1,0 +1,13 @@
+{
+  "id": "P246",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I saw was $29.99 for 30 sachets, which is a dollar a day, and the QR lab report on the box. I like the lab report, but it isn't NSF or USP, and I already take a magnesium that works for me at a fraction of that cost.",
+  "objection": "A dollar a day for something I can already get for a few cents a capsule. The sachet packaging is what I'd be paying for, and I don't need that. The lab is named, but it's not an NSF or USP seal, and the brand has no reviews.",
+  "would_change_my_mind": "A price under about $15 for 30 days, plus NSF or USP certification or a sample batch report I can check myself.",
+  "price_too_cheap": 7,
+  "price_cheap": 12,
+  "price_expensive": 20,
+  "price_too_expensive": 28
+}

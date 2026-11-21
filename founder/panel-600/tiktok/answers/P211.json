@@ -1,0 +1,13 @@
+{
+  "id": "P211",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I noticed was $29.99 for 30 sachets, when my 8-form bottle from a flash sale was about $15 and lasts 3 months. The lab QR code is a nice touch, but it doesn't make a month of magnesium worth six times what I pay now.",
+  "objection": "$29.99 for one month is about six times what I spend per month now, and I already take a multi-form magnesium that works fine for me.",
+  "would_change_my_mind": "A price near $15 for the box, or a flash sale or first-box deal that brings it close to what I pay now.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 22,
+  "price_too_expensive": 28
+}

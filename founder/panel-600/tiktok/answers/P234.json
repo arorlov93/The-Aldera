@@ -1,0 +1,13 @@
+{
+  "id": "P234",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. First thing I noticed was 2 capsules in every sachet, and size 00 capsules are big, so that's 2 horse pills a day. I already take a multi-form complex I grab in a flash sale for about $15, so $29.99 is double what I normally pay, and the lab-tested QR is nice but not enough to switch.",
+  "objection": "Twice my usual price for the same kind of thing, plus two big capsules a day. I can't tell what I'd get for the extra $15 besides a prettier box.",
+  "would_change_my_mind": "A flash-sale or first-box price around $15-18, or a smaller capsule size.",
+  "price_too_cheap": 9,
+  "price_cheap": 15,
+  "price_expensive": 24,
+  "price_too_expensive": 32
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P083",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I noticed was the QR code with a named ISO 17025 lab on every sachet, which I can actually check, unlike a vague 'lab-tested' badge. Sachets fit in my tote, so I would try one box, but only one.",
+  "objection": "Every brand says 'tested'. I do not know that the batch report behind the QR is real and recent until I open it, and a creator video proves nothing.",
+  "would_change_my_mind": "Opening the QR and seeing a real report for the batch number on my box, from a lab I can look up, with the magnesium content matching the label.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

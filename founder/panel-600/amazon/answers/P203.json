@@ -1,0 +1,13 @@
+{
+  "id": "P203",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. First thing I noticed was 'Every batch lab-tested' with a QR on the box, and anyone can print that; I look for NSF or USP, and a brand with zero reviews doesn't get my money over the three brands I already tried. Also 2 capsules a day with nothing said about size, and I leave bad reviews on big pills.",
+  "objection": "No third-party seal like NSF or USP, no reviews yet, and I can't tell how big the capsules are. A QR to the brand's own report is still the brand telling me it's fine.",
+  "would_change_my_mind": "An NSF or USP certification, or a few hundred honest reviews that say the capsules are easy to swallow.",
+  "price_too_cheap": 14,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 40
+}

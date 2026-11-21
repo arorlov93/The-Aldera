@@ -1,0 +1,13 @@
+{
+  "id": "P252",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "NONE. The first thing I noticed was the QR code and the \"Every batch lab-tested\" line, which is nice, but I already have a magnesium that works and it comes on Subscribe & Save from a brand I trust. A new brand with zero reviews is not something I swap in for what I take every day.",
+  "objection": "No reviews and no NSF or USP seal. A lab report the brand picked itself is not the same as a third-party certification I already trust, and I would not risk my routine on an unknown.",
+  "would_change_my_mind": "An NSF or USP seal on the box plus a few hundred real reviews, or a sample size that costs a few dollars so I can try it without committing.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

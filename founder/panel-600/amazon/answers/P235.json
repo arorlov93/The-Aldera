@@ -1,0 +1,13 @@
+{
+  "id": "P235",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I noticed was 30 individual foil sachets, which feels wasteful, and then that it's a brand with zero reviews and no NSF or USP seal on the box. My doctor suggested magnesium, so I'd stick with Pure Encapsulations or Thorne, which I already trust.",
+  "objection": "Unknown brand with no reviews and no NSF or USP seal, sold in a lot of single-use foil packaging. A QR code to their own lab report is nice, but I can't verify who is behind it.",
+  "would_change_my_mind": "An NSF or USP certification on the box, plus a few hundred real reviews, and a bottle or refill option instead of foil sachets.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

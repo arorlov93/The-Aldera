@@ -1,0 +1,13 @@
+{
+  "id": "P056",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. I looked at the front first: 200 mg and the QR, and my first thought was 'everyone says tested.' But it names an ISO 17025 lab, says no oxide and fully chelated, and the dose is clear, so I'd try one box at about $1 a day. I skip the Complex because citrate can upset my stomach and I'd rather know exactly what I'm taking.",
+  "objection": "'Lab-tested' is on every box. I won't believe it until I scan the QR and see a real batch report with a lab name and numbers. I also already have a drawer of half-used bottles, so I won't stock up.",
+  "would_change_my_mind": "Opening the QR and finding an actual batch report from the named lab, with magnesium content and heavy metals listed. If it's a blank page or a generic PDF, I pass.",
+  "price_too_cheap": 14,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

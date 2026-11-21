@@ -1,0 +1,13 @@
+{
+  "id": "P075",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. First thing I noticed was 'no magnesium oxide' and the QR for the batch report, which is what I check anyway; 200 mg elemental per sachet is a real dose and $29.99 is fair for chelated. I'd buy one box of the bisglycinate to try, not the 3-form one, since 207 mg split across three forms is a thin amount of each.",
+  "objection": "I have a drawer of half-used bottles, so I need to see the QR report is a real named lab with real numbers for that batch, not just a link that says 'tested'. Also sachets are pricier per mg than a bottle.",
+  "would_change_my_mind": "If the QR report did not open a real batch result with the lab name and magnesium content, I would not reorder.",
+  "price_too_cheap": 12,
+  "price_cheap": 21,
+  "price_expensive": 34,
+  "price_too_expensive": 44
+}

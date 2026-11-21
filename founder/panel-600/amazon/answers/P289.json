@@ -1,0 +1,13 @@
+{
+  "id": "P289",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I noticed was the QR code and the named ISO 17025 lab on the front, which is exactly what I look for, and the sachets fit my gym bag and travel kit. I'd still open the batch report before ordering, and I'd buy one box to try, not a subscription.",
+  "objection": "Individual foil packets are wasteful, and an ISO lab report is not the same as NSF or USP certification. A brand with zero reviews also makes me wonder if the report is real.",
+  "would_change_my_mind": "A batch report that opens and matches the label, plus a few verified reviews or an NSF/USP mark.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

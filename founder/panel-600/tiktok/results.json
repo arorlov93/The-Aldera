@@ -1,0 +1,372 @@
+{
+ "business": "The Aldera: magnesium in single-serve capsule sachets (pure bisglycinate and a 3-form complex)",
+ "seed": 989810,
+ "dealt": 300,
+ "answered": 300,
+ "skipped": [],
+ "buys": 148,
+ "passes": 152,
+ "buy_rate": 0.49333333333333335,
+ "by_segment": [
+  [
+   "Urban professional woman with a busy day outside home",
+   114,
+   0.6491228070175439
+  ],
+  [
+   "Busy working mom",
+   72,
+   0.5138888888888888
+  ],
+  [
+   "Gym-goer / active",
+   48,
+   0.4166666666666667
+  ],
+  [
+   "Budget-tight shopper",
+   66,
+   0.25757575757575757
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "On-the-go routine person",
+   36,
+   0.8888888888888888
+  ],
+  [
+   "Impulse buyer from creator videos",
+   66,
+   0.7727272727272727
+  ],
+  [
+   "Reads the label",
+   36,
+   0.75
+  ],
+  [
+   "Deal hunter",
+   45,
+   0.4
+  ],
+  [
+   "Skeptic of supplements",
+   30,
+   0.36666666666666664
+  ],
+  [
+   "Already takes a multi-form complex",
+   60,
+   0.15
+  ],
+  [
+   "Hates swallowing pills",
+   27,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "$55,000 to $80,000",
+   100,
+   0.6
+  ],
+  [
+   "$80,000 and up",
+   100,
+   0.56
+  ],
+  [
+   "under $55,000",
+   100,
+   0.32
+  ]
+ ],
+ "why_not": [
+  [
+   "price",
+   92,
+   [
+    "NONE. The first thing I noticed was $29.99 for 30 sachets, which is double what I pay for my 8-form complex in a flash sale, and the 3-form Complex has fewer forms than what I already take. I take magnesium at night at home, so a pocket sachet solves a problem I barely have, even with the nights at my partner's.",
+    "NONE. What I noticed first was $29.99 and 2 capsules in every sachet. I hate swallowing pills, and two a day is already more than I want. I paid about half that for a bottle of 8 forms of magnesium in a flash sale and it lasted me 3 months, and this box is gone in 30 days."
+   ],
+   [
+    "P002",
+    "P004"
+   ]
+  ],
+  [
+   "need",
+   34,
+   [
+    "NONE. The first thing I noticed was 'Every batch lab-tested' with the QR code, which is nice, but I already take magnesium at night at home and I have a drawer full of half-used bottles. I don't need a sachet to go.",
+    "NONE. The first thing I noticed was the QR code and the 'Every batch lab-tested' line, which is more proof than most brands give, but I already take magnesium at night at home, so a pocket sachet solves a problem I do not have. I also forget my vitamins on the counter half the time, so a daily box is not going to change that."
+   ],
+   [
+    "P009",
+    "P010"
+   ]
+  ],
+  [
+   "convenience",
+   19,
+   [
+    "NONE. The first thing I noticed was 2 capsules in every sachet, and I hate swallowing pills, so two a day for 30 days is a dealbreaker for me. And $29.99 is double what I paid for Toplux 8 forms in a flash sale, and that bottle lasts 3 months.",
+    "NONE. The first thing I noticed was the sachet, which is cute and pocket-sized and easy for nights at my partner's place, but then I saw it is 2 capsules a day and the box never says how big they are. I hate swallowing pills, so that is a no for me."
+   ],
+   [
+    "P003",
+    "P005"
+   ]
+  ],
+  [
+   "trust",
+   5,
+   [
+    "NONE. The first thing I saw was \"Every batch lab-tested\" with a QR code, and honestly everyone says tested. $29.99 is a lot when I already have a drawer of half-used bottles, and I'd have to see one creator really nail my sleep problem to even consider it.",
+    "NONE. The first thing I noticed was \"Every batch lab-tested\" with a QR on the front, and that is what everyone says. I would not buy off a creator video, because I have no way to know the QR report is real or that it matches the box in my hand."
+   ],
+   [
+    "P016",
+    "P037"
+   ]
+  ],
+  [
+   "values",
+   1,
+   [
+    "NONE. The first thing I noticed was 30 foil sachets with 2 capsules each, which is 30 little bits of trash a month for something I could get in one bottle. The lab-tested QR is the one thing that caught my eye, but I would not impulse-buy a supplement off a TikTok video."
+   ],
+   [
+    "P122"
+   ]
+  ],
+  [
+   "habit",
+   1,
+   [
+    "NONE. First thing I noticed was 30 foil sachets with 2 capsules each, that's 30 little pieces of trash a month, and I already take a multi-form magnesium I reorder when it runs out. The QR lab report is nice but it doesn't make me switch."
+   ],
+   [
+    "P296"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "convenience",
+   83,
+   [
+    "PURE. The first thing I noticed was the sachets: one a day, tear it open with one hand, toss it in my bag, and I'm out the door all day anyway. I've watched a bunch of glycinate-for-sleep videos, so I'd try one box, but $29.99 still feels like double what I paid for my big bottle.",
+    "PURE. First thing I noticed was the sachets: one tear, pocket-sized, so I can toss one in my bag and take it at my partner's place instead of hauling a bottle around. $29.99 for 30 days with free shipping works out to about $1 a day, and the batch QR is a nice touch, so I'd try one box."
+   ],
+   [
+    "P006",
+    "P008"
+   ]
+  ],
+  [
+   "quality",
+   28,
+   [
+    "PURE. The first thing I noticed was 'no magnesium oxide' and the QR lab report, because citrate wrecks my stomach and the Complex has citrate in it, so I would skip that one. A dollar a day for the glycinate with free shipping is okay, and I would try one box, but I would rather catch it on a flash sale or coupon.",
+    "PURE. The first thing I saw was \"200 mg, no magnesium oxide\" and the QR batch report from a named ISO 17025 lab, which is exactly what I check before buying. A dollar a day is fine, and a sachet in my gym bag works better than a bottle I forget on the counter."
+   ],
+   [
+    "P015",
+    "P020"
+   ]
+  ],
+  [
+   "trust",
+   26,
+   [
+    "PURE. The first thing I noticed was \"Every batch lab-tested\" with the QR on the box, and the fact that the Bisglycinate has no oxide. Citrate wrecks my stomach, so I skip the Complex, but a named lab report I can open is the only proof I would accept from a supplement, so I would try one box.",
+    "PURE. The first thing I noticed was the QR on the sachet and the \"Every batch lab-tested\" line, which is rare for TikTok Shop supplements. At about $1 a day with free shipping I would try one box of the single bisglycinate, but only if it is on a flash sale or has a coupon."
+   ],
+   [
+    "P017",
+    "P026"
+   ]
+  ],
+  [
+   "need",
+   10,
+   [
+    "PURE. The first thing I noticed was \"magnesium bisglycinate\" and the single-serve sachets, because that is exactly the glycinate everyone in my feed keeps saying helps sleep, and a sachet fits in my work bag. $29.99 is a little steep for a month, but I would grab one box on impulse to try it.",
+    "PURE. First thing I noticed was 'Magnesium, 200 mg' and 'no magnesium oxide' on the box, and the bisglycinate is the one all those sleep videos kept talking about, so I'd grab one box on impulse. I'd skip the Complex because it has citrate and citrate wrecks my stomach."
+   ],
+   [
+    "P001",
+    "P076"
+   ]
+  ],
+  [
+   "price",
+   1,
+   [
+    "PURE. The first thing I noticed was the sachet size and the $29.99 for 30 days, so about a dollar a day with free shipping, and a sachet fits in my tote next to the charger and snacks. The lab QR code is a nice touch, but honestly I would wait for a flash sale or coupon before I tap buy."
+   ],
+   [
+    "P212"
+   ]
+  ]
+ ],
+ "flip": [
+  "A trial or flash price around $15 to $17 for the Complex, or a small travel pack I could keep at my partner's place for a few nights a week.",
+  "A powder or gummy version that I can drink or chew, at around $15 to $20 a month.",
+  "A drink mix or gummy version, or a price around $15 to $18 for the 30 days.",
+  "A powder or gummy version, or a clear statement that the capsules are small and easy to swallow.",
+  "A flash-sale price around $15 to $17 for the box, or a creator I trust showing it fixed my sleep so I felt I needed this specific one.",
+  "A creator video showing the sachets fixing a real problem I have, like forgetting to take it or travelling, and a cheaper price or a small trial pack so I don't commit to 30 days.",
+  "A lab report I could open and check that shows the batch is clean and the magnesium content matches the label, plus a lower trial price like a 7-day sample for around $10.",
+  "A real price near what I pay now for plain bisglycinate, plus a small trial pack of 3 to 5 sachets for travel only, so I could try it for my trips without a 30-day commitment.",
+  "A launch coupon or flash sale that brings it to around $19 for the 30-day box, or a smaller trial box so I can try it without committing.",
+  "A flash-sale or first-box price around $16 to $18, or a money-back guarantee if I don't notice better sleep in 30 days.",
+  "A clear size of the capsule (small, easy to swallow), or a powder or drink-mix version at a similar price.",
+  "A smaller trial box (like 7 sachets) for around $10, or a creator I trust showing the QR report actually opening and showing real numbers.",
+  "A price around $15 to $18 a box, or a free trial box so I can see if I actually take it and feel any difference.",
+  "A powder or drink mix version, or proof that the capsules are small and easy to swallow.",
+  "A flash sale or coupon that brings the box to about $19.99 or less, or a cheaper first-box trial offer.",
+  "A much lower price, around $15, or a drink mix or gummy version, or a clear note that the capsules are small and easy to swallow.",
+  "A flash-sale or first-box price around $19 to $20, or a sample sachet to check how big the capsules are.",
+  "Around $15 to $18 for the Complex box, or a flash-sale deal that brings it close to what I pay now.",
+  "A creator video showing a real travel or gym-bag moment where I'd actually need it away from home, plus a cheaper trial pack of 7 sachets.",
+  "A price around $18 to $20, or a creator video showing it actually helping sleep, plus a cheaper trial size so I can try it first.",
+  "If I could scan the QR before ordering and see a real, dated report from a lab I can look up, with the actual magnesium result next to the label claim, I would try one box.",
+  "A cheaper trial size, like a 7-sachet pack for around $10, so I can see if it actually helps me sleep before I commit to a full box.",
+  "A powder or gummy version, or a clear size shown for the capsules (small, easy to swallow), plus a way to try it cheaply first.",
+  "A first-box price around $15 to $18, or a flash sale or trial size so I can test it for a couple of weeks before committing.",
+  "A flash-sale price around $15 to $17 for the box, or a cheap trial size I could try before committing to 30.",
+  "A powder or gummy version, or proof the capsules are small and easy to swallow.",
+  "A flash-sale price around $15 to $18 for the Complex, or a bigger bottle-style refill pack with no single-use foil.",
+  "A flash sale or coupon that brings a box to about $20, or a first-box price that lets me try it for roughly 70 cents a day.",
+  "A flash-sale or first-box price around $17 to $19 for the Bisglycinate, since that form doesn't upset my stomach.",
+  "A first-box price around $15 to $18 or a flash-sale deal, plus a sample so I can check my stomach is fine with the bisglycinate.",
+  "A flash-sale price around $15 to $18, or a cheap trial box to test it first.",
+  "A flash sale or creator discount that gets a box down to around $19.99, or a free sample sachet to try first.",
+  "A flash sale or a first-box price around $15 to $18 so I could try it without feeling ripped off.",
+  "A first-box price around $18 to $20 or a stacked flash-sale deal, so the per-day cost beats my current bottle.",
+  "A price around $15 to $18 for the 30 sachets, or a bundle or subscription that brings it down to about that per box.",
+  "A gummy or a drink mix instead of capsules, at around $15 a month or less.",
+  "A real discount, like a 50% first-box coupon or a flash sale at around $15, or a small trial pack of 5 to 7 sachets for travel days.",
+  "If I scanned the QR and found a real batch report from a named lab that I could check, and the price was closer to $20, I'd try one box.",
+  "A cheaper price per day than my current bottle, or a small trial pack of 5 to 7 sachets that I could try on a trip.",
+  "A much lower price, close to what I pay for my current bottle, and a batch report I actually open that shows the milligrams match the label.",
+  "A powder or gummy version, or a clear statement that the capsules are small and easy to swallow.",
+  "A lower price per day, close to a regular bottle, or a real reason I'd take it away from home, such as travel.",
+  "A price around $15 to $18 for the 30 sachets, or a first-box discount that brings it close to that.",
+  "A flash sale or coupon that gets the box to about $19 to $22, or a cheaper small trial pack so I can see if I actually take it.",
+  "A flash-sale price around $15 for the box, so it costs about what my usual bottle does.",
+  "A much lower price, around $15 to $18 a month, or a small trial pack with a money-back guarantee so I can find out if it helps my sleep or cramps without risking $30.",
+  "A flash-sale or first-box price around $15 to $18 for the bisglycinate.",
+  "A price near $20 for 30 days, or a trial size, so I could test it for travel weeks without committing to a full box.",
+  "A first-order coupon or flash sale that brings it to about $0.50 a day (around $15 a box), or a 60-sachet bundle at that price per day.",
+  "A coupon or flash sale bringing the box to around $18, or a small trial pack so I can try it before paying for 30 days.",
+  "A small trial pack for travel days only (like 7 sachets) around $9, or a TikTok Shop flash sale or coupon that gets the box under about $18.",
+  "A flash sale or coupon that brings the box to about $15, or a cheap trial box to test if I can stand the capsules.",
+  "A price closer to $15-18 for the month, or a trial size, plus me actually opening the QR and seeing a real named lab report with numbers for the exact batch.",
+  "A price around $14 to $16 for the month, or a big flash-sale deal like a 3-box bundle at a much lower per-box price.",
+  "A powder or gummy version, or clearly small capsules that are easy to swallow.",
+  "A flash sale or coupon that brings a box to about $18-20, or a cheap 7-day trial pack so I can try it before committing to 30.",
+  "A first-box price around $15 to $18, or a flash-sale deal, and a batch report that actually opens to real numbers when I scan it in the video.",
+  "A small trial pack of about 5 sachets for travel at a low price, and a batch report I can open and read that really shows the magnesium content.",
+  "A much lower price per 200 mg than my current bottle, or a small trial pack (5 to 7 sachets) so I could test it for gym bag and travel days without committing to 30.",
+  "A flash sale or coupon that brings a box to about $19 or less, or a cheap trial size so I can scan the QR and see a real report before committing.",
+  "A bottle or refill pouch option with the same batch-tested QR, or a sample I could scan first to check the lab report myself.",
+  "A powder or gummy version, or one small capsule instead of two.",
+  "A flash sale or coupon that brings the box to around $19 to $20, or a 2-box bundle where it works out well under $0.75 a day.",
+  "A creator video showing the sachet in a gym bag, plus a launch price around $17-19 or a first-box discount.",
+  "A flash-sale price around $15 to $18 for the 30-day box, or a small trial pack of the Bisglycinate for a few dollars so I can see if it helps my sleep and sits fine with my stomach.",
+  "A gummy or a powder I can stir into a drink, or a tiny capsule, one a day, with the size clearly shown.",
+  "A powder or drink-mix version, or a clearly stated small capsule size, plus a way to try it cheaply first.",
+  "A gummy or a drink mix version, or tiny capsules, at about the same price.",
+  "Seeing an actual batch report with the real magnesium numbers, and a price close to what I pay for my bottle. Even then I'd need a real reason to take it away from home.",
+  "A clear photo or size next to a coin showing the capsules are small and easy to swallow, or a powder or drink-mix version of the same magnesium.",
+  "The Bisglycinate box at around $15 to $18, or a small trial pack for a few dollars so I can see that it doesn't upset my stomach.",
+  "A flash-sale or coupon price around $20 or less, or a small trial pack so I can try it before committing to a 30-day box.",
+  "A first-box price around $15 to $18, or a flash sale or trial deal that brings it close to what I pay now, so I could test whether I feel a difference.",
+  "A flash sale or coupon bringing the box to about $15, or a cheaper first-box trial offer.",
+  "A first-box price around $15 to $18 or a real coupon or flash sale, so I can try it without much risk.",
+  "A first-box price around $15 to $18, or a flash-sale deal like the ones I already wait for.",
+  "A powder or gummy version I can take without swallowing capsules.",
+  "A cheaper first box (around $19 to $20) or a small trial pack of 7 sachets, so I can check my stomach is fine before paying for 30.",
+  "A price near $15 for the 30 days, or a first box for a few dollars so I could try it without risking my money.",
+  "A flash sale or first-box price around $15-18, or a small trial pack so I can check my stomach tolerates it before paying for 30 days.",
+  "A powder or gummy version, or a clearly stated small capsule size I could swallow easily.",
+  "A 50% off first-box flash sale around $15, or a cheap 7-sachet travel trial pack so I could see if the sleep difference is real.",
+  "A small trial pack (a week or so) at a few dollars, so I can check the QR lab report and see if I notice anything before committing to a full box.",
+  "A powder or gummy version, or proof the capsules are small and easy to swallow, plus a lower price or a trial size so I can test it first.",
+  "A drink-mix or gummy version, or clear proof the capsules are small and easy to swallow.",
+  "A flash sale or coupon that brings the box to about $15 to $18, or a trial size at a few dollars so I can test it before paying full price.",
+  "A powder or gummy version, or proof the capsules are small and easy to swallow.",
+  "A creator video showing the sachet solving a real problem for me, like travel or the gym bag, and a price around $15 to $18 for the month.",
+  "A price around $18 to $20 for the Complex, or a flash-sale deal like I'm used to, plus a refill bag or bottle option instead of single packets.",
+  "A flash-sale price around $19 to $20 for the Complex, or smaller capsules.",
+  "A price around $15 to $18 for the box, or a small travel pack of 7 sachets at a few dollars that I could try on my work trips first.",
+  "A flash-sale or first-box price around $17 to $18, or a small trial pack so I can try it before committing to a full box.",
+  "A flash sale or coupon that brings the box to around $17 to $19, or a 2-box bundle that gets the cost per day under 60 cents.",
+  "A powder or drink mix, or gummies, in the same sachet.",
+  "A flash sale or coupon bringing the 30-day box to about $19 to $20, or a cheaper small trial pack so I can check my stomach handles it.",
+  "A flash-sale price around $15 to $18 for the box, or a small trial pack so I can try it for a few dollars first.",
+  "A flash sale or first-box price around $15 to $18, or a real batch report I could open and understand before buying.",
+  "A flash sale or first-box price around $15 to $18, so I could try it without losing out against what I buy now.",
+  "A price close to what I pay for a bottle now (around $15 for 30 days), or a reason to take it away from home that I actually have.",
+  "A flash-sale or first-box price around $15 to $18, or a clear reason the 3 forms work better than 8 or 12.",
+  "A flash-sale or first-box price around $15 to $18 for the bisglycinate, so I could try it without it costing twice my usual.",
+  "A flash-sale or first-box price around $15 to $18 for the bisglycinate, or a small trial pack so I can check my stomach tolerates it before committing to 30 sachets.",
+  "A flash-sale or first-box price around $15 to $18, or a small travel pack of 7 sachets I could try for a few bucks.",
+  "A price near $15 for the box, or a flash sale or first-box deal that brings it close to what I pay now.",
+  "A creator video showing a real problem that the sachet solves for me, like taking it at the gym or while traveling, and a price closer to what my current bottle costs.",
+  "A price around $19 to $20 for the box, plus seeing an actual batch report that I can open and read before I order.",
+  "A price around $15 to $18 for the box, or a small trial pack so I can see if the capsules are easy to take.",
+  "Real proof it works, like a clinical study or a lot of honest reviews from moms like me, plus a lower price per month than what I pay now, or a small trial pack so I don't add another half-used box to the drawer.",
+  "A price near $15 to $18 for 30 days, or a cheap trial pack so I can check the lab report myself.",
+  "A flash sale or first-box price around $15 to $17 with free shipping, so it costs about what my usual one does.",
+  "A first-box deal around $15 to $18 for the Bisglycinate, or a flash sale price, so I can try it without risking my budget.",
+  "A first box around $15 to $19 or a flash sale price, so I can try it without feeling like I overpaid.",
+  "A price around $15 to $18 for 30 days, or a cheaper small trial pack so I could see if it is actually better than what I already have.",
+  "A price near $18 to $20 for the 3-form Complex, or a refill pouch or recyclable packaging instead of single-use foil.",
+  "A flash sale or first-box price around $15 to $18, or a small trial pack so I can check the capsules are easy to swallow.",
+  "A flash-sale or first-box price around $15-18, or a smaller capsule size.",
+  "A flash-sale or first-order price around $15 to $18 for the bisglycinate, or a cheap trial pack so I can check it doesn't upset my stomach.",
+  "A gummy or drink mix version, or proof the capsules are small and easy to swallow, at a lower price or with a cheap trial pack.",
+  "A price close to what I pay for my current bottle, plus a small trial pack I could try for a few nights without committing to 30 sachets.",
+  "A much lower price, or a small trial pack for travel nights, plus a batch report I can open and check that matches the label.",
+  "A powder or gummy version, or proof that the capsules are small and easy to swallow.",
+  "A flash sale or first-box price around $15 to $17, or a bigger bottle-style option with no individual packets.",
+  "A flash sale or coupon that brings the box to about $17 to $19, or a cheap trial box of 7 sachets so I can see if I actually use them.",
+  "A price near $15 to $18 for the box, or a small trial pack so I could try it for a few nights at my partner's place.",
+  "A price near $15 to $18 for the month, or a cheap trial size so I can see if it does anything before committing.",
+  "A much lower price per month, close to what a plain bottle of bisglycinate costs, or a bigger-count pouch or bottle option without the single-serve packaging.",
+  "A clear photo or size next to a coin showing the capsules are small, or a gummy or drink-mix version of the same magnesium in the same sachet.",
+  "A flash sale or coupon that brings a 30-day box to around $19 to $20, or a cheap trial size so I do not end up with another half-used bottle.",
+  "A flash sale or coupon bringing a box to about $20, or a first-box discount, plus a batch report I open and it looks real.",
+  "A first box at about $12 to $15 that I could try, or a subscribe-and-save price near $18 a month.",
+  "A flash-sale price around $15 to $18 for the Complex, or a small trial pack for my overnight bag at a few dollars.",
+  "A first-box deal around $14 to $15, or a bigger box (60+ sachets) at about the same price per day as my bottle.",
+  "A price near $15 to $18 for 30 days, or a cheap trial box I could try before committing to a full month.",
+  "A price around $15 to $18 for the box, or a cheap trial size, like a 7 sachet sample, so I could see if it even helps me sleep.",
+  "If I could try a small starter pack for around $10 and it actually helped on the nights I sleep away from home, I might buy.",
+  "A flash sale or coupon bringing a box to around $20, or a smaller trial pack, so I can scan a QR and check the report is real before committing to 30 days.",
+  "A powder or drink-mix version, or clearly small capsules that are easy to swallow.",
+  "A first-box price around $15 to $18, or a flash sale, so I could try the sachets without committing.",
+  "Opening a real batch report before buying and seeing a lab I can look up, with the magnesium amount matching the box, or a cheaper small trial pack so I am not out $30 if it is hype.",
+  "A flash-sale price around $15 to $18 for the box, or a cheap trial box to test it.",
+  "A price around $15 for the box, or a cheap trial pack of a few sachets so I could try it without spending $30.",
+  "A flash sale or coupon bringing the box to about $19 to $20, or a smaller trial box so I can check the capsules are easy to swallow.",
+  "A price around $15 to $18 for the box, or a flash-sale deal that brings it close to what I already pay.",
+  "A cheaper first box, around $15 to $18, or a flash-sale deal that brings it close to what I pay now.",
+  "A powder or gummy version, or proof that the capsules are small and easy to swallow.",
+  "A flash sale or coupon that brings a box down to around $15, or a first-box trial price.",
+  "A flash sale or coupon that gets a box to around $19 to $21, or a cheaper refill option without individual packaging.",
+  "A flash sale or first-box price around $15 to $18, or a free sample to try.",
+  "A flash-sale or first-box price around $18-20, or a small trial pack so I can see if my sleep or cramps change before paying full price.",
+  "A flash sale or coupon that brings the box to about $19 or less, or a cheap 7-day trial pack to test the capsule size first.",
+  "A refill bag or bottle option without the foil packets at around $20 for the complex.",
+  "A flash sale or first-box price around $15 to $17, or a small travel pack of 7 sachets I could try for a few dollars."
+ ],
+ "purchases_first_month_per_buyer": 1.0,
+ "price_answers": 300
+}

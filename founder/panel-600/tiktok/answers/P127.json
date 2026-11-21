@@ -1,0 +1,13 @@
+{
+  "id": "P127",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I saw was $29.99 for 30 sachets, and I paid about half that for a bottle of Toplux that lasts me 3 months. The lab-tested QR on the box is cool, but it doesn't make me pay double.",
+  "objection": "$29.99 for one month is double what I paid for a bottle that lasts 3 months, and I can't tell why the sachets are worth that much more.",
+  "would_change_my_mind": "A creator video showing the sachet in a gym bag, plus a launch price around $17-19 or a first-box discount.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 22,
+  "price_too_expensive": 32
+}

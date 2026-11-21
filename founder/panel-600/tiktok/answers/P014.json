@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "NONE. The first thing I noticed was \"2 capsules in each sachet\", and I hate swallowing pills. The pretty box and the QR are nice, but I would rather have a drink mix or gummies.",
+  "objection": "Two capsules every day, and nobody tells me how big they are. If they are horse pills, I will not take them, and then I have wasted $30.",
+  "would_change_my_mind": "A clear size of the capsule (small, easy to swallow), or a powder or drink-mix version at a similar price.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

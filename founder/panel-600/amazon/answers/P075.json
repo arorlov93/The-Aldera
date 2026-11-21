@@ -1,0 +1,13 @@
+{
+  "id": "P075",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I noticed was the QR code and \"Every batch lab-tested\" on the front, which is nice, but there is no NSF or USP seal and no reviews, and I already reorder a brand I trust. Two capsules a day per sachet, and at 100 mg each they are probably big ones, which I don't like swallowing.",
+  "objection": "A brand with zero reviews and no NSF or USP seal, for $30 a month, when I already have a bottle I reorder. A lab report I have to scan myself is not the same as a third-party seal, and I don't know how big those capsules are.",
+  "would_change_my_mind": "An NSF or USP seal, or a few hundred real reviews, plus a clear capsule size so I know I can swallow them.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

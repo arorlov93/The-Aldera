@@ -1,0 +1,13 @@
+{
+  "id": "P265",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I noticed was 30 little foil packets and the $29.99, and it feels like a lot of trash and a lot of money for something I'd forget to take half the time anyway. On my budget I'd grab a cheaper bottle of magnesium before I'd spend $30 on a fancy box.",
+  "objection": "$29.99 is too much for me for one supplement, and all those single foil packets feel wasteful.",
+  "would_change_my_mind": "A price around $15 to $18 for the box, or a cheap trial size, like a 7 sachet sample, so I could see if it even helps me sleep.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 25,
+  "price_too_expensive": 35
+}

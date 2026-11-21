@@ -1,0 +1,13 @@
+{
+  "id": "P204",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I noticed was the $29.99 and the 3 forms: I get an 8-form or 12-in-1 in a flash sale for about $15 and I already have a drawer full of half-used bottles. The QR lab report is nice but it does not make me pay double.",
+  "objection": "Why only 3 forms when others have 8 or 14 in one capsule, and for twice what I usually pay? I do not need another bottle I will half use.",
+  "would_change_my_mind": "A flash-sale or first-box price around $15 to $18, or a clear reason the 3 forms work better than 8 or 12.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

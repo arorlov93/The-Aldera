@@ -1,0 +1,13 @@
+{
+  "id": "P160",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. First thing I noticed was 'no magnesium oxide' and the batch QR with a named ISO 17025 lab, which is what I actually check for. Sachets fit in my tote, so I would try one box before deciding.",
+  "objection": "Two capsules a day, and if they are size 00 they are big to swallow. I also want to open the lab report and see real numbers before I reorder.",
+  "would_change_my_mind": "If the capsule size were listed and it was huge, or if the QR report was missing or showed a different magnesium amount than the box says.",
+  "price_too_cheap": 12,
+  "price_cheap": 21,
+  "price_expensive": 33,
+  "price_too_expensive": 45
+}

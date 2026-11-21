@@ -1,0 +1,13 @@
+{
+  "id": "P066",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. I noticed the front says 200 mg and the copy says no oxide and a named ISO 17025 lab with a batch QR, which is exactly what I check for. Only 3 forms in the Complex feels thin next to blends with 8 or more, and the bisglycinate is the one I'd trust for sleep, so I'd try one box.",
+  "objection": "I can't confirm the QR report is real until I scan it, and a foil sachet a day is more packaging for the same 200 mg I could get in a bottle. If the report doesn't show the actual magnesium content matching the label, I'm out.",
+  "would_change_my_mind": "A sample batch report I can open before buying that shows magnesium content close to 200 mg per sachet.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

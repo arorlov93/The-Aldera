@@ -1,0 +1,13 @@
+{
+  "id": "P160",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. First thing I noticed was the QR code and the 'every batch lab-tested' line, which I like, but then I saw 30 foil sachets for $29.99. A bottle of magnesium glycinate with the same dose costs me about half that, and I take mine at night at home, so I don't need pocket packets.",
+  "objection": "I'm paying about double for packaging I don't need, and the foil sachets are wasteful. It's also a brand with no reviews, and an ISO lab report on their own QR is not the same as NSF or USP certification.",
+  "would_change_my_mind": "A price near $15 to $18 for 30 days, a few hundred real reviews, or an NSF or USP certificate. A plain bottle version of the same capsules would also do it.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

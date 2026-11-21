@@ -1,0 +1,13 @@
+{
+  "id": "P047",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. First thing I looked at was '200 mg, fully chelated, no magnesium oxide' on the front, that is what I check for, and a named ISO 17025 lab with a batch report is more than most brands give me. I would buy one box of the plain bisglycinate to try; the complex with three forms I'd skip since the bisglycinate part is only 60 mg.",
+  "objection": "'Lab-tested' with a QR code is what everybody says, and I already have a drawer full of half-used bottles. I would open the QR before I trust it, and if the report is vague or not for my batch, I'm out.",
+  "would_change_my_mind": "A QR report that actually opens to a real batch result with the magnesium content and heavy metals numbers, plus a clear label showing the dose per capsule.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

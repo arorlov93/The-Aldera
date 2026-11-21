@@ -1,0 +1,13 @@
+{
+  "id": "P123",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "NONE. The first thing I noticed was 2 capsules in every sachet, and I hate swallowing pills, so 2 at once is a no. I also already take magnesium at night at home, so a pocket sachet to go solves nothing for me.",
+  "objection": "Two capsules a day is too many pills for me, and I don't need magnesium on the go when I already take it at home before bed.",
+  "would_change_my_mind": "A powder or gummy version, or one small capsule instead of two.",
+  "price_too_cheap": 9,
+  "price_cheap": 17,
+  "price_expensive": 30,
+  "price_too_expensive": 42
+}

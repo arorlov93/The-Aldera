@@ -1,0 +1,13 @@
+{
+  "id": "P045",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. I noticed the QR batch report and \"no magnesium oxide\" first, which is exactly what I check on a label, and 200 mg of chelated bisglycinate at $29.99 for 30 days is fair. Sachets fit in my tote, so I'd actually take it.",
+  "objection": "Will I actually feel a difference in sleep or cramps? I'd want to open the QR report and see that the lab and the magnesium content really match the box before I trust it.",
+  "would_change_my_mind": "If the QR batch report didn't open or showed magnesium content off from the label, I'd pass.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

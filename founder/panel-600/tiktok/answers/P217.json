@@ -1,0 +1,13 @@
+{
+  "id": "P217",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. First thing I noticed was 200 mg, no oxide and the lab QR, which is what I look for, but I already take magnesium at night at home and a dollar a day for the sachet is too much on my budget.",
+  "objection": "I already have a bottle at home that costs half as much per serving. I don't need to carry magnesium around, so I'd be paying extra for packaging.",
+  "would_change_my_mind": "A price near $15 to $18 for 30 days, or a cheap trial pack so I can check the lab report myself.",
+  "price_too_cheap": 8,
+  "price_cheap": 14,
+  "price_expensive": 22,
+  "price_too_expensive": 30
+}

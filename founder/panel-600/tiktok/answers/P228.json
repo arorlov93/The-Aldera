@@ -1,0 +1,13 @@
+{
+  "id": "P228",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. The first thing I noticed was \"no magnesium oxide\" and 100 mg elemental per capsule, plus the QR to a named ISO 17025 lab report, which is exactly what I check on a label. At about $1 a day with free shipping I would try one box, but only one, since my drawer is already full of half-used bottles.",
+  "objection": "Will I actually feel a difference in sleep or cramps, or will this be another bottle I stop taking after two weeks? I also have no idea yet whether the lab report is real until I scan it.",
+  "would_change_my_mind": "If the QR report did not open to a real batch result with the magnesium content matching the label, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

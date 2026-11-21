@@ -1,0 +1,13 @@
+{
+  "id": "P190",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I noticed was the QR code and the 'Every batch lab-tested' line on the front, plus the pocket sachets that would live in my gym bag and carry-on. I would try one box, since a named ISO 17025 lab with a batch report is closer to what I look for than most no-review brands.",
+  "objection": "It is not NSF or USP certified, only a lab report the brand itself points to, and there are no reviews yet. Also two capsules a day at that size could be hard to swallow.",
+  "would_change_my_mind": "NSF or USP certification, or a sample batch report I can open and check before buying, and a stated capsule size.",
+  "price_too_cheap": 14,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P200",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "values",
+  "reason": "NONE. The first thing I noticed was 30 foil sachets in a box, and my reaction was that it's a lot of packaging for 60 capsules I'd just dump into my weekly organizer anyway. The QR lab report is nice, but I'd rather pay for the magnesium than the wrapper.",
+  "objection": "Individual foil packets are wasteful, and I already count capsules into a pill case, so I'm paying $30 for packaging I'd throw away. A bottle of bisglycinate costs much less per serving, and this brand has no reviews yet.",
+  "would_change_my_mind": "A bottle or refill pouch at roughly $18 to $20 for 60 capsules with the same per-batch lab report, plus a few hundred real reviews.",
+  "price_too_cheap": 12,
+  "price_cheap": 18,
+  "price_expensive": 26,
+  "price_too_expensive": 34
+}

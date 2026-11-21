@@ -1,0 +1,13 @@
+{
+  "id": "P145",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I saw was \"Every batch lab-tested\" with the QR code, and a named ISO 17025 lab is more than most brands give me. I fly every few weeks, so single sachets that fit in a carry-on are handy, and I would buy one box to test the QR report and the capsules.",
+  "objection": "It is not NSF or USP certified, and with no reviews I only have the brand's own word that the QR report is real. Also two capsules a day at this size are probably hard to swallow, and $1 a day is more than the magnesium I buy now.",
+  "would_change_my_mind": "An NSF or USP mark, or a QR report I open and check that matches the lot number on my sachet, plus a smaller or easier-to-swallow capsule.",
+  "price_too_cheap": 12,
+  "price_cheap": 19,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P119",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. The first thing I noticed was \"no magnesium oxide\" with 200 mg elemental stated per sachet, plus the QR to a named ISO 17025 lab report, which is exactly what I check. I'd try one box of the bisglycinate for sleep; 3 forms in the Complex is fewer than I'm used to, but I care more about dose and testing than a long list of forms.",
+  "objection": "I can't tell yet whether the QR report is real and shows actual magnesium content per batch, and a sachet that is two capsules a day is a bit more fiddly than one pill. I'd want to see the lab name and a real report before reordering.",
+  "would_change_my_mind": "If the QR batch report turned out to be missing, generic, or from a lab I can't verify, I'd drop it.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 48
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P062",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I saw was a new brand with zero reviews, and there is no NSF or USP seal on the box. The sachets are handy for my gym bag and car, but I already take Thorne and I don't switch a sleep supplement to something unproven.",
+  "objection": "No reviews and no NSF or USP seal. A QR code to the brand's own lab report is nice, but anyone can print one, and I trust a third-party certification more.",
+  "would_change_my_mind": "An NSF or USP certification on the box, or a few hundred verified reviews from people who have used it for months.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
+}

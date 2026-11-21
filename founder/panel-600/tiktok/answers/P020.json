@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "quality",
+  "reason": "PURE. The first thing I saw was \"200 mg, no magnesium oxide\" and the QR batch report from a named ISO 17025 lab, which is exactly what I check before buying. A dollar a day is fine, and a sachet in my gym bag works better than a bottle I forget on the counter.",
+  "objection": "It is a brand I have never heard of, and I will not know if I actually sleep better or get fewer cramps until I have finished a whole box. I would also open the QR report before paying to see if it is a real lab report.",
+  "would_change_my_mind": "If the QR batch report turned out to be fake or showed magnesium content well below 100 mg per capsule, I would not buy.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 35,
+  "price_too_expensive": 45
+}

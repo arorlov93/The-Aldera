@@ -1,0 +1,13 @@
+{
+  "id": "P110",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "trust",
+  "reason": "PURE. The first thing I saw was the \"Every batch lab-tested\" line with the QR, and I would scan it before ordering to see a real report from a named ISO 17025 lab. The 200 mg is two capsules, which I expected, but it is stated honestly as per sachet, and I would try one box of the plain bisglycinate.",
+  "objection": "No reviews yet, and an independent lab report on their own batches is not the same as NSF or USP certification. If the QR report is vague or the lab is just a name, I am out.",
+  "would_change_my_mind": "A QR report that opens to a real, readable, batch-specific certificate of analysis from a lab I can look up, or NSF/USP certification.",
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 34,
+  "price_too_expensive": 45
+}

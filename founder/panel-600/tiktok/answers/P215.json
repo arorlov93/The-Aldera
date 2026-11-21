@@ -1,0 +1,13 @@
+{
+  "id": "P215",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "NONE. The first thing I noticed was the $29.99 on the box and then two big capsules in every sachet. On my budget thirty bucks for a month of magnesium is too much for something I'd be trying blind.",
+  "objection": "$30 is real money for me, and two size 00 capsules a day sounds hard to swallow. The lab QR is nice but I wouldn't scan it, I'd just see the price.",
+  "would_change_my_mind": "A price around $15 to $18 for the box, or a small trial pack so I can see if the capsules are easy to take.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 24,
+  "price_too_expensive": 32
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P133",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I noticed was the QR code and \"Every batch lab-tested\" on the front, which is a nice touch, but there are zero reviews and no NSF or USP seal, and I already reorder from brands I know. At about $1 a serving I would not gamble on an unknown name when I have tried three magnesiums this year.",
+  "objection": "A brand with no reviews and no NSF or USP seal. A QR code to the company's own lab report is not the same as a third party certifying it, and I have no one else's experience to go on.",
+  "would_change_my_mind": "An NSF or USP seal, or a few hundred verified reviews with a solid rating, or a lower price for a first box.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}
