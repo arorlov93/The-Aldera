@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "NONE. The first thing I noticed was the QR code and the 'Every batch lab-tested' line, which is more proof than most brands give, but I already take magnesium at night at home, so a pocket sachet solves a problem I do not have. I also forget my vitamins on the counter half the time, so a daily box is not going to change that.",
+  "objection": "I take magnesium at night at home, why would I need a sachet to go? $30 a month for something I can already get in a bottle for less, and I forget to take it anyway.",
+  "would_change_my_mind": "A lab report I could open and check that shows the batch is clean and the magnesium content matches the label, plus a lower trial price like a 7-day sample for around $10.",
+  "price_too_cheap": 10,
+  "price_cheap": 16,
+  "price_expensive": 27,
+  "price_too_expensive": 38
+}

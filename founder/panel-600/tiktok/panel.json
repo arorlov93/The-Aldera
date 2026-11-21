@@ -1,0 +1,105 @@
+{
+ "n": 300,
+ "seed": 989810,
+ "customer": {
+  "business": "The Aldera: magnesium in single-serve capsule sachets (pure bisglycinate and a 3-form complex)",
+  "target": "US women and men 24-45 who buy supplements on TikTok Shop after creator videos about sleep, stress, magnesium and wellness routines",
+  "where": "United States, TikTok Shop",
+  "age": [
+   24,
+   45
+  ],
+  "segments": [
+   {
+    "name": "Urban professional woman with a busy day outside home",
+    "share": 0.38,
+    "income": [
+     55000,
+     120000
+    ]
+   },
+   {
+    "name": "Busy working mom",
+    "share": 0.24,
+    "income": [
+     45000,
+     95000
+    ]
+   },
+   {
+    "name": "Gym-goer / active",
+    "share": 0.16,
+    "income": [
+     35000,
+     90000
+    ]
+   },
+   {
+    "name": "Budget-tight shopper",
+    "share": 0.22,
+    "income": [
+     22000,
+     45000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Impulse buyer from creator videos",
+    "share": 0.22,
+    "how": "Buys from the orange cart when a creator's video hits a problem you have, rarely compares."
+   },
+   {
+    "name": "Already takes a multi-form complex",
+    "share": 0.2,
+    "how": "Takes Toplux 8-forms or a 12-in-1 bought in a flash sale for about $15 and reorders when it runs out."
+   },
+   {
+    "name": "Deal hunter",
+    "share": 0.15,
+    "how": "Waits for flash sales and coupons, compares price per day."
+   },
+   {
+    "name": "Reads the label",
+    "share": 0.12,
+    "how": "Checks elemental dose, forms, oxide, third-party testing before buying."
+   },
+   {
+    "name": "On-the-go routine person",
+    "share": 0.12,
+    "how": "Lives out of a tote bag, forgets pills at home, travels or sleeps away from home often."
+   },
+   {
+    "name": "Skeptic of supplements",
+    "share": 0.1,
+    "how": "Thinks most supplements are marketing unless there is proof."
+   },
+   {
+    "name": "Hates swallowing pills",
+    "share": 0.09,
+    "how": "Prefers gummies or drink mixes, big capsules are a dealbreaker."
+   }
+  ],
+  "objections": [
+   "$29.99 is double what I paid for Toplux 8 forms in a flash sale, and that bottle lasts 3 months",
+   "Why only 3 forms when others have 8 or 14 in one capsule?",
+   "I take magnesium at night at home, why would I need a sachet to go?",
+   "Two capsules a day, and size 00 capsules are big",
+   "A QR code and 'lab-tested' sounds like marketing, everyone says tested",
+   "Will I actually feel a difference in sleep or cramps?",
+   "30 little foil packets feels like more trash",
+   "Magnesium citrate upsets my stomach"
+  ],
+  "habits": [
+   "you scroll TikTok in bed before sleep",
+   "you keep vitamins on the kitchen counter and forget them half the time",
+   "you go to the gym three times a week",
+   "you travel for work twice a month",
+   "you already have a drawer full of half-used supplement bottles",
+   "you watched several videos saying magnesium glycinate helps sleep",
+   "you carry a big tote bag with makeup, charger and snacks every day",
+   "you stay over at your partner's place a few nights a week"
+  ]
+ },
+ "pitch": "The Aldera magnesium, a new brand you see in a creator's video on TikTok Shop (US).\nTwo products, same format and same price: $29.99 for a box of 30 sealed single-serve foil sachets, 2 vegan capsules in each (one sachet a day, 30 days), free shipping.\n1) Magnesium Bisglycinate: 200 mg elemental magnesium per sachet (100 mg per capsule), fully chelated, no magnesium oxide.\n2) Magnesium Complex, 3 forms: bisglycinate 60 mg + malate 75 mg + citrate 72 mg = 207 mg elemental magnesium per sachet, no oxide.\nEvery batch is tested by a named independent ISO 17025 lab (magnesium content, heavy metals, microbes); a QR code on the box and on every sachet opens that batch report.\nLook: a plum (Bisglycinate) or copper (Complex) soft-touch box that slides open like a cosmetics drawer, 30 sachets in two rows. The front says Magnesium, 200 mg, 30 sachets, \"Every batch lab-tested\" with a QR. Sachets are pocket-sized (about 1.8 x 2.6 in) and tear open with one hand. Brand line: \"Self-care with somewhere to be.\"\nWhen you answer, start your \"reason\" with one word: PURE, COMPLEX, BOTH or NONE (what you would buy), then say what on the box or sachet you noticed first."
+}

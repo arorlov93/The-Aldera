@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "PURE is the one I'd look at, but the first thing I noticed was 'Every batch lab-tested' on the front, and anyone can print that. No reviews and no NSF or USP mark means I scroll on to a brand I already know, and the sachet format doesn't make up for that.",
+  "objection": "A brand with zero reviews and no NSF or USP seal is asking me to take its word for it. The QR report is a plus, but it's the company's own report, and I've already burned through three magnesium brands this year.",
+  "would_change_my_mind": "An NSF or USP certification, or a few hundred verified reviews saying it's real and doesn't upset the stomach. A first-order discount that makes a trial cheap would help too.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 33,
+  "price_too_expensive": 42
+}

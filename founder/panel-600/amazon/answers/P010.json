@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "NONE. The first thing I noticed was the \"Every batch lab-tested\" line with a QR code, and anyone can print that. A brand with zero reviews, at $1 a serving for 200 mg, is not getting past me when I can get bisglycinate with hundreds of reviews for less per serving.",
+  "objection": "No reviews and no NSF or USP seal. A QR code to the brand's own chosen lab is not the same as third-party certification, and I can't check pill size, stomach effects or whether the dose is real from a new listing.",
+  "would_change_my_mind": "An NSF or USP certification on the box, plus a few hundred verified reviews with the 1-star complaints about stomach upset and pill size looking fine.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 42
+}

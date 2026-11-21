@@ -1,0 +1,113 @@
+{
+ "n": 300,
+ "seed": 660555,
+ "customer": {
+  "business": "The Aldera: magnesium in single-serve capsule sachets (pure bisglycinate and a 3-form complex)",
+  "target": "US adults 28-55, mostly women, who buy magnesium on Amazon, compare price per serving and read reviews",
+  "where": "United States, Amazon",
+  "age": [
+   28,
+   55
+  ],
+  "segments": [
+   {
+    "name": "Label-reading wellness woman",
+    "share": 0.3,
+    "income": [
+     60000,
+     140000
+    ]
+   },
+   {
+    "name": "Prime replenisher who reorders the same bottle",
+    "share": 0.25,
+    "income": [
+     50000,
+     120000
+    ]
+   },
+   {
+    "name": "Sleep- and stress-focused adult 35-55",
+    "share": 0.2,
+    "income": [
+     55000,
+     130000
+    ]
+   },
+   {
+    "name": "Frequent traveler / professional",
+    "share": 0.15,
+    "income": [
+     80000,
+     180000
+    ]
+   },
+   {
+    "name": "Budget shopper",
+    "share": 0.1,
+    "income": [
+     25000,
+     50000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Compares price per serving",
+    "share": 0.2,
+    "how": "Sorts by price, divides by servings, knows Nature Made 200 mg costs about $0.39 a day."
+   },
+   {
+    "name": "Reads the 1-star reviews first",
+    "share": 0.18,
+    "how": "Will not buy without hundreds of reviews and checks complaints about pill size, stomach and fake dosing."
+   },
+   {
+    "name": "Loyal to a known brand",
+    "share": 0.2,
+    "how": "Takes Pure Encapsulations, Thorne or Nature Made and trusts NSF or USP seals."
+   },
+   {
+    "name": "Subscribe & Save regular",
+    "share": 0.12,
+    "how": "Puts staples on monthly auto-ship and rarely switches."
+   },
+   {
+    "name": "Wants third-party testing",
+    "share": 0.12,
+    "how": "Looks for NSF, USP or lab reports, distrusts unverified claims."
+   },
+   {
+    "name": "Hates big pills",
+    "share": 0.1,
+    "how": "Left bad reviews on huge capsules, prefers small pills or powder."
+   },
+   {
+    "name": "Travels and packs pills in a pill case",
+    "share": 0.08,
+    "how": "Counts capsules into a weekly organizer or zip bag before trips."
+   }
+  ],
+  "objections": [
+   "$1 a serving when Nature Made or Double Wood cost $0.20-0.40",
+   "A new brand with zero reviews",
+   "Size 00 capsules are hard to swallow",
+   "'200 mg' turns out to be two capsules",
+   "Individual foil packets are wasteful",
+   "Magnesium complexes with citrate give me stomach cramps or diarrhea",
+   "Anyone can print 'lab-tested'; I trust NSF or USP",
+   "I already have a magnesium that works for me"
+  ],
+  "habits": [
+   "you have Subscribe & Save for several vitamins",
+   "you take magnesium at night with your other supplements",
+   "you fly for work every few weeks",
+   "your doctor suggested magnesium for sleep or leg cramps",
+   "you keep a weekly pill organizer on the bathroom counter",
+   "you read Amazon reviews for 20 minutes before buying anything new",
+   "you keep a few things in your car and gym bag so you never forget them",
+   "you have tried three magnesium brands this year"
+  ]
+ },
+ "pitch": "The Aldera magnesium, a new brand with no reviews yet that you find in Amazon search results (US).\nTwo products, same format and same price: $29.99 for a box of 30 sealed single-serve foil sachets, 2 vegan capsules in each (one sachet a day, 30 days), free shipping.\n1) Magnesium Bisglycinate: 200 mg elemental magnesium per sachet (100 mg per capsule), fully chelated, no magnesium oxide.\n2) Magnesium Complex, 3 forms: bisglycinate 60 mg + malate 75 mg + citrate 72 mg = 207 mg elemental magnesium per sachet, no oxide.\nEvery batch is tested by a named independent ISO 17025 lab (magnesium content, heavy metals, microbes); a QR code on the box and on every sachet opens that batch report.\nLook: a plum (Bisglycinate) or copper (Complex) soft-touch box that slides open like a cosmetics drawer, 30 sachets in two rows. The front says Magnesium, 200 mg, 30 sachets, \"Every batch lab-tested\" with a QR. Sachets are pocket-sized (about 1.8 x 2.6 in) and tear open with one hand. Brand line: \"Self-care with somewhere to be.\"\nWhen you answer, start your \"reason\" with one word: PURE, COMPLEX, BOTH or NONE (what you would buy), then say what on the box or sachet you noticed first."
+}
